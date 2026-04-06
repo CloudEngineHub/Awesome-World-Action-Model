@@ -1,5 +1,52 @@
 [
   {
+    "id": "2604.03191v1",
+    "title": "The Compression Gap: Why Discrete Tokenization Limits Vision-Language-Action Model Scaling",
+    "authors": [
+      "Takuya Shiba"
+    ],
+    "summary": "Scaling Vision-Language-Action (VLA) models by upgrading the vision encoder is expected to improve downstream manipulation performance--as it does in vision-language modeling. We show that this expectation fails when actions are represented as discrete tokens, and explain why through an information-theoretic principle we call the Compression Gap: in any visuomotor pipeline, scaling behavior is governed by the location of the tightest information bottleneck. When actions are continuous (e.g., Dif",
+    "published": "2026-04-03",
+    "published_iso": "2026-04-03T17:06:31+00:00",
+    "url": "https://arxiv.org/abs/2604.03191v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.03191v1",
+    "categories": [
+      "cs.RO",
+      "cs.CV",
+      "cs.LG"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
+    "id": "2604.02965v1",
+    "title": "Open-Loop Planning, Closed-Loop Verification: Speculative Verification for VLA",
+    "authors": [
+      "Zihua Wang",
+      "Zhitao Lin",
+      "Ruibo Li",
+      "Yu Zhang",
+      "Xu Yang",
+      "Siya Mi",
+      "Xiu-Shen Wei"
+    ],
+    "summary": "Vision-Language-Action (VLA) models, as large foundation models for embodied control, have shown strong performance in manipulation tasks. However, their performance comes at high inference cost. To improve efficiency, recent methods adopt action chunking, which predicts a sequence of future actions for open-loop execution. Although effective for reducing computation, open-loop execution is sensitive to environmental changes and prone to error accumulation due to the lack of close-loop feedback.",
+    "published": "2026-04-03",
+    "published_iso": "2026-04-03T10:55:51+00:00",
+    "url": "https://arxiv.org/abs/2604.02965v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.02965v1",
+    "categories": [
+      "cs.RO",
+      "cs.CL"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
     "id": "2604.02241v1",
     "title": "UAV-Track VLA: Embodied Aerial Tracking via Vision-Language-Action Models",
     "authors": [
@@ -786,61 +833,6 @@
       "cs.CV"
     ],
     "primary_category": "cs.CV",
-    "code_url": null,
-    "project_url": null,
-    "auto_category": "VLA"
-  },
-  {
-    "id": "2603.22899v1",
-    "title": "Agile-VLA: Few-Shot Industrial Pose Rectification via Implicit Affordance Anchoring",
-    "authors": [
-      "Teng Yan",
-      "Zhengyang Pei",
-      "Chengyu Shi",
-      "Yue Yu",
-      "Yikun Chen",
-      "Zilong Zhu",
-      "Zelin Fang",
-      "Kaile Guo",
-      "Zihang Wang",
-      "Peigen Tian",
-      "Bingzhuo Zhong"
-    ],
-    "summary": "Deploying Vision-Language-Action (VLA) models on resource-constrained edge platforms encounters a fundamental conflict between high-latency semantic inference and the high-frequency control required for dynamic manipulation. To address the challenge, this paper presents Agile-VLA, a hierarchical framework designed for industrial pose reorientation tasks on edge devices such as the NVIDIA Jetson Orin Nano. The core innovation is an Implicit Affordance Anchoring mechanism that directly maps geomet",
-    "published": "2026-03-24",
-    "published_iso": "2026-03-24T07:48:08+00:00",
-    "url": "https://arxiv.org/abs/2603.22899v1",
-    "pdf_url": "https://arxiv.org/pdf/2603.22899v1",
-    "categories": [
-      "cs.RO"
-    ],
-    "primary_category": "cs.RO",
-    "code_url": null,
-    "project_url": null,
-    "auto_category": "VLA"
-  },
-  {
-    "id": "2603.22876v1",
-    "title": "Grounding Sim-to-Real Generalization in Dexterous Manipulation: An Empirical Study with Vision-Language-Action Models",
-    "authors": [
-      "Ruixing Jin",
-      "Zicheng Zhu",
-      "Ruixiang Ouyang",
-      "Sheng Xu",
-      "Bo Yue",
-      "Zhizheng Wu",
-      "Guiliang Liu"
-    ],
-    "summary": "Learning a generalist control policy for dexterous manipulation typically relies on large-scale datasets. Given the high cost of real-world data collection, a practical alternative is to generate synthetic data through simulation. However, the resulting synthetic data often exhibits a significant gap from real-world distributions. While many prior studies have proposed algorithms to bridge the Sim-to-Real discrepancy, there remains a lack of principled research that grounds these methods in real",
-    "published": "2026-03-24",
-    "published_iso": "2026-03-24T07:21:29+00:00",
-    "url": "https://arxiv.org/abs/2603.22876v1",
-    "pdf_url": "https://arxiv.org/pdf/2603.22876v1",
-    "categories": [
-      "cs.RO",
-      "cs.AI"
-    ],
-    "primary_category": "cs.RO",
     "code_url": null,
     "project_url": null,
     "auto_category": "VLA"

@@ -1,6 +1,6 @@
 # 📚 Latest ArXiv Papers - World Action Models
 
-Generated on: 2026-04-05 02:39:16
+Generated on: 2026-04-06 02:40:34
 
 Total papers: 50
 
@@ -8,6 +8,8 @@ Total papers: 50
 
 | Paper | Date | Code |
 |-------|------|------|
+| [The Compression Gap: Why Discrete Tokenization Limits Vision-Language-Action Model Scaling](https://arxiv.org/abs/2604.03191v1)<br><small>Takuya Shiba</small> | 2026-04-03 |  |
+| [Open-Loop Planning, Closed-Loop Verification: Speculative Verification for VLA](https://arxiv.org/abs/2604.02965v1)<br><small>Zihua Wang et al.</small> | 2026-04-03 |  |
 | [UAV-Track VLA: Embodied Aerial Tracking via Vision-Language-Action Models](https://arxiv.org/abs/2604.02241v1)<br><small>Qiyao Zhang et al.</small> | 2026-04-02 |  |
 | [Causal Scene Narration with Runtime Safety Supervision for Vision-Language-Action Driving](https://arxiv.org/abs/2604.01723v1)<br><small>Yun Li et al.</small> | 2026-04-02 |  |
 | [Tex3D: Objects as Attack Surfaces via Adversarial 3D Textures for Vision-Language-Action Models](https://arxiv.org/abs/2604.01618v1)<br><small>Jiawei Chen et al.</small> | 2026-04-02 |  |
@@ -21,8 +23,6 @@ Total papers: 50
 | [Realtime-VLA V2: Learning to Run VLAs Fast, Smooth, and Accurate](https://arxiv.org/abs/2603.26360v1)<br><small>Chen Yang et al.</small> | 2026-03-27 |  |
 | [DFM-VLA: Iterative Action Refinement for Robot Manipulation via Discrete Flow Matching](https://arxiv.org/abs/2603.26320v2)<br><small>Jiayi Chen et al.</small> | 2026-03-27 |  |
 | [Drive My Way: Preference Alignment of Vision-Language-Action Model for Personalized Driving](https://arxiv.org/abs/2603.25740v1)<br><small>Zehao Wang et al.</small> | 2026-03-26 |  |
-| [Fast-dVLA: Accelerating Discrete Diffusion VLA to Real-Time Performance](https://arxiv.org/abs/2603.25661v2)<br><small>Wenxuan Song et al.</small> | 2026-03-26 |  |
-| [MMaDA-VLA: Large Diffusion Vision-Language-Action Model with Unified Multi-Modal Instruction and Generation](https://arxiv.org/abs/2603.25406v2)<br><small>Yang Liu et al.</small> | 2026-03-26 |  |
 
 ## World Model
 
