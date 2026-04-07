@@ -1,6 +1,6 @@
 # 📚 Latest ArXiv Papers - World Action Models
 
-Generated on: 2026-04-06 02:40:34
+Generated on: 2026-04-07 02:34:54
 
 Total papers: 50
 
@@ -8,6 +8,9 @@ Total papers: 50
 
 | Paper | Date | Code |
 |-------|------|------|
+| [E-VLA: Event-Augmented Vision-Language-Action Model for Dark and Blurred Scenes](https://arxiv.org/abs/2604.04834v1)<br><small>Jiajun Zhai et al.</small> | 2026-04-06 |  |
+| [Adaptive Action Chunking at Inference-time for Vision-Language-Action Models](https://arxiv.org/abs/2604.04161v1)<br><small>Yuanchang Liang et al.</small> | 2026-04-05 |  |
+| [VLA-Forget: Vision-Language-Action Unlearning for Embodied Foundation Models](https://arxiv.org/abs/2604.03956v1)<br><small>Ravi Ranjan et al.</small> | 2026-04-05 |  |
 | [The Compression Gap: Why Discrete Tokenization Limits Vision-Language-Action Model Scaling](https://arxiv.org/abs/2604.03191v1)<br><small>Takuya Shiba</small> | 2026-04-03 |  |
 | [Open-Loop Planning, Closed-Loop Verification: Speculative Verification for VLA](https://arxiv.org/abs/2604.02965v1)<br><small>Zihua Wang et al.</small> | 2026-04-03 |  |
 | [UAV-Track VLA: Embodied Aerial Tracking via Vision-Language-Action Models](https://arxiv.org/abs/2604.02241v1)<br><small>Qiyao Zhang et al.</small> | 2026-04-02 |  |
@@ -20,9 +23,6 @@ Total papers: 50
 | [LIBERO-Para: A Diagnostic Benchmark and Metrics for Paraphrase Robustness in VLA Models](https://arxiv.org/abs/2603.28301v1)<br><small>Chanyoung Kim et al.</small> | 2026-03-30 |  |
 | [Uni-World VLA: Interleaved World Modeling and Planning for Autonomous Driving](https://arxiv.org/abs/2603.27287v1)<br><small>Qiqi Liu et al.</small> | 2026-03-28 |  |
 | [VLA-OPD: Bridging Offline SFT and Online RL for Vision-Language-Action Models via On-Policy Distillation](https://arxiv.org/abs/2603.26666v1)<br><small>Zhide Zhong et al.</small> | 2026-03-27 |  |
-| [Realtime-VLA V2: Learning to Run VLAs Fast, Smooth, and Accurate](https://arxiv.org/abs/2603.26360v1)<br><small>Chen Yang et al.</small> | 2026-03-27 |  |
-| [DFM-VLA: Iterative Action Refinement for Robot Manipulation via Discrete Flow Matching](https://arxiv.org/abs/2603.26320v2)<br><small>Jiayi Chen et al.</small> | 2026-03-27 |  |
-| [Drive My Way: Preference Alignment of Vision-Language-Action Model for Personalized Driving](https://arxiv.org/abs/2603.25740v1)<br><small>Zehao Wang et al.</small> | 2026-03-26 |  |
 
 ## World Model
 

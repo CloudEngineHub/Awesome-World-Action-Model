@@ -69,12 +69,15 @@ This repository aims to provide a comprehensive, curated, and continuously updat
 
 ## 🆕 Latest Papers (Auto-updated)
 
-> Papers are automatically fetched daily from arXiv. Last updated: 2026-04-03
+> Papers are automatically fetched daily from arXiv. Last updated: 2026-04-06
 
 ### VLA
 
 | Paper | Date | Code |
 |-------|------|------|
+| [E-VLA: Event-Augmented Vision-Language-Action Model for Dark and Blurred Scenes](https://arxiv.org/abs/2604.04834v1)<br><small>Jiajun Zhai, Hao Shi et al.</small> | 2026-04-06 |  |
+| [Adaptive Action Chunking at Inference-time for Vision-Language-Action Models](https://arxiv.org/abs/2604.04161v1)<br><small>Yuanchang Liang, Xiaobo Wang et al.</small> | 2026-04-05 |  |
+| [VLA-Forget: Vision-Language-Action Unlearning for Embodied Foundation Models](https://arxiv.org/abs/2604.03956v1)<br><small>Ravi Ranjan, Agoritsa Polyzou</small> | 2026-04-05 |  |
 | [The Compression Gap: Why Discrete Tokenization Limits Vision-Language-Action Model Scaling](https://arxiv.org/abs/2604.03191v1)<br><small>Takuya Shiba</small> | 2026-04-03 |  |
 | [Open-Loop Planning, Closed-Loop Verification: Speculative Verification for VLA](https://arxiv.org/abs/2604.02965v1)<br><small>Zihua Wang, Zhitao Lin et al.</small> | 2026-04-03 |  |
 | [UAV-Track VLA: Embodied Aerial Tracking via Vision-Language-Action Models](https://arxiv.org/abs/2604.02241v1)<br><small>Qiyao Zhang, Shuhua Zheng et al.</small> | 2026-04-02 |  |
@@ -82,9 +85,6 @@ This repository aims to provide a comprehensive, curated, and continuously updat
 | [Tex3D: Objects as Attack Surfaces via Adversarial 3D Textures for Vision-Language-Action Models](https://arxiv.org/abs/2604.01618v1)<br><small>Jiawei Chen, Simin Huang et al.</small> | 2026-04-02 |  |
 | [Boosting Vision-Language-Action Finetuning with Feasible Action Neighborhood Prior](https://arxiv.org/abs/2604.01570v1)<br><small>Haochen Niu, Kanyu Zhang et al.</small> | 2026-04-02 |  |
 | [DIAL: Decoupling Intent and Action via Latent World Modeling for End-to-End VLA](https://arxiv.org/abs/2603.29844v1)<br><small>Yi Chen, Yuying Ge et al.</small> | 2026-03-31 |  |
-| [FocusVLA: Focused Visual Utilization for Vision-Language-Action Models](https://arxiv.org/abs/2603.28740v1)<br><small>Yichi Zhang, Weihao Yuan et al.</small> | 2026-03-30 |  |
-| [StreamingVLA: Streaming Vision-Language-Action Model with Action Flow Matching and Adaptive Early Observation](https://arxiv.org/abs/2603.28565v1)<br><small>Yiran Shi, Dongqi Guo et al.</small> | 2026-03-30 |  |
-| [LIBERO-Para: A Diagnostic Benchmark and Metrics for Paraphrase Robustness in VLA Models](https://arxiv.org/abs/2603.28301v1)<br><small>Chanyoung Kim, Minwoo Kim et al.</small> | 2026-03-30 |  |
 
 ### World Model
 

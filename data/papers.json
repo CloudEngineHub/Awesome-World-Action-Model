@@ -1,5 +1,78 @@
 [
   {
+    "id": "2604.04834v1",
+    "title": "E-VLA: Event-Augmented Vision-Language-Action Model for Dark and Blurred Scenes",
+    "authors": [
+      "Jiajun Zhai",
+      "Hao Shi",
+      "Shangwei Guo",
+      "Kailun Yang",
+      "Kaiwei Wang"
+    ],
+    "summary": "Robotic Vision-Language-Action (VLA) models generalize well for open-ended manipulation, but their perception is fragile under sensing-stage degradations such as extreme low light, motion blur, and black clipping. We present E-VLA, an event-augmented VLA framework that improves manipulation robustness when conventional frame-based vision becomes unreliable. Instead of reconstructing images from events, E-VLA directly leverages motion and structural cues in event streams to preserve semantic perc",
+    "published": "2026-04-06",
+    "published_iso": "2026-04-06T16:35:57+00:00",
+    "url": "https://arxiv.org/abs/2604.04834v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.04834v1",
+    "categories": [
+      "cs.CV",
+      "cs.MM",
+      "cs.RO",
+      "eess.IV"
+    ],
+    "primary_category": "cs.CV",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
+    "id": "2604.04161v1",
+    "title": "Adaptive Action Chunking at Inference-time for Vision-Language-Action Models",
+    "authors": [
+      "Yuanchang Liang",
+      "Xiaobo Wang",
+      "Kai Wang",
+      "Shuo Wang",
+      "Xiaojiang Peng",
+      "Haoyu Chen",
+      "David Kim Huat Chua",
+      "Prahlad Vadakkepat"
+    ],
+    "summary": "In Vision-Language-Action (VLA) models, action chunking (i.e., executing a sequence of actions without intermediate replanning) is a key technique to improve robotic manipulation abilities. However, a large chunk size reduces the model's responsiveness to new information, while a small one increases the likelihood of mode-jumping, jerky behavior resulting from discontinuities between chunks. Therefore, selecting the optimal chunk size is an urgent demand to balance the model's reactivity and con",
+    "published": "2026-04-05",
+    "published_iso": "2026-04-05T16:03:32+00:00",
+    "url": "https://arxiv.org/abs/2604.04161v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.04161v1",
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
+    "id": "2604.03956v1",
+    "title": "VLA-Forget: Vision-Language-Action Unlearning for Embodied Foundation Models",
+    "authors": [
+      "Ravi Ranjan",
+      "Agoritsa Polyzou"
+    ],
+    "summary": "Vision-language-action (VLA) models are emerging as embodied foundation models for robotic manipulation, but their deployment introduces a new unlearning challenge: removing unsafe, spurious, or privacy-sensitive behaviors without degrading perception, language grounding, and action control. In OpenVLA-style policies, behavior is produced through a fused visual encoder, a cross-modal projector, and a language backbone that predicts tokenized robot actions, so undesirable knowledge can be distrib",
+    "published": "2026-04-05",
+    "published_iso": "2026-04-05T04:23:18+00:00",
+    "url": "https://arxiv.org/abs/2604.03956v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.03956v1",
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CV",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
     "id": "2604.03191v1",
     "title": "The Compression Gap: Why Discrete Tokenization Limits Vision-Language-Action Model Scaling",
     "authors": [
@@ -790,54 +863,6 @@
     "auto_category": "VLA"
   },
   {
-    "id": "2603.23202v1",
-    "title": "Gaze-Regularized Vision-Language-Action Models for Robotic Manipulation",
-    "authors": [
-      "Anupam Pani",
-      "Yanchao Yang"
-    ],
-    "summary": "Despite advances in Vision-Language-Action (VLA) models, robotic manipulation struggles with fine-grained tasks because current models lack mechanisms for active visual attention allocation. Human gaze naturally encodes intent, planning, and execution patterns -- offering a powerful supervisory signal for guiding robot perception. We introduce a gaze-regularized training framework that aligns VLA models' internal attention with human visual patterns without architectural modifications or inferen",
-    "published": "2026-03-24",
-    "published_iso": "2026-03-24T13:50:28+00:00",
-    "url": "https://arxiv.org/abs/2603.23202v1",
-    "pdf_url": "https://arxiv.org/pdf/2603.23202v1",
-    "categories": [
-      "cs.CV"
-    ],
-    "primary_category": "cs.CV",
-    "code_url": null,
-    "project_url": null,
-    "auto_category": "VLA"
-  },
-  {
-    "id": "2603.22991v1",
-    "title": "VLA-IAP: Training-Free Visual Token Pruning via Interaction Alignment for Vision-Language-Action Models",
-    "authors": [
-      "Jintao Cheng",
-      "Haozhe Wang",
-      "Weibin Li",
-      "Gang Wang",
-      "Yipu Zhang",
-      "Xiaoyu Tang",
-      "Jin Wu",
-      "Xieyuanli Chen",
-      "Yunhui Liu",
-      "Wei Zhang"
-    ],
-    "summary": "Vision-Language-Action (VLA) models have rapidly advanced embodied intelligence, enabling robots to execute complex, instruction-driven tasks. However, as model capacity and visual context length grow, the inference cost of VLA systems becomes a major bottleneck for real-world deployment on resource-constrained platforms. Existing visual token pruning methods mainly rely on semantic saliency or simple temporal cues, overlooking the continuous physical interaction, a fundamental property of VLA t",
-    "published": "2026-03-24",
-    "published_iso": "2026-03-24T09:33:05+00:00",
-    "url": "https://arxiv.org/abs/2603.22991v1",
-    "pdf_url": "https://arxiv.org/pdf/2603.22991v1",
-    "categories": [
-      "cs.CV"
-    ],
-    "primary_category": "cs.CV",
-    "code_url": null,
-    "project_url": null,
-    "auto_category": "VLA"
-  },
-  {
     "id": "2603.22078v2",
     "title": "Do World Action Models Generalize Better than VLAs? A Robustness Study",
     "authors": [
@@ -1331,28 +1356,6 @@
       "cs.RO",
       "cs.AI",
       "cs.CV"
-    ],
-    "primary_category": "cs.RO",
-    "code_url": null,
-    "project_url": null,
-    "auto_category": "World Model"
-  },
-  {
-    "id": "2406.10788v1",
-    "title": "Physically Embodied Gaussian Splatting: A Realtime Correctable World Model for Robotics",
-    "authors": [
-      "Jad Abou-Chakra",
-      "Krishan Rana",
-      "Feras Dayoub",
-      "Niko Sünderhauf"
-    ],
-    "summary": "For robots to robustly understand and interact with the physical world, it is highly beneficial to have a comprehensive representation - modelling geometry, physics, and visual observations - that informs perception, planning, and control algorithms. We propose a novel dual Gaussian-Particle representation that models the physical world while (i) enabling predictive simulation of future states and (ii) allowing online correction from visual observations in a dynamic world. Our representation com",
-    "published": "2024-06-16",
-    "published_iso": "2024-06-16T03:08:48+00:00",
-    "url": "https://arxiv.org/abs/2406.10788v1",
-    "pdf_url": "https://arxiv.org/pdf/2406.10788v1",
-    "categories": [
-      "cs.RO"
     ],
     "primary_category": "cs.RO",
     "code_url": null,
