@@ -1,6 +1,6 @@
 # 📚 Latest ArXiv Papers - World Action Models
 
-Generated on: 2026-04-07 02:34:54
+Generated on: 2026-04-08 02:35:46
 
 Total papers: 50
 
@@ -8,6 +8,12 @@ Total papers: 50
 
 | Paper | Date | Code |
 |-------|------|------|
+| [A1: A Fully Transparent Open-Source, Adaptive and Efficient Truncated Vision-Language-Action Model](https://arxiv.org/abs/2604.05672v1)<br><small>Kaidong Zhang et al.</small> | 2026-04-07 |  |
+| [SnapFlow: One-Step Action Generation for Flow-Matching VLAs via Progressive Self-Distillation](https://arxiv.org/abs/2604.05656v1)<br><small>Wuyang Luan et al.</small> | 2026-04-07 |  |
+| [Grounding Hierarchical Vision-Language-Action Models Through Explicit Language-Action Alignment](https://arxiv.org/abs/2604.05614v1)<br><small>Theodor Wulff et al.</small> | 2026-04-07 |  |
+| [Uncovering Linguistic Fragility in Vision-Language-Action Models via Diversity-Aware Red Teaming](https://arxiv.org/abs/2604.05595v1)<br><small>Baoshun Tong et al.</small> | 2026-04-07 |  |
+| [VLA-InfoEntropy: A Training-Free Vision-Attention Information Entropy Approach for Vision-Language-Action Models Inference Acceleration and Success](https://arxiv.org/abs/2604.05323v1)<br><small>Chuhang Liu et al.</small> | 2026-04-07 |  |
+| [StarVLA: A Lego-like Codebase for Vision-Language-Action Model Developing](https://arxiv.org/abs/2604.05014v1)<br><small>StarVLA Community</small> | 2026-04-06 |  |
 | [E-VLA: Event-Augmented Vision-Language-Action Model for Dark and Blurred Scenes](https://arxiv.org/abs/2604.04834v1)<br><small>Jiajun Zhai et al.</small> | 2026-04-06 |  |
 | [Adaptive Action Chunking at Inference-time for Vision-Language-Action Models](https://arxiv.org/abs/2604.04161v1)<br><small>Yuanchang Liang et al.</small> | 2026-04-05 |  |
 | [VLA-Forget: Vision-Language-Action Unlearning for Embodied Foundation Models](https://arxiv.org/abs/2604.03956v1)<br><small>Ravi Ranjan et al.</small> | 2026-04-05 |  |
@@ -17,17 +23,12 @@ Total papers: 50
 | [Causal Scene Narration with Runtime Safety Supervision for Vision-Language-Action Driving](https://arxiv.org/abs/2604.01723v1)<br><small>Yun Li et al.</small> | 2026-04-02 |  |
 | [Tex3D: Objects as Attack Surfaces via Adversarial 3D Textures for Vision-Language-Action Models](https://arxiv.org/abs/2604.01618v1)<br><small>Jiawei Chen et al.</small> | 2026-04-02 |  |
 | [Boosting Vision-Language-Action Finetuning with Feasible Action Neighborhood Prior](https://arxiv.org/abs/2604.01570v1)<br><small>Haochen Niu et al.</small> | 2026-04-02 |  |
-| [DIAL: Decoupling Intent and Action via Latent World Modeling for End-to-End VLA](https://arxiv.org/abs/2603.29844v1)<br><small>Yi Chen et al.</small> | 2026-03-31 |  |
-| [FocusVLA: Focused Visual Utilization for Vision-Language-Action Models](https://arxiv.org/abs/2603.28740v1)<br><small>Yichi Zhang et al.</small> | 2026-03-30 |  |
-| [StreamingVLA: Streaming Vision-Language-Action Model with Action Flow Matching and Adaptive Early Observation](https://arxiv.org/abs/2603.28565v1)<br><small>Yiran Shi et al.</small> | 2026-03-30 |  |
-| [LIBERO-Para: A Diagnostic Benchmark and Metrics for Paraphrase Robustness in VLA Models](https://arxiv.org/abs/2603.28301v1)<br><small>Chanyoung Kim et al.</small> | 2026-03-30 |  |
-| [Uni-World VLA: Interleaved World Modeling and Planning for Autonomous Driving](https://arxiv.org/abs/2603.27287v1)<br><small>Qiqi Liu et al.</small> | 2026-03-28 |  |
-| [VLA-OPD: Bridging Offline SFT and Online RL for Vision-Language-Action Models via On-Policy Distillation](https://arxiv.org/abs/2603.26666v1)<br><small>Zhide Zhong et al.</small> | 2026-03-27 |  |
 
 ## World Model
 
 | Paper | Date | Code |
 |-------|------|------|
+| [JailWAM: Jailbreaking World Action Models in Robot Control](https://arxiv.org/abs/2604.05498v1)<br><small>Hanqing Liu et al.</small> | 2026-04-07 |  |
 | [DriveDreamer-Policy: A Geometry-Grounded World-Action Model for Unified Generation and Planning](https://arxiv.org/abs/2604.01765v1)<br><small>Yang Zhou et al.</small> | 2026-04-02 |  |
 | [Latent-WAM: Latent World Action Modeling for End-to-End Autonomous Driving](https://arxiv.org/abs/2603.24581v1)<br><small>Linbo Wang et al.</small> | 2026-03-25 |  |
 | [Fast-WAM: Do World Action Models Need Test-time Future Imagination?](https://arxiv.org/abs/2603.16666v2)<br><small>Tianyuan Yuan et al.</small> | 2026-03-17 |  |
@@ -42,7 +43,6 @@ Total papers: 50
 | [GAF: Gaussian Action Field as a 4D Representation for Dynamic World Modeling in Robotic Manipulation](https://arxiv.org/abs/2506.14135v4)<br><small>Ying Chai et al.</small> | 2025-06-17 |  |
 | [Occupancy World Model for Robots](https://arxiv.org/abs/2505.05512v1)<br><small>Zhang Zhang et al.</small> | 2025-05-07 |  |
 | [DyWA: Dynamics-adaptive World Action Model for Generalizable Non-prehensile Manipulation](https://arxiv.org/abs/2503.16806v2)<br><small>Jiangran Lyu et al.</small> | 2025-03-21 |  |
-| [Dream to Manipulate: Compositional World Models Empowering Robot Imitation Learning with Imagination](https://arxiv.org/abs/2412.14957v2)<br><small>Leonardo Barcellona et al.</small> | 2024-12-19 |  |
 
 ## Policy
 

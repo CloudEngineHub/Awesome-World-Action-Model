@@ -69,27 +69,28 @@ This repository aims to provide a comprehensive, curated, and continuously updat
 
 ## 🆕 Latest Papers (Auto-updated)
 
-> Papers are automatically fetched daily from arXiv. Last updated: 2026-04-06
+> Papers are automatically fetched daily from arXiv. Last updated: 2026-04-07
 
 ### VLA
 
 | Paper | Date | Code |
 |-------|------|------|
+| [A1: A Fully Transparent Open-Source, Adaptive and Efficient Truncated Vision-Language-Action Model](https://arxiv.org/abs/2604.05672v1)<br><small>Kaidong Zhang, Jian Zhang et al.</small> | 2026-04-07 |  |
+| [SnapFlow: One-Step Action Generation for Flow-Matching VLAs via Progressive Self-Distillation](https://arxiv.org/abs/2604.05656v1)<br><small>Wuyang Luan, Junhui Li et al.</small> | 2026-04-07 |  |
+| [Grounding Hierarchical Vision-Language-Action Models Through Explicit Language-Action Alignment](https://arxiv.org/abs/2604.05614v1)<br><small>Theodor Wulff, Federico Tavella et al.</small> | 2026-04-07 |  |
+| [Uncovering Linguistic Fragility in Vision-Language-Action Models via Diversity-Aware Red Teaming](https://arxiv.org/abs/2604.05595v1)<br><small>Baoshun Tong, Haoran He et al.</small> | 2026-04-07 |  |
+| [VLA-InfoEntropy: A Training-Free Vision-Attention Information Entropy Approach for Vision-Language-Action Models Inference Acceleration and Success](https://arxiv.org/abs/2604.05323v1)<br><small>Chuhang Liu, Yayun He et al.</small> | 2026-04-07 |  |
+| [StarVLA: A Lego-like Codebase for Vision-Language-Action Model Developing](https://arxiv.org/abs/2604.05014v1)<br><small>StarVLA Community</small> | 2026-04-06 |  |
 | [E-VLA: Event-Augmented Vision-Language-Action Model for Dark and Blurred Scenes](https://arxiv.org/abs/2604.04834v1)<br><small>Jiajun Zhai, Hao Shi et al.</small> | 2026-04-06 |  |
 | [Adaptive Action Chunking at Inference-time for Vision-Language-Action Models](https://arxiv.org/abs/2604.04161v1)<br><small>Yuanchang Liang, Xiaobo Wang et al.</small> | 2026-04-05 |  |
 | [VLA-Forget: Vision-Language-Action Unlearning for Embodied Foundation Models](https://arxiv.org/abs/2604.03956v1)<br><small>Ravi Ranjan, Agoritsa Polyzou</small> | 2026-04-05 |  |
 | [The Compression Gap: Why Discrete Tokenization Limits Vision-Language-Action Model Scaling](https://arxiv.org/abs/2604.03191v1)<br><small>Takuya Shiba</small> | 2026-04-03 |  |
-| [Open-Loop Planning, Closed-Loop Verification: Speculative Verification for VLA](https://arxiv.org/abs/2604.02965v1)<br><small>Zihua Wang, Zhitao Lin et al.</small> | 2026-04-03 |  |
-| [UAV-Track VLA: Embodied Aerial Tracking via Vision-Language-Action Models](https://arxiv.org/abs/2604.02241v1)<br><small>Qiyao Zhang, Shuhua Zheng et al.</small> | 2026-04-02 |  |
-| [Causal Scene Narration with Runtime Safety Supervision for Vision-Language-Action Driving](https://arxiv.org/abs/2604.01723v1)<br><small>Yun Li, Yidu Zhang et al.</small> | 2026-04-02 |  |
-| [Tex3D: Objects as Attack Surfaces via Adversarial 3D Textures for Vision-Language-Action Models](https://arxiv.org/abs/2604.01618v1)<br><small>Jiawei Chen, Simin Huang et al.</small> | 2026-04-02 |  |
-| [Boosting Vision-Language-Action Finetuning with Feasible Action Neighborhood Prior](https://arxiv.org/abs/2604.01570v1)<br><small>Haochen Niu, Kanyu Zhang et al.</small> | 2026-04-02 |  |
-| [DIAL: Decoupling Intent and Action via Latent World Modeling for End-to-End VLA](https://arxiv.org/abs/2603.29844v1)<br><small>Yi Chen, Yuying Ge et al.</small> | 2026-03-31 |  |
 
 ### World Model
 
 | Paper | Date | Code |
 |-------|------|------|
+| [JailWAM: Jailbreaking World Action Models in Robot Control](https://arxiv.org/abs/2604.05498v1)<br><small>Hanqing Liu, Songping Wang et al.</small> | 2026-04-07 |  |
 | [DriveDreamer-Policy: A Geometry-Grounded World-Action Model for Unified Generation and Planning](https://arxiv.org/abs/2604.01765v1)<br><small>Yang Zhou, Xiaofeng Wang et al.</small> | 2026-04-02 |  |
 | [Latent-WAM: Latent World Action Modeling for End-to-End Autonomous Driving](https://arxiv.org/abs/2603.24581v1)<br><small>Linbo Wang, Yupeng Zheng et al.</small> | 2026-03-25 |  |
 | [Fast-WAM: Do World Action Models Need Test-time Future Imagination?](https://arxiv.org/abs/2603.16666v2)<br><small>Tianyuan Yuan, Zibin Dong et al.</small> | 2026-03-17 |  |
@@ -99,7 +100,6 @@ This repository aims to provide a comprehensive, curated, and continuously updat
 | [Dynamic Sparsity: Challenging Common Sparsity Assumptions for Learning World Models in Robotic Reinforcement Learning Benchmarks](https://arxiv.org/abs/2511.08086v2)<br><small>Muthukumar Pandaram, Jakob Hollenstein et al.</small> | 2025-11-11 |  |
 | [Ctrl-World: A Controllable Generative World Model for Robot Manipulation](https://arxiv.org/abs/2510.10125v3)<br><small>Yanjiang Guo, Lucy Xiaoyang Shi et al.</small> | 2025-10-11 |  |
 | [iMoWM: Taming Interactive Multi-Modal World Model for Robotic Manipulation](https://arxiv.org/abs/2510.09036v1)<br><small>Chuanrui Zhang, Zhengxian Wu et al.</small> | 2025-10-10 |  |
-| [WristWorld: Generating Wrist-Views via 4D World Models for Robotic Manipulation](https://arxiv.org/abs/2510.07313v1)<br><small>Zezhong Qian, Xiaowei Chi et al.</small> | 2025-10-08 |  |
 
 ### Policy
 
