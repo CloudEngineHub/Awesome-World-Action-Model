@@ -1,6 +1,6 @@
 [
   {
-    "id": "2604.05672v1",
+    "id": "2604.05672v2",
     "title": "A1: A Fully Transparent Open-Source, Adaptive and Efficient Truncated Vision-Language-Action Model",
     "authors": [
       "Kaidong Zhang",
@@ -27,11 +27,11 @@
       "Ivan Laptev",
       "Xiaodan Liang"
     ],
-    "summary": "Vision--Language--Action (VLA) models have emerged as a powerful paradigm for open-world robot manipulation, but their practical deployment is often constrained by \\emph{cost}: billion-scale VLM backbones and iterative diffusion/flow-based action heads incur high latency and compute, making real-time control expensive on commodity hardware. We present A1, a fully open-source and transparent VLA framework designed for low-cost, high-throughput inference without sacrificing manipulation success; O",
+    "summary": "Vision-Language-Action (VLA) models have emerged as a powerful paradigm for open-world robot manipulation, but their practical deployment is often constrained by cost: billion-scale VLM backbones and iterative diffusion/flow-based action heads incur high latency and compute, making real-time control expensive on commodity hardware. We present A1, a fully open-source and transparent VLA framework designed for low-cost, high-throughput inference without sacrificing manipulation success; Our approa",
     "published": "2026-04-07",
     "published_iso": "2026-04-07T10:18:40+00:00",
-    "url": "https://arxiv.org/abs/2604.05672v1",
-    "pdf_url": "https://arxiv.org/pdf/2604.05672v1",
+    "url": "https://arxiv.org/abs/2604.05672v2",
+    "pdf_url": "https://arxiv.org/pdf/2604.05672v2",
     "categories": [
       "cs.RO"
     ],

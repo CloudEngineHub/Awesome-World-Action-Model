@@ -1,6 +1,6 @@
 # 📚 Latest ArXiv Papers - World Action Models
 
-Generated on: 2026-04-08 02:35:46
+Generated on: 2026-04-09 02:30:59
 
 Total papers: 50
 
@@ -8,7 +8,7 @@ Total papers: 50
 
 | Paper | Date | Code |
 |-------|------|------|
-| [A1: A Fully Transparent Open-Source, Adaptive and Efficient Truncated Vision-Language-Action Model](https://arxiv.org/abs/2604.05672v1)<br><small>Kaidong Zhang et al.</small> | 2026-04-07 |  |
+| [A1: A Fully Transparent Open-Source, Adaptive and Efficient Truncated Vision-Language-Action Model](https://arxiv.org/abs/2604.05672v2)<br><small>Kaidong Zhang et al.</small> | 2026-04-07 |  |
 | [SnapFlow: One-Step Action Generation for Flow-Matching VLAs via Progressive Self-Distillation](https://arxiv.org/abs/2604.05656v1)<br><small>Wuyang Luan et al.</small> | 2026-04-07 |  |
 | [Grounding Hierarchical Vision-Language-Action Models Through Explicit Language-Action Alignment](https://arxiv.org/abs/2604.05614v1)<br><small>Theodor Wulff et al.</small> | 2026-04-07 |  |
 | [Uncovering Linguistic Fragility in Vision-Language-Action Models via Diversity-Aware Red Teaming](https://arxiv.org/abs/2604.05595v1)<br><small>Baoshun Tong et al.</small> | 2026-04-07 |  |
