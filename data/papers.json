@@ -1,5 +1,61 @@
 [
   {
+    "id": "2604.09244v1",
+    "title": "2D or 3D: Who Governs Salience in VLA Models? -- Tri-Stage Token Pruning Framework with Modality Salience Awareness",
+    "authors": [
+      "Zihao Zheng",
+      "Sicheng Tian",
+      "Zhihao Mao",
+      "Lingyue Zhang",
+      "Chenyue Li",
+      "Ziyun Zhang",
+      "Hong Gao",
+      "Yuchen Huang",
+      "Yutong Xu",
+      "Guojie Luo",
+      "Xiang Chen"
+    ],
+    "summary": "Vision-Language-Action (VLA) models have emerged as the mainstream of embodied intelligence. Recent VLA models have expanded their input modalities from 2D-only to 2D+3D paradigms, forming multi-visual-modal VLA (MVLA) models. Despite achieving improved spatial perception, MVLA faces a greater acceleration demand due to the increased number of input tokens caused by modal expansion. Token pruning is an effective optimization methods tailored to MVLA models. However, existing token pruning scheme",
+    "published": "2026-04-10",
+    "published_iso": "2026-04-10T11:58:39+00:00",
+    "url": "https://arxiv.org/abs/2604.09244v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.09244v1",
+    "categories": [
+      "cs.MM",
+      "cs.CV",
+      "cs.RO"
+    ],
+    "primary_category": "cs.MM",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
+    "id": "2604.09059v1",
+    "title": "Learning Vision-Language-Action World Models for Autonomous Driving",
+    "authors": [
+      "Guoqing Wang",
+      "Pin Tang",
+      "Xiangxuan Ren",
+      "Guodongfang Zhao",
+      "Bailan Feng",
+      "Chao Ma"
+    ],
+    "summary": "Vision-Language-Action (VLA) models have recently achieved notable progress in end-to-end autonomous driving by integrating perception, reasoning, and control within a unified multimodal framework. However, they often lack explicit modeling of temporal dynamics and global world consistency, which limits their foresight and safety. In contrast, world models can simulate plausible future scenes but generally struggle to reason about or evaluate the imagined future they generate. In this work, we p",
+    "published": "2026-04-10",
+    "published_iso": "2026-04-10T07:38:05+00:00",
+    "url": "https://arxiv.org/abs/2604.09059v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.09059v1",
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CV",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
     "id": "2604.05672v2",
     "title": "A1: A Fully Transparent Open-Source, Adaptive and Efficient Truncated Vision-Language-Action Model",
     "authors": [
@@ -214,7 +270,7 @@
     "auto_category": "VLA"
   },
   {
-    "id": "2604.04161v1",
+    "id": "2604.04161v2",
     "title": "Adaptive Action Chunking at Inference-time for Vision-Language-Action Models",
     "authors": [
       "Yuanchang Liang",
@@ -229,8 +285,8 @@
     "summary": "In Vision-Language-Action (VLA) models, action chunking (i.e., executing a sequence of actions without intermediate replanning) is a key technique to improve robotic manipulation abilities. However, a large chunk size reduces the model's responsiveness to new information, while a small one increases the likelihood of mode-jumping, jerky behavior resulting from discontinuities between chunks. Therefore, selecting the optimal chunk size is an urgent demand to balance the model's reactivity and con",
     "published": "2026-04-05",
     "published_iso": "2026-04-05T16:03:32+00:00",
-    "url": "https://arxiv.org/abs/2604.04161v1",
-    "pdf_url": "https://arxiv.org/pdf/2604.04161v1",
+    "url": "https://arxiv.org/abs/2604.04161v2",
+    "pdf_url": "https://arxiv.org/pdf/2604.04161v2",
     "categories": [
       "cs.RO"
     ],
@@ -308,7 +364,7 @@
     "auto_category": "VLA"
   },
   {
-    "id": "2604.02241v1",
+    "id": "2604.02241v2",
     "title": "UAV-Track VLA: Embodied Aerial Tracking via Vision-Language-Action Models",
     "authors": [
       "Qiyao Zhang",
@@ -324,8 +380,8 @@
     "summary": "Embodied visual tracking is crucial for Unmanned Aerial Vehicles (UAVs) executing complex real-world tasks. In dynamic urban scenarios with complex semantic requirements, Vision-Language-Action (VLA) models show great promise due to their cross-modal fusion and continuous action generation capabilities. To benchmark multimodal tracking in such environments, we construct a dedicated evaluation benchmark and a large-scale dataset encompassing over 890K frames, 176 tasks, and 85 diverse objects. Fu",
     "published": "2026-04-02",
     "published_iso": "2026-04-02T16:33:38+00:00",
-    "url": "https://arxiv.org/abs/2604.02241v1",
-    "pdf_url": "https://arxiv.org/pdf/2604.02241v1",
+    "url": "https://arxiv.org/abs/2604.02241v2",
+    "pdf_url": "https://arxiv.org/pdf/2604.02241v2",
     "categories": [
       "cs.CV",
       "cs.RO"
@@ -778,53 +834,6 @@
       "cs.RO"
     ],
     "primary_category": "cs.CV",
-    "code_url": null,
-    "project_url": null,
-    "auto_category": "VLA"
-  },
-  {
-    "id": "2603.25766v1",
-    "title": "ETA-VLA: Efficient Token Adaptation via Temporal Fusion and Intra-LLM Sparsification for Vision-Language-Action Models",
-    "authors": [
-      "Yiru Wang",
-      "Anqing Jiang",
-      "Shuo Wang",
-      "Yuwen Heng",
-      "Zichong Gu",
-      "Hao Sun"
-    ],
-    "summary": "The integration of Vision-Language-Action (VLA) models into autonomous driving systems offers a unified framework for interpreting complex scenes and executing control commands. However, the necessity to incorporate historical multi-view frames for accurate temporal reasoning imposes a severe computational burden, primarily driven by the quadratic complexity of self-attention mechanisms in Large Language Models (LLMs). To alleviate this bottleneck, we propose ETA-VLA, an Efficient Token Adaptati",
-    "published": "2026-03-26",
-    "published_iso": "2026-03-26T06:53:42+00:00",
-    "url": "https://arxiv.org/abs/2603.25766v1",
-    "pdf_url": "https://arxiv.org/pdf/2603.25766v1",
-    "categories": [
-      "cs.RO",
-      "cs.AI"
-    ],
-    "primary_category": "cs.RO",
-    "code_url": null,
-    "project_url": null,
-    "auto_category": "VLA"
-  },
-  {
-    "id": "2603.25044v2",
-    "title": "ThermoAct:Thermal-Aware Vision-Language-Action Models for Robotic Perception and Decision-Making",
-    "authors": [
-      "Young-Chae Son",
-      "Dae-Kwan Ko",
-      "Yoon-Ji Choi",
-      "Soo-Chul Lim"
-    ],
-    "summary": "In recent human-robot collaboration environments, there is a growing focus on integrating diverse sensor data beyond visual information to enable safer and more intelligent task execution. Although thermal data can be crucial for enhancing robot safety and operational efficiency, its integration has been relatively overlooked in prior research. This paper proposes a novel Vision-Language-Action (VLA) framework that incorporates thermal information for robot task execution. The proposed system le",
-    "published": "2026-03-26",
-    "published_iso": "2026-03-26T05:26:56+00:00",
-    "url": "https://arxiv.org/abs/2603.25044v2",
-    "pdf_url": "https://arxiv.org/pdf/2603.25044v2",
-    "categories": [
-      "cs.RO"
-    ],
-    "primary_category": "cs.RO",
     "code_url": null,
     "project_url": null,
     "auto_category": "VLA"
