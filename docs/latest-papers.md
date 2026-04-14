@@ -1,6 +1,6 @@
 # 📚 Latest ArXiv Papers - World Action Models
 
-Generated on: 2026-04-13 02:50:40
+Generated on: 2026-04-14 02:43:15
 
 Total papers: 50
 
@@ -8,6 +8,10 @@ Total papers: 50
 
 | Paper | Date | Code |
 |-------|------|------|
+| [DA-PTQ: Drift-Aware Post-Training Quantization for Efficient Vision-Language-Action Models](https://arxiv.org/abs/2604.11572v1)<br><small>Siyuan Xu et al.</small> | 2026-04-13 |  |
+| [AnySlot: Goal-Conditioned Vision-Language-Action Policies for Zero-Shot Slot-Level Placement](https://arxiv.org/abs/2604.10432v1)<br><small>Zhaofeng Hu et al.</small> | 2026-04-12 |  |
+| [Vision-Language-Action Model, Robustness, Multi-modal Learning, Robot Manipulation](https://arxiv.org/abs/2604.10055v1)<br><small>Yuhan Xie et al.</small> | 2026-04-11 |  |
+| [ProGAL-VLA: Grounded Alignment through Prospective Reasoning in Vision-Language-Action Models](https://arxiv.org/abs/2604.09824v1)<br><small>Nastaran Darabi et al.</small> | 2026-04-10 |  |
 | [2D or 3D: Who Governs Salience in VLA Models? -- Tri-Stage Token Pruning Framework with Modality Salience Awareness](https://arxiv.org/abs/2604.09244v1)<br><small>Zihao Zheng et al.</small> | 2026-04-10 |  |
 | [Learning Vision-Language-Action World Models for Autonomous Driving](https://arxiv.org/abs/2604.09059v1)<br><small>Guoqing Wang et al.</small> | 2026-04-10 |  |
 | [A1: A Fully Transparent Open-Source, Adaptive and Efficient Truncated Vision-Language-Action Model](https://arxiv.org/abs/2604.05672v2)<br><small>Kaidong Zhang et al.</small> | 2026-04-07 |  |
@@ -19,15 +23,12 @@ Total papers: 50
 | [E-VLA: Event-Augmented Vision-Language-Action Model for Dark and Blurred Scenes](https://arxiv.org/abs/2604.04834v1)<br><small>Jiajun Zhai et al.</small> | 2026-04-06 |  |
 | [Adaptive Action Chunking at Inference-time for Vision-Language-Action Models](https://arxiv.org/abs/2604.04161v2)<br><small>Yuanchang Liang et al.</small> | 2026-04-05 |  |
 | [VLA-Forget: Vision-Language-Action Unlearning for Embodied Foundation Models](https://arxiv.org/abs/2604.03956v1)<br><small>Ravi Ranjan et al.</small> | 2026-04-05 |  |
-| [The Compression Gap: Why Discrete Tokenization Limits Vision-Language-Action Model Scaling](https://arxiv.org/abs/2604.03191v1)<br><small>Takuya Shiba</small> | 2026-04-03 |  |
-| [Open-Loop Planning, Closed-Loop Verification: Speculative Verification for VLA](https://arxiv.org/abs/2604.02965v1)<br><small>Zihua Wang et al.</small> | 2026-04-03 |  |
-| [UAV-Track VLA: Embodied Aerial Tracking via Vision-Language-Action Models](https://arxiv.org/abs/2604.02241v2)<br><small>Qiyao Zhang et al.</small> | 2026-04-02 |  |
-| [Causal Scene Narration with Runtime Safety Supervision for Vision-Language-Action Driving](https://arxiv.org/abs/2604.01723v1)<br><small>Yun Li et al.</small> | 2026-04-02 |  |
 
 ## World Model
 
 | Paper | Date | Code |
 |-------|------|------|
+| [AIM: Intent-Aware Unified world action Modeling with Spatial Value Maps](https://arxiv.org/abs/2604.11135v1)<br><small>Liaoyuan Fan et al.</small> | 2026-04-13 |  |
 | [JailWAM: Jailbreaking World Action Models in Robot Control](https://arxiv.org/abs/2604.05498v1)<br><small>Hanqing Liu et al.</small> | 2026-04-07 |  |
 | [DriveDreamer-Policy: A Geometry-Grounded World-Action Model for Unified Generation and Planning](https://arxiv.org/abs/2604.01765v1)<br><small>Yang Zhou et al.</small> | 2026-04-02 |  |
 | [Latent-WAM: Latent World Action Modeling for End-to-End Autonomous Driving](https://arxiv.org/abs/2603.24581v1)<br><small>Linbo Wang et al.</small> | 2026-03-25 |  |
@@ -42,7 +43,6 @@ Total papers: 50
 | [GWM: Towards Scalable Gaussian World Models for Robotic Manipulation](https://arxiv.org/abs/2508.17600v2)<br><small>Guanxing Lu et al.</small> | 2025-08-25 |  |
 | [GAF: Gaussian Action Field as a 4D Representation for Dynamic World Modeling in Robotic Manipulation](https://arxiv.org/abs/2506.14135v4)<br><small>Ying Chai et al.</small> | 2025-06-17 |  |
 | [Occupancy World Model for Robots](https://arxiv.org/abs/2505.05512v1)<br><small>Zhang Zhang et al.</small> | 2025-05-07 |  |
-| [DyWA: Dynamics-adaptive World Action Model for Generalizable Non-prehensile Manipulation](https://arxiv.org/abs/2503.16806v2)<br><small>Jiangran Lyu et al.</small> | 2025-03-21 |  |
 
 ## Policy
 
