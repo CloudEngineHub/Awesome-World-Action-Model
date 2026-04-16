@@ -1,6 +1,6 @@
 # 📚 Latest ArXiv Papers - World Action Models
 
-Generated on: 2026-04-15 02:41:07
+Generated on: 2026-04-16 02:48:26
 
 Total papers: 50
 
@@ -8,6 +8,7 @@ Total papers: 50
 
 | Paper | Date | Code |
 |-------|------|------|
+| [Jump-Start Reinforcement Learning with Vision-Language-Action Regularization](https://arxiv.org/abs/2604.13733v1)<br><small>Angelo Moroncelli et al.</small> | 2026-04-15 |  |
 | [HazardArena: Evaluating Semantic Safety in Vision-Language-Action Models](https://arxiv.org/abs/2604.12447v1)<br><small>Zixing Chen et al.</small> | 2026-04-14 |  |
 | [StarVLA-$α$: Reducing Complexity in Vision-Language-Action Systems](https://arxiv.org/abs/2604.11757v1)<br><small>Jinhui Ye et al.</small> | 2026-04-13 |  |
 | [DA-PTQ: Drift-Aware Post-Training Quantization for Efficient Vision-Language-Action Models](https://arxiv.org/abs/2604.11572v1)<br><small>Siyuan Xu et al.</small> | 2026-04-13 |  |
@@ -16,13 +17,12 @@ Total papers: 50
 | [ProGAL-VLA: Grounded Alignment through Prospective Reasoning in Vision-Language-Action Models](https://arxiv.org/abs/2604.09824v1)<br><small>Nastaran Darabi et al.</small> | 2026-04-10 |  |
 | [2D or 3D: Who Governs Salience in VLA Models? -- Tri-Stage Token Pruning Framework with Modality Salience Awareness](https://arxiv.org/abs/2604.09244v1)<br><small>Zihao Zheng et al.</small> | 2026-04-10 |  |
 | [Learning Vision-Language-Action World Models for Autonomous Driving](https://arxiv.org/abs/2604.09059v1)<br><small>Guoqing Wang et al.</small> | 2026-04-10 |  |
-| [A1: A Fully Transparent Open-Source, Adaptive and Efficient Truncated Vision-Language-Action Model](https://arxiv.org/abs/2604.05672v2)<br><small>Kaidong Zhang et al.</small> | 2026-04-07 |  |
+| [A1: A Fully Transparent Open-Source, Adaptive and Efficient Truncated Vision-Language-Action Model](https://arxiv.org/abs/2604.05672v3)<br><small>Kaidong Zhang et al.</small> | 2026-04-07 |  |
 | [SnapFlow: One-Step Action Generation for Flow-Matching VLAs via Progressive Self-Distillation](https://arxiv.org/abs/2604.05656v1)<br><small>Wuyang Luan et al.</small> | 2026-04-07 |  |
 | [Grounding Hierarchical Vision-Language-Action Models Through Explicit Language-Action Alignment](https://arxiv.org/abs/2604.05614v1)<br><small>Theodor Wulff et al.</small> | 2026-04-07 |  |
 | [Uncovering Linguistic Fragility in Vision-Language-Action Models via Diversity-Aware Red Teaming](https://arxiv.org/abs/2604.05595v1)<br><small>Baoshun Tong et al.</small> | 2026-04-07 |  |
 | [VLA-InfoEntropy: A Training-Free Vision-Attention Information Entropy Approach for Vision-Language-Action Models Inference Acceleration and Success](https://arxiv.org/abs/2604.05323v1)<br><small>Chuhang Liu et al.</small> | 2026-04-07 |  |
 | [StarVLA: A Lego-like Codebase for Vision-Language-Action Model Developing](https://arxiv.org/abs/2604.05014v1)<br><small>StarVLA Community</small> | 2026-04-06 |  |
-| [E-VLA: Event-Augmented Vision-Language-Action Model for Dark and Blurred Scenes](https://arxiv.org/abs/2604.04834v1)<br><small>Jiajun Zhai et al.</small> | 2026-04-06 |  |
 
 ## World Model
 

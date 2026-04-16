@@ -1,5 +1,29 @@
 [
   {
+    "id": "2604.13733v1",
+    "title": "Jump-Start Reinforcement Learning with Vision-Language-Action Regularization",
+    "authors": [
+      "Angelo Moroncelli",
+      "Roberto Zanetti",
+      "Marco Maccarini",
+      "Loris Roveda"
+    ],
+    "summary": "Reinforcement learning (RL) enables high-frequency, closed-loop control for robotic manipulation, but scaling to long-horizon tasks with sparse or imperfect rewards remains difficult due to inefficient exploration and poor credit assignment. Vision-Language-Action (VLA) models leverage large-scale multimodal pretraining to provide generalist, task-level reasoning, but current limitations hinder their direct use in fast and precise manipulation. In this paper, we propose Vision-Language-Action Ju",
+    "published": "2026-04-15",
+    "published_iso": "2026-04-15T11:17:54+00:00",
+    "url": "https://arxiv.org/abs/2604.13733v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.13733v1",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.RO"
+    ],
+    "primary_category": "cs.LG",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
     "id": "2604.12447v1",
     "title": "HazardArena: Evaluating Semantic Safety in Vision-Language-Action Models",
     "authors": [
@@ -233,7 +257,7 @@
     "auto_category": "VLA"
   },
   {
-    "id": "2604.05672v2",
+    "id": "2604.05672v3",
     "title": "A1: A Fully Transparent Open-Source, Adaptive and Efficient Truncated Vision-Language-Action Model",
     "authors": [
       "Kaidong Zhang",
@@ -263,8 +287,8 @@
     "summary": "Vision-Language-Action (VLA) models have emerged as a powerful paradigm for open-world robot manipulation, but their practical deployment is often constrained by cost: billion-scale VLM backbones and iterative diffusion/flow-based action heads incur high latency and compute, making real-time control expensive on commodity hardware. We present A1, a fully open-source and transparent VLA framework designed for low-cost, high-throughput inference without sacrificing manipulation success; Our approa",
     "published": "2026-04-07",
     "published_iso": "2026-04-07T10:18:40+00:00",
-    "url": "https://arxiv.org/abs/2604.05672v2",
-    "pdf_url": "https://arxiv.org/pdf/2604.05672v2",
+    "url": "https://arxiv.org/abs/2604.05672v3",
+    "pdf_url": "https://arxiv.org/pdf/2604.05672v3",
     "categories": [
       "cs.RO"
     ],
@@ -793,32 +817,6 @@
       "cs.LG"
     ],
     "primary_category": "cs.LG",
-    "code_url": null,
-    "project_url": null,
-    "auto_category": "VLA"
-  },
-  {
-    "id": "2604.09651v1",
-    "title": "FlowHijack: A Dynamics-Aware Backdoor Attack on Flow-Matching Vision-Language-Action Models",
-    "authors": [
-      "Xinyuan An",
-      "Tao Luo",
-      "Gengyun Peng",
-      "Yaobing Wang",
-      "Kui Ren",
-      "Dongxia Wang"
-    ],
-    "summary": "Vision-Language-Action (VLA) models are emerging as a cornerstone for robotics, with flow-matching policies like $π_0$ showing great promise in generating smooth, continuous actions. As these models advance, their unique action generation mechanism - the vector field dynamics - presents a critical yet unexplored security vulnerability, particularly backdoor vulnerabilities. Existing backdoor attacks designed for autoregressive discretization VLAs cannot be directly applied to this new continuous",
-    "published": "2026-03-30",
-    "published_iso": "2026-03-30T03:54:04+00:00",
-    "url": "https://arxiv.org/abs/2604.09651v1",
-    "pdf_url": "https://arxiv.org/pdf/2604.09651v1",
-    "categories": [
-      "cs.CV",
-      "cs.LG",
-      "cs.RO"
-    ],
-    "primary_category": "cs.CV",
     "code_url": null,
     "project_url": null,
     "auto_category": "VLA"
