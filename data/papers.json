@@ -1,5 +1,32 @@
 [
   {
+    "id": "2604.14732v1",
+    "title": "World-Value-Action Model: Implicit Planning for Vision-Language-Action Systems",
+    "authors": [
+      "Runze Li",
+      "Hongyin Zhang",
+      "Junxi Jin",
+      "Qixin Zeng",
+      "Zifeng Zhuang",
+      "Yiqi Tang",
+      "Shangke Lyu",
+      "Donglin Wang"
+    ],
+    "summary": "Vision-Language-Action (VLA) models have emerged as a promising paradigm for building embodied agents that ground perception and language into action. However, most existing approaches rely on direct action prediction, lacking the ability to reason over long-horizon trajectories and evaluate their consequences, which limits performance in complex decision-making tasks. In this work, we introduce World-Value-Action (WAV) model, a unified framework that enables implicit planning in VLA systems. Ra",
+    "published": "2026-04-16",
+    "published_iso": "2026-04-16T07:46:05+00:00",
+    "url": "https://arxiv.org/abs/2604.14732v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.14732v1",
+    "categories": [
+      "cs.RO",
+      "cs.LG"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
     "id": "2604.13733v1",
     "title": "Jump-Start Reinforcement Learning with Vision-Language-Action Regularization",
     "authors": [
@@ -794,29 +821,6 @@
       "cs.CV"
     ],
     "primary_category": "cs.RO",
-    "code_url": null,
-    "project_url": null,
-    "auto_category": "VLA"
-  },
-  {
-    "id": "2603.28301v1",
-    "title": "LIBERO-Para: A Diagnostic Benchmark and Metrics for Paraphrase Robustness in VLA Models",
-    "authors": [
-      "Chanyoung Kim",
-      "Minwoo Kim",
-      "Minseok Kang",
-      "Hyunwoo Kim",
-      "Dahuin Jung"
-    ],
-    "summary": "Vision-Language-Action (VLA) models achieve strong performance in robotic manipulation by leveraging pre-trained vision-language backbones. However, in downstream robotic settings, they are typically fine-tuned with limited data, leading to overfitting to specific instruction formulations and leaving robustness to paraphrased instructions underexplored. To study this gap, we introduce LIBERO-Para, a controlled benchmark that independently varies action expressions and object references for fine-",
-    "published": "2026-03-30",
-    "published_iso": "2026-03-30T11:27:34+00:00",
-    "url": "https://arxiv.org/abs/2603.28301v1",
-    "pdf_url": "https://arxiv.org/pdf/2603.28301v1",
-    "categories": [
-      "cs.LG"
-    ],
-    "primary_category": "cs.LG",
     "code_url": null,
     "project_url": null,
     "auto_category": "VLA"

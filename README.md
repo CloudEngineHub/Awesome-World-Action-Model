@@ -69,12 +69,13 @@ This repository aims to provide a comprehensive, curated, and continuously updat
 
 ## 🆕 Latest Papers (Auto-updated)
 
-> Papers are automatically fetched daily from arXiv. Last updated: 2026-04-15
+> Papers are automatically fetched daily from arXiv. Last updated: 2026-04-16
 
 ### VLA
 
 | Paper | Date | Code |
 |-------|------|------|
+| [World-Value-Action Model: Implicit Planning for Vision-Language-Action Systems](https://arxiv.org/abs/2604.14732v1)<br><small>Runze Li, Hongyin Zhang et al.</small> | 2026-04-16 |  |
 | [Jump-Start Reinforcement Learning with Vision-Language-Action Regularization](https://arxiv.org/abs/2604.13733v1)<br><small>Angelo Moroncelli, Roberto Zanetti et al.</small> | 2026-04-15 |  |
 | [HazardArena: Evaluating Semantic Safety in Vision-Language-Action Models](https://arxiv.org/abs/2604.12447v1)<br><small>Zixing Chen, Yifeng Gao et al.</small> | 2026-04-14 |  |
 | [StarVLA-$α$: Reducing Complexity in Vision-Language-Action Systems](https://arxiv.org/abs/2604.11757v1)<br><small>Jinhui Ye, Ning Gao et al.</small> | 2026-04-13 |  |
@@ -84,7 +85,6 @@ This repository aims to provide a comprehensive, curated, and continuously updat
 | [ProGAL-VLA: Grounded Alignment through Prospective Reasoning in Vision-Language-Action Models](https://arxiv.org/abs/2604.09824v1)<br><small>Nastaran Darabi, Amit Ranjan Trivedi</small> | 2026-04-10 |  |
 | [2D or 3D: Who Governs Salience in VLA Models? -- Tri-Stage Token Pruning Framework with Modality Salience Awareness](https://arxiv.org/abs/2604.09244v1)<br><small>Zihao Zheng, Sicheng Tian et al.</small> | 2026-04-10 |  |
 | [Learning Vision-Language-Action World Models for Autonomous Driving](https://arxiv.org/abs/2604.09059v1)<br><small>Guoqing Wang, Pin Tang et al.</small> | 2026-04-10 |  |
-| [A1: A Fully Transparent Open-Source, Adaptive and Efficient Truncated Vision-Language-Action Model](https://arxiv.org/abs/2604.05672v3)<br><small>Kaidong Zhang, Jian Zhang et al.</small> | 2026-04-07 |  |
 
 ### World Model
 
