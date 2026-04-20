@@ -1,6 +1,6 @@
 # 📚 Latest ArXiv Papers - World Action Models
 
-Generated on: 2026-04-19 02:50:44
+Generated on: 2026-04-20 02:51:30
 
 Total papers: 50
 
@@ -8,6 +8,8 @@ Total papers: 50
 
 | Paper | Date | Code |
 |-------|------|------|
+| [AEGIS: Anchor-Enforced Gradient Isolation for Knowledge-Preserving Vision-Language-Action Fine-Tuning](https://arxiv.org/abs/2604.16067v1)<br><small>Guransh Singh</small> | 2026-04-17 |  |
+| [Long-Term Memory for VLA-based Agents in Open-World Task Execution](https://arxiv.org/abs/2604.15671v1)<br><small>Xu Huang et al.</small> | 2026-04-17 |  |
 | [World-Value-Action Model: Implicit Planning for Vision-Language-Action Systems](https://arxiv.org/abs/2604.14732v1)<br><small>Runze Li et al.</small> | 2026-04-16 |  |
 | [Jump-Start Reinforcement Learning with Vision-Language-Action Regularization](https://arxiv.org/abs/2604.13733v1)<br><small>Angelo Moroncelli et al.</small> | 2026-04-15 |  |
 | [HazardArena: Evaluating Semantic Safety in Vision-Language-Action Models](https://arxiv.org/abs/2604.12447v1)<br><small>Zixing Chen et al.</small> | 2026-04-14 |  |
@@ -21,8 +23,6 @@ Total papers: 50
 | [A1: A Fully Transparent Open-Source, Adaptive and Efficient Truncated Vision-Language-Action Model](https://arxiv.org/abs/2604.05672v3)<br><small>Kaidong Zhang et al.</small> | 2026-04-07 |  |
 | [SnapFlow: One-Step Action Generation for Flow-Matching VLAs via Progressive Self-Distillation](https://arxiv.org/abs/2604.05656v1)<br><small>Wuyang Luan et al.</small> | 2026-04-07 |  |
 | [Grounding Hierarchical Vision-Language-Action Models Through Explicit Language-Action Alignment](https://arxiv.org/abs/2604.05614v1)<br><small>Theodor Wulff et al.</small> | 2026-04-07 |  |
-| [Uncovering Linguistic Fragility in Vision-Language-Action Models via Diversity-Aware Red Teaming](https://arxiv.org/abs/2604.05595v1)<br><small>Baoshun Tong et al.</small> | 2026-04-07 |  |
-| [VLA-InfoEntropy: A Training-Free Vision-Attention Information Entropy Approach for Vision-Language-Action Models Inference Acceleration and Success](https://arxiv.org/abs/2604.05323v1)<br><small>Chuhang Liu et al.</small> | 2026-04-07 |  |
 
 ## World Model
 

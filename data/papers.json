@@ -1,5 +1,48 @@
 [
   {
+    "id": "2604.16067v1",
+    "title": "AEGIS: Anchor-Enforced Gradient Isolation for Knowledge-Preserving Vision-Language-Action Fine-Tuning",
+    "authors": [
+      "Guransh Singh"
+    ],
+    "summary": "Adapting pre-trained vision-language models (VLMs) for robotic control requires injecting high-magnitude continuous gradients from a flow-matching action expert into a backbone trained exclusively with cross-entropy. This cross-modal gradient asymmetry - the spectral dimensionality mismatch between low-rank MSE regression gradients and the high-dimensional semantic manifold sculpted by CE pre-training, causes rapid, severe erosion of the VLM's visual-question-answering (VQA) capability. Industry",
+    "published": "2026-04-17",
+    "published_iso": "2026-04-17T13:49:57+00:00",
+    "url": "https://arxiv.org/abs/2604.16067v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.16067v1",
+    "categories": [
+      "cs.LG",
+      "cs.CV"
+    ],
+    "primary_category": "cs.LG",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
+    "id": "2604.15671v1",
+    "title": "Long-Term Memory for VLA-based Agents in Open-World Task Execution",
+    "authors": [
+      "Xu Huang",
+      "Weixin Mao",
+      "Yinhao Li",
+      "Hua Chen",
+      "Jiabao Zhao"
+    ],
+    "summary": "Vision-Language-Action (VLA) models have demonstrated significant potential for embodied decision-making; however, their application in complex chemical laboratory automation remains restricted by limited long-horizon reasoning and the absence of persistent experience accumulation. Existing frameworks typically treat planning and execution as decoupled processes, often failing to consolidate successful strategies, which results in inefficient trial-and-error in multi-stage protocols. In this pap",
+    "published": "2026-04-17",
+    "published_iso": "2026-04-17T03:49:41+00:00",
+    "url": "https://arxiv.org/abs/2604.15671v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.15671v1",
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
     "id": "2604.14732v1",
     "title": "World-Value-Action Model: Implicit Planning for Vision-Language-Action Systems",
     "authors": [
@@ -771,59 +814,6 @@
     "code_url": null,
     "project_url": null,
     "auto_category": "Policy"
-  },
-  {
-    "id": "2603.28740v1",
-    "title": "FocusVLA: Focused Visual Utilization for Vision-Language-Action Models",
-    "authors": [
-      "Yichi Zhang",
-      "Weihao Yuan",
-      "Yizhuo Zhang",
-      "Xidong Zhang",
-      "Jia Wan"
-    ],
-    "summary": "Vision-Language-Action (VLA) models improve action generation by conditioning policies on rich vision-language information. However, current auto-regressive policies are constrained by three bottlenecks: (1) architectural bias drives models to overlook visual details, (2) an excessive number of visual tokens makes attention difficult to focus on the correct regions, and (3) task-irrelevant visual information introduces substantial noise - together severely impairing the quality of action. In thi",
-    "published": "2026-03-30",
-    "published_iso": "2026-03-30T17:50:54+00:00",
-    "url": "https://arxiv.org/abs/2603.28740v1",
-    "pdf_url": "https://arxiv.org/pdf/2603.28740v1",
-    "categories": [
-      "cs.RO"
-    ],
-    "primary_category": "cs.RO",
-    "code_url": null,
-    "project_url": null,
-    "auto_category": "VLA"
-  },
-  {
-    "id": "2603.28565v1",
-    "title": "StreamingVLA: Streaming Vision-Language-Action Model with Action Flow Matching and Adaptive Early Observation",
-    "authors": [
-      "Yiran Shi",
-      "Dongqi Guo",
-      "Tianchen Zhao",
-      "Feng Gao",
-      "Liangzhi Shi",
-      "Chao Yu",
-      "ZhiJian Mo",
-      "Qihua Xiao",
-      "XiaoShuai Peng",
-      "Qingmin Liao",
-      "Yu Wang"
-    ],
-    "summary": "Vision-language-action (VLA) models have demonstrated exceptional performance in natural language-driven perception and control. However, the high computational cost of VLA models poses significant efficiency challenges, particularly for resource-constrained edge platforms in real-world deployments. However, since different stages of VLA (observation, action generation and execution) must proceed sequentially, and wait for the completion of the preceding stage, the system suffers from frequent h",
-    "published": "2026-03-30",
-    "published_iso": "2026-03-30T15:23:27+00:00",
-    "url": "https://arxiv.org/abs/2603.28565v1",
-    "pdf_url": "https://arxiv.org/pdf/2603.28565v1",
-    "categories": [
-      "cs.RO",
-      "cs.CV"
-    ],
-    "primary_category": "cs.RO",
-    "code_url": null,
-    "project_url": null,
-    "auto_category": "VLA"
   },
   {
     "id": "2603.24581v1",

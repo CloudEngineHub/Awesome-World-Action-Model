@@ -69,12 +69,14 @@ This repository aims to provide a comprehensive, curated, and continuously updat
 
 ## 🆕 Latest Papers (Auto-updated)
 
-> Papers are automatically fetched daily from arXiv. Last updated: 2026-04-16
+> Papers are automatically fetched daily from arXiv. Last updated: 2026-04-17
 
 ### VLA
 
 | Paper | Date | Code |
 |-------|------|------|
+| [AEGIS: Anchor-Enforced Gradient Isolation for Knowledge-Preserving Vision-Language-Action Fine-Tuning](https://arxiv.org/abs/2604.16067v1)<br><small>Guransh Singh</small> | 2026-04-17 |  |
+| [Long-Term Memory for VLA-based Agents in Open-World Task Execution](https://arxiv.org/abs/2604.15671v1)<br><small>Xu Huang, Weixin Mao et al.</small> | 2026-04-17 |  |
 | [World-Value-Action Model: Implicit Planning for Vision-Language-Action Systems](https://arxiv.org/abs/2604.14732v1)<br><small>Runze Li, Hongyin Zhang et al.</small> | 2026-04-16 |  |
 | [Jump-Start Reinforcement Learning with Vision-Language-Action Regularization](https://arxiv.org/abs/2604.13733v1)<br><small>Angelo Moroncelli, Roberto Zanetti et al.</small> | 2026-04-15 |  |
 | [HazardArena: Evaluating Semantic Safety in Vision-Language-Action Models](https://arxiv.org/abs/2604.12447v1)<br><small>Zixing Chen, Yifeng Gao et al.</small> | 2026-04-14 |  |
@@ -83,8 +85,6 @@ This repository aims to provide a comprehensive, curated, and continuously updat
 | [AnySlot: Goal-Conditioned Vision-Language-Action Policies for Zero-Shot Slot-Level Placement](https://arxiv.org/abs/2604.10432v2)<br><small>Zhaofeng Hu, Sifan Zhou et al.</small> | 2026-04-12 |  |
 | [STRONG-VLA: Decoupled Robustness Learning for Vision-Language-Action Models under Multimodal Perturbations](https://arxiv.org/abs/2604.10055v2)<br><small>Yuhan Xie, Yuping Yan et al.</small> | 2026-04-11 |  |
 | [ProGAL-VLA: Grounded Alignment through Prospective Reasoning in Vision-Language-Action Models](https://arxiv.org/abs/2604.09824v1)<br><small>Nastaran Darabi, Amit Ranjan Trivedi</small> | 2026-04-10 |  |
-| [2D or 3D: Who Governs Salience in VLA Models? -- Tri-Stage Token Pruning Framework with Modality Salience Awareness](https://arxiv.org/abs/2604.09244v1)<br><small>Zihao Zheng, Sicheng Tian et al.</small> | 2026-04-10 |  |
-| [Learning Vision-Language-Action World Models for Autonomous Driving](https://arxiv.org/abs/2604.09059v1)<br><small>Guoqing Wang, Pin Tang et al.</small> | 2026-04-10 |  |
 
 ### World Model
 
