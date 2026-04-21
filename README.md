@@ -69,22 +69,22 @@ This repository aims to provide a comprehensive, curated, and continuously updat
 
 ## 🆕 Latest Papers (Auto-updated)
 
-> Papers are automatically fetched daily from arXiv. Last updated: 2026-04-17
+> Papers are automatically fetched daily from arXiv. Last updated: 2026-04-20
 
 ### VLA
 
 | Paper | Date | Code |
 |-------|------|------|
+| [Unmasking the Illusion of Embodied Reasoning in Vision-Language-Action Models](https://arxiv.org/abs/2604.18000v1)<br><small>Haiweng Xu, Sipeng Zheng et al.</small> | 2026-04-20 |  |
+| [OneDrive: Unified Multi-Paradigm Driving with Vision-Language-Action Models](https://arxiv.org/abs/2604.17915v1)<br><small>Yiwei Zhang, Xuesong Chen et al.</small> | 2026-04-20 |  |
+| [Can Explicit Physical Feasibility Benefit VLA Learning? An Empirical Study](https://arxiv.org/abs/2604.17896v1)<br><small>Yubai Wei, Chen Wu et al.</small> | 2026-04-20 |  |
+| [ST-$π$: Structured SpatioTemporal VLA for Robotic Manipulation](https://arxiv.org/abs/2604.17880v1)<br><small>Chuanhao Ma, Hanyu Zhou et al.</small> | 2026-04-20 |  |
+| [AnchorRefine: Synergy-Manipulation Based on Trajectory Anchor and Residual Refinement for Vision-Language-Action Models](https://arxiv.org/abs/2604.17787v1)<br><small>Tingzheng Jia, Kan Guo et al.</small> | 2026-04-20 |  |
+| [OmniVLA-RL: A Vision-Language-Action Model with Spatial Understanding and Online RL](https://arxiv.org/abs/2604.17706v1)<br><small>Haoxiang Jie, Yaoyuan Yan et al.</small> | 2026-04-20 |  |
+| [ReconVLA: An Uncertainty-Guided and Failure-Aware Vision-Language-Action Framework for Robotic Control](https://arxiv.org/abs/2604.16677v1)<br><small>Lingling Chen, Zongyao Lyu et al.</small> | 2026-04-17 |  |
 | [AEGIS: Anchor-Enforced Gradient Isolation for Knowledge-Preserving Vision-Language-Action Fine-Tuning](https://arxiv.org/abs/2604.16067v1)<br><small>Guransh Singh</small> | 2026-04-17 |  |
 | [Long-Term Memory for VLA-based Agents in Open-World Task Execution](https://arxiv.org/abs/2604.15671v1)<br><small>Xu Huang, Weixin Mao et al.</small> | 2026-04-17 |  |
-| [World-Value-Action Model: Implicit Planning for Vision-Language-Action Systems](https://arxiv.org/abs/2604.14732v1)<br><small>Runze Li, Hongyin Zhang et al.</small> | 2026-04-16 |  |
-| [Jump-Start Reinforcement Learning with Vision-Language-Action Regularization](https://arxiv.org/abs/2604.13733v1)<br><small>Angelo Moroncelli, Roberto Zanetti et al.</small> | 2026-04-15 |  |
-| [HazardArena: Evaluating Semantic Safety in Vision-Language-Action Models](https://arxiv.org/abs/2604.12447v1)<br><small>Zixing Chen, Yifeng Gao et al.</small> | 2026-04-14 |  |
-| [StarVLA-$α$: Reducing Complexity in Vision-Language-Action Systems](https://arxiv.org/abs/2604.11757v1)<br><small>Jinhui Ye, Ning Gao et al.</small> | 2026-04-13 |  |
-| [DA-PTQ: Drift-Aware Post-Training Quantization for Efficient Vision-Language-Action Models](https://arxiv.org/abs/2604.11572v1)<br><small>Siyuan Xu, Tianshi Wang et al.</small> | 2026-04-13 |  |
-| [AnySlot: Goal-Conditioned Vision-Language-Action Policies for Zero-Shot Slot-Level Placement](https://arxiv.org/abs/2604.10432v2)<br><small>Zhaofeng Hu, Sifan Zhou et al.</small> | 2026-04-12 |  |
-| [STRONG-VLA: Decoupled Robustness Learning for Vision-Language-Action Models under Multimodal Perturbations](https://arxiv.org/abs/2604.10055v2)<br><small>Yuhan Xie, Yuping Yan et al.</small> | 2026-04-11 |  |
-| [ProGAL-VLA: Grounded Alignment through Prospective Reasoning in Vision-Language-Action Models](https://arxiv.org/abs/2604.09824v1)<br><small>Nastaran Darabi, Amit Ranjan Trivedi</small> | 2026-04-10 |  |
+| [World-Value-Action Model: Implicit Planning for Vision-Language-Action Systems](https://arxiv.org/abs/2604.14732v2)<br><small>Runze Li, Hongyin Zhang et al.</small> | 2026-04-16 |  |
 
 ### World Model
 
