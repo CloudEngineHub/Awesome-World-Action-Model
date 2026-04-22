@@ -69,27 +69,28 @@ This repository aims to provide a comprehensive, curated, and continuously updat
 
 ## 🆕 Latest Papers (Auto-updated)
 
-> Papers are automatically fetched daily from arXiv. Last updated: 2026-04-20
+> Papers are automatically fetched daily from arXiv. Last updated: 2026-04-21
 
 ### VLA
 
 | Paper | Date | Code |
 |-------|------|------|
+| [VLA Foundry: A Unified Framework for Training Vision-Language-Action Models](https://arxiv.org/abs/2604.19728v1)<br><small>Jean Mercat, Sedrick Keh et al.</small> | 2026-04-21 |  |
+| [SpanVLA: Efficient Action Bridging and Learning from Negative-Recovery Samples for Vision-Language-Action Model](https://arxiv.org/abs/2604.19710v1)<br><small>Zewei Zhou, Ruining Yang et al.</small> | 2026-04-21 |  |
+| [HELM: Harness-Enhanced Long-horizon Memory for Vision-Language-Action Manipulation](https://arxiv.org/abs/2604.18791v1)<br><small>Zijian Zeng, Fei Ding et al.</small> | 2026-04-20 |  |
+| [Test-Time Perturbation Learning with Delayed Feedback for Vision-Language-Action Models](https://arxiv.org/abs/2604.18107v1)<br><small>Zehua Zang, Xi Wang et al.</small> | 2026-04-20 |  |
 | [Unmasking the Illusion of Embodied Reasoning in Vision-Language-Action Models](https://arxiv.org/abs/2604.18000v1)<br><small>Haiweng Xu, Sipeng Zheng et al.</small> | 2026-04-20 |  |
 | [OneDrive: Unified Multi-Paradigm Driving with Vision-Language-Action Models](https://arxiv.org/abs/2604.17915v1)<br><small>Yiwei Zhang, Xuesong Chen et al.</small> | 2026-04-20 |  |
 | [Can Explicit Physical Feasibility Benefit VLA Learning? An Empirical Study](https://arxiv.org/abs/2604.17896v1)<br><small>Yubai Wei, Chen Wu et al.</small> | 2026-04-20 |  |
 | [ST-$π$: Structured SpatioTemporal VLA for Robotic Manipulation](https://arxiv.org/abs/2604.17880v1)<br><small>Chuanhao Ma, Hanyu Zhou et al.</small> | 2026-04-20 |  |
 | [AnchorRefine: Synergy-Manipulation Based on Trajectory Anchor and Residual Refinement for Vision-Language-Action Models](https://arxiv.org/abs/2604.17787v1)<br><small>Tingzheng Jia, Kan Guo et al.</small> | 2026-04-20 |  |
 | [OmniVLA-RL: A Vision-Language-Action Model with Spatial Understanding and Online RL](https://arxiv.org/abs/2604.17706v1)<br><small>Haoxiang Jie, Yaoyuan Yan et al.</small> | 2026-04-20 |  |
-| [ReconVLA: An Uncertainty-Guided and Failure-Aware Vision-Language-Action Framework for Robotic Control](https://arxiv.org/abs/2604.16677v1)<br><small>Lingling Chen, Zongyao Lyu et al.</small> | 2026-04-17 |  |
-| [AEGIS: Anchor-Enforced Gradient Isolation for Knowledge-Preserving Vision-Language-Action Fine-Tuning](https://arxiv.org/abs/2604.16067v1)<br><small>Guransh Singh</small> | 2026-04-17 |  |
-| [Long-Term Memory for VLA-based Agents in Open-World Task Execution](https://arxiv.org/abs/2604.15671v1)<br><small>Xu Huang, Weixin Mao et al.</small> | 2026-04-17 |  |
-| [World-Value-Action Model: Implicit Planning for Vision-Language-Action Systems](https://arxiv.org/abs/2604.14732v2)<br><small>Runze Li, Hongyin Zhang et al.</small> | 2026-04-16 |  |
 
 ### World Model
 
 | Paper | Date | Code |
 |-------|------|------|
+| [RoboWM-Bench: A Benchmark for Evaluating World Models in Robotic Manipulation](https://arxiv.org/abs/2604.19092v1)<br><small>Feng Jiang, Yang Chen et al.</small> | 2026-04-21 |  |
 | [AIM: Intent-Aware Unified world action Modeling with Spatial Value Maps](https://arxiv.org/abs/2604.11135v1)<br><small>Liaoyuan Fan, Zetian Xu et al.</small> | 2026-04-13 |  |
 | [JailWAM: Jailbreaking World Action Models in Robot Control](https://arxiv.org/abs/2604.05498v1)<br><small>Hanqing Liu, Songping Wang et al.</small> | 2026-04-07 |  |
 | [DriveDreamer-Policy: A Geometry-Grounded World-Action Model for Unified Generation and Planning](https://arxiv.org/abs/2604.01765v1)<br><small>Yang Zhou, Xiaofeng Wang et al.</small> | 2026-04-02 |  |
@@ -99,7 +100,6 @@ This repository aims to provide a comprehensive, curated, and continuously updat
 | [Causal World Modeling for Robot Control](https://arxiv.org/abs/2601.21998v2)<br><small>Lin Li, Qihang Zhang et al.</small> | 2026-01-29 |  |
 | [STORM: Search-Guided Generative World Models for Robotic Manipulation](https://arxiv.org/abs/2512.18477v1)<br><small>Wenjun Lin, Jensen Zhang et al.</small> | 2025-12-20 |  |
 | [Dynamic Sparsity: Challenging Common Sparsity Assumptions for Learning World Models in Robotic Reinforcement Learning Benchmarks](https://arxiv.org/abs/2511.08086v2)<br><small>Muthukumar Pandaram, Jakob Hollenstein et al.</small> | 2025-11-11 |  |
-| [Ctrl-World: A Controllable Generative World Model for Robot Manipulation](https://arxiv.org/abs/2510.10125v3)<br><small>Yanjiang Guo, Lucy Xiaoyang Shi et al.</small> | 2025-10-11 |  |
 
 ### Policy
 

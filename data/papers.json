@@ -1,5 +1,142 @@
 [
   {
+    "id": "2604.19728v1",
+    "title": "VLA Foundry: A Unified Framework for Training Vision-Language-Action Models",
+    "authors": [
+      "Jean Mercat",
+      "Sedrick Keh",
+      "Kushal Arora",
+      "Isabella Huang",
+      "Paarth Shah",
+      "Haruki Nishimura",
+      "Shun Iwase",
+      "Katherine Liu"
+    ],
+    "summary": "We present VLA Foundry, an open-source framework that unifies LLM, VLM, and VLA training in a single codebase. Most open-source VLA efforts specialize on the action training stage, often stitching together incompatible pretraining pipelines. VLA Foundry instead provides a shared training stack with end-to-end control, from language pretraining to action-expert fine-tuning. VLA Foundry supports both from-scratch training and pretrained backbones from Hugging Face. To demonstrate the utility of ou",
+    "published": "2026-04-21",
+    "published_iso": "2026-04-21T17:51:51+00:00",
+    "url": "https://arxiv.org/abs/2604.19728v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.19728v1",
+    "categories": [
+      "cs.RO",
+      "cs.AI",
+      "cs.CV",
+      "cs.LG",
+      "cs.SE"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
+    "id": "2604.19710v1",
+    "title": "SpanVLA: Efficient Action Bridging and Learning from Negative-Recovery Samples for Vision-Language-Action Model",
+    "authors": [
+      "Zewei Zhou",
+      "Ruining Yang",
+      "Xuewei",
+      "Qi",
+      "Yiluan Guo",
+      "Sherry X. Chen",
+      "Tao Feng",
+      "Kateryna Pistunova",
+      "Yishan Shen",
+      "Lili Su",
+      "Jiaqi Ma"
+    ],
+    "summary": "Vision-Language-Action (VLA) models offer a promising autonomous driving paradigm for leveraging world knowledge and reasoning capabilities, especially in long-tail scenarios. However, existing VLA models often struggle with the high latency in action generation using an autoregressive generation framework and exhibit limited robustness. In this paper, we propose SpanVLA, a novel end-to-end autonomous driving framework, integrating an autoregressive reasoning and a flow-matching action expert. F",
+    "published": "2026-04-21",
+    "published_iso": "2026-04-21T17:34:19+00:00",
+    "url": "https://arxiv.org/abs/2604.19710v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.19710v1",
+    "categories": [
+      "cs.CV"
+    ],
+    "primary_category": "cs.CV",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
+    "id": "2604.19092v1",
+    "title": "RoboWM-Bench: A Benchmark for Evaluating World Models in Robotic Manipulation",
+    "authors": [
+      "Feng Jiang",
+      "Yang Chen",
+      "Kyle Xu",
+      "Yuchen Liu",
+      "Haifeng Wang",
+      "Zhenhao Shen",
+      "Jasper Lu",
+      "Shengze Huang",
+      "Yuanfei Wang",
+      "Chen Xie",
+      "Ruihai Wu"
+    ],
+    "summary": "Recent advances in large-scale video world models have enabled increasingly realistic future prediction, raising the prospect of leveraging imagined videos for robot learning. However, visual realism does not imply physical plausibility, and behaviors inferred from generated videos may violate dynamics and fail when executed by embodied agents. Existing benchmarks begin to incorporate notions of physical plausibility, but they largely remain perception- or diagnostic-oriented and do not systemat",
+    "published": "2026-04-21",
+    "published_iso": "2026-04-21T05:09:56+00:00",
+    "url": "https://arxiv.org/abs/2604.19092v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.19092v1",
+    "categories": [
+      "cs.RO",
+      "cs.AI"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "World Model"
+  },
+  {
+    "id": "2604.18791v1",
+    "title": "HELM: Harness-Enhanced Long-horizon Memory for Vision-Language-Action Manipulation",
+    "authors": [
+      "Zijian Zeng",
+      "Fei Ding",
+      "Huiming Yang",
+      "Xianwei Li"
+    ],
+    "summary": "Vision-Language-Action (VLA) models fail systematically on long-horizon manipulation tasks despite strong short-horizon performance. We show that this failure is not resolved by extending context length alone in the current reactive execution setting; instead, it stems from three recurring execution-loop deficiencies: the memory gap, the verification gap, and the recovery gap. We present HELM, a model-agnostic framework that addresses these deficiencies with three components: an Episodic Memory ",
+    "published": "2026-04-20",
+    "published_iso": "2026-04-20T19:57:35+00:00",
+    "url": "https://arxiv.org/abs/2604.18791v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.18791v1",
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "primary_category": "cs.LG",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
+    "id": "2604.18107v1",
+    "title": "Test-Time Perturbation Learning with Delayed Feedback for Vision-Language-Action Models",
+    "authors": [
+      "Zehua Zang",
+      "Xi Wang",
+      "Fuchun Sun",
+      "Xiao Xu",
+      "Lixiang Lium",
+      "Jiahuan Zhou",
+      "Jiangmeng Li"
+    ],
+    "summary": "Vision-Language-Action models (VLAs) achieve remarkable performance in sequential decision-making but remain fragile to subtle environmental shifts, such as small changes in object pose. We attribute this brittleness to trajectory overfitting, where VLAs over-attend to the spurious correlation between actions and entities, then reproduce memorized action patterns. We propose Perturbation learning with Delayed Feedback (PDF), a verifier-free test-time adaptation framework that improves decision p",
+    "published": "2026-04-20",
+    "published_iso": "2026-04-20T11:25:51+00:00",
+    "url": "https://arxiv.org/abs/2604.18107v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.18107v1",
+    "categories": [
+      "cs.CV"
+    ],
+    "primary_category": "cs.CV",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
     "id": "2604.18000v1",
     "title": "Unmasking the Illusion of Embodied Reasoning in Vision-Language-Action Models",
     "authors": [
@@ -667,100 +804,6 @@
     "auto_category": "VLA"
   },
   {
-    "id": "2604.05014v1",
-    "title": "StarVLA: A Lego-like Codebase for Vision-Language-Action Model Developing",
-    "authors": [
-      "StarVLA Community"
-    ],
-    "summary": "Building generalist embodied agents requires integrating perception, language understanding, and action, which are core capabilities addressed by Vision-Language-Action (VLA) approaches based on multimodal foundation models, including recent advances in vision-language models and world models. Despite rapid progress, VLA methods remain fragmented across incompatible architectures, codebases, and evaluation protocols, hindering principled comparison and reproducibility. We present StarVLA, an ope",
-    "published": "2026-04-06",
-    "published_iso": "2026-04-06T17:59:21+00:00",
-    "url": "https://arxiv.org/abs/2604.05014v1",
-    "pdf_url": "https://arxiv.org/pdf/2604.05014v1",
-    "categories": [
-      "cs.RO",
-      "cs.AI",
-      "cs.CV"
-    ],
-    "primary_category": "cs.RO",
-    "code_url": null,
-    "project_url": null,
-    "auto_category": "VLA"
-  },
-  {
-    "id": "2604.04834v1",
-    "title": "E-VLA: Event-Augmented Vision-Language-Action Model for Dark and Blurred Scenes",
-    "authors": [
-      "Jiajun Zhai",
-      "Hao Shi",
-      "Shangwei Guo",
-      "Kailun Yang",
-      "Kaiwei Wang"
-    ],
-    "summary": "Robotic Vision-Language-Action (VLA) models generalize well for open-ended manipulation, but their perception is fragile under sensing-stage degradations such as extreme low light, motion blur, and black clipping. We present E-VLA, an event-augmented VLA framework that improves manipulation robustness when conventional frame-based vision becomes unreliable. Instead of reconstructing images from events, E-VLA directly leverages motion and structural cues in event streams to preserve semantic perc",
-    "published": "2026-04-06",
-    "published_iso": "2026-04-06T16:35:57+00:00",
-    "url": "https://arxiv.org/abs/2604.04834v1",
-    "pdf_url": "https://arxiv.org/pdf/2604.04834v1",
-    "categories": [
-      "cs.CV",
-      "cs.MM",
-      "cs.RO",
-      "eess.IV"
-    ],
-    "primary_category": "cs.CV",
-    "code_url": null,
-    "project_url": null,
-    "auto_category": "VLA"
-  },
-  {
-    "id": "2604.04161v2",
-    "title": "Adaptive Action Chunking at Inference-time for Vision-Language-Action Models",
-    "authors": [
-      "Yuanchang Liang",
-      "Xiaobo Wang",
-      "Kai Wang",
-      "Shuo Wang",
-      "Xiaojiang Peng",
-      "Haoyu Chen",
-      "David Kim Huat Chua",
-      "Prahlad Vadakkepat"
-    ],
-    "summary": "In Vision-Language-Action (VLA) models, action chunking (i.e., executing a sequence of actions without intermediate replanning) is a key technique to improve robotic manipulation abilities. However, a large chunk size reduces the model's responsiveness to new information, while a small one increases the likelihood of mode-jumping, jerky behavior resulting from discontinuities between chunks. Therefore, selecting the optimal chunk size is an urgent demand to balance the model's reactivity and con",
-    "published": "2026-04-05",
-    "published_iso": "2026-04-05T16:03:32+00:00",
-    "url": "https://arxiv.org/abs/2604.04161v2",
-    "pdf_url": "https://arxiv.org/pdf/2604.04161v2",
-    "categories": [
-      "cs.RO"
-    ],
-    "primary_category": "cs.RO",
-    "code_url": null,
-    "project_url": null,
-    "auto_category": "VLA"
-  },
-  {
-    "id": "2604.03956v1",
-    "title": "VLA-Forget: Vision-Language-Action Unlearning for Embodied Foundation Models",
-    "authors": [
-      "Ravi Ranjan",
-      "Agoritsa Polyzou"
-    ],
-    "summary": "Vision-language-action (VLA) models are emerging as embodied foundation models for robotic manipulation, but their deployment introduces a new unlearning challenge: removing unsafe, spurious, or privacy-sensitive behaviors without degrading perception, language grounding, and action control. In OpenVLA-style policies, behavior is produced through a fused visual encoder, a cross-modal projector, and a language backbone that predicts tokenized robot actions, so undesirable knowledge can be distrib",
-    "published": "2026-04-05",
-    "published_iso": "2026-04-05T04:23:18+00:00",
-    "url": "https://arxiv.org/abs/2604.03956v1",
-    "pdf_url": "https://arxiv.org/pdf/2604.03956v1",
-    "categories": [
-      "cs.CV",
-      "cs.AI"
-    ],
-    "primary_category": "cs.CV",
-    "code_url": null,
-    "project_url": null,
-    "auto_category": "VLA"
-  },
-  {
     "id": "2604.01765v1",
     "title": "DriveDreamer-Policy: A Geometry-Grounded World-Action Model for Unified Generation and Planning",
     "authors": [
@@ -1314,32 +1357,6 @@
       "cs.AI",
       "cs.CV",
       "cs.LG"
-    ],
-    "primary_category": "cs.RO",
-    "code_url": null,
-    "project_url": null,
-    "auto_category": "World Model"
-  },
-  {
-    "id": "2406.14540v2",
-    "title": "IRASim: A Fine-Grained World Model for Robot Manipulation",
-    "authors": [
-      "Fangqi Zhu",
-      "Hongtao Wu",
-      "Song Guo",
-      "Yuxiao Liu",
-      "Chilam Cheang",
-      "Tao Kong"
-    ],
-    "summary": "World models allow autonomous agents to plan and explore by predicting the visual outcomes of different actions. However, for robot manipulation, it is challenging to accurately model the fine-grained robot-object interaction within the visual space using existing methods which overlooks precise alignment between each action and the corresponding frame. In this paper, we present IRASim, a novel world model capable of generating videos with fine-grained robot-object interaction details, condition",
-    "published": "2024-06-20",
-    "published_iso": "2024-06-20T17:50:16+00:00",
-    "url": "https://arxiv.org/abs/2406.14540v2",
-    "pdf_url": "https://arxiv.org/pdf/2406.14540v2",
-    "categories": [
-      "cs.RO",
-      "cs.AI",
-      "cs.CV"
     ],
     "primary_category": "cs.RO",
     "code_url": null,

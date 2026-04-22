@@ -1,6 +1,6 @@
 # 📚 Latest ArXiv Papers - World Action Models
 
-Generated on: 2026-04-21 02:44:42
+Generated on: 2026-04-22 02:42:34
 
 Total papers: 50
 
@@ -8,6 +8,10 @@ Total papers: 50
 
 | Paper | Date | Code |
 |-------|------|------|
+| [VLA Foundry: A Unified Framework for Training Vision-Language-Action Models](https://arxiv.org/abs/2604.19728v1)<br><small>Jean Mercat et al.</small> | 2026-04-21 |  |
+| [SpanVLA: Efficient Action Bridging and Learning from Negative-Recovery Samples for Vision-Language-Action Model](https://arxiv.org/abs/2604.19710v1)<br><small>Zewei Zhou et al.</small> | 2026-04-21 |  |
+| [HELM: Harness-Enhanced Long-horizon Memory for Vision-Language-Action Manipulation](https://arxiv.org/abs/2604.18791v1)<br><small>Zijian Zeng et al.</small> | 2026-04-20 |  |
+| [Test-Time Perturbation Learning with Delayed Feedback for Vision-Language-Action Models](https://arxiv.org/abs/2604.18107v1)<br><small>Zehua Zang et al.</small> | 2026-04-20 |  |
 | [Unmasking the Illusion of Embodied Reasoning in Vision-Language-Action Models](https://arxiv.org/abs/2604.18000v1)<br><small>Haiweng Xu et al.</small> | 2026-04-20 |  |
 | [OneDrive: Unified Multi-Paradigm Driving with Vision-Language-Action Models](https://arxiv.org/abs/2604.17915v1)<br><small>Yiwei Zhang et al.</small> | 2026-04-20 |  |
 | [Can Explicit Physical Feasibility Benefit VLA Learning? An Empirical Study](https://arxiv.org/abs/2604.17896v1)<br><small>Yubai Wei et al.</small> | 2026-04-20 |  |
@@ -19,15 +23,12 @@ Total papers: 50
 | [Long-Term Memory for VLA-based Agents in Open-World Task Execution](https://arxiv.org/abs/2604.15671v1)<br><small>Xu Huang et al.</small> | 2026-04-17 |  |
 | [World-Value-Action Model: Implicit Planning for Vision-Language-Action Systems](https://arxiv.org/abs/2604.14732v2)<br><small>Runze Li et al.</small> | 2026-04-16 |  |
 | [Jump-Start Reinforcement Learning with Vision-Language-Action Regularization](https://arxiv.org/abs/2604.13733v1)<br><small>Angelo Moroncelli et al.</small> | 2026-04-15 |  |
-| [HazardArena: Evaluating Semantic Safety in Vision-Language-Action Models](https://arxiv.org/abs/2604.12447v1)<br><small>Zixing Chen et al.</small> | 2026-04-14 |  |
-| [StarVLA-$α$: Reducing Complexity in Vision-Language-Action Systems](https://arxiv.org/abs/2604.11757v1)<br><small>Jinhui Ye et al.</small> | 2026-04-13 |  |
-| [DA-PTQ: Drift-Aware Post-Training Quantization for Efficient Vision-Language-Action Models](https://arxiv.org/abs/2604.11572v1)<br><small>Siyuan Xu et al.</small> | 2026-04-13 |  |
-| [AnySlot: Goal-Conditioned Vision-Language-Action Policies for Zero-Shot Slot-Level Placement](https://arxiv.org/abs/2604.10432v2)<br><small>Zhaofeng Hu et al.</small> | 2026-04-12 |  |
 
 ## World Model
 
 | Paper | Date | Code |
 |-------|------|------|
+| [RoboWM-Bench: A Benchmark for Evaluating World Models in Robotic Manipulation](https://arxiv.org/abs/2604.19092v1)<br><small>Feng Jiang et al.</small> | 2026-04-21 |  |
 | [AIM: Intent-Aware Unified world action Modeling with Spatial Value Maps](https://arxiv.org/abs/2604.11135v1)<br><small>Liaoyuan Fan et al.</small> | 2026-04-13 |  |
 | [JailWAM: Jailbreaking World Action Models in Robot Control](https://arxiv.org/abs/2604.05498v1)<br><small>Hanqing Liu et al.</small> | 2026-04-07 |  |
 | [DriveDreamer-Policy: A Geometry-Grounded World-Action Model for Unified Generation and Planning](https://arxiv.org/abs/2604.01765v1)<br><small>Yang Zhou et al.</small> | 2026-04-02 |  |
@@ -42,7 +43,6 @@ Total papers: 50
 | [WristWorld: Generating Wrist-Views via 4D World Models for Robotic Manipulation](https://arxiv.org/abs/2510.07313v1)<br><small>Zezhong Qian et al.</small> | 2025-10-08 |  |
 | [GWM: Towards Scalable Gaussian World Models for Robotic Manipulation](https://arxiv.org/abs/2508.17600v2)<br><small>Guanxing Lu et al.</small> | 2025-08-25 |  |
 | [GAF: Gaussian Action Field as a 4D Representation for Dynamic World Modeling in Robotic Manipulation](https://arxiv.org/abs/2506.14135v4)<br><small>Ying Chai et al.</small> | 2025-06-17 |  |
-| [Occupancy World Model for Robots](https://arxiv.org/abs/2505.05512v1)<br><small>Zhang Zhang et al.</small> | 2025-05-07 |  |
 
 ## Policy
 
