@@ -1,5 +1,110 @@
 [
   {
+    "id": "2604.20834v1",
+    "title": "PokeVLA: Empowering Pocket-Sized Vision-Language-Action Model with Comprehensive World Knowledge Guidance",
+    "authors": [
+      "Yupeng Zheng",
+      "Xiang Li",
+      "Songen Gu",
+      "Yuhang Zheng",
+      "Shuai Tian",
+      "Weize Li",
+      "Linbo Wang",
+      "Senyu Fei",
+      "Pengfei Li",
+      "Yinfeng Gao",
+      "Zebin Xing",
+      "Yilun Chen",
+      "Qichao Zhang",
+      "Haoran Li",
+      "Wenchao Ding"
+    ],
+    "summary": "Recent advances in Vision-Language-Action (VLA) models have opened new avenues for robot manipulation, yet existing methods exhibit limited efficiency and a lack of high-level knowledge and spatial awareness. To address these challenges, we propose PokeVLA, a lightweight yet powerful foundation model for embodied manipulation that effectively infuses vision-language understanding into action learning. Our framework introduces a two-stage training paradigm: first, we pre-train a compact vision-la",
+    "published": "2026-04-22",
+    "published_iso": "2026-04-22T17:58:19+00:00",
+    "url": "https://arxiv.org/abs/2604.20834v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.20834v1",
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
+    "id": "2604.20472v1",
+    "title": "Temporal Difference Calibration in Sequential Tasks: Application to Vision-Language-Action Models",
+    "authors": [
+      "Shelly Francis-Meretzki",
+      "Mirco Mutti",
+      "Yaniv Romano",
+      "Aviv Tamar"
+    ],
+    "summary": "Recent advances in vision-language-action (VLA) models for robotics have highlighted the importance of reliable uncertainty quantification in sequential tasks. However, assessing and improving calibration in such settings remains mostly unexplored, especially when only partial trajectories are observed. In this work, we formulate sequential calibration for episodic tasks, where task-success confidence is produced along an episode, while success is determined at the end of it. We introduce a sequ",
+    "published": "2026-04-22",
+    "published_iso": "2026-04-22T11:58:05+00:00",
+    "url": "https://arxiv.org/abs/2604.20472v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.20472v1",
+    "categories": [
+      "cs.RO",
+      "cs.LG"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
+    "id": "2604.20347v1",
+    "title": "A Vision-Language-Action Model for Adaptive Ultrasound-Guided Needle Insertion and Needle Tracking",
+    "authors": [
+      "Yuelin Zhang",
+      "Qingpeng Ding",
+      "Longxiang Tang",
+      "Chengyu Fang",
+      "Shing Shin Cheng"
+    ],
+    "summary": "Ultrasound (US)-guided needle insertion is a critical yet challenging procedure due to dynamic imaging conditions and difficulties in needle visualization. Many methods have been proposed for automated needle insertion, but they often rely on hand-crafted pipelines with modular controllers, whose performance degrades in challenging cases. In this paper, a Vision-Language-Action (VLA) model is proposed for adaptive and automated US-guided needle insertion and tracking on a robotic ultrasound (RUS",
+    "published": "2026-04-22",
+    "published_iso": "2026-04-22T08:49:59+00:00",
+    "url": "https://arxiv.org/abs/2604.20347v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.20347v1",
+    "categories": [
+      "cs.RO",
+      "cs.AI"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
+    "id": "2604.20012v1",
+    "title": "EmbodiedMidtrain: Bridging the Gap between Vision-Language Models and Vision-Language-Action Models via Mid-training",
+    "authors": [
+      "Yiyang Du",
+      "Zhanqiu Guo",
+      "Xin Ye",
+      "Liu Ren",
+      "Chenyan Xiong"
+    ],
+    "summary": "Vision-Language-Action Models (VLAs) inherit their visual and linguistic capabilities from Vision-Language Models (VLMs), yet most VLAs are built from off-the-shelf VLMs that are not adapted to the embodied domain, limiting their downstream performance. In this work, we propose EmbodiedMidtrain to bridge the gap between VLMs and VLAs. We first characterize the data distribution gap between them, showing that VLA data occupy compact regions that are largely separated from the broader VLM distribu",
+    "published": "2026-04-21",
+    "published_iso": "2026-04-21T21:40:58+00:00",
+    "url": "https://arxiv.org/abs/2604.20012v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.20012v1",
+    "categories": [
+      "cs.CV",
+      "cs.AI",
+      "cs.CL"
+    ],
+    "primary_category": "cs.CV",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
     "id": "2604.19728v1",
     "title": "VLA Foundry: A Unified Framework for Training Vision-Language-Action Models",
     "authors": [
@@ -703,53 +808,6 @@
     "auto_category": "VLA"
   },
   {
-    "id": "2604.05614v1",
-    "title": "Grounding Hierarchical Vision-Language-Action Models Through Explicit Language-Action Alignment",
-    "authors": [
-      "Theodor Wulff",
-      "Federico Tavella",
-      "Rahul Singh Maharjan",
-      "Manith Adikari",
-      "Angelo Cangelosi"
-    ],
-    "summary": "Achieving robot transparency is a critical step toward effective human-robot collaboration. To be transparent, a robot's natural language communication must be consistent with its actions and explicitly grounded in the task and environment. Existing hierarchical Vision-Language-Action (VLA) models can generate language (e.g., through chain-of-thought) and low-level actions. However, current work does not consider explicit alignment between these modalities during training. To address this crucia",
-    "published": "2026-04-07",
-    "published_iso": "2026-04-07T09:03:12+00:00",
-    "url": "https://arxiv.org/abs/2604.05614v1",
-    "pdf_url": "https://arxiv.org/pdf/2604.05614v1",
-    "categories": [
-      "cs.RO"
-    ],
-    "primary_category": "cs.RO",
-    "code_url": null,
-    "project_url": null,
-    "auto_category": "VLA"
-  },
-  {
-    "id": "2604.05595v1",
-    "title": "Uncovering Linguistic Fragility in Vision-Language-Action Models via Diversity-Aware Red Teaming",
-    "authors": [
-      "Baoshun Tong",
-      "Haoran He",
-      "Ling Pan",
-      "Yang Liu",
-      "Liang Lin"
-    ],
-    "summary": "Vision-Language-Action (VLA) models have achieved remarkable success in robotic manipulation. However, their robustness to linguistic nuances remains a critical, under-explored safety concern, posing a significant safety risk to real-world deployment. Red teaming, or identifying environmental scenarios that elicit catastrophic behaviors, is an important step in ensuring the safe deployment of embodied AI agents. Reinforcement learning (RL) has emerged as a promising approach in automated red tea",
-    "published": "2026-04-07",
-    "published_iso": "2026-04-07T08:43:36+00:00",
-    "url": "https://arxiv.org/abs/2604.05595v1",
-    "pdf_url": "https://arxiv.org/pdf/2604.05595v1",
-    "categories": [
-      "cs.RO",
-      "cs.CV"
-    ],
-    "primary_category": "cs.RO",
-    "code_url": null,
-    "project_url": null,
-    "auto_category": "VLA"
-  },
-  {
     "id": "2604.05498v1",
     "title": "JailWAM: Jailbreaking World Action Models in Robot Control",
     "authors": [
@@ -778,30 +836,6 @@
     "code_url": null,
     "project_url": null,
     "auto_category": "World Model"
-  },
-  {
-    "id": "2604.05323v1",
-    "title": "VLA-InfoEntropy: A Training-Free Vision-Attention Information Entropy Approach for Vision-Language-Action Models Inference Acceleration and Success",
-    "authors": [
-      "Chuhang Liu",
-      "Yayun He",
-      "Zuheng Kang",
-      "Xiaoyang Qu",
-      "Jianzong Wang"
-    ],
-    "summary": "Vision-Language-Action (VLA) models integrate visual perception, language understanding, and action decision-making for cross-modal semantic alignment, exhibiting broad application potential. However, the joint processing of high-dimensional visual features, complex linguistic inputs, and continuous action sequences incurs significant computational overhead and low inference efficiency, thereby hindering real-time deployment and reliability. To address this issue, we use image entropy to quantif",
-    "published": "2026-04-07",
-    "published_iso": "2026-04-07T01:52:42+00:00",
-    "url": "https://arxiv.org/abs/2604.05323v1",
-    "pdf_url": "https://arxiv.org/pdf/2604.05323v1",
-    "categories": [
-      "cs.CV",
-      "cs.RO"
-    ],
-    "primary_category": "cs.CV",
-    "code_url": null,
-    "project_url": null,
-    "auto_category": "VLA"
   },
   {
     "id": "2604.01765v1",
@@ -1329,34 +1363,6 @@
     "categories": [
       "cs.RO",
       "cs.CV"
-    ],
-    "primary_category": "cs.RO",
-    "code_url": null,
-    "project_url": null,
-    "auto_category": "World Model"
-  },
-  {
-    "id": "2410.10394v2",
-    "title": "PIVOT-R: Primitive-Driven Waypoint-Aware World Model for Robotic Manipulation",
-    "authors": [
-      "Kaidong Zhang",
-      "Pengzhen Ren",
-      "Bingqian Lin",
-      "Junfan Lin",
-      "Shikui Ma",
-      "Hang Xu",
-      "Xiaodan Liang"
-    ],
-    "summary": "Language-guided robotic manipulation is a challenging task that requires an embodied agent to follow abstract user instructions to accomplish various complex manipulation tasks. Previous work trivially fitting the data without revealing the relation between instruction and low-level executable actions, these models are prone to memorizing the surficial pattern of the data instead of acquiring the transferable knowledge, and thus are fragile to dynamic environment changes. To address this issue, ",
-    "published": "2024-10-14",
-    "published_iso": "2024-10-14T11:30:18+00:00",
-    "url": "https://arxiv.org/abs/2410.10394v2",
-    "pdf_url": "https://arxiv.org/pdf/2410.10394v2",
-    "categories": [
-      "cs.RO",
-      "cs.AI",
-      "cs.CV",
-      "cs.LG"
     ],
     "primary_category": "cs.RO",
     "code_url": null,

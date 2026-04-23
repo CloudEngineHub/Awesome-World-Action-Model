@@ -1,6 +1,6 @@
 # 📚 Latest ArXiv Papers - World Action Models
 
-Generated on: 2026-04-22 02:42:34
+Generated on: 2026-04-23 02:46:35
 
 Total papers: 50
 
@@ -8,6 +8,10 @@ Total papers: 50
 
 | Paper | Date | Code |
 |-------|------|------|
+| [PokeVLA: Empowering Pocket-Sized Vision-Language-Action Model with Comprehensive World Knowledge Guidance](https://arxiv.org/abs/2604.20834v1)<br><small>Yupeng Zheng et al.</small> | 2026-04-22 |  |
+| [Temporal Difference Calibration in Sequential Tasks: Application to Vision-Language-Action Models](https://arxiv.org/abs/2604.20472v1)<br><small>Shelly Francis-Meretzki et al.</small> | 2026-04-22 |  |
+| [A Vision-Language-Action Model for Adaptive Ultrasound-Guided Needle Insertion and Needle Tracking](https://arxiv.org/abs/2604.20347v1)<br><small>Yuelin Zhang et al.</small> | 2026-04-22 |  |
+| [EmbodiedMidtrain: Bridging the Gap between Vision-Language Models and Vision-Language-Action Models via Mid-training](https://arxiv.org/abs/2604.20012v1)<br><small>Yiyang Du et al.</small> | 2026-04-21 |  |
 | [VLA Foundry: A Unified Framework for Training Vision-Language-Action Models](https://arxiv.org/abs/2604.19728v1)<br><small>Jean Mercat et al.</small> | 2026-04-21 |  |
 | [SpanVLA: Efficient Action Bridging and Learning from Negative-Recovery Samples for Vision-Language-Action Model](https://arxiv.org/abs/2604.19710v1)<br><small>Zewei Zhou et al.</small> | 2026-04-21 |  |
 | [HELM: Harness-Enhanced Long-horizon Memory for Vision-Language-Action Manipulation](https://arxiv.org/abs/2604.18791v1)<br><small>Zijian Zeng et al.</small> | 2026-04-20 |  |
@@ -19,10 +23,6 @@ Total papers: 50
 | [AnchorRefine: Synergy-Manipulation Based on Trajectory Anchor and Residual Refinement for Vision-Language-Action Models](https://arxiv.org/abs/2604.17787v1)<br><small>Tingzheng Jia et al.</small> | 2026-04-20 |  |
 | [OmniVLA-RL: A Vision-Language-Action Model with Spatial Understanding and Online RL](https://arxiv.org/abs/2604.17706v1)<br><small>Haoxiang Jie et al.</small> | 2026-04-20 |  |
 | [ReconVLA: An Uncertainty-Guided and Failure-Aware Vision-Language-Action Framework for Robotic Control](https://arxiv.org/abs/2604.16677v1)<br><small>Lingling Chen et al.</small> | 2026-04-17 |  |
-| [AEGIS: Anchor-Enforced Gradient Isolation for Knowledge-Preserving Vision-Language-Action Fine-Tuning](https://arxiv.org/abs/2604.16067v1)<br><small>Guransh Singh</small> | 2026-04-17 |  |
-| [Long-Term Memory for VLA-based Agents in Open-World Task Execution](https://arxiv.org/abs/2604.15671v1)<br><small>Xu Huang et al.</small> | 2026-04-17 |  |
-| [World-Value-Action Model: Implicit Planning for Vision-Language-Action Systems](https://arxiv.org/abs/2604.14732v2)<br><small>Runze Li et al.</small> | 2026-04-16 |  |
-| [Jump-Start Reinforcement Learning with Vision-Language-Action Regularization](https://arxiv.org/abs/2604.13733v1)<br><small>Angelo Moroncelli et al.</small> | 2026-04-15 |  |
 
 ## World Model
 

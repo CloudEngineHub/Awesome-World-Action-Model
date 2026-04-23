@@ -69,22 +69,22 @@ This repository aims to provide a comprehensive, curated, and continuously updat
 
 ## 🆕 Latest Papers (Auto-updated)
 
-> Papers are automatically fetched daily from arXiv. Last updated: 2026-04-21
+> Papers are automatically fetched daily from arXiv. Last updated: 2026-04-22
 
 ### VLA
 
 | Paper | Date | Code |
 |-------|------|------|
+| [PokeVLA: Empowering Pocket-Sized Vision-Language-Action Model with Comprehensive World Knowledge Guidance](https://arxiv.org/abs/2604.20834v1)<br><small>Yupeng Zheng, Xiang Li et al.</small> | 2026-04-22 |  |
+| [Temporal Difference Calibration in Sequential Tasks: Application to Vision-Language-Action Models](https://arxiv.org/abs/2604.20472v1)<br><small>Shelly Francis-Meretzki, Mirco Mutti et al.</small> | 2026-04-22 |  |
+| [A Vision-Language-Action Model for Adaptive Ultrasound-Guided Needle Insertion and Needle Tracking](https://arxiv.org/abs/2604.20347v1)<br><small>Yuelin Zhang, Qingpeng Ding et al.</small> | 2026-04-22 |  |
+| [EmbodiedMidtrain: Bridging the Gap between Vision-Language Models and Vision-Language-Action Models via Mid-training](https://arxiv.org/abs/2604.20012v1)<br><small>Yiyang Du, Zhanqiu Guo et al.</small> | 2026-04-21 |  |
 | [VLA Foundry: A Unified Framework for Training Vision-Language-Action Models](https://arxiv.org/abs/2604.19728v1)<br><small>Jean Mercat, Sedrick Keh et al.</small> | 2026-04-21 |  |
 | [SpanVLA: Efficient Action Bridging and Learning from Negative-Recovery Samples for Vision-Language-Action Model](https://arxiv.org/abs/2604.19710v1)<br><small>Zewei Zhou, Ruining Yang et al.</small> | 2026-04-21 |  |
 | [HELM: Harness-Enhanced Long-horizon Memory for Vision-Language-Action Manipulation](https://arxiv.org/abs/2604.18791v1)<br><small>Zijian Zeng, Fei Ding et al.</small> | 2026-04-20 |  |
 | [Test-Time Perturbation Learning with Delayed Feedback for Vision-Language-Action Models](https://arxiv.org/abs/2604.18107v1)<br><small>Zehua Zang, Xi Wang et al.</small> | 2026-04-20 |  |
 | [Unmasking the Illusion of Embodied Reasoning in Vision-Language-Action Models](https://arxiv.org/abs/2604.18000v1)<br><small>Haiweng Xu, Sipeng Zheng et al.</small> | 2026-04-20 |  |
 | [OneDrive: Unified Multi-Paradigm Driving with Vision-Language-Action Models](https://arxiv.org/abs/2604.17915v1)<br><small>Yiwei Zhang, Xuesong Chen et al.</small> | 2026-04-20 |  |
-| [Can Explicit Physical Feasibility Benefit VLA Learning? An Empirical Study](https://arxiv.org/abs/2604.17896v1)<br><small>Yubai Wei, Chen Wu et al.</small> | 2026-04-20 |  |
-| [ST-$π$: Structured SpatioTemporal VLA for Robotic Manipulation](https://arxiv.org/abs/2604.17880v1)<br><small>Chuanhao Ma, Hanyu Zhou et al.</small> | 2026-04-20 |  |
-| [AnchorRefine: Synergy-Manipulation Based on Trajectory Anchor and Residual Refinement for Vision-Language-Action Models](https://arxiv.org/abs/2604.17787v1)<br><small>Tingzheng Jia, Kan Guo et al.</small> | 2026-04-20 |  |
-| [OmniVLA-RL: A Vision-Language-Action Model with Spatial Understanding and Online RL](https://arxiv.org/abs/2604.17706v1)<br><small>Haoxiang Jie, Yaoyuan Yan et al.</small> | 2026-04-20 |  |
 
 ### World Model
 
