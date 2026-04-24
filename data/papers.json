@@ -1,5 +1,86 @@
 [
   {
+    "id": "2604.21924v1",
+    "title": "Long-Horizon Manipulation via Trace-Conditioned VLA Planning",
+    "authors": [
+      "Isabella Liu",
+      "An-Chieh Cheng",
+      "Rui Yan",
+      "Geng Chen",
+      "Ri-Zhao Qiu",
+      "Xueyan Zou",
+      "Sha Yi",
+      "Hongxu Yin",
+      "Xiaolong Wang",
+      "Sifei Liu"
+    ],
+    "summary": "Long-horizon manipulation remains challenging for vision-language-action (VLA) policies: real tasks are multi-step, progress-dependent, and brittle to compounding execution errors. We present LoHo-Manip, a modular framework that scales short-horizon VLA execution to long-horizon instruction following via a dedicated task-management VLM. The manager is decoupled from the executor and is invoked in a receding-horizon manner: given the current observation, it predicts a progress-aware remaining pla",
+    "published": "2026-04-23",
+    "published_iso": "2026-04-23T17:59:04+00:00",
+    "url": "https://arxiv.org/abs/2604.21924v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.21924v1",
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
+    "id": "2604.21391v1",
+    "title": "From Noise to Intent: Anchoring Generative VLA Policies with Residual Bridges",
+    "authors": [
+      "Yiming Zhong",
+      "Yaoyu He",
+      "Zemin Yang",
+      "Pengfei Tian",
+      "Yifan Huang",
+      "Qingqiu Huang",
+      "Xinge Zhu",
+      "Yuexin Ma"
+    ],
+    "summary": "Bridging high-level semantic understanding with low-level physical control remains a persistent challenge in embodied intelligence, stemming from the fundamental spatiotemporal scale mismatch between cognition and action. Existing generative VLA policies typically adopt a \"Generation-from-Noise\" paradigm, which disregards this disparity, leading to representation inefficiency and weak condition alignment during optimization. In this work, we propose ResVLA, an architecture that shifts the paradi",
+    "published": "2026-04-23",
+    "published_iso": "2026-04-23T07:59:26+00:00",
+    "url": "https://arxiv.org/abs/2604.21391v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.21391v1",
+    "categories": [
+      "cs.RO",
+      "cs.AI"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
+    "id": "2604.21192v1",
+    "title": "How VLAs (Really) Work In Open-World Environments",
+    "authors": [
+      "Amir Rasouli",
+      "Yangzheng Wu",
+      "Zhiyuan Li",
+      "Rui Heng Yang",
+      "Xuan Zhao",
+      "Charles Eret",
+      "Sajjad Pakdamansavoji"
+    ],
+    "summary": "Vision-language-action models (VLAs) have been extensively used in robotics applications, achieving great success in various manipulation problems. More recently, VLAs have been used in long-horizon tasks and evaluated on benchmarks, such as BEHAVIOR1K (B1K), for solving complex household chores. The common metric for measuring progress in such benchmarks is success rate or partial score based on satisfaction of progress-agnostic criteria, meaning only the final states of the objects are conside",
+    "published": "2026-04-23",
+    "published_iso": "2026-04-23T01:32:51+00:00",
+    "url": "https://arxiv.org/abs/2604.21192v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.21192v1",
+    "categories": [
+      "cs.RO",
+      "cs.AI"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
     "id": "2604.20834v1",
     "title": "PokeVLA: Empowering Pocket-Sized Vision-Language-Action Model with Comprehensive World Knowledge Guidance",
     "authors": [
@@ -712,97 +793,6 @@
       "cs.RO"
     ],
     "primary_category": "cs.MM",
-    "code_url": null,
-    "project_url": null,
-    "auto_category": "VLA"
-  },
-  {
-    "id": "2604.09059v1",
-    "title": "Learning Vision-Language-Action World Models for Autonomous Driving",
-    "authors": [
-      "Guoqing Wang",
-      "Pin Tang",
-      "Xiangxuan Ren",
-      "Guodongfang Zhao",
-      "Bailan Feng",
-      "Chao Ma"
-    ],
-    "summary": "Vision-Language-Action (VLA) models have recently achieved notable progress in end-to-end autonomous driving by integrating perception, reasoning, and control within a unified multimodal framework. However, they often lack explicit modeling of temporal dynamics and global world consistency, which limits their foresight and safety. In contrast, world models can simulate plausible future scenes but generally struggle to reason about or evaluate the imagined future they generate. In this work, we p",
-    "published": "2026-04-10",
-    "published_iso": "2026-04-10T07:38:05+00:00",
-    "url": "https://arxiv.org/abs/2604.09059v1",
-    "pdf_url": "https://arxiv.org/pdf/2604.09059v1",
-    "categories": [
-      "cs.CV",
-      "cs.AI"
-    ],
-    "primary_category": "cs.CV",
-    "code_url": null,
-    "project_url": null,
-    "auto_category": "VLA"
-  },
-  {
-    "id": "2604.05672v3",
-    "title": "A1: A Fully Transparent Open-Source, Adaptive and Efficient Truncated Vision-Language-Action Model",
-    "authors": [
-      "Kaidong Zhang",
-      "Jian Zhang",
-      "Rongtao Xu",
-      "Yu Sun",
-      "Shuoshuo Xue",
-      "Youpeng Wen",
-      "Xiaoyu Guo",
-      "Minghao Guo",
-      "Weijia Liufu",
-      "Liu Zihou",
-      "Kangyi Ji",
-      "Yangsong Zhang",
-      "Jiarun Zhu",
-      "Jingzhi Liu",
-      "Zihang Li",
-      "Ruiyi Chen",
-      "Meng Cao",
-      "Jingming Zhang",
-      "Shen Zhao",
-      "Xiaojun Chang",
-      "Feng Zheng",
-      "Ivan Laptev",
-      "Xiaodan Liang"
-    ],
-    "summary": "Vision-Language-Action (VLA) models have emerged as a powerful paradigm for open-world robot manipulation, but their practical deployment is often constrained by cost: billion-scale VLM backbones and iterative diffusion/flow-based action heads incur high latency and compute, making real-time control expensive on commodity hardware. We present A1, a fully open-source and transparent VLA framework designed for low-cost, high-throughput inference without sacrificing manipulation success; Our approa",
-    "published": "2026-04-07",
-    "published_iso": "2026-04-07T10:18:40+00:00",
-    "url": "https://arxiv.org/abs/2604.05672v3",
-    "pdf_url": "https://arxiv.org/pdf/2604.05672v3",
-    "categories": [
-      "cs.RO"
-    ],
-    "primary_category": "cs.RO",
-    "code_url": null,
-    "project_url": null,
-    "auto_category": "VLA"
-  },
-  {
-    "id": "2604.05656v1",
-    "title": "SnapFlow: One-Step Action Generation for Flow-Matching VLAs via Progressive Self-Distillation",
-    "authors": [
-      "Wuyang Luan",
-      "Junhui Li",
-      "Weiguang Zhao",
-      "Wenjian Zhang",
-      "Tieru Wu",
-      "Rui Ma"
-    ],
-    "summary": "Vision-Language-Action (VLA) models based on flow matching -- such as pi0, pi0.5, and SmolVLA -- achieve state-of-the-art generalist robotic manipulation, yet their iterative denoising, typically 10 ODE steps, introduces substantial latency: on a modern GPU, denoising alone accounts for 80% of end-to-end inference time. Naively reducing the step count is unreliable, degrading success on most tasks due to the velocity field being uncalibrated for single-step jumps. We present SnapFlow, a plug-and",
-    "published": "2026-04-07",
-    "published_iso": "2026-04-07T09:56:03+00:00",
-    "url": "https://arxiv.org/abs/2604.05656v1",
-    "pdf_url": "https://arxiv.org/pdf/2604.05656v1",
-    "categories": [
-      "cs.CV",
-      "cs.AI"
-    ],
-    "primary_category": "cs.CV",
     "code_url": null,
     "project_url": null,
     "auto_category": "VLA"
