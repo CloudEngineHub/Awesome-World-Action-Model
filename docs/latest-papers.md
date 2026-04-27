@@ -1,6 +1,6 @@
 # 📚 Latest ArXiv Papers - World Action Models
 
-Generated on: 2026-04-26 02:52:48
+Generated on: 2026-04-27 02:55:41
 
 Total papers: 50
 
@@ -8,10 +8,12 @@ Total papers: 50
 
 | Paper | Date | Code |
 |-------|------|------|
+| [RedVLA: Physical Red Teaming for Vision-Language-Action Models](https://arxiv.org/abs/2604.22591v1)<br><small>Yuhao Zhang et al.</small> | 2026-04-24 |  |
+| [CodeGraphVLP: Code-as-Planner Meets Semantic-Graph State for Non-Markovian Vision-Language-Action Models](https://arxiv.org/abs/2604.22238v1)<br><small>Khoa Vo et al.</small> | 2026-04-24 |  |
 | [Long-Horizon Manipulation via Trace-Conditioned VLA Planning](https://arxiv.org/abs/2604.21924v1)<br><small>Isabella Liu et al.</small> | 2026-04-23 |  |
 | [From Noise to Intent: Anchoring Generative VLA Policies with Residual Bridges](https://arxiv.org/abs/2604.21391v1)<br><small>Yiming Zhong et al.</small> | 2026-04-23 |  |
 | [How VLAs (Really) Work In Open-World Environments](https://arxiv.org/abs/2604.21192v1)<br><small>Amir Rasouli et al.</small> | 2026-04-23 |  |
-| [PokeVLA: Empowering Pocket-Sized Vision-Language-Action Model with Comprehensive World Knowledge Guidance](https://arxiv.org/abs/2604.20834v1)<br><small>Yupeng Zheng et al.</small> | 2026-04-22 |  |
+| [PokeVLA: Empowering Pocket-Sized Vision-Language-Action Model with Comprehensive World Knowledge Guidance](https://arxiv.org/abs/2604.20834v2)<br><small>Yupeng Zheng et al.</small> | 2026-04-22 |  |
 | [Temporal Difference Calibration in Sequential Tasks: Application to Vision-Language-Action Models](https://arxiv.org/abs/2604.20472v1)<br><small>Shelly Francis-Meretzki et al.</small> | 2026-04-22 |  |
 | [A Vision-Language-Action Model for Adaptive Ultrasound-Guided Needle Insertion and Needle Tracking](https://arxiv.org/abs/2604.20347v1)<br><small>Yuelin Zhang et al.</small> | 2026-04-22 |  |
 | [EmbodiedMidtrain: Bridging the Gap between Vision-Language Models and Vision-Language-Action Models via Mid-training](https://arxiv.org/abs/2604.20012v1)<br><small>Yiyang Du et al.</small> | 2026-04-21 |  |
@@ -21,8 +23,6 @@ Total papers: 50
 | [Test-Time Perturbation Learning with Delayed Feedback for Vision-Language-Action Models](https://arxiv.org/abs/2604.18107v1)<br><small>Zehua Zang et al.</small> | 2026-04-20 |  |
 | [Unmasking the Illusion of Embodied Reasoning in Vision-Language-Action Models](https://arxiv.org/abs/2604.18000v1)<br><small>Haiweng Xu et al.</small> | 2026-04-20 |  |
 | [OneDrive: Unified Multi-Paradigm Driving with Vision-Language-Action Models](https://arxiv.org/abs/2604.17915v1)<br><small>Yiwei Zhang et al.</small> | 2026-04-20 |  |
-| [Can Explicit Physical Feasibility Benefit VLA Learning? An Empirical Study](https://arxiv.org/abs/2604.17896v1)<br><small>Yubai Wei et al.</small> | 2026-04-20 |  |
-| [ST-$π$: Structured SpatioTemporal VLA for Robotic Manipulation](https://arxiv.org/abs/2604.17880v1)<br><small>Chuanhao Ma et al.</small> | 2026-04-20 |  |
 
 ## World Model
 

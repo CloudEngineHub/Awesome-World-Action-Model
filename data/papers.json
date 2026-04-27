@@ -1,5 +1,59 @@
 [
   {
+    "id": "2604.22591v1",
+    "title": "RedVLA: Physical Red Teaming for Vision-Language-Action Models",
+    "authors": [
+      "Yuhao Zhang",
+      "Borong Zhang",
+      "Jiaming Fan",
+      "Jiachen Shen",
+      "Yishuai Cai",
+      "Yaodong Yang",
+      "Jiaming Ji"
+    ],
+    "summary": "The real-world deployment of Vision-Language-Action (VLA) models remains limited by the risk of unpredictable and irreversible physical harm. However, we currently lack effective mechanisms to proactively detect these physical safety risks before deployment. To address this gap, we propose \\textbf{RedVLA}, the first red teaming framework for physical safety in VLA models. We systematically uncover unsafe behaviors through a two-stage process: (I) \\textbf{Risk Scenario Synthesis} constructs a val",
+    "published": "2026-04-24",
+    "published_iso": "2026-04-24T14:18:23+00:00",
+    "url": "https://arxiv.org/abs/2604.22591v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.22591v1",
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
+    "id": "2604.22238v1",
+    "title": "CodeGraphVLP: Code-as-Planner Meets Semantic-Graph State for Non-Markovian Vision-Language-Action Models",
+    "authors": [
+      "Khoa Vo",
+      "Sieu Tran",
+      "Taisei Hanyu",
+      "Yuki Ikebe",
+      "Duy Nguyen",
+      "Bui Duy Quoc Nghi",
+      "Minh Vu",
+      "Anthony Gunderman",
+      "Chase Rainwater",
+      "Anh Nguyen",
+      "Ngan Le"
+    ],
+    "summary": "Vision-Language-Action (VLA) models promise generalist robot manipulation, but are typically trained and deployed as short-horizon policies that assume the latest observation is sufficient for action reasoning. This assumption breaks in non-Markovian long-horizon tasks, where task-relevant evidence can be occluded or appear only earlier in the trajectory, and where clutter and distractors make fine-grained visual grounding brittle. We present CodeGraphVLP, a hierarchical framework that enables r",
+    "published": "2026-04-24",
+    "published_iso": "2026-04-24T05:27:27+00:00",
+    "url": "https://arxiv.org/abs/2604.22238v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.22238v1",
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
     "id": "2604.21924v1",
     "title": "Long-Horizon Manipulation via Trace-Conditioned VLA Planning",
     "authors": [
@@ -81,7 +135,7 @@
     "auto_category": "VLA"
   },
   {
-    "id": "2604.20834v1",
+    "id": "2604.20834v2",
     "title": "PokeVLA: Empowering Pocket-Sized Vision-Language-Action Model with Comprehensive World Knowledge Guidance",
     "authors": [
       "Yupeng Zheng",
@@ -103,8 +157,8 @@
     "summary": "Recent advances in Vision-Language-Action (VLA) models have opened new avenues for robot manipulation, yet existing methods exhibit limited efficiency and a lack of high-level knowledge and spatial awareness. To address these challenges, we propose PokeVLA, a lightweight yet powerful foundation model for embodied manipulation that effectively infuses vision-language understanding into action learning. Our framework introduces a two-stage training paradigm: first, we pre-train a compact vision-la",
     "published": "2026-04-22",
     "published_iso": "2026-04-22T17:58:19+00:00",
-    "url": "https://arxiv.org/abs/2604.20834v1",
-    "pdf_url": "https://arxiv.org/pdf/2604.20834v1",
+    "url": "https://arxiv.org/abs/2604.20834v2",
+    "pdf_url": "https://arxiv.org/pdf/2604.20834v2",
     "categories": [
       "cs.RO"
     ],
@@ -449,7 +503,7 @@
     "auto_category": "VLA"
   },
   {
-    "id": "2604.17706v1",
+    "id": "2604.17706v2",
     "title": "OmniVLA-RL: A Vision-Language-Action Model with Spatial Understanding and Online RL",
     "authors": [
       "Haoxiang Jie",
@@ -463,8 +517,8 @@
     "summary": "Visual-Language-Action (VLA) models represent a paradigm shift in embodied AI, yet existing frameworks often struggle with imprecise spatial perception, suboptimal multimodal fusion, and instability in reinforcement learning. To bridge these gaps, we propose OmniVLA-RL, a novel architecture that leverages a Mix-of-Transformers (MoT) design to synergistically integrate reasoning, spatial, and action experts. Furthermore, we introduce Flow-GSPO, which reformulates flow matching as a Stochastic Dif",
     "published": "2026-04-20",
     "published_iso": "2026-04-20T01:36:58+00:00",
-    "url": "https://arxiv.org/abs/2604.17706v1",
-    "pdf_url": "https://arxiv.org/pdf/2604.17706v1",
+    "url": "https://arxiv.org/abs/2604.17706v2",
+    "pdf_url": "https://arxiv.org/pdf/2604.17706v2",
     "categories": [
       "cs.RO"
     ],
@@ -740,59 +794,6 @@
       "cs.RO"
     ],
     "primary_category": "cs.RO",
-    "code_url": null,
-    "project_url": null,
-    "auto_category": "VLA"
-  },
-  {
-    "id": "2604.09824v1",
-    "title": "ProGAL-VLA: Grounded Alignment through Prospective Reasoning in Vision-Language-Action Models",
-    "authors": [
-      "Nastaran Darabi",
-      "Amit Ranjan Trivedi"
-    ],
-    "summary": "Vision language action (VLA) models enable generalist robotic agents but often exhibit language ignorance, relying on visual shortcuts and remaining insensitive to instruction changes. We present Prospective Grounding and Alignment VLA (ProGAL-VLA), which constructs a 3D entity-centric graph (GSM), uses a slow planner to produce symbolic sub-goals, and aligns them with grounded entities via a Grounding Alignment Contrastive (GAC) loss. All actions are conditioned on a verified goal embedding $g_",
-    "published": "2026-04-10",
-    "published_iso": "2026-04-10T18:56:48+00:00",
-    "url": "https://arxiv.org/abs/2604.09824v1",
-    "pdf_url": "https://arxiv.org/pdf/2604.09824v1",
-    "categories": [
-      "cs.RO",
-      "cs.CL",
-      "cs.CV"
-    ],
-    "primary_category": "cs.RO",
-    "code_url": null,
-    "project_url": null,
-    "auto_category": "VLA"
-  },
-  {
-    "id": "2604.09244v2",
-    "title": "2D or 3D: Who Governs Salience in VLA Models? -- Tri-Stage Token Pruning Framework with Modality Salience Awareness",
-    "authors": [
-      "Zihao Zheng",
-      "Sicheng Tian",
-      "Zhihao Mao",
-      "Lingyue Zhang",
-      "Chenyue Li",
-      "Ziyun Zhang",
-      "Hong Gao",
-      "Yuchen Huang",
-      "Yutong Xu",
-      "Guojie Luo",
-      "Xiang Chen"
-    ],
-    "summary": "Vision-Language-Action (VLA) models have emerged as the mainstream of embodied intelligence. Recent VLA models have expanded their input modalities from 2D-only to 2D+3D paradigms, forming multi-visual-modal VLA (MVLA) models. Despite achieving improved spatial perception, MVLA faces a greater acceleration demand due to the increased number of input tokens caused by modal expansion. Token pruning is an effective optimization methods tailored to MVLA models. However, existing token pruning scheme",
-    "published": "2026-04-10",
-    "published_iso": "2026-04-10T11:58:39+00:00",
-    "url": "https://arxiv.org/abs/2604.09244v2",
-    "pdf_url": "https://arxiv.org/pdf/2604.09244v2",
-    "categories": [
-      "cs.MM",
-      "cs.CV",
-      "cs.RO"
-    ],
-    "primary_category": "cs.MM",
     "code_url": null,
     "project_url": null,
     "auto_category": "VLA"

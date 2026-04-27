@@ -69,22 +69,22 @@ This repository aims to provide a comprehensive, curated, and continuously updat
 
 ## 🆕 Latest Papers (Auto-updated)
 
-> Papers are automatically fetched daily from arXiv. Last updated: 2026-04-23
+> Papers are automatically fetched daily from arXiv. Last updated: 2026-04-24
 
 ### VLA
 
 | Paper | Date | Code |
 |-------|------|------|
+| [RedVLA: Physical Red Teaming for Vision-Language-Action Models](https://arxiv.org/abs/2604.22591v1)<br><small>Yuhao Zhang, Borong Zhang et al.</small> | 2026-04-24 |  |
+| [CodeGraphVLP: Code-as-Planner Meets Semantic-Graph State for Non-Markovian Vision-Language-Action Models](https://arxiv.org/abs/2604.22238v1)<br><small>Khoa Vo, Sieu Tran et al.</small> | 2026-04-24 |  |
 | [Long-Horizon Manipulation via Trace-Conditioned VLA Planning](https://arxiv.org/abs/2604.21924v1)<br><small>Isabella Liu, An-Chieh Cheng et al.</small> | 2026-04-23 |  |
 | [From Noise to Intent: Anchoring Generative VLA Policies with Residual Bridges](https://arxiv.org/abs/2604.21391v1)<br><small>Yiming Zhong, Yaoyu He et al.</small> | 2026-04-23 |  |
 | [How VLAs (Really) Work In Open-World Environments](https://arxiv.org/abs/2604.21192v1)<br><small>Amir Rasouli, Yangzheng Wu et al.</small> | 2026-04-23 |  |
-| [PokeVLA: Empowering Pocket-Sized Vision-Language-Action Model with Comprehensive World Knowledge Guidance](https://arxiv.org/abs/2604.20834v1)<br><small>Yupeng Zheng, Xiang Li et al.</small> | 2026-04-22 |  |
+| [PokeVLA: Empowering Pocket-Sized Vision-Language-Action Model with Comprehensive World Knowledge Guidance](https://arxiv.org/abs/2604.20834v2)<br><small>Yupeng Zheng, Xiang Li et al.</small> | 2026-04-22 |  |
 | [Temporal Difference Calibration in Sequential Tasks: Application to Vision-Language-Action Models](https://arxiv.org/abs/2604.20472v1)<br><small>Shelly Francis-Meretzki, Mirco Mutti et al.</small> | 2026-04-22 |  |
 | [A Vision-Language-Action Model for Adaptive Ultrasound-Guided Needle Insertion and Needle Tracking](https://arxiv.org/abs/2604.20347v1)<br><small>Yuelin Zhang, Qingpeng Ding et al.</small> | 2026-04-22 |  |
 | [EmbodiedMidtrain: Bridging the Gap between Vision-Language Models and Vision-Language-Action Models via Mid-training](https://arxiv.org/abs/2604.20012v1)<br><small>Yiyang Du, Zhanqiu Guo et al.</small> | 2026-04-21 |  |
 | [VLA Foundry: A Unified Framework for Training Vision-Language-Action Models](https://arxiv.org/abs/2604.19728v1)<br><small>Jean Mercat, Sedrick Keh et al.</small> | 2026-04-21 |  |
-| [SpanVLA: Efficient Action Bridging and Learning from Negative-Recovery Samples for Vision-Language-Action Model](https://arxiv.org/abs/2604.19710v1)<br><small>Zewei Zhou, Ruining Yang et al.</small> | 2026-04-21 |  |
-| [HELM: Harness-Enhanced Long-horizon Memory for Vision-Language-Action Manipulation](https://arxiv.org/abs/2604.18791v1)<br><small>Zijian Zeng, Fei Ding et al.</small> | 2026-04-20 |  |
 
 ### World Model
 
