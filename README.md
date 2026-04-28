@@ -69,22 +69,22 @@ This repository aims to provide a comprehensive, curated, and continuously updat
 
 ## 🆕 Latest Papers (Auto-updated)
 
-> Papers are automatically fetched daily from arXiv. Last updated: 2026-04-24
+> Papers are automatically fetched daily from arXiv. Last updated: 2026-04-27
 
 ### VLA
 
 | Paper | Date | Code |
 |-------|------|------|
+| [CF-VLA: Efficient Coarse-to-Fine Action Generation for Vision-Language-Action Policies](https://arxiv.org/abs/2604.24622v1)<br><small>Fan Du, Feng Yan et al.</small> | 2026-04-27 |  |
+| [Characterizing Vision-Language-Action Models across XPUs: Constraints and Acceleration for On-Robot Deployment](https://arxiv.org/abs/2604.24447v1)<br><small>Kaijun Zhou, Qiwei Chen et al.</small> | 2026-04-27 |  |
+| [$M^2$-VLA: Boosting Vision-Language Models for Generalizable Manipulation via Layer Mixture and Meta-Skills](https://arxiv.org/abs/2604.24182v1)<br><small>Siyao Xiao, Yuhong Zhang et al.</small> | 2026-04-27 |  |
+| [AsyncShield: A Plug-and-Play Edge Adapter for Asynchronous Cloud-based VLA Navigation](https://arxiv.org/abs/2604.24086v1)<br><small>Kai Yang, Zedong Chu et al.</small> | 2026-04-27 |  |
+| [Vision-Language-Action Safety: Threats, Challenges, Evaluations, and Mechanisms](https://arxiv.org/abs/2604.23775v1)<br><small>Qi Li, Bo Yin et al.</small> | 2026-04-26 |  |
+| [Modular Sensory Stream for Integrating Physical Feedback in Vision-Language-Action Models](https://arxiv.org/abs/2604.23272v1)<br><small>Jimin Lee, Huiwon Jang et al.</small> | 2026-04-25 |  |
+| [Breaking Lock-In: Preserving Steerability under Low-Data VLA Post-Training](https://arxiv.org/abs/2604.23121v1)<br><small>Suning Huang, Jiaqi Shao et al.</small> | 2026-04-25 |  |
+| [RL Token: Bootstrapping Online RL with Vision-Language-Action Models](https://arxiv.org/abs/2604.23073v1)<br><small>Charles Xu, Jost Tobias Springenberg et al.</small> | 2026-04-24 |  |
+| [Vision-Language-Action in Robotics: A Survey of Datasets, Benchmarks, and Data Engines](https://arxiv.org/abs/2604.23001v1)<br><small>Ziyao Wang, Bingying Wang et al.</small> | 2026-04-24 |  |
 | [RedVLA: Physical Red Teaming for Vision-Language-Action Models](https://arxiv.org/abs/2604.22591v1)<br><small>Yuhao Zhang, Borong Zhang et al.</small> | 2026-04-24 |  |
-| [CodeGraphVLP: Code-as-Planner Meets Semantic-Graph State for Non-Markovian Vision-Language-Action Models](https://arxiv.org/abs/2604.22238v1)<br><small>Khoa Vo, Sieu Tran et al.</small> | 2026-04-24 |  |
-| [Long-Horizon Manipulation via Trace-Conditioned VLA Planning](https://arxiv.org/abs/2604.21924v1)<br><small>Isabella Liu, An-Chieh Cheng et al.</small> | 2026-04-23 |  |
-| [From Noise to Intent: Anchoring Generative VLA Policies with Residual Bridges](https://arxiv.org/abs/2604.21391v1)<br><small>Yiming Zhong, Yaoyu He et al.</small> | 2026-04-23 |  |
-| [How VLAs (Really) Work In Open-World Environments](https://arxiv.org/abs/2604.21192v1)<br><small>Amir Rasouli, Yangzheng Wu et al.</small> | 2026-04-23 |  |
-| [PokeVLA: Empowering Pocket-Sized Vision-Language-Action Model with Comprehensive World Knowledge Guidance](https://arxiv.org/abs/2604.20834v2)<br><small>Yupeng Zheng, Xiang Li et al.</small> | 2026-04-22 |  |
-| [Temporal Difference Calibration in Sequential Tasks: Application to Vision-Language-Action Models](https://arxiv.org/abs/2604.20472v1)<br><small>Shelly Francis-Meretzki, Mirco Mutti et al.</small> | 2026-04-22 |  |
-| [A Vision-Language-Action Model for Adaptive Ultrasound-Guided Needle Insertion and Needle Tracking](https://arxiv.org/abs/2604.20347v1)<br><small>Yuelin Zhang, Qingpeng Ding et al.</small> | 2026-04-22 |  |
-| [EmbodiedMidtrain: Bridging the Gap between Vision-Language Models and Vision-Language-Action Models via Mid-training](https://arxiv.org/abs/2604.20012v1)<br><small>Yiyang Du, Zhanqiu Guo et al.</small> | 2026-04-21 |  |
-| [VLA Foundry: A Unified Framework for Training Vision-Language-Action Models](https://arxiv.org/abs/2604.19728v1)<br><small>Jean Mercat, Sedrick Keh et al.</small> | 2026-04-21 |  |
 
 ### World Model
 
