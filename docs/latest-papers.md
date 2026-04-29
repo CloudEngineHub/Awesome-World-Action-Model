@@ -1,6 +1,6 @@
 # 📚 Latest ArXiv Papers - World Action Models
 
-Generated on: 2026-04-28 03:24:30
+Generated on: 2026-04-29 03:22:44
 
 Total papers: 50
 
@@ -8,7 +8,8 @@ Total papers: 50
 
 | Paper | Date | Code |
 |-------|------|------|
-| [CF-VLA: Efficient Coarse-to-Fine Action Generation for Vision-Language-Action Policies](https://arxiv.org/abs/2604.24622v1)<br><small>Fan Du et al.</small> | 2026-04-27 |  |
+| [Libra-VLA: Achieving Learning Equilibrium via Asynchronous Coarse-to-Fine Dual-System](https://arxiv.org/abs/2604.24921v1)<br><small>Yifei Wei et al.</small> | 2026-04-27 |  |
+| [CF-VLA: Efficient Coarse-to-Fine Action Generation for Vision-Language-Action Policies](https://arxiv.org/abs/2604.24622v2)<br><small>Fan Du et al.</small> | 2026-04-27 |  |
 | [Characterizing Vision-Language-Action Models across XPUs: Constraints and Acceleration for On-Robot Deployment](https://arxiv.org/abs/2604.24447v1)<br><small>Kaijun Zhou et al.</small> | 2026-04-27 |  |
 | [$M^2$-VLA: Boosting Vision-Language Models for Generalizable Manipulation via Layer Mixture and Meta-Skills](https://arxiv.org/abs/2604.24182v1)<br><small>Siyao Xiao et al.</small> | 2026-04-27 |  |
 | [AsyncShield: A Plug-and-Play Edge Adapter for Asynchronous Cloud-based VLA Navigation](https://arxiv.org/abs/2604.24086v1)<br><small>Kai Yang et al.</small> | 2026-04-27 |  |
@@ -22,12 +23,12 @@ Total papers: 50
 | [Long-Horizon Manipulation via Trace-Conditioned VLA Planning](https://arxiv.org/abs/2604.21924v1)<br><small>Isabella Liu et al.</small> | 2026-04-23 |  |
 | [From Noise to Intent: Anchoring Generative VLA Policies with Residual Bridges](https://arxiv.org/abs/2604.21391v1)<br><small>Yiming Zhong et al.</small> | 2026-04-23 |  |
 | [How VLAs (Really) Work In Open-World Environments](https://arxiv.org/abs/2604.21192v1)<br><small>Amir Rasouli et al.</small> | 2026-04-23 |  |
-| [PokeVLA: Empowering Pocket-Sized Vision-Language-Action Model with Comprehensive World Knowledge Guidance](https://arxiv.org/abs/2604.20834v2)<br><small>Yupeng Zheng et al.</small> | 2026-04-22 |  |
 
 ## World Model
 
 | Paper | Date | Code |
 |-------|------|------|
+| [Privileged Foresight Distillation: Zero-Cost Future Correction for World Action Models](https://arxiv.org/abs/2604.25859v1)<br><small>Pengcheng Fang et al.</small> | 2026-04-28 |  |
 | [RoboWM-Bench: A Benchmark for Evaluating World Models in Robotic Manipulation](https://arxiv.org/abs/2604.19092v1)<br><small>Feng Jiang et al.</small> | 2026-04-21 |  |
 | [AIM: Intent-Aware Unified world action Modeling with Spatial Value Maps](https://arxiv.org/abs/2604.11135v1)<br><small>Liaoyuan Fan et al.</small> | 2026-04-13 |  |
 | [JailWAM: Jailbreaking World Action Models in Robot Control](https://arxiv.org/abs/2604.05498v1)<br><small>Hanqing Liu et al.</small> | 2026-04-07 |  |
@@ -42,7 +43,6 @@ Total papers: 50
 | [iMoWM: Taming Interactive Multi-Modal World Model for Robotic Manipulation](https://arxiv.org/abs/2510.09036v1)<br><small>Chuanrui Zhang et al.</small> | 2025-10-10 |  |
 | [WristWorld: Generating Wrist-Views via 4D World Models for Robotic Manipulation](https://arxiv.org/abs/2510.07313v1)<br><small>Zezhong Qian et al.</small> | 2025-10-08 |  |
 | [GWM: Towards Scalable Gaussian World Models for Robotic Manipulation](https://arxiv.org/abs/2508.17600v2)<br><small>Guanxing Lu et al.</small> | 2025-08-25 |  |
-| [GAF: Gaussian Action Field as a 4D Representation for Dynamic World Modeling in Robotic Manipulation](https://arxiv.org/abs/2506.14135v4)<br><small>Ying Chai et al.</small> | 2025-06-17 |  |
 
 ## Policy
 

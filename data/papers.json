@@ -1,6 +1,55 @@
 [
   {
-    "id": "2604.24622v1",
+    "id": "2604.25859v1",
+    "title": "Privileged Foresight Distillation: Zero-Cost Future Correction for World Action Models",
+    "authors": [
+      "Pengcheng Fang",
+      "Hongli Chen",
+      "Xiaohao Cai"
+    ],
+    "summary": "World action models jointly predict future video and action during training, raising an open question about what role the future-prediction branch actually plays. A recent finding shows that this branch can be removed at inference with little to no loss on common manipulation benchmarks, suggesting that future information may act merely as a regularizer on the shared visual backbone. We propose instead that joint training induces an action-conditioned correction that privileged future observatio",
+    "published": "2026-04-28",
+    "published_iso": "2026-04-28T16:58:52+00:00",
+    "url": "https://arxiv.org/abs/2604.25859v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.25859v1",
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "World Model"
+  },
+  {
+    "id": "2604.24921v1",
+    "title": "Libra-VLA: Achieving Learning Equilibrium via Asynchronous Coarse-to-Fine Dual-System",
+    "authors": [
+      "Yifei Wei",
+      "Linqing Zhong",
+      "Yi Liu",
+      "Yuxiang Lu",
+      "Xindong He",
+      "Maoqing Yao",
+      "Guanghui Ren"
+    ],
+    "summary": "Vision-Language-Action (VLA) models are a promising paradigm for generalist robotic manipulation by grounding high-level semantic instructions into executable physical actions. However, prevailing approaches typically adopt a monolithic generation paradigm, directly mapping visual-linguistic features to high-frequency motor commands in a flat, non-hierarchical fashion. This strategy overlooks the inherent hierarchy of robotic manipulation, where complex actions can be naturally modeled in a Hybr",
+    "published": "2026-04-27",
+    "published_iso": "2026-04-27T19:02:46+00:00",
+    "url": "https://arxiv.org/abs/2604.24921v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.24921v1",
+    "categories": [
+      "cs.RO",
+      "cs.AI",
+      "cs.CL",
+      "cs.CV"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
+    "id": "2604.24622v2",
     "title": "CF-VLA: Efficient Coarse-to-Fine Action Generation for Vision-Language-Action Policies",
     "authors": [
       "Fan Du",
@@ -11,13 +60,15 @@
       "Weinong Wang",
       "Yu Guo",
       "Bin Qian",
-      "Zhihai He"
+      "Zhihai He",
+      "Fei Wang",
+      "Heng Yang"
     ],
     "summary": "Flow-based vision-language-action (VLA) policies offer strong expressivity for action generation, but suffer from a fundamental inefficiency: multi-step inference is required to recover action structure from uninformative Gaussian noise, leading to a poor efficiency-quality trade-off under real-time constraints. We address this issue by rethinking the role of the starting point in generative action modeling. Instead of shortening the sampling trajectory, we propose CF-VLA, a coarse-to-fine two-s",
     "published": "2026-04-27",
     "published_iso": "2026-04-27T15:51:40+00:00",
-    "url": "https://arxiv.org/abs/2604.24622v1",
-    "pdf_url": "https://arxiv.org/pdf/2604.24622v1",
+    "url": "https://arxiv.org/abs/2604.24622v2",
+    "pdf_url": "https://arxiv.org/pdf/2604.24622v2",
     "categories": [
       "cs.CV",
       "cs.AI"
@@ -793,26 +844,6 @@
     "auto_category": "VLA"
   },
   {
-    "id": "2604.16067v1",
-    "title": "AEGIS: Anchor-Enforced Gradient Isolation for Knowledge-Preserving Vision-Language-Action Fine-Tuning",
-    "authors": [
-      "Guransh Singh"
-    ],
-    "summary": "Adapting pre-trained vision-language models (VLMs) for robotic control requires injecting high-magnitude continuous gradients from a flow-matching action expert into a backbone trained exclusively with cross-entropy. This cross-modal gradient asymmetry - the spectral dimensionality mismatch between low-rank MSE regression gradients and the high-dimensional semantic manifold sculpted by CE pre-training, causes rapid, severe erosion of the VLM's visual-question-answering (VQA) capability. Industry",
-    "published": "2026-04-17",
-    "published_iso": "2026-04-17T13:49:57+00:00",
-    "url": "https://arxiv.org/abs/2604.16067v1",
-    "pdf_url": "https://arxiv.org/pdf/2604.16067v1",
-    "categories": [
-      "cs.LG",
-      "cs.CV"
-    ],
-    "primary_category": "cs.LG",
-    "code_url": null,
-    "project_url": null,
-    "auto_category": "VLA"
-  },
-  {
     "id": "2604.11135v1",
     "title": "AIM: Intent-Aware Unified world action Modeling with Spatial Value Maps",
     "authors": [
@@ -1345,31 +1376,6 @@
       "cs.RO"
     ],
     "primary_category": "cs.CV",
-    "code_url": null,
-    "project_url": null,
-    "auto_category": "World Model"
-  },
-  {
-    "id": "2503.16806v2",
-    "title": "DyWA: Dynamics-adaptive World Action Model for Generalizable Non-prehensile Manipulation",
-    "authors": [
-      "Jiangran Lyu",
-      "Ziming Li",
-      "Xuesong Shi",
-      "Chaoyi Xu",
-      "Yizhou Wang",
-      "He Wang"
-    ],
-    "summary": "Nonprehensile manipulation is crucial for handling objects that are too thin, large, or otherwise ungraspable in unstructured environments. While conventional planning-based approaches struggle with complex contact modeling, learning-based methods have recently emerged as a promising alternative. However, existing learning-based approaches face two major limitations: they heavily rely on multi-view cameras and precise pose tracking, and they fail to generalize across varying physical conditions,",
-    "published": "2025-03-21",
-    "published_iso": "2025-03-21T02:29:52+00:00",
-    "url": "https://arxiv.org/abs/2503.16806v2",
-    "pdf_url": "https://arxiv.org/pdf/2503.16806v2",
-    "categories": [
-      "cs.RO",
-      "cs.AI"
-    ],
-    "primary_category": "cs.RO",
     "code_url": null,
     "project_url": null,
     "auto_category": "World Model"

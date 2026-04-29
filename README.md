@@ -69,13 +69,14 @@ This repository aims to provide a comprehensive, curated, and continuously updat
 
 ## 🆕 Latest Papers (Auto-updated)
 
-> Papers are automatically fetched daily from arXiv. Last updated: 2026-04-27
+> Papers are automatically fetched daily from arXiv. Last updated: 2026-04-28
 
 ### VLA
 
 | Paper | Date | Code |
 |-------|------|------|
-| [CF-VLA: Efficient Coarse-to-Fine Action Generation for Vision-Language-Action Policies](https://arxiv.org/abs/2604.24622v1)<br><small>Fan Du, Feng Yan et al.</small> | 2026-04-27 |  |
+| [Libra-VLA: Achieving Learning Equilibrium via Asynchronous Coarse-to-Fine Dual-System](https://arxiv.org/abs/2604.24921v1)<br><small>Yifei Wei, Linqing Zhong et al.</small> | 2026-04-27 |  |
+| [CF-VLA: Efficient Coarse-to-Fine Action Generation for Vision-Language-Action Policies](https://arxiv.org/abs/2604.24622v2)<br><small>Fan Du, Feng Yan et al.</small> | 2026-04-27 |  |
 | [Characterizing Vision-Language-Action Models across XPUs: Constraints and Acceleration for On-Robot Deployment](https://arxiv.org/abs/2604.24447v1)<br><small>Kaijun Zhou, Qiwei Chen et al.</small> | 2026-04-27 |  |
 | [$M^2$-VLA: Boosting Vision-Language Models for Generalizable Manipulation via Layer Mixture and Meta-Skills](https://arxiv.org/abs/2604.24182v1)<br><small>Siyao Xiao, Yuhong Zhang et al.</small> | 2026-04-27 |  |
 | [AsyncShield: A Plug-and-Play Edge Adapter for Asynchronous Cloud-based VLA Navigation](https://arxiv.org/abs/2604.24086v1)<br><small>Kai Yang, Zedong Chu et al.</small> | 2026-04-27 |  |
@@ -84,12 +85,12 @@ This repository aims to provide a comprehensive, curated, and continuously updat
 | [Breaking Lock-In: Preserving Steerability under Low-Data VLA Post-Training](https://arxiv.org/abs/2604.23121v1)<br><small>Suning Huang, Jiaqi Shao et al.</small> | 2026-04-25 |  |
 | [RL Token: Bootstrapping Online RL with Vision-Language-Action Models](https://arxiv.org/abs/2604.23073v1)<br><small>Charles Xu, Jost Tobias Springenberg et al.</small> | 2026-04-24 |  |
 | [Vision-Language-Action in Robotics: A Survey of Datasets, Benchmarks, and Data Engines](https://arxiv.org/abs/2604.23001v1)<br><small>Ziyao Wang, Bingying Wang et al.</small> | 2026-04-24 |  |
-| [RedVLA: Physical Red Teaming for Vision-Language-Action Models](https://arxiv.org/abs/2604.22591v1)<br><small>Yuhao Zhang, Borong Zhang et al.</small> | 2026-04-24 |  |
 
 ### World Model
 
 | Paper | Date | Code |
 |-------|------|------|
+| [Privileged Foresight Distillation: Zero-Cost Future Correction for World Action Models](https://arxiv.org/abs/2604.25859v1)<br><small>Pengcheng Fang, Hongli Chen et al.</small> | 2026-04-28 |  |
 | [RoboWM-Bench: A Benchmark for Evaluating World Models in Robotic Manipulation](https://arxiv.org/abs/2604.19092v1)<br><small>Feng Jiang, Yang Chen et al.</small> | 2026-04-21 |  |
 | [AIM: Intent-Aware Unified world action Modeling with Spatial Value Maps](https://arxiv.org/abs/2604.11135v1)<br><small>Liaoyuan Fan, Zetian Xu et al.</small> | 2026-04-13 |  |
 | [JailWAM: Jailbreaking World Action Models in Robot Control](https://arxiv.org/abs/2604.05498v1)<br><small>Hanqing Liu, Songping Wang et al.</small> | 2026-04-07 |  |
@@ -99,7 +100,6 @@ This repository aims to provide a comprehensive, curated, and continuously updat
 | [World Action Models are Zero-shot Policies](https://arxiv.org/abs/2602.15922v1)<br><small>Seonghyeon Ye, Yunhao Ge et al.</small> | 2026-02-17 |  |
 | [Causal World Modeling for Robot Control](https://arxiv.org/abs/2601.21998v2)<br><small>Lin Li, Qihang Zhang et al.</small> | 2026-01-29 |  |
 | [STORM: Search-Guided Generative World Models for Robotic Manipulation](https://arxiv.org/abs/2512.18477v1)<br><small>Wenjun Lin, Jensen Zhang et al.</small> | 2025-12-20 |  |
-| [Dynamic Sparsity: Challenging Common Sparsity Assumptions for Learning World Models in Robotic Reinforcement Learning Benchmarks](https://arxiv.org/abs/2511.08086v2)<br><small>Muthukumar Pandaram, Jakob Hollenstein et al.</small> | 2025-11-11 |  |
 
 ### Policy
 
