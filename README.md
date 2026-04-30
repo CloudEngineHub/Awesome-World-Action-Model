@@ -69,7 +69,7 @@ This repository aims to provide a comprehensive, curated, and continuously updat
 
 ## 🆕 Latest Papers (Auto-updated)
 
-> Papers are automatically fetched daily from arXiv. Last updated: 2026-04-28
+> Papers are automatically fetched daily from arXiv. Last updated: 2026-04-29
 
 ### VLA
 
@@ -90,6 +90,8 @@ This repository aims to provide a comprehensive, curated, and continuously updat
 
 | Paper | Date | Code |
 |-------|------|------|
+| [STARRY: Spatial-Temporal Action-Centric World Modeling for Robotic Manipulation](https://arxiv.org/abs/2604.26848v1)<br><small>Yuxuan Tian, Yurun Jin et al.</small> | 2026-04-29 |  |
+| [Unified 4D World Action Modeling from Video Priors with Asynchronous Denoising](https://arxiv.org/abs/2604.26694v1)<br><small>Jun Guo, Qiwei Li et al.</small> | 2026-04-29 |  |
 | [Privileged Foresight Distillation: Zero-Cost Future Correction for World Action Models](https://arxiv.org/abs/2604.25859v1)<br><small>Pengcheng Fang, Hongli Chen et al.</small> | 2026-04-28 |  |
 | [RoboWM-Bench: A Benchmark for Evaluating World Models in Robotic Manipulation](https://arxiv.org/abs/2604.19092v1)<br><small>Feng Jiang, Yang Chen et al.</small> | 2026-04-21 |  |
 | [AIM: Intent-Aware Unified world action Modeling with Spatial Value Maps](https://arxiv.org/abs/2604.11135v1)<br><small>Liaoyuan Fan, Zetian Xu et al.</small> | 2026-04-13 |  |
@@ -98,8 +100,6 @@ This repository aims to provide a comprehensive, curated, and continuously updat
 | [Latent-WAM: Latent World Action Modeling for End-to-End Autonomous Driving](https://arxiv.org/abs/2603.24581v1)<br><small>Linbo Wang, Yupeng Zheng et al.</small> | 2026-03-25 |  |
 | [Fast-WAM: Do World Action Models Need Test-time Future Imagination?](https://arxiv.org/abs/2603.16666v2)<br><small>Tianyuan Yuan, Zibin Dong et al.</small> | 2026-03-17 |  |
 | [World Action Models are Zero-shot Policies](https://arxiv.org/abs/2602.15922v1)<br><small>Seonghyeon Ye, Yunhao Ge et al.</small> | 2026-02-17 |  |
-| [Causal World Modeling for Robot Control](https://arxiv.org/abs/2601.21998v2)<br><small>Lin Li, Qihang Zhang et al.</small> | 2026-01-29 |  |
-| [STORM: Search-Guided Generative World Models for Robotic Manipulation](https://arxiv.org/abs/2512.18477v1)<br><small>Wenjun Lin, Jensen Zhang et al.</small> | 2025-12-20 |  |
 
 ### Policy
 

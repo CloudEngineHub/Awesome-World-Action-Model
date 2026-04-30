@@ -1,6 +1,6 @@
 # 📚 Latest ArXiv Papers - World Action Models
 
-Generated on: 2026-04-29 03:22:44
+Generated on: 2026-04-30 03:23:48
 
 Total papers: 50
 
@@ -28,6 +28,8 @@ Total papers: 50
 
 | Paper | Date | Code |
 |-------|------|------|
+| [STARRY: Spatial-Temporal Action-Centric World Modeling for Robotic Manipulation](https://arxiv.org/abs/2604.26848v1)<br><small>Yuxuan Tian et al.</small> | 2026-04-29 |  |
+| [Unified 4D World Action Modeling from Video Priors with Asynchronous Denoising](https://arxiv.org/abs/2604.26694v1)<br><small>Jun Guo et al.</small> | 2026-04-29 |  |
 | [Privileged Foresight Distillation: Zero-Cost Future Correction for World Action Models](https://arxiv.org/abs/2604.25859v1)<br><small>Pengcheng Fang et al.</small> | 2026-04-28 |  |
 | [RoboWM-Bench: A Benchmark for Evaluating World Models in Robotic Manipulation](https://arxiv.org/abs/2604.19092v1)<br><small>Feng Jiang et al.</small> | 2026-04-21 |  |
 | [AIM: Intent-Aware Unified world action Modeling with Spatial Value Maps](https://arxiv.org/abs/2604.11135v1)<br><small>Liaoyuan Fan et al.</small> | 2026-04-13 |  |
@@ -41,8 +43,6 @@ Total papers: 50
 | [Dynamic Sparsity: Challenging Common Sparsity Assumptions for Learning World Models in Robotic Reinforcement Learning Benchmarks](https://arxiv.org/abs/2511.08086v2)<br><small>Muthukumar Pandaram et al.</small> | 2025-11-11 |  |
 | [Ctrl-World: A Controllable Generative World Model for Robot Manipulation](https://arxiv.org/abs/2510.10125v3)<br><small>Yanjiang Guo et al.</small> | 2025-10-11 |  |
 | [iMoWM: Taming Interactive Multi-Modal World Model for Robotic Manipulation](https://arxiv.org/abs/2510.09036v1)<br><small>Chuanrui Zhang et al.</small> | 2025-10-10 |  |
-| [WristWorld: Generating Wrist-Views via 4D World Models for Robotic Manipulation](https://arxiv.org/abs/2510.07313v1)<br><small>Zezhong Qian et al.</small> | 2025-10-08 |  |
-| [GWM: Towards Scalable Gaussian World Models for Robotic Manipulation](https://arxiv.org/abs/2508.17600v2)<br><small>Guanxing Lu et al.</small> | 2025-08-25 |  |
 
 ## Policy
 

@@ -1,5 +1,61 @@
 [
   {
+    "id": "2604.26848v1",
+    "title": "STARRY: Spatial-Temporal Action-Centric World Modeling for Robotic Manipulation",
+    "authors": [
+      "Yuxuan Tian",
+      "Yurun Jin",
+      "Bin Yu",
+      "Yukun Shi",
+      "Hao Wu",
+      "Chi Harold Liu",
+      "Kai Chen",
+      "Cong Huang"
+    ],
+    "summary": "Robotic manipulation critically requires reasoning about future spatial-temporal interactions, yet existing VLA policies and world-model-enhanced policies do not fully model action-relevant spatial-temporal interaction structure. We propose STARRY, a world-model-enhanced action-generation policy that aligns spatial-temporal prediction with action generation. STARRY jointly denoises future spatial-temporal latents and action sequences, and introduces Geometry-Aware Selective Attention Modulation ",
+    "published": "2026-04-29",
+    "published_iso": "2026-04-29T16:13:39+00:00",
+    "url": "https://arxiv.org/abs/2604.26848v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.26848v1",
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "World Model"
+  },
+  {
+    "id": "2604.26694v1",
+    "title": "Unified 4D World Action Modeling from Video Priors with Asynchronous Denoising",
+    "authors": [
+      "Jun Guo",
+      "Qiwei Li",
+      "Peiyan Li",
+      "Zilong Chen",
+      "Nan Sun",
+      "Yifei Su",
+      "Heyun Wang",
+      "Yuan Zhang",
+      "Xinghang Li",
+      "Huaping Liu"
+    ],
+    "summary": "We propose X-WAM, a Unified 4D World Model that unifies real-time robotic action execution and high-fidelity 4D world synthesis (video + 3D reconstruction) in a single framework, addressing the critical limitations of prior unified world models (e.g., UWM) that only model 2D pixel-space and fail to balance action efficiency and world modeling quality. To leverage the strong visual priors of pretrained video diffusion models, X-WAM imagines the future world by predicting multi-view RGB-D videos, ",
+    "published": "2026-04-29",
+    "published_iso": "2026-04-29T14:01:54+00:00",
+    "url": "https://arxiv.org/abs/2604.26694v1",
+    "pdf_url": "https://arxiv.org/pdf/2604.26694v1",
+    "categories": [
+      "cs.RO",
+      "cs.AI",
+      "cs.CV"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "World Model"
+  },
+  {
     "id": "2604.25859v1",
     "title": "Privileged Foresight Distillation: Zero-Cost Future Correction for World Action Models",
     "authors": [
@@ -1314,68 +1370,6 @@
       "cs.LG"
     ],
     "primary_category": "cs.RO",
-    "code_url": null,
-    "project_url": null,
-    "auto_category": "World Model"
-  },
-  {
-    "id": "2506.14135v4",
-    "title": "GAF: Gaussian Action Field as a 4D Representation for Dynamic World Modeling in Robotic Manipulation",
-    "authors": [
-      "Ying Chai",
-      "Litao Deng",
-      "Ruizhi Shao",
-      "Jiajun Zhang",
-      "Kangchen Lv",
-      "Liangjun Xing",
-      "Xiang Li",
-      "Hongwen Zhang",
-      "Yebin Liu"
-    ],
-    "summary": "Accurate scene perception is critical for vision-based robotic manipulation. Existing approaches typically follow either a Vision-to-Action (V-A) paradigm, predicting actions directly from visual inputs, or a Vision-to-3D-to-Action (V-3D-A) paradigm, leveraging intermediate 3D representations. However, these methods often struggle with action inaccuracies due to the complexity and dynamic nature of manipulation scenes. In this paper, we adopt a V-4D-A framework that enables direct action reasoni",
-    "published": "2025-06-17",
-    "published_iso": "2025-06-17T02:55:20+00:00",
-    "url": "https://arxiv.org/abs/2506.14135v4",
-    "pdf_url": "https://arxiv.org/pdf/2506.14135v4",
-    "categories": [
-      "cs.RO",
-      "cs.CV"
-    ],
-    "primary_category": "cs.RO",
-    "code_url": null,
-    "project_url": null,
-    "auto_category": "World Model"
-  },
-  {
-    "id": "2505.05512v1",
-    "title": "Occupancy World Model for Robots",
-    "authors": [
-      "Zhang Zhang",
-      "Qiang Zhang",
-      "Wei Cui",
-      "Shuai Shi",
-      "Yijie Guo",
-      "Gang Han",
-      "Wen Zhao",
-      "Jingkai Sun",
-      "Jiahang Cao",
-      "Jiaxu Wang",
-      "Hao Cheng",
-      "Xiaozhu Ju",
-      "Zhengping Che",
-      "Renjing Xu",
-      "Jian Tang"
-    ],
-    "summary": "Understanding and forecasting the scene evolutions deeply affect the exploration and decision of embodied agents. While traditional methods simulate scene evolutions through trajectory prediction of potential instances, current works use the occupancy world model as a generative framework for describing fine-grained overall scene dynamics. However, existing methods cluster on the outdoor structured road scenes, while ignoring the exploration of forecasting 3D occupancy scene evolutions for robot",
-    "published": "2025-05-07",
-    "published_iso": "2025-05-07T09:54:03+00:00",
-    "url": "https://arxiv.org/abs/2505.05512v1",
-    "pdf_url": "https://arxiv.org/pdf/2505.05512v1",
-    "categories": [
-      "cs.CV",
-      "cs.RO"
-    ],
-    "primary_category": "cs.CV",
     "code_url": null,
     "project_url": null,
     "auto_category": "World Model"
