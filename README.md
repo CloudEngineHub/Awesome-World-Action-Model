@@ -69,12 +69,14 @@ This repository aims to provide a comprehensive, curated, and continuously updat
 
 ## 🆕 Latest Papers (Auto-updated)
 
-> Papers are automatically fetched daily from arXiv. Last updated: 2026-04-29
+> Papers are automatically fetched daily from arXiv. Last updated: 2026-04-30
 
 ### VLA
 
 | Paper | Date | Code |
 |-------|------|------|
+| [LaST-R1: Reinforcing Action via Adaptive Physical Latent Reasoning for VLA Models](https://arxiv.org/abs/2604.28192v1)<br><small>Hao Chen, Jiaming Liu et al.</small> | 2026-04-30 |  |
+| [Judge, Then Drive: A Critic-Centric Vision Language Action Framework for Autonomous Driving](https://arxiv.org/abs/2604.27366v1)<br><small>Lijin Yang, Jianing Huang et al.</small> | 2026-04-30 |  |
 | [Libra-VLA: Achieving Learning Equilibrium via Asynchronous Coarse-to-Fine Dual-System](https://arxiv.org/abs/2604.24921v1)<br><small>Yifei Wei, Linqing Zhong et al.</small> | 2026-04-27 |  |
 | [CF-VLA: Efficient Coarse-to-Fine Action Generation for Vision-Language-Action Policies](https://arxiv.org/abs/2604.24622v2)<br><small>Fan Du, Feng Yan et al.</small> | 2026-04-27 |  |
 | [Characterizing Vision-Language-Action Models across XPUs: Constraints and Acceleration for On-Robot Deployment](https://arxiv.org/abs/2604.24447v1)<br><small>Kaijun Zhou, Qiwei Chen et al.</small> | 2026-04-27 |  |
@@ -83,13 +85,12 @@ This repository aims to provide a comprehensive, curated, and continuously updat
 | [Vision-Language-Action Safety: Threats, Challenges, Evaluations, and Mechanisms](https://arxiv.org/abs/2604.23775v1)<br><small>Qi Li, Bo Yin et al.</small> | 2026-04-26 |  |
 | [Modular Sensory Stream for Integrating Physical Feedback in Vision-Language-Action Models](https://arxiv.org/abs/2604.23272v1)<br><small>Jimin Lee, Huiwon Jang et al.</small> | 2026-04-25 |  |
 | [Breaking Lock-In: Preserving Steerability under Low-Data VLA Post-Training](https://arxiv.org/abs/2604.23121v1)<br><small>Suning Huang, Jiaqi Shao et al.</small> | 2026-04-25 |  |
-| [RL Token: Bootstrapping Online RL with Vision-Language-Action Models](https://arxiv.org/abs/2604.23073v1)<br><small>Charles Xu, Jost Tobias Springenberg et al.</small> | 2026-04-24 |  |
-| [Vision-Language-Action in Robotics: A Survey of Datasets, Benchmarks, and Data Engines](https://arxiv.org/abs/2604.23001v1)<br><small>Ziyao Wang, Bingying Wang et al.</small> | 2026-04-24 |  |
 
 ### World Model
 
 | Paper | Date | Code |
 |-------|------|------|
+| [MotuBrain: An Advanced World Action Model for Robot Control](https://arxiv.org/abs/2604.27792v1)<br><small>MotuBrain Team, Chendong Xiang et al.</small> | 2026-04-30 |  |
 | [STARRY: Spatial-Temporal Action-Centric World Modeling for Robotic Manipulation](https://arxiv.org/abs/2604.26848v1)<br><small>Yuxuan Tian, Yurun Jin et al.</small> | 2026-04-29 |  |
 | [Unified 4D World Action Modeling from Video Priors with Asynchronous Denoising](https://arxiv.org/abs/2604.26694v1)<br><small>Jun Guo, Qiwei Li et al.</small> | 2026-04-29 |  |
 | [Privileged Foresight Distillation: Zero-Cost Future Correction for World Action Models](https://arxiv.org/abs/2604.25859v1)<br><small>Pengcheng Fang, Hongli Chen et al.</small> | 2026-04-28 |  |
@@ -99,7 +100,6 @@ This repository aims to provide a comprehensive, curated, and continuously updat
 | [DriveDreamer-Policy: A Geometry-Grounded World-Action Model for Unified Generation and Planning](https://arxiv.org/abs/2604.01765v1)<br><small>Yang Zhou, Xiaofeng Wang et al.</small> | 2026-04-02 |  |
 | [Latent-WAM: Latent World Action Modeling for End-to-End Autonomous Driving](https://arxiv.org/abs/2603.24581v1)<br><small>Linbo Wang, Yupeng Zheng et al.</small> | 2026-03-25 |  |
 | [Fast-WAM: Do World Action Models Need Test-time Future Imagination?](https://arxiv.org/abs/2603.16666v2)<br><small>Tianyuan Yuan, Zibin Dong et al.</small> | 2026-03-17 |  |
-| [World Action Models are Zero-shot Policies](https://arxiv.org/abs/2602.15922v1)<br><small>Seonghyeon Ye, Yunhao Ge et al.</small> | 2026-02-17 |  |
 
 ### Policy
 

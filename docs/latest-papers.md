@@ -1,6 +1,6 @@
 # 📚 Latest ArXiv Papers - World Action Models
 
-Generated on: 2026-04-30 03:23:48
+Generated on: 2026-05-01 03:33:49
 
 Total papers: 50
 
@@ -8,6 +8,8 @@ Total papers: 50
 
 | Paper | Date | Code |
 |-------|------|------|
+| [LaST-R1: Reinforcing Action via Adaptive Physical Latent Reasoning for VLA Models](https://arxiv.org/abs/2604.28192v1)<br><small>Hao Chen et al.</small> | 2026-04-30 |  |
+| [Judge, Then Drive: A Critic-Centric Vision Language Action Framework for Autonomous Driving](https://arxiv.org/abs/2604.27366v1)<br><small>Lijin Yang et al.</small> | 2026-04-30 |  |
 | [Libra-VLA: Achieving Learning Equilibrium via Asynchronous Coarse-to-Fine Dual-System](https://arxiv.org/abs/2604.24921v1)<br><small>Yifei Wei et al.</small> | 2026-04-27 |  |
 | [CF-VLA: Efficient Coarse-to-Fine Action Generation for Vision-Language-Action Policies](https://arxiv.org/abs/2604.24622v2)<br><small>Fan Du et al.</small> | 2026-04-27 |  |
 | [Characterizing Vision-Language-Action Models across XPUs: Constraints and Acceleration for On-Robot Deployment](https://arxiv.org/abs/2604.24447v1)<br><small>Kaijun Zhou et al.</small> | 2026-04-27 |  |
@@ -21,13 +23,12 @@ Total papers: 50
 | [RedVLA: Physical Red Teaming for Vision-Language-Action Models](https://arxiv.org/abs/2604.22591v1)<br><small>Yuhao Zhang et al.</small> | 2026-04-24 |  |
 | [CodeGraphVLP: Code-as-Planner Meets Semantic-Graph State for Non-Markovian Vision-Language-Action Models](https://arxiv.org/abs/2604.22238v1)<br><small>Khoa Vo et al.</small> | 2026-04-24 |  |
 | [Long-Horizon Manipulation via Trace-Conditioned VLA Planning](https://arxiv.org/abs/2604.21924v1)<br><small>Isabella Liu et al.</small> | 2026-04-23 |  |
-| [From Noise to Intent: Anchoring Generative VLA Policies with Residual Bridges](https://arxiv.org/abs/2604.21391v1)<br><small>Yiming Zhong et al.</small> | 2026-04-23 |  |
-| [How VLAs (Really) Work In Open-World Environments](https://arxiv.org/abs/2604.21192v1)<br><small>Amir Rasouli et al.</small> | 2026-04-23 |  |
 
 ## World Model
 
 | Paper | Date | Code |
 |-------|------|------|
+| [MotuBrain: An Advanced World Action Model for Robot Control](https://arxiv.org/abs/2604.27792v1)<br><small>MotuBrain Team et al.</small> | 2026-04-30 |  |
 | [STARRY: Spatial-Temporal Action-Centric World Modeling for Robotic Manipulation](https://arxiv.org/abs/2604.26848v1)<br><small>Yuxuan Tian et al.</small> | 2026-04-29 |  |
 | [Unified 4D World Action Modeling from Video Priors with Asynchronous Denoising](https://arxiv.org/abs/2604.26694v1)<br><small>Jun Guo et al.</small> | 2026-04-29 |  |
 | [Privileged Foresight Distillation: Zero-Cost Future Correction for World Action Models](https://arxiv.org/abs/2604.25859v1)<br><small>Pengcheng Fang et al.</small> | 2026-04-28 |  |
@@ -42,7 +43,6 @@ Total papers: 50
 | [STORM: Search-Guided Generative World Models for Robotic Manipulation](https://arxiv.org/abs/2512.18477v1)<br><small>Wenjun Lin et al.</small> | 2025-12-20 |  |
 | [Dynamic Sparsity: Challenging Common Sparsity Assumptions for Learning World Models in Robotic Reinforcement Learning Benchmarks](https://arxiv.org/abs/2511.08086v2)<br><small>Muthukumar Pandaram et al.</small> | 2025-11-11 |  |
 | [Ctrl-World: A Controllable Generative World Model for Robot Manipulation](https://arxiv.org/abs/2510.10125v3)<br><small>Yanjiang Guo et al.</small> | 2025-10-11 |  |
-| [iMoWM: Taming Interactive Multi-Modal World Model for Robotic Manipulation](https://arxiv.org/abs/2510.09036v1)<br><small>Chuanrui Zhang et al.</small> | 2025-10-10 |  |
 
 ## Policy
 
