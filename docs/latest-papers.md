@@ -1,6 +1,6 @@
 # 📚 Latest ArXiv Papers - World Action Models
 
-Generated on: 2026-05-02 02:50:00
+Generated on: 2026-05-03 03:25:09
 
 Total papers: 50
 
