@@ -69,12 +69,13 @@ This repository aims to provide a comprehensive, curated, and continuously updat
 
 ## 🆕 Latest Papers (Auto-updated)
 
-> Papers are automatically fetched daily from arXiv. Last updated: 2026-04-30
+> Papers are automatically fetched daily from arXiv. Last updated: 2026-05-01
 
 ### VLA
 
 | Paper | Date | Code |
 |-------|------|------|
+| [Embodied Interpretability: Linking Causal Understanding to Generalization in Vision-Language-Action Models](https://arxiv.org/abs/2605.00321v1)<br><small>Hanxin Zhang, Mingshuo Xu et al.</small> | 2026-05-01 |  |
 | [LaST-R1: Reinforcing Action via Adaptive Physical Latent Reasoning for VLA Models](https://arxiv.org/abs/2604.28192v1)<br><small>Hao Chen, Jiaming Liu et al.</small> | 2026-04-30 |  |
 | [Judge, Then Drive: A Critic-Centric Vision Language Action Framework for Autonomous Driving](https://arxiv.org/abs/2604.27366v1)<br><small>Lijin Yang, Jianing Huang et al.</small> | 2026-04-30 |  |
 | [Libra-VLA: Achieving Learning Equilibrium via Asynchronous Coarse-to-Fine Dual-System](https://arxiv.org/abs/2604.24921v1)<br><small>Yifei Wei, Linqing Zhong et al.</small> | 2026-04-27 |  |
@@ -84,14 +85,14 @@ This repository aims to provide a comprehensive, curated, and continuously updat
 | [AsyncShield: A Plug-and-Play Edge Adapter for Asynchronous Cloud-based VLA Navigation](https://arxiv.org/abs/2604.24086v1)<br><small>Kai Yang, Zedong Chu et al.</small> | 2026-04-27 |  |
 | [Vision-Language-Action Safety: Threats, Challenges, Evaluations, and Mechanisms](https://arxiv.org/abs/2604.23775v1)<br><small>Qi Li, Bo Yin et al.</small> | 2026-04-26 |  |
 | [Modular Sensory Stream for Integrating Physical Feedback in Vision-Language-Action Models](https://arxiv.org/abs/2604.23272v1)<br><small>Jimin Lee, Huiwon Jang et al.</small> | 2026-04-25 |  |
-| [Breaking Lock-In: Preserving Steerability under Low-Data VLA Post-Training](https://arxiv.org/abs/2604.23121v1)<br><small>Suning Huang, Jiaqi Shao et al.</small> | 2026-04-25 |  |
 
 ### World Model
 
 | Paper | Date | Code |
 |-------|------|------|
-| [MotuBrain: An Advanced World Action Model for Robot Control](https://arxiv.org/abs/2604.27792v1)<br><small>MotuBrain Team, Chendong Xiang et al.</small> | 2026-04-30 |  |
-| [STARRY: Spatial-Temporal Action-Centric World Modeling for Robotic Manipulation](https://arxiv.org/abs/2604.26848v1)<br><small>Yuxuan Tian, Yurun Jin et al.</small> | 2026-04-29 |  |
+| [World Model for Robot Learning: A Comprehensive Survey](https://arxiv.org/abs/2605.00080v1)<br><small>Bohan Hou, Gen Li et al.</small> | 2026-04-30 |  |
+| [MotuBrain: An Advanced World Action Model for Robot Control](https://arxiv.org/abs/2604.27792v2)<br><small>MotuBrain Team, Chendong Xiang et al.</small> | 2026-04-30 |  |
+| [STARRY: Spatial-Temporal Action-Centric World Modeling for Robotic Manipulation](https://arxiv.org/abs/2604.26848v2)<br><small>Yuxuan Tian, Yurun Jin et al.</small> | 2026-04-29 |  |
 | [Unified 4D World Action Modeling from Video Priors with Asynchronous Denoising](https://arxiv.org/abs/2604.26694v1)<br><small>Jun Guo, Qiwei Li et al.</small> | 2026-04-29 |  |
 | [Privileged Foresight Distillation: Zero-Cost Future Correction for World Action Models](https://arxiv.org/abs/2604.25859v1)<br><small>Pengcheng Fang, Hongli Chen et al.</small> | 2026-04-28 |  |
 | [RoboWM-Bench: A Benchmark for Evaluating World Models in Robotic Manipulation](https://arxiv.org/abs/2604.19092v1)<br><small>Feng Jiang, Yang Chen et al.</small> | 2026-04-21 |  |
@@ -99,12 +100,12 @@ This repository aims to provide a comprehensive, curated, and continuously updat
 | [JailWAM: Jailbreaking World Action Models in Robot Control](https://arxiv.org/abs/2604.05498v1)<br><small>Hanqing Liu, Songping Wang et al.</small> | 2026-04-07 |  |
 | [DriveDreamer-Policy: A Geometry-Grounded World-Action Model for Unified Generation and Planning](https://arxiv.org/abs/2604.01765v1)<br><small>Yang Zhou, Xiaofeng Wang et al.</small> | 2026-04-02 |  |
 | [Latent-WAM: Latent World Action Modeling for End-to-End Autonomous Driving](https://arxiv.org/abs/2603.24581v1)<br><small>Linbo Wang, Yupeng Zheng et al.</small> | 2026-03-25 |  |
-| [Fast-WAM: Do World Action Models Need Test-time Future Imagination?](https://arxiv.org/abs/2603.16666v2)<br><small>Tianyuan Yuan, Zibin Dong et al.</small> | 2026-03-17 |  |
 
 ### Policy
 
 | Paper | Date | Code |
 |-------|------|------|
+| [Being-H0.7: A Latent World-Action Model from Egocentric Videos](https://arxiv.org/abs/2605.00078v1)<br><small>Hao Luo, Wanpeng Zhang et al.</small> | 2026-04-30 |  |
 | [Enhancing Policy Learning with World-Action Model](https://arxiv.org/abs/2603.28955v1)<br><small>Yuci Han, Alper Yilmaz</small> | 2026-03-30 |  |
 | [GigaWorld-Policy: An Efficient Action-Centered World--Action Model](https://arxiv.org/abs/2603.17240v2)<br><small>Angen Ye, Boyuan Wang et al.</small> | 2026-03-18 |  |
 

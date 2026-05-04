@@ -1,5 +1,29 @@
 [
   {
+    "id": "2605.00321v1",
+    "title": "Embodied Interpretability: Linking Causal Understanding to Generalization in Vision-Language-Action Models",
+    "authors": [
+      "Hanxin Zhang",
+      "Mingshuo Xu",
+      "Abdulqader Dhafer",
+      "Shigang Yue",
+      "Hongbiao Dong",
+      "Zhou Daniel Hao"
+    ],
+    "summary": "Vision-Language-Action (VLA) policies often fail under distribution shift, suggesting that decisions may depend on spurious visual correlations rather than task-relevant causes. We formulate visual-action attribution as an interventional estimation problem. Accordingly, we introduce the Interventional Significance Score (ISS), an interventional masking procedure for estimating the causal influence of visual regions on action predictions, and the Nuisance Mass Ratio (NMR), a scalar measure of att",
+    "published": "2026-05-01",
+    "published_iso": "2026-05-01T01:00:00+00:00",
+    "url": "https://arxiv.org/abs/2605.00321v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.00321v1",
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
     "id": "2604.28192v1",
     "title": "LaST-R1: Reinforcing Action via Adaptive Physical Latent Reasoning for VLA Models",
     "authors": [
@@ -33,7 +57,73 @@
     "auto_category": "VLA"
   },
   {
-    "id": "2604.27792v1",
+    "id": "2605.00080v1",
+    "title": "World Model for Robot Learning: A Comprehensive Survey",
+    "authors": [
+      "Bohan Hou",
+      "Gen Li",
+      "Jindou Jia",
+      "Tuo An",
+      "Xinying Guo",
+      "Sicong Leng",
+      "Haoran Geng",
+      "Yanjie Ze",
+      "Tatsuya Harada",
+      "Philip Torr",
+      "Oier Mees",
+      "Marc Pollefeys",
+      "Zhuang Liu",
+      "Jiajun Wu",
+      "Pieter Abbeel",
+      "Jitendra Malik",
+      "Yilun Du",
+      "Jianfei Yang"
+    ],
+    "summary": "World models, which are predictive representations of how environments evolve under actions, have become a central component of robot learning. They support policy learning, planning, simulation, evaluation, data generation, and have advanced rapidly with the rise of foundation models and large-scale video generation. However, the literature remains fragmented across architectures, functional roles, and embodied application domains. To address this gap, we present a comprehensive review of world",
+    "published": "2026-04-30",
+    "published_iso": "2026-04-30T14:35:31+00:00",
+    "url": "https://arxiv.org/abs/2605.00080v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.00080v1",
+    "categories": [
+      "cs.RO",
+      "cs.CV"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "World Model"
+  },
+  {
+    "id": "2605.00078v1",
+    "title": "Being-H0.7: A Latent World-Action Model from Egocentric Videos",
+    "authors": [
+      "Hao Luo",
+      "Wanpeng Zhang",
+      "Yicheng Feng",
+      "Sipeng Zheng",
+      "Haiweng Xu",
+      "Chaoyi Xu",
+      "Ziheng Xi",
+      "Yuhui Fu",
+      "Zongqing Lu"
+    ],
+    "summary": "Visual-Language-Action models (VLAs) have advanced generalist robot control by mapping multimodal observations and language instructions directly to actions, but sparse action supervision often encourages shortcut mappings rather than representations of dynamics, contact, and task progress. Recent world-action models introduce future prediction through video rollouts, yet pixel-space prediction is a costly and indirect substrate for control, as it may model visual details irrelevant to action ge",
+    "published": "2026-04-30",
+    "published_iso": "2026-04-30T14:16:15+00:00",
+    "url": "https://arxiv.org/abs/2605.00078v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.00078v1",
+    "categories": [
+      "cs.RO",
+      "cs.CV",
+      "cs.LG"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "Policy"
+  },
+  {
+    "id": "2604.27792v2",
     "title": "MotuBrain: An Advanced World Action Model for Robot Control",
     "authors": [
       "MotuBrain Team",
@@ -57,11 +147,11 @@
       "Zeyuan Wang",
       "Jun Zhu"
     ],
-    "summary": "Vision-Language-Action (VLA) models achieve strong semantic generalization but often lack fine-grained modeling of world dynamics. Recent work explores video generation models as a foundation for world modeling, leading to unified World Action Models (WAMs) that jointly model visual dynamics and actions. We present MotuBrain, a unified multimodal generative model that jointly models video and action under a UniDiffuser formulation with a three-stream Mixture-of-Transformers architecture. A singl",
+    "summary": "Vision-Language-Action (VLA) models generalize semantically well but often lack fine-grained modeling of world dynamics. We present MotuBrain, a unified World Action Model that jointly models video and action under a UniDiffuser formulation with a three-stream Mixture-of-Transformers architecture. A single model supports policy learning, world modeling, video generation, inverse dynamics, and joint video-action prediction, while scaling to heterogeneous multimodal data such as video-only, task-a",
     "published": "2026-04-30",
     "published_iso": "2026-04-30T12:34:44+00:00",
-    "url": "https://arxiv.org/abs/2604.27792v1",
-    "pdf_url": "https://arxiv.org/pdf/2604.27792v1",
+    "url": "https://arxiv.org/abs/2604.27792v2",
+    "pdf_url": "https://arxiv.org/pdf/2604.27792v2",
     "categories": [
       "cs.RO"
     ],
@@ -94,7 +184,7 @@
     "auto_category": "VLA"
   },
   {
-    "id": "2604.26848v1",
+    "id": "2604.26848v2",
     "title": "STARRY: Spatial-Temporal Action-Centric World Modeling for Robotic Manipulation",
     "authors": [
       "Yuxuan Tian",
@@ -106,11 +196,11 @@
       "Kai Chen",
       "Cong Huang"
     ],
-    "summary": "Robotic manipulation critically requires reasoning about future spatial-temporal interactions, yet existing VLA policies and world-model-enhanced policies do not fully model action-relevant spatial-temporal interaction structure. We propose STARRY, a world-model-enhanced action-generation policy that aligns spatial-temporal prediction with action generation. STARRY jointly denoises future spatial-temporal latents and action sequences, and introduces Geometry-Aware Selective Attention Modulation ",
+    "summary": "Robotic manipulation requires reasoning about future spatial-temporal interactions and geometric constraints, yet existing Vision-Language-Action (VLA) policies often leave predictive representation weakly coupled with action execution, causing failures in tasks requiring precise spatial-temporal coordination. We propose STARRY, a world-model-enhanced action-generation policy that aligns spatial-temporal prediction and action generation by jointly denoising future spatial-temporal latents and ac",
     "published": "2026-04-29",
     "published_iso": "2026-04-29T16:13:39+00:00",
-    "url": "https://arxiv.org/abs/2604.26848v1",
-    "pdf_url": "https://arxiv.org/pdf/2604.26848v1",
+    "url": "https://arxiv.org/abs/2604.26848v2",
+    "pdf_url": "https://arxiv.org/pdf/2604.26848v2",
     "categories": [
       "cs.RO"
     ],
@@ -389,7 +479,7 @@
     "auto_category": "VLA"
   },
   {
-    "id": "2604.23073v1",
+    "id": "2604.23073v2",
     "title": "RL Token: Bootstrapping Online RL with Vision-Language-Action Models",
     "authors": [
       "Charles Xu",
@@ -403,8 +493,8 @@
     "summary": "Vision-language-action (VLA) models can learn to perform diverse manipulation skills \"out of the box,\" but achieving the precision and speed that real-world tasks demand requires further fine-tuning -- for example, via reinforcement learning (RL). We introduce a lightweight method that enables sample-efficient online RL fine-tuning of pretrained VLAs using just a few hours of real-world practice. We (1) adapt the VLA to expose an \"RL token,\" a compact readout representation that preserves task-r",
     "published": "2026-04-24",
     "published_iso": "2026-04-24T23:57:45+00:00",
-    "url": "https://arxiv.org/abs/2604.23073v1",
-    "pdf_url": "https://arxiv.org/pdf/2604.23073v1",
+    "url": "https://arxiv.org/abs/2604.23073v2",
+    "pdf_url": "https://arxiv.org/pdf/2604.23073v2",
     "categories": [
       "cs.LG",
       "cs.RO"
@@ -919,34 +1009,6 @@
     "auto_category": "VLA"
   },
   {
-    "id": "2604.17787v1",
-    "title": "AnchorRefine: Synergy-Manipulation Based on Trajectory Anchor and Residual Refinement for Vision-Language-Action Models",
-    "authors": [
-      "Tingzheng Jia",
-      "Kan Guo",
-      "Lanping Qian",
-      "Yongli Hu",
-      "Daxin Tian",
-      "Guixian Qu",
-      "Chunmian Lin",
-      "Baocai Yin",
-      "Jiapu Wang"
-    ],
-    "summary": "Precision-critical manipulation requires both global trajectory organization and local execution correction, yet most vision-language-action (VLA) policies generate actions within a single unified space. This monolithic formulation forces macro-level transport and micro-level refinement to be optimized under the same objective, causing large motions to dominate learning while suppressing small but failure-critical corrective signals. In contrast, human manipulation is structured by global moveme",
-    "published": "2026-04-20",
-    "published_iso": "2026-04-20T04:25:24+00:00",
-    "url": "https://arxiv.org/abs/2604.17787v1",
-    "pdf_url": "https://arxiv.org/pdf/2604.17787v1",
-    "categories": [
-      "cs.RO",
-      "cs.AI"
-    ],
-    "primary_category": "cs.RO",
-    "code_url": null,
-    "project_url": null,
-    "auto_category": "VLA"
-  },
-  {
     "id": "2604.11135v1",
     "title": "AIM: Intent-Aware Unified world action Modeling with Spatial Value Maps",
     "authors": [
@@ -1339,56 +1401,6 @@
       "cs.AI"
     ],
     "primary_category": "cs.RO",
-    "code_url": null,
-    "project_url": null,
-    "auto_category": "World Model"
-  },
-  {
-    "id": "2510.09036v1",
-    "title": "iMoWM: Taming Interactive Multi-Modal World Model for Robotic Manipulation",
-    "authors": [
-      "Chuanrui Zhang",
-      "Zhengxian Wu",
-      "Guanxing Lu",
-      "Yansong Tang",
-      "Ziwei Wang"
-    ],
-    "summary": "Learned world models hold significant potential for robotic manipulation, as they can serve as simulator for real-world interactions. While extensive progress has been made in 2D video-based world models, these approaches often lack geometric and spatial reasoning, which is essential for capturing the physical structure of the 3D world. To address this limitation, we introduce iMoWM, a novel interactive world model designed to generate color images, depth maps, and robot arm masks in an autoregr",
-    "published": "2025-10-10",
-    "published_iso": "2025-10-10T06:15:42+00:00",
-    "url": "https://arxiv.org/abs/2510.09036v1",
-    "pdf_url": "https://arxiv.org/pdf/2510.09036v1",
-    "categories": [
-      "cs.RO"
-    ],
-    "primary_category": "cs.RO",
-    "code_url": null,
-    "project_url": null,
-    "auto_category": "World Model"
-  },
-  {
-    "id": "2510.07313v1",
-    "title": "WristWorld: Generating Wrist-Views via 4D World Models for Robotic Manipulation",
-    "authors": [
-      "Zezhong Qian",
-      "Xiaowei Chi",
-      "Yuming Li",
-      "Shizun Wang",
-      "Zhiyuan Qin",
-      "Xiaozhu Ju",
-      "Sirui Han",
-      "Shanghang Zhang"
-    ],
-    "summary": "Wrist-view observations are crucial for VLA models as they capture fine-grained hand-object interactions that directly enhance manipulation performance. Yet large-scale datasets rarely include such recordings, resulting in a substantial gap between abundant anchor views and scarce wrist views. Existing world models cannot bridge this gap, as they require a wrist-view first frame and thus fail to generate wrist-view videos from anchor views alone. Amid this gap, recent visual geometry models such",
-    "published": "2025-10-08",
-    "published_iso": "2025-10-08T17:59:08+00:00",
-    "url": "https://arxiv.org/abs/2510.07313v1",
-    "pdf_url": "https://arxiv.org/pdf/2510.07313v1",
-    "categories": [
-      "cs.CV",
-      "cs.RO"
-    ],
-    "primary_category": "cs.CV",
     "code_url": null,
     "project_url": null,
     "auto_category": "World Model"
