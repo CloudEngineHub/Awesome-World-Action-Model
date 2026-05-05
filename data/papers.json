@@ -1,5 +1,201 @@
 [
   {
+    "id": "2605.02757v1",
+    "title": "Seeing Realism from Simulation: Efficient Video Transfer for Vision-Language-Action Data Augmentation",
+    "authors": [
+      "Chenyu Hui",
+      "Xiaodi Huang",
+      "Siyu Xu",
+      "Yunke Wang",
+      "Shan You",
+      "Fei Wang",
+      "Tao Huang",
+      "Chang Xu"
+    ],
+    "summary": "Vision-language-action (VLA) models typically rely on large-scale real-world videos, whereas simulated data, despite being inexpensive and highly parallelizable to collect, often suffers from a substantial visual domain gap and limited environmental diversity, resulting in weak real-world generalization. We present an efficient video augmentation framework that converts simulated VLA videos into realistic training videos while preserving task semantics and action trajectories. Our pipeline extra",
+    "published": "2026-05-04",
+    "published_iso": "2026-05-04T15:57:07+00:00",
+    "url": "https://arxiv.org/abs/2605.02757v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.02757v1",
+    "categories": [
+      "cs.CV",
+      "cs.RO"
+    ],
+    "primary_category": "cs.CV",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
+    "id": "2605.02739v1",
+    "title": "Latent Bridge: Feature Delta Prediction for Efficient Dual-System Vision-Language-Action Model Inference",
+    "authors": [
+      "Yudong Liu",
+      "Yuan Li",
+      "Zijia Tang",
+      "Yuxi Zheng",
+      "Yueqian Lin",
+      "Qinsi Wang",
+      "Yi Li",
+      "Shuangjun Liu",
+      "Shuai Zhang",
+      "Taotao Jing",
+      "Dashan Gao",
+      "Ning Bi",
+      "Jingwei Sun",
+      "Yiran Chen",
+      "Hai Li"
+    ],
+    "summary": "Dual-system Vision-Language-Action (VLA) models achieve state-of-the-art robotic manipulation but are bottlenecked by the VLM backbone, which must\n  execute at every control step while producing temporally redundant features. We propose Latent Bridge, a lightweight model that predicts VLM output\n  deltas between timesteps, enabling the action head to operate on predicted outputs while the expensive VLM backbone is called only periodically. We\n  instantiate Latent Bridge on two architecturally di",
+    "published": "2026-05-04",
+    "published_iso": "2026-05-04T15:37:55+00:00",
+    "url": "https://arxiv.org/abs/2605.02739v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.02739v1",
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
+    "id": "2605.02037v1",
+    "title": "VILAS: A VLA-Integrated Low-cost Architecture with Soft Grasping for Robotic Manipulation",
+    "authors": [
+      "Zijian An",
+      "Hadi Khezam",
+      "Bill Cai",
+      "Ran Yang",
+      "Shijie Geng",
+      "Yiming Feng",
+      "Yue",
+      "Zheng",
+      "Lifeng Zhou"
+    ],
+    "summary": "We present VILAS, a fully low-cost, modular robotic manipulation platform designed to support end-to-end vision-language-action (VLA) policy learning and deployment on accessible hardware. The system integrates a Fairino FR5 collaborative arm, a Jodell RG52-50 electric gripper, and a dual-camera perception module, unified through a ZMQ-based communication architecture that seamlessly coordinates teleoperation, data collection, and policy deployment within a single framework. To enable safe manip",
+    "published": "2026-05-03",
+    "published_iso": "2026-05-03T20:04:42+00:00",
+    "url": "https://arxiv.org/abs/2605.02037v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.02037v1",
+    "categories": [
+      "cs.RO",
+      "cs.AI"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
+    "id": "2605.01948v1",
+    "title": "Phone2Act: A Low-Cost, Hardware-Agnostic Teleoperation System for Scalable VLA Data Collection",
+    "authors": [
+      "Om Mandhane",
+      "Bipin Yadav",
+      "Sangeetha Prasanna Ram",
+      "Gopalakrishnan Narayanan"
+    ],
+    "summary": "Collecting diverse, high-quality manipulation data for Vision-Language-Action (VLA) model training remains prohibitively expensive for many research groups, as existing teleoperation frameworks rely on specialized hardware or are tightly coupled to specific robot platforms. We present Phone2Act, a low-cost, hardware-agnostic teleoperation framework that transforms a commodity smartphone into a 6-DoF robot controller via Google ARCore. Built on a modular ROS 2 architecture, Phone2Act decouples co",
+    "published": "2026-05-03",
+    "published_iso": "2026-05-03T16:17:16+00:00",
+    "url": "https://arxiv.org/abs/2605.01948v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.01948v1",
+    "categories": [
+      "cs.RO",
+      "cs.AI",
+      "cs.HC"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
+    "id": "2605.01772v1",
+    "title": "Anticipation-VLA: Solving Long-Horizon Embodied Tasks via Anticipation-based Subgoal Generation",
+    "authors": [
+      "Zhilong Zhang",
+      "Wenyu Luo",
+      "Haonan Wang",
+      "Yifei Sheng",
+      "Yidi Wang",
+      "Hanyuan Guo",
+      "Haoxiang Ren",
+      "Xinghao Du",
+      "Yuhan Che",
+      "Tongtong Cao",
+      "Lei Yuan",
+      "Yang Yu"
+    ],
+    "summary": "Vision-Language-Action (VLA) models have emerged as a powerful paradigm for embodied intelligence, enabling robots to perform tasks based on natural language instructions and current visual input. However, existing VLA models struggle with long-horizon tasks due to compounding errors. Prior methods decompose tasks into subtasks of fixed granularity, which cannot adapt to the varying complexity of execution states, limiting their robustness in long-horizon tasks. To overcome this, we introduce An",
+    "published": "2026-05-03",
+    "published_iso": "2026-05-03T08:11:35+00:00",
+    "url": "https://arxiv.org/abs/2605.01772v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.01772v1",
+    "categories": [
+      "cs.RO",
+      "cs.LG"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
+    "id": "2605.01194v1",
+    "title": "VLA-ATTC: Adaptive Test-Time Compute for VLA Models with Relative Action Critic Model",
+    "authors": [
+      "Wenhao Li",
+      "Xiu Su",
+      "Dan Niu",
+      "Yichao Cao",
+      "Hongyan Xu",
+      "Zhe Qu",
+      "Lei Fan",
+      "Shan You",
+      "Chang Xu"
+    ],
+    "summary": "Vision-Language-Action (VLA) models have demonstrated remarkable capabilities and generalization in embodied manipulation. However, their decision-making relies on a fast, instinctive process that lacks deliberation. This strategy often leads to suboptimal or catastrophic actions when facing complex or ambiguous scenarios that require greater consideration. In this paper, we introduce \\textbf{VLA-ATTC}, a framework that endows VLA models with adaptive test-time compute (TTC). VLA-ATTC employs an",
+    "published": "2026-05-02",
+    "published_iso": "2026-05-02T02:13:11+00:00",
+    "url": "https://arxiv.org/abs/2605.01194v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.01194v1",
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
+    "id": "2605.01191v1",
+    "title": "Sentinel-VLA: A Metacognitive VLA Model with Active Status Monitoring for Dynamic Reasoning and Error Recovery",
+    "authors": [
+      "Wenhao Li",
+      "Xiu Su",
+      "Yichao Cao",
+      "Hongyan Xu",
+      "Xiaobo Xia",
+      "Shan You",
+      "Yi Chen",
+      "Chang Xu"
+    ],
+    "summary": "Vision-language-action (VLA) models have advanced the field of embodied manipulation by harnessing broad world knowledge and strong generalization. However, current VLA models still face several key challenges, including limited reasoning capability, lack of status monitoring, and difficulty in self-correction. In this paper, we introduce \\textbf{Sentinel-VLA}, a metacognitive VLA model equipped with an active ``sentinel'' module to monitor real-time execution status. Only when necessary, such a",
+    "published": "2026-05-02",
+    "published_iso": "2026-05-02T02:10:54+00:00",
+    "url": "https://arxiv.org/abs/2605.01191v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.01191v1",
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
     "id": "2605.00321v1",
     "title": "Embodied Interpretability: Linking Causal Understanding to Generalization in Vision-Language-Action Models",
     "authors": [
@@ -240,7 +436,7 @@
     "auto_category": "World Model"
   },
   {
-    "id": "2604.25859v1",
+    "id": "2604.25859v2",
     "title": "Privileged Foresight Distillation: Zero-Cost Future Correction for World Action Models",
     "authors": [
       "Pengcheng Fang",
@@ -250,8 +446,8 @@
     "summary": "World action models jointly predict future video and action during training, raising an open question about what role the future-prediction branch actually plays. A recent finding shows that this branch can be removed at inference with little to no loss on common manipulation benchmarks, suggesting that future information may act merely as a regularizer on the shared visual backbone. We propose instead that joint training induces an action-conditioned correction that privileged future observatio",
     "published": "2026-04-28",
     "published_iso": "2026-04-28T16:58:52+00:00",
-    "url": "https://arxiv.org/abs/2604.25859v1",
-    "pdf_url": "https://arxiv.org/pdf/2604.25859v1",
+    "url": "https://arxiv.org/abs/2604.25859v2",
+    "pdf_url": "https://arxiv.org/pdf/2604.25859v2",
     "categories": [
       "cs.RO"
     ],
@@ -369,6 +565,28 @@
       "cs.RO"
     ],
     "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
+    "id": "2605.00884v1",
+    "title": "LiteVLA-H: Dual-Rate Vision-Language-Action Inference for Onboard Aerial Guidance and Semantic Perception",
+    "authors": [
+      "Justn williams",
+      "Kishor Datta Gupta",
+      "Roy George",
+      "Mrinmoy Sarkar"
+    ],
+    "summary": "Vision-language-action (VLA) models have shown strong semantic grounding and task generalization in manipulation, but aerial deployment remains difficult because drones require low-latency closed-loop guidance under strict onboard compute and communication constraints. We present LiteVLA-H, a compact 256M-parameter VLA system designed for dual-rate operation on an NVIDIA Jetson AGX Orin: a fast outer-loop guidance mode for short action-token outputs and a slower semantic mode for scene understan",
+    "published": "2026-04-27",
+    "published_iso": "2026-04-27T06:42:50+00:00",
+    "url": "https://arxiv.org/abs/2605.00884v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.00884v1",
+    "categories": [
+      "cs.CV"
+    ],
+    "primary_category": "cs.CV",
     "code_url": null,
     "project_url": null,
     "auto_category": "VLA"
@@ -774,65 +992,6 @@
     "auto_category": "VLA"
   },
   {
-    "id": "2604.19728v1",
-    "title": "VLA Foundry: A Unified Framework for Training Vision-Language-Action Models",
-    "authors": [
-      "Jean Mercat",
-      "Sedrick Keh",
-      "Kushal Arora",
-      "Isabella Huang",
-      "Paarth Shah",
-      "Haruki Nishimura",
-      "Shun Iwase",
-      "Katherine Liu"
-    ],
-    "summary": "We present VLA Foundry, an open-source framework that unifies LLM, VLM, and VLA training in a single codebase. Most open-source VLA efforts specialize on the action training stage, often stitching together incompatible pretraining pipelines. VLA Foundry instead provides a shared training stack with end-to-end control, from language pretraining to action-expert fine-tuning. VLA Foundry supports both from-scratch training and pretrained backbones from Hugging Face. To demonstrate the utility of ou",
-    "published": "2026-04-21",
-    "published_iso": "2026-04-21T17:51:51+00:00",
-    "url": "https://arxiv.org/abs/2604.19728v1",
-    "pdf_url": "https://arxiv.org/pdf/2604.19728v1",
-    "categories": [
-      "cs.RO",
-      "cs.AI",
-      "cs.CV",
-      "cs.LG",
-      "cs.SE"
-    ],
-    "primary_category": "cs.RO",
-    "code_url": null,
-    "project_url": null,
-    "auto_category": "VLA"
-  },
-  {
-    "id": "2604.19710v1",
-    "title": "SpanVLA: Efficient Action Bridging and Learning from Negative-Recovery Samples for Vision-Language-Action Model",
-    "authors": [
-      "Zewei Zhou",
-      "Ruining Yang",
-      "Xuewei",
-      "Qi",
-      "Yiluan Guo",
-      "Sherry X. Chen",
-      "Tao Feng",
-      "Kateryna Pistunova",
-      "Yishan Shen",
-      "Lili Su",
-      "Jiaqi Ma"
-    ],
-    "summary": "Vision-Language-Action (VLA) models offer a promising autonomous driving paradigm for leveraging world knowledge and reasoning capabilities, especially in long-tail scenarios. However, existing VLA models often struggle with the high latency in action generation using an autoregressive generation framework and exhibit limited robustness. In this paper, we propose SpanVLA, a novel end-to-end autonomous driving framework, integrating an autoregressive reasoning and a flow-matching action expert. F",
-    "published": "2026-04-21",
-    "published_iso": "2026-04-21T17:34:19+00:00",
-    "url": "https://arxiv.org/abs/2604.19710v1",
-    "pdf_url": "https://arxiv.org/pdf/2604.19710v1",
-    "categories": [
-      "cs.CV"
-    ],
-    "primary_category": "cs.CV",
-    "code_url": null,
-    "project_url": null,
-    "auto_category": "VLA"
-  },
-  {
     "id": "2604.19092v1",
     "title": "RoboWM-Bench: A Benchmark for Evaluating World Models in Robotic Manipulation",
     "authors": [
@@ -861,152 +1020,6 @@
     "code_url": null,
     "project_url": null,
     "auto_category": "World Model"
-  },
-  {
-    "id": "2604.18791v1",
-    "title": "HELM: Harness-Enhanced Long-horizon Memory for Vision-Language-Action Manipulation",
-    "authors": [
-      "Zijian Zeng",
-      "Fei Ding",
-      "Huiming Yang",
-      "Xianwei Li"
-    ],
-    "summary": "Vision-Language-Action (VLA) models fail systematically on long-horizon manipulation tasks despite strong short-horizon performance. We show that this failure is not resolved by extending context length alone in the current reactive execution setting; instead, it stems from three recurring execution-loop deficiencies: the memory gap, the verification gap, and the recovery gap. We present HELM, a model-agnostic framework that addresses these deficiencies with three components: an Episodic Memory ",
-    "published": "2026-04-20",
-    "published_iso": "2026-04-20T19:57:35+00:00",
-    "url": "https://arxiv.org/abs/2604.18791v1",
-    "pdf_url": "https://arxiv.org/pdf/2604.18791v1",
-    "categories": [
-      "cs.LG",
-      "cs.AI"
-    ],
-    "primary_category": "cs.LG",
-    "code_url": null,
-    "project_url": null,
-    "auto_category": "VLA"
-  },
-  {
-    "id": "2604.18107v1",
-    "title": "Test-Time Perturbation Learning with Delayed Feedback for Vision-Language-Action Models",
-    "authors": [
-      "Zehua Zang",
-      "Xi Wang",
-      "Fuchun Sun",
-      "Xiao Xu",
-      "Lixiang Lium",
-      "Jiahuan Zhou",
-      "Jiangmeng Li"
-    ],
-    "summary": "Vision-Language-Action models (VLAs) achieve remarkable performance in sequential decision-making but remain fragile to subtle environmental shifts, such as small changes in object pose. We attribute this brittleness to trajectory overfitting, where VLAs over-attend to the spurious correlation between actions and entities, then reproduce memorized action patterns. We propose Perturbation learning with Delayed Feedback (PDF), a verifier-free test-time adaptation framework that improves decision p",
-    "published": "2026-04-20",
-    "published_iso": "2026-04-20T11:25:51+00:00",
-    "url": "https://arxiv.org/abs/2604.18107v1",
-    "pdf_url": "https://arxiv.org/pdf/2604.18107v1",
-    "categories": [
-      "cs.CV"
-    ],
-    "primary_category": "cs.CV",
-    "code_url": null,
-    "project_url": null,
-    "auto_category": "VLA"
-  },
-  {
-    "id": "2604.18000v1",
-    "title": "Unmasking the Illusion of Embodied Reasoning in Vision-Language-Action Models",
-    "authors": [
-      "Haiweng Xu",
-      "Sipeng Zheng",
-      "Hao Luo",
-      "Wanpeng Zhang",
-      "Ziheng Xi",
-      "Zongqing Lu"
-    ],
-    "summary": "Recent Vision-Language-Action (VLA) models report impressive success rates on standard robotic benchmarks, fueling optimism about general-purpose physical intelligence. However, recent evidence suggests a systematic misalignment between standard benchmark success and true embodied reasoning, raising the question of whether these high scores reflect genuine cognitive capability. To address this gap, we introduce BeTTER, a diagnostic Benchmark for Testing True Embodied Reasoning in robotic policie",
-    "published": "2026-04-20",
-    "published_iso": "2026-04-20T09:25:30+00:00",
-    "url": "https://arxiv.org/abs/2604.18000v1",
-    "pdf_url": "https://arxiv.org/pdf/2604.18000v1",
-    "categories": [
-      "cs.RO"
-    ],
-    "primary_category": "cs.RO",
-    "code_url": null,
-    "project_url": null,
-    "auto_category": "VLA"
-  },
-  {
-    "id": "2604.17915v1",
-    "title": "OneDrive: Unified Multi-Paradigm Driving with Vision-Language-Action Models",
-    "authors": [
-      "Yiwei Zhang",
-      "Xuesong Chen",
-      "Jin Gao",
-      "Hanshi Wang",
-      "Fudong Ge",
-      "Weiming Hu",
-      "Shaoshuai Shi",
-      "Zhipeng Zhang"
-    ],
-    "summary": "Vision-Language Models(VLMs) excel at autoregressive text generation, yet end-to-end autonomous driving requires multi-task learning with structured outputs and heterogeneous decoding behaviors, such as autoregressive language generation, parallel object detection and trajectory regression. To accommodate these differences, existing systems typically introduce separate or cascaded decoders, resulting in architectural fragmentation and limited backbone reuse. In this work, we present a unified au",
-    "published": "2026-04-20",
-    "published_iso": "2026-04-20T07:50:00+00:00",
-    "url": "https://arxiv.org/abs/2604.17915v1",
-    "pdf_url": "https://arxiv.org/pdf/2604.17915v1",
-    "categories": [
-      "cs.CV"
-    ],
-    "primary_category": "cs.CV",
-    "code_url": null,
-    "project_url": null,
-    "auto_category": "VLA"
-  },
-  {
-    "id": "2604.17896v1",
-    "title": "Can Explicit Physical Feasibility Benefit VLA Learning? An Empirical Study",
-    "authors": [
-      "Yubai Wei",
-      "Chen Wu",
-      "Hashem Haghbayan"
-    ],
-    "summary": "Vision-Language-Action (VLA) models map multimodal inputs directly to robot actions and are typically trained through large-scale imitation learning. While this paradigm has shown strong performance, prevailing VLA training procedures do not explicitly supervise hard physical constraints such as obstacle avoidance or kinematic feasibility. As a result, the geometric structure underlying physically feasible behavior must be inferred only implicitly from demonstrations. In this paper, we study whe",
-    "published": "2026-04-20",
-    "published_iso": "2026-04-20T07:15:12+00:00",
-    "url": "https://arxiv.org/abs/2604.17896v1",
-    "pdf_url": "https://arxiv.org/pdf/2604.17896v1",
-    "categories": [
-      "cs.LG",
-      "cs.AI",
-      "cs.RO"
-    ],
-    "primary_category": "cs.LG",
-    "code_url": null,
-    "project_url": null,
-    "auto_category": "VLA"
-  },
-  {
-    "id": "2604.17880v1",
-    "title": "ST-$π$: Structured SpatioTemporal VLA for Robotic Manipulation",
-    "authors": [
-      "Chuanhao Ma",
-      "Hanyu Zhou",
-      "Shihan Peng",
-      "Yan Li",
-      "Tao Gu",
-      "Luxin Yan"
-    ],
-    "summary": "Vision-language-action (VLA) models have achieved great success on general robotic tasks, but still face challenges in fine-grained spatiotemporal manipulation. Typically, existing methods mainly embed spatiotemporal knowledge into visual and action representations, and directly perform a cross-modal mapping for step-level action prediction. However, such spatiotemporal reasoning remains largely implicit, making it difficult to handle multiple sequential behaviors with explicit spatiotemporal bo",
-    "published": "2026-04-20",
-    "published_iso": "2026-04-20T06:48:47+00:00",
-    "url": "https://arxiv.org/abs/2604.17880v1",
-    "pdf_url": "https://arxiv.org/pdf/2604.17880v1",
-    "categories": [
-      "cs.RO",
-      "cs.CV"
-    ],
-    "primary_category": "cs.RO",
-    "code_url": null,
-    "project_url": null,
-    "auto_category": "VLA"
   },
   {
     "id": "2604.11135v1",
