@@ -967,31 +967,6 @@
     "auto_category": "VLA"
   },
   {
-    "id": "2604.20012v1",
-    "title": "EmbodiedMidtrain: Bridging the Gap between Vision-Language Models and Vision-Language-Action Models via Mid-training",
-    "authors": [
-      "Yiyang Du",
-      "Zhanqiu Guo",
-      "Xin Ye",
-      "Liu Ren",
-      "Chenyan Xiong"
-    ],
-    "summary": "Vision-Language-Action Models (VLAs) inherit their visual and linguistic capabilities from Vision-Language Models (VLMs), yet most VLAs are built from off-the-shelf VLMs that are not adapted to the embodied domain, limiting their downstream performance. In this work, we propose EmbodiedMidtrain to bridge the gap between VLMs and VLAs. We first characterize the data distribution gap between them, showing that VLA data occupy compact regions that are largely separated from the broader VLM distribu",
-    "published": "2026-04-21",
-    "published_iso": "2026-04-21T21:40:58+00:00",
-    "url": "https://arxiv.org/abs/2604.20012v1",
-    "pdf_url": "https://arxiv.org/pdf/2604.20012v1",
-    "categories": [
-      "cs.CV",
-      "cs.AI",
-      "cs.CL"
-    ],
-    "primary_category": "cs.CV",
-    "code_url": null,
-    "project_url": null,
-    "auto_category": "VLA"
-  },
-  {
     "id": "2604.19092v1",
     "title": "RoboWM-Bench: A Benchmark for Evaluating World Models in Robotic Manipulation",
     "authors": [
@@ -1412,6 +1387,29 @@
     "categories": [
       "cs.RO",
       "cs.AI"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "World Model"
+  },
+  {
+    "id": "2510.09036v1",
+    "title": "iMoWM: Taming Interactive Multi-Modal World Model for Robotic Manipulation",
+    "authors": [
+      "Chuanrui Zhang",
+      "Zhengxian Wu",
+      "Guanxing Lu",
+      "Yansong Tang",
+      "Ziwei Wang"
+    ],
+    "summary": "Learned world models hold significant potential for robotic manipulation, as they can serve as simulator for real-world interactions. While extensive progress has been made in 2D video-based world models, these approaches often lack geometric and spatial reasoning, which is essential for capturing the physical structure of the 3D world. To address this limitation, we introduce iMoWM, a novel interactive world model designed to generate color images, depth maps, and robot arm masks in an autoregr",
+    "published": "2025-10-10",
+    "published_iso": "2025-10-10T06:15:42+00:00",
+    "url": "https://arxiv.org/abs/2510.09036v1",
+    "pdf_url": "https://arxiv.org/pdf/2510.09036v1",
+    "categories": [
+      "cs.RO"
     ],
     "primary_category": "cs.RO",
     "code_url": null,
