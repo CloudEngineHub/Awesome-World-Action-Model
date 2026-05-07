@@ -1,6 +1,6 @@
 # 📚 Latest ArXiv Papers - World Action Models
 
-Generated on: 2026-05-06 02:58:22
+Generated on: 2026-05-07 02:58:43
 
 Total papers: 50
 
@@ -8,6 +8,7 @@ Total papers: 50
 
 | Paper | Date | Code |
 |-------|------|------|
+| [From Pixels to Tokens: A Systematic Study of Latent Action Supervision for Vision-Language-Action Models](https://arxiv.org/abs/2605.04678v1)<br><small>Yihan Lin et al.</small> | 2026-05-06 |  |
 | [Seeing Realism from Simulation: Efficient Video Transfer for Vision-Language-Action Data Augmentation](https://arxiv.org/abs/2605.02757v1)<br><small>Chenyu Hui et al.</small> | 2026-05-04 |  |
 | [Latent Bridge: Feature Delta Prediction for Efficient Dual-System Vision-Language-Action Model Inference](https://arxiv.org/abs/2605.02739v1)<br><small>Yudong Liu et al.</small> | 2026-05-04 |  |
 | [VILAS: A VLA-Integrated Low-cost Architecture with Soft Grasping for Robotic Manipulation](https://arxiv.org/abs/2605.02037v1)<br><small>Zijian An et al.</small> | 2026-05-03 |  |
@@ -16,7 +17,6 @@ Total papers: 50
 | [VLA-ATTC: Adaptive Test-Time Compute for VLA Models with Relative Action Critic Model](https://arxiv.org/abs/2605.01194v1)<br><small>Wenhao Li et al.</small> | 2026-05-02 |  |
 | [Sentinel-VLA: A Metacognitive VLA Model with Active Status Monitoring for Dynamic Reasoning and Error Recovery](https://arxiv.org/abs/2605.01191v1)<br><small>Wenhao Li et al.</small> | 2026-05-02 |  |
 | [Embodied Interpretability: Linking Causal Understanding to Generalization in Vision-Language-Action Models](https://arxiv.org/abs/2605.00321v1)<br><small>Hanxin Zhang et al.</small> | 2026-05-01 |  |
-| [LaST-R1: Reinforcing Action via Adaptive Physical Latent Reasoning for VLA Models](https://arxiv.org/abs/2604.28192v1)<br><small>Hao Chen et al.</small> | 2026-04-30 |  |
 | [Judge, Then Drive: A Critic-Centric Vision Language Action Framework for Autonomous Driving](https://arxiv.org/abs/2604.27366v1)<br><small>Lijin Yang et al.</small> | 2026-04-30 |  |
 | [Libra-VLA: Achieving Learning Equilibrium via Asynchronous Coarse-to-Fine Dual-System](https://arxiv.org/abs/2604.24921v1)<br><small>Yifei Wei et al.</small> | 2026-04-27 |  |
 | [CF-VLA: Efficient Coarse-to-Fine Action Generation for Vision-Language-Action Policies](https://arxiv.org/abs/2604.24622v2)<br><small>Fan Du et al.</small> | 2026-04-27 |  |

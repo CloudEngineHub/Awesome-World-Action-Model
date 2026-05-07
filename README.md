@@ -69,12 +69,13 @@ This repository aims to provide a comprehensive, curated, and continuously updat
 
 ## 🆕 Latest Papers (Auto-updated)
 
-> Papers are automatically fetched daily from arXiv. Last updated: 2026-05-04
+> Papers are automatically fetched daily from arXiv. Last updated: 2026-05-06
 
 ### VLA
 
 | Paper | Date | Code |
 |-------|------|------|
+| [From Pixels to Tokens: A Systematic Study of Latent Action Supervision for Vision-Language-Action Models](https://arxiv.org/abs/2605.04678v1)<br><small>Yihan Lin, Haoyang Li et al.</small> | 2026-05-06 |  |
 | [Seeing Realism from Simulation: Efficient Video Transfer for Vision-Language-Action Data Augmentation](https://arxiv.org/abs/2605.02757v1)<br><small>Chenyu Hui, Xiaodi Huang et al.</small> | 2026-05-04 |  |
 | [Latent Bridge: Feature Delta Prediction for Efficient Dual-System Vision-Language-Action Model Inference](https://arxiv.org/abs/2605.02739v1)<br><small>Yudong Liu, Yuan Li et al.</small> | 2026-05-04 |  |
 | [VILAS: A VLA-Integrated Low-cost Architecture with Soft Grasping for Robotic Manipulation](https://arxiv.org/abs/2605.02037v1)<br><small>Zijian An, Hadi Khezam et al.</small> | 2026-05-03 |  |
@@ -83,7 +84,6 @@ This repository aims to provide a comprehensive, curated, and continuously updat
 | [VLA-ATTC: Adaptive Test-Time Compute for VLA Models with Relative Action Critic Model](https://arxiv.org/abs/2605.01194v1)<br><small>Wenhao Li, Xiu Su et al.</small> | 2026-05-02 |  |
 | [Sentinel-VLA: A Metacognitive VLA Model with Active Status Monitoring for Dynamic Reasoning and Error Recovery](https://arxiv.org/abs/2605.01191v1)<br><small>Wenhao Li, Xiu Su et al.</small> | 2026-05-02 |  |
 | [Embodied Interpretability: Linking Causal Understanding to Generalization in Vision-Language-Action Models](https://arxiv.org/abs/2605.00321v1)<br><small>Hanxin Zhang, Mingshuo Xu et al.</small> | 2026-05-01 |  |
-| [LaST-R1: Reinforcing Action via Adaptive Physical Latent Reasoning for VLA Models](https://arxiv.org/abs/2604.28192v1)<br><small>Hao Chen, Jiaming Liu et al.</small> | 2026-04-30 |  |
 | [Judge, Then Drive: A Critic-Centric Vision Language Action Framework for Autonomous Driving](https://arxiv.org/abs/2604.27366v1)<br><small>Lijin Yang, Jianing Huang et al.</small> | 2026-04-30 |  |
 
 ### World Model

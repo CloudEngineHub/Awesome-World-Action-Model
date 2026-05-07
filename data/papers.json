@@ -1,5 +1,31 @@
 [
   {
+    "id": "2605.04678v1",
+    "title": "From Pixels to Tokens: A Systematic Study of Latent Action Supervision for Vision-Language-Action Models",
+    "authors": [
+      "Yihan Lin",
+      "Haoyang Li",
+      "Yang Li",
+      "Haitao Shen",
+      "Yihan Zhao",
+      "Chao Shao",
+      "Jing Zhang"
+    ],
+    "summary": "Latent actions serve as an intermediate representation that enables consistent modeling of vision-language-action (VLA) models across heterogeneous datasets. However, approaches to supervising VLAs with latent actions are fragmented and lack a systematic comparison. This work structures the study of latent action supervision from two perspectives: (i) regularizing the trajectory via image-based latent actions, and (ii) unifying the target space with action-based latent actions. Under a unified V",
+    "published": "2026-05-06",
+    "published_iso": "2026-05-06T09:27:07+00:00",
+    "url": "https://arxiv.org/abs/2605.04678v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.04678v1",
+    "categories": [
+      "cs.RO",
+      "cs.CV"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
     "id": "2605.02757v1",
     "title": "Seeing Realism from Simulation: Efficient Video Transfer for Vision-Language-Action Data Augmentation",
     "authors": [
@@ -213,39 +239,6 @@
     "pdf_url": "https://arxiv.org/pdf/2605.00321v1",
     "categories": [
       "cs.RO"
-    ],
-    "primary_category": "cs.RO",
-    "code_url": null,
-    "project_url": null,
-    "auto_category": "VLA"
-  },
-  {
-    "id": "2604.28192v1",
-    "title": "LaST-R1: Reinforcing Action via Adaptive Physical Latent Reasoning for VLA Models",
-    "authors": [
-      "Hao Chen",
-      "Jiaming Liu",
-      "Zhonghao Yan",
-      "Nuowei Han",
-      "Renrui Zhang",
-      "Chenyang Gu",
-      "Jialin Gao",
-      "Ziyu Guo",
-      "Siyuan Qian",
-      "Yinxi Wang",
-      "Peng Jia",
-      "Chi-Wing Fu",
-      "Shanghang Zhang",
-      "Pheng-Ann Heng"
-    ],
-    "summary": "Vision-Language-Action (VLA) models have increasingly incorporated reasoning mechanisms for complex robotic manipulation. However, existing approaches share a critical limitation: whether employing explicit linguistic reasoning that suffers from latency and discretization, or utilizing more expressive continuous latent reasoning, they are predominantly confined to static imitation learning that limits adaptability and generalization. While online reinforcement learning (RL) has been introduced t",
-    "published": "2026-04-30",
-    "published_iso": "2026-04-30T17:59:52+00:00",
-    "url": "https://arxiv.org/abs/2604.28192v1",
-    "pdf_url": "https://arxiv.org/pdf/2604.28192v1",
-    "categories": [
-      "cs.RO",
-      "cs.CV"
     ],
     "primary_category": "cs.RO",
     "code_url": null,
