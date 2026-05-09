@@ -75,8 +75,16 @@ This repository aims to provide a comprehensive, curated, and continuously updat
 
 | Paper | Date | Code |
 |-------|------|------|
-| [ProgressVLA: Progress-Guided Diffusion Policy for Vision-Language Robotic Manipulation](https://arxiv.org/abs/2603.27670v1)<br><small>Hongyu Yan, Qiwei Li et al.</small> | 2026-03-29 |  |
-| [Do World Action Models Generalize Better than VLAs? A Robustness Study](https://arxiv.org/abs/2603.22078v3)<br><small>Zhanguang Zhang, Zhiyuan Li et al.</small> | 2026-03-23 |  |
+| [VLA-GSE: Boosting Parameter-Efficient Fine-Tuning in VLA with Generalized and Specialized Experts](https://arxiv.org/abs/2605.06175v1)<br><small>Yuhua Jiang, Junjie Lu et al.</small> | 2026-05-07 |  |
+| [From Pixels to Tokens: A Systematic Study of Latent Action Supervision for Vision-Language-Action Models](https://arxiv.org/abs/2605.04678v1)<br><small>Yihan Lin, Haoyang Li et al.</small> | 2026-05-06 |  |
+| [Seeing Realism from Simulation: Efficient Video Transfer for Vision-Language-Action Data Augmentation](https://arxiv.org/abs/2605.02757v1)<br><small>Chenyu Hui, Xiaodi Huang et al.</small> | 2026-05-04 |  |
+| [Latent Bridge: Feature Delta Prediction for Efficient Dual-System Vision-Language-Action Model Inference](https://arxiv.org/abs/2605.02739v1)<br><small>Yudong Liu, Yuan Li et al.</small> | 2026-05-04 |  |
+| [VILAS: A VLA-Integrated Low-cost Architecture with Soft Grasping for Robotic Manipulation](https://arxiv.org/abs/2605.02037v1)<br><small>Zijian An, Hadi Khezam et al.</small> | 2026-05-03 |  |
+| [Phone2Act: A Low-Cost, Hardware-Agnostic Teleoperation System for Scalable VLA Data Collection](https://arxiv.org/abs/2605.01948v1)<br><small>Om Mandhane, Bipin Yadav et al.</small> | 2026-05-03 |  |
+| [Anticipation-VLA: Solving Long-Horizon Embodied Tasks via Anticipation-based Subgoal Generation](https://arxiv.org/abs/2605.01772v1)<br><small>Zhilong Zhang, Wenyu Luo et al.</small> | 2026-05-03 |  |
+| [VLA-ATTC: Adaptive Test-Time Compute for VLA Models with Relative Action Critic Model](https://arxiv.org/abs/2605.01194v1)<br><small>Wenhao Li, Xiu Su et al.</small> | 2026-05-02 |  |
+| [Sentinel-VLA: A Metacognitive VLA Model with Active Status Monitoring for Dynamic Reasoning and Error Recovery](https://arxiv.org/abs/2605.01191v1)<br><small>Wenhao Li, Xiu Su et al.</small> | 2026-05-02 |  |
+| [Embodied Interpretability: Linking Causal Understanding to Generalization in Vision-Language-Action Models](https://arxiv.org/abs/2605.00321v1)<br><small>Hanxin Zhang, Mingshuo Xu et al.</small> | 2026-05-01 |  |
 
 ### World Model
 
@@ -98,15 +106,8 @@ This repository aims to provide a comprehensive, curated, and continuously updat
 | Paper | Date | Code |
 |-------|------|------|
 | [Being-H0.7: A Latent World-Action Model from Egocentric Videos](https://arxiv.org/abs/2605.00078v1)<br><small>Hao Luo, Wanpeng Zhang et al.</small> | 2026-04-30 |  |
-| [VADF: Vision-Adaptive Diffusion Policy Framework for Efficient Robotic Manipulation](https://arxiv.org/abs/2604.15938v1)<br><small>Xinglei Yu, Zhenyang Liu et al.</small> | 2026-04-17 |  |
-| [Diffusion Policy with Bayesian Expert Selection for Active Multi-Target Tracking](https://arxiv.org/abs/2604.03404v1)<br><small>Haotian Xiang, Qin Lu et al.</small> | 2026-04-03 |  |
-| [Multi-View Video Diffusion Policy: A 3D Spatio-Temporal-Aware Video Action Model](https://arxiv.org/abs/2604.03181v1)<br><small>Peiyan Li, Yixiang Chen et al.</small> | 2026-04-03 |  |
 | [Enhancing Policy Learning with World-Action Model](https://arxiv.org/abs/2603.28955v1)<br><small>Yuci Han, Alper Yilmaz</small> | 2026-03-30 |  |
 | [GigaWorld-Policy: An Efficient Action-Centered World--Action Model](https://arxiv.org/abs/2603.17240v2)<br><small>Angen Ye, Boyuan Wang et al.</small> | 2026-03-18 |  |
-| [Encoding Predictability and Legibility for Style-Conditioned Diffusion Policy](https://arxiv.org/abs/2603.16368v2)<br><small>Adrien Jacquet Crétides, Mouad Abrini et al.</small> | 2026-03-17 |  |
-| [ReMAP-DP: Reprojected Multi-view Aligned PointMaps for Diffusion Policy](https://arxiv.org/abs/2603.14977v2)<br><small>Xinzhang Yang, Renjun Wu et al.</small> | 2026-03-16 |  |
-| [REFINE-DP: Diffusion Policy Fine-tuning for Humanoid Loco-manipulation via Reinforcement Learning](https://arxiv.org/abs/2603.13707v2)<br><small>Zhaoyuan Gu, Yipu Chen et al.</small> | 2026-03-14 |  |
-| [SeedPolicy: Horizon Scaling via Self-Evolving Diffusion Policy for Robot Manipulation](https://arxiv.org/abs/2603.05117v2)<br><small>Youqiang Gui, Yuxuan Zhou et al.</small> | 2026-03-05 |  |
 
 ---
 
