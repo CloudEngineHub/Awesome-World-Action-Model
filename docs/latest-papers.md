@@ -1,6 +1,6 @@
 # 📚 Latest ArXiv Papers - World Action Models
 
-Generated on: 2026-05-10 03:28:29
+Generated on: 2026-05-11 03:40:01
 
 Total papers: 50
 
@@ -8,7 +8,12 @@ Total papers: 50
 
 | Paper | Date | Code |
 |-------|------|------|
-| [VLA-GSE: Boosting Parameter-Efficient Fine-Tuning in VLA with Generalized and Specialized Experts](https://arxiv.org/abs/2605.06175v1)<br><small>Yuhua Jiang et al.</small> | 2026-05-07 |  |
+| [One Token Per Frame: Reconsidering Visual Bandwidth in World Models for VLA Policy](https://arxiv.org/abs/2605.07931v1)<br><small>Zuojin Tang et al.</small> | 2026-05-08 |  |
+| [ForgeVLA: Federated Vision-Language-Action Learning without Language Annotations](https://arxiv.org/abs/2605.07474v1)<br><small>Yuhao Zhou et al.</small> | 2026-05-08 |  |
+| [AT-VLA: Adaptive Tactile Injection for Enhanced Feedback Reaction in Vision-Language-Action Models](https://arxiv.org/abs/2605.07308v1)<br><small>Xiaoqi Li et al.</small> | 2026-05-08 |  |
+| [BioProVLA-Agent: An Affordable, Protocol-Driven, Vision-Enhanced VLA-Enabled Embodied Multi-Agent System with Closed-Loop-Capable Reasoning for Biological Laboratory Manipulation](https://arxiv.org/abs/2605.07306v1)<br><small>Zhaohui Du et al.</small> | 2026-05-08 |  |
+| [Sword: Style-Robust World Models as Simulators via Dynamic Latent Bootstrapping for VLA Policy Post-Training](https://arxiv.org/abs/2605.07288v1)<br><small>Jiaxuan Gao et al.</small> | 2026-05-08 |  |
+| [VLA-GSE: Boosting Parameter-Efficient Fine-Tuning in VLA with Generalized and Specialized Experts](https://arxiv.org/abs/2605.06175v2)<br><small>Yuhua Jiang et al.</small> | 2026-05-07 |  |
 | [From Pixels to Tokens: A Systematic Study of Latent Action Supervision for Vision-Language-Action Models](https://arxiv.org/abs/2605.04678v1)<br><small>Yihan Lin et al.</small> | 2026-05-06 |  |
 | [Seeing Realism from Simulation: Efficient Video Transfer for Vision-Language-Action Data Augmentation](https://arxiv.org/abs/2605.02757v1)<br><small>Chenyu Hui et al.</small> | 2026-05-04 |  |
 | [Latent Bridge: Feature Delta Prediction for Efficient Dual-System Vision-Language-Action Model Inference](https://arxiv.org/abs/2605.02739v1)<br><small>Yudong Liu et al.</small> | 2026-05-04 |  |
@@ -18,16 +23,13 @@ Total papers: 50
 | [VLA-ATTC: Adaptive Test-Time Compute for VLA Models with Relative Action Critic Model](https://arxiv.org/abs/2605.01194v1)<br><small>Wenhao Li et al.</small> | 2026-05-02 |  |
 | [Sentinel-VLA: A Metacognitive VLA Model with Active Status Monitoring for Dynamic Reasoning and Error Recovery](https://arxiv.org/abs/2605.01191v1)<br><small>Wenhao Li et al.</small> | 2026-05-02 |  |
 | [Embodied Interpretability: Linking Causal Understanding to Generalization in Vision-Language-Action Models](https://arxiv.org/abs/2605.00321v1)<br><small>Hanxin Zhang et al.</small> | 2026-05-01 |  |
-| [Judge, Then Drive: A Critic-Centric Vision Language Action Framework for Autonomous Driving](https://arxiv.org/abs/2604.27366v1)<br><small>Lijin Yang et al.</small> | 2026-04-30 |  |
-| [Libra-VLA: Achieving Learning Equilibrium via Asynchronous Coarse-to-Fine Dual-System](https://arxiv.org/abs/2604.24921v1)<br><small>Yifei Wei et al.</small> | 2026-04-27 |  |
-| [CF-VLA: Efficient Coarse-to-Fine Action Generation for Vision-Language-Action Policies](https://arxiv.org/abs/2604.24622v2)<br><small>Fan Du et al.</small> | 2026-04-27 |  |
-| [Characterizing Vision-Language-Action Models across XPUs: Constraints and Acceleration for On-Robot Deployment](https://arxiv.org/abs/2604.24447v1)<br><small>Kaijun Zhou et al.</small> | 2026-04-27 |  |
-| [$M^2$-VLA: Boosting Vision-Language Models for Generalizable Manipulation via Layer Mixture and Meta-Skills](https://arxiv.org/abs/2604.24182v1)<br><small>Siyao Xiao et al.</small> | 2026-04-27 |  |
 
 ## World Model
 
 | Paper | Date | Code |
 |-------|------|------|
+| [NoiseGate: Learning Per-Latent Timestep Schedules as Information Gating in World Action Models](https://arxiv.org/abs/2605.07794v1)<br><small>Wen Huang et al.</small> | 2026-05-08 |  |
+| [Is the Future Compatible? Diagnosing Dynamic Consistency in World Action Models](https://arxiv.org/abs/2605.07514v1)<br><small>Bo-Kai Ruan et al.</small> | 2026-05-08 |  |
 | [OA-WAM: Object-Addressable World Action Model for Robust Robot Manipulation](https://arxiv.org/abs/2605.06481v1)<br><small>Yushan Liu et al.</small> | 2026-05-07 |  |
 | [CKT-WAM: Parameter-Efficient Context Knowledge Transfer Between World Action Models](https://arxiv.org/abs/2605.06247v1)<br><small>Yuhua Jiang et al.</small> | 2026-05-07 |  |
 | [When to Trust Imagination: Adaptive Action Execution for World Action Models](https://arxiv.org/abs/2605.06222v1)<br><small>Rui Wang et al.</small> | 2026-05-07 |  |
@@ -41,8 +43,6 @@ Total papers: 50
 | [JailWAM: Jailbreaking World Action Models in Robot Control](https://arxiv.org/abs/2604.05498v1)<br><small>Hanqing Liu et al.</small> | 2026-04-07 |  |
 | [DriveDreamer-Policy: A Geometry-Grounded World-Action Model for Unified Generation and Planning](https://arxiv.org/abs/2604.01765v1)<br><small>Yang Zhou et al.</small> | 2026-04-02 |  |
 | [Latent-WAM: Latent World Action Modeling for End-to-End Autonomous Driving](https://arxiv.org/abs/2603.24581v1)<br><small>Linbo Wang et al.</small> | 2026-03-25 |  |
-| [Fast-WAM: Do World Action Models Need Test-time Future Imagination?](https://arxiv.org/abs/2603.16666v2)<br><small>Tianyuan Yuan et al.</small> | 2026-03-17 |  |
-| [World Action Models are Zero-shot Policies](https://arxiv.org/abs/2602.15922v1)<br><small>Seonghyeon Ye et al.</small> | 2026-02-17 |  |
 
 ## Policy
 
