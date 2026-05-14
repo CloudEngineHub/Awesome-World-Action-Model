@@ -1,6 +1,6 @@
 # 📚 Latest ArXiv Papers - World Action Models
 
-Generated on: 2026-05-13 03:35:04
+Generated on: 2026-05-14 03:34:34
 
 Total papers: 50
 
@@ -8,21 +8,21 @@ Total papers: 50
 
 | Paper | Date | Code |
 |-------|------|------|
+| [Realtime-VLA FLASH: Speculative Inference Framework for Diffusion-based VLAs](https://arxiv.org/abs/2605.13778v1)<br><small>Jiahui Niu et al.</small> | 2026-05-13 |  |
+| [FrameSkip: Learning from Fewer but More Informative Frames in VLA Training](https://arxiv.org/abs/2605.13757v1)<br><small>Bin Yu et al.</small> | 2026-05-13 |  |
+| [Guide, Think, Act: Interactive Embodied Reasoning in Vision-Language-Action Models](https://arxiv.org/abs/2605.13632v1)<br><small>Yiran Ling et al.</small> | 2026-05-13 |  |
+| [RotVLA: Rotational Latent Action for Vision-Language-Action Model](https://arxiv.org/abs/2605.13403v1)<br><small>Qiwei Li et al.</small> | 2026-05-13 |  |
+| [BlockVLA: Accelerating Autoregressive VLA via Block Diffusion Finetuning](https://arxiv.org/abs/2605.13382v1)<br><small>Ruiheng Wang et al.</small> | 2026-05-13 |  |
+| [D-VLA: A High-Concurrency Distributed Asynchronous Reinforcement Learning Framework for Vision-Language-Action Models](https://arxiv.org/abs/2605.13276v1)<br><small>Yucheng Guo et al.</small> | 2026-05-13 |  |
+| [Towards Long-horizon Embodied Agents with Tool-Aligned Vision-Language-Action Models](https://arxiv.org/abs/2605.13119v1)<br><small>Zixing Lei et al.</small> | 2026-05-13 |  |
+| [What to Ignore, What to React: Visually Robust RL Fine-Tuning of VLA Models](https://arxiv.org/abs/2605.13105v1)<br><small>Yuanfang Peng et al.</small> | 2026-05-13 |  |
+| [MindVLA-U1: VLA Beats VA with Unified Streaming Architecture for Autonomous Driving](https://arxiv.org/abs/2605.12624v1)<br><small>Yuzhou Huang et al.</small> | 2026-05-12 |  |
 | [Reinforcing VLAs in Task-Agnostic World Models](https://arxiv.org/abs/2605.12334v1)<br><small>Yucen Wang et al.</small> | 2026-05-12 |  |
 | [Premover: Fast Vision-Language-Action Control by Acting Before Instructions Are Complete](https://arxiv.org/abs/2605.12160v1)<br><small>Joonha Park et al.</small> | 2026-05-12 |  |
 | [See What Matters: Differentiable Grid Sample Pruning for Generalizable Vision-Language-Action Model](https://arxiv.org/abs/2605.11817v1)<br><small>Yixu Feng et al.</small> | 2026-05-12 |  |
 | [Beyond World-Frame Action Heads: Motion-Centric Action Frames for Vision-Language-Action Models](https://arxiv.org/abs/2605.11809v1)<br><small>Huoren Yang et al.</small> | 2026-05-12 |  |
 | [DreamAvoid: Critical-Phase Test-Time Dreaming to Avoid Failures in VLA Policies](https://arxiv.org/abs/2605.11750v1)<br><small>Xianzhe Fan et al.</small> | 2026-05-12 |  |
 | [OOM-Free Alpamayo via CPU-GPU Memory Swapping for Vision-Language-Action Models](https://arxiv.org/abs/2605.11678v1)<br><small>Seungwoo Roh et al.</small> | 2026-05-12 |  |
-| [Dynamic Execution Commitment of Vision-Language-Action Models](https://arxiv.org/abs/2605.11567v1)<br><small>Feng Chen et al.</small> | 2026-05-12 |  |
-| [Overcoming Dynamics-Blindness: Training-Free Pace-and-Path Correction for VLA Models](https://arxiv.org/abs/2605.11459v1)<br><small>Yanyan Zhang et al.</small> | 2026-05-12 |  |
-| [SEVO: Semantic-Enhanced Virtual Observation for Robust VLA Manipulation via Active Illumination and Data-Centric Collection](https://arxiv.org/abs/2605.11114v1)<br><small>Tianchonghui Fang et al.</small> | 2026-05-11 |  |
-| [PriorVLA: Prior-Preserving Adaptation for Vision-Language-Action Models](https://arxiv.org/abs/2605.10925v1)<br><small>Xinyu Guo et al.</small> | 2026-05-11 |  |
-| [CapVector: Learning Transferable Capability Vectors in Parametric Space for Vision-Language-Action Models](https://arxiv.org/abs/2605.10903v1)<br><small>Wenxuan Song et al.</small> | 2026-05-11 |  |
-| [Unified Noise Steering for Efficient Human-Guided VLA Adaptation](https://arxiv.org/abs/2605.10821v1)<br><small>Junjie Lu et al.</small> | 2026-05-11 |  |
-| [ALAM: Algebraically Consistent Latent Transitions for Vision-Language-Action Models](https://arxiv.org/abs/2605.10819v1)<br><small>Zuojin Tang et al.</small> | 2026-05-11 |  |
-| [VEGA: Visual Encoder Grounding Alignment for Spatially-Aware Vision-Language-Action Models](https://arxiv.org/abs/2605.10485v1)<br><small>Hao Wang et al.</small> | 2026-05-11 |  |
-| [CoWorld-VLA: Thinking in a Multi-Expert World Model for Autonomous Driving](https://arxiv.org/abs/2605.10426v1)<br><small>Minqing Huang et al.</small> | 2026-05-11 |  |
 
 ## World Model
 
