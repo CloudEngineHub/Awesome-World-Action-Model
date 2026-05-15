@@ -69,22 +69,22 @@ This repository aims to provide a comprehensive, curated, and continuously updat
 
 ## 🆕 Latest Papers (Auto-updated)
 
-> Papers are automatically fetched daily from arXiv. Last updated: 2026-05-13
+> Papers are automatically fetched daily from arXiv. Last updated: 2026-05-14
 
 ### VLA
 
 | Paper | Date | Code |
 |-------|------|------|
+| [Hand-in-the-Loop: Improving Dexterous VLA via Seamless Interventional Correction](https://arxiv.org/abs/2605.15157v1)<br><small>Zhuohang Li, Liqun Huang et al.</small> | 2026-05-14 |  |
+| [Evo-Depth: A Lightweight Depth-Enhanced Vision-Language-Action Model](https://arxiv.org/abs/2605.14950v1)<br><small>Tao Lin, Yuxin Du et al.</small> | 2026-05-14 |  |
 | [Realtime-VLA FLASH: Speculative Inference Framework for Diffusion-based VLAs](https://arxiv.org/abs/2605.13778v1)<br><small>Jiahui Niu, Kefan Gu et al.</small> | 2026-05-13 |  |
 | [FrameSkip: Learning from Fewer but More Informative Frames in VLA Training](https://arxiv.org/abs/2605.13757v1)<br><small>Bin Yu, Shijie Lian et al.</small> | 2026-05-13 |  |
 | [Guide, Think, Act: Interactive Embodied Reasoning in Vision-Language-Action Models](https://arxiv.org/abs/2605.13632v1)<br><small>Yiran Ling, Qing Lian et al.</small> | 2026-05-13 |  |
 | [RotVLA: Rotational Latent Action for Vision-Language-Action Model](https://arxiv.org/abs/2605.13403v1)<br><small>Qiwei Li, Xicheng Gong et al.</small> | 2026-05-13 |  |
 | [BlockVLA: Accelerating Autoregressive VLA via Block Diffusion Finetuning](https://arxiv.org/abs/2605.13382v1)<br><small>Ruiheng Wang, Shuanghao Bai et al.</small> | 2026-05-13 |  |
-| [D-VLA: A High-Concurrency Distributed Asynchronous Reinforcement Learning Framework for Vision-Language-Action Models](https://arxiv.org/abs/2605.13276v1)<br><small>Yucheng Guo, Yongjian Guo et al.</small> | 2026-05-13 |  |
+| [D-VLA: A High-Concurrency Distributed Asynchronous Reinforcement Learning Framework for Vision-Language-Action Models](https://arxiv.org/abs/2605.13276v2)<br><small>Yucheng Guo, Yongjian Guo et al.</small> | 2026-05-13 |  |
 | [Towards Long-horizon Embodied Agents with Tool-Aligned Vision-Language-Action Models](https://arxiv.org/abs/2605.13119v1)<br><small>Zixing Lei, Changxing Liu et al.</small> | 2026-05-13 |  |
 | [What to Ignore, What to React: Visually Robust RL Fine-Tuning of VLA Models](https://arxiv.org/abs/2605.13105v1)<br><small>Yuanfang Peng, Jingjing Fu et al.</small> | 2026-05-13 |  |
-| [MindVLA-U1: VLA Beats VA with Unified Streaming Architecture for Autonomous Driving](https://arxiv.org/abs/2605.12624v1)<br><small>Yuzhou Huang, Benjin Zhu et al.</small> | 2026-05-12 |  |
-| [Reinforcing VLAs in Task-Agnostic World Models](https://arxiv.org/abs/2605.12334v1)<br><small>Yucen Wang, Rui Yu et al.</small> | 2026-05-12 |  |
 
 ### World Model
 

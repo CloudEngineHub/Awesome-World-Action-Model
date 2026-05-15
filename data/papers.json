@@ -1,5 +1,68 @@
 [
   {
+    "id": "2605.15157v1",
+    "title": "Hand-in-the-Loop: Improving Dexterous VLA via Seamless Interventional Correction",
+    "authors": [
+      "Zhuohang Li",
+      "Liqun Huang",
+      "Wei Xu",
+      "Zhengming Zhu",
+      "Nie Lin",
+      "Xiao Ma",
+      "Xinjun Sheng",
+      "Ruoshi Wen"
+    ],
+    "summary": "Vision-Language-Action (VLA) models are prone to compounding errors in dexterous manipulation, where high-dimensional action spaces and contact-rich dynamics amplify small policy deviations over long horizons. While Interactive Imitation Learning (IIL) can refine policies through human takeover data, applying it to high-degree-of-freedom (DoF) robotic hands remains challenging due to a command mismatch between human teleoperation and policy execution at the takeover moment, which causes abrupt r",
+    "published": "2026-05-14",
+    "published_iso": "2026-05-14T17:51:40+00:00",
+    "url": "https://arxiv.org/abs/2605.15157v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.15157v1",
+    "categories": [
+      "cs.RO",
+      "cs.LG"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
+    "id": "2605.14950v1",
+    "title": "Evo-Depth: A Lightweight Depth-Enhanced Vision-Language-Action Model",
+    "authors": [
+      "Tao Lin",
+      "Yuxin Du",
+      "Jiting Liu",
+      "Nuobei Zhu",
+      "Yunhe Li",
+      "Yuqian Fu",
+      "Yinxinyu Chen",
+      "Hongyi Cai",
+      "Zewei Ye",
+      "Bing Cheng",
+      "Kai Ye",
+      "Yiran Mao",
+      "Yilei Zhong",
+      "MingKang Dong",
+      "Junchi Yan",
+      "Gen Li",
+      "Bo Zhao"
+    ],
+    "summary": "Vision-Language-Action models have emerged as a promising paradigm for robotic manipulation by unifying perception, language grounding, and action generation. However, they often struggle in scenarios requiring precise spatial understanding, as current VLA models primarily rely on 2D visual representations that lack depth information and detailed spatial relationships. While recent approaches incorporate explicit 3D inputs such as depth maps or point clouds to address this issue, they often incr",
+    "published": "2026-05-14",
+    "published_iso": "2026-05-14T15:21:36+00:00",
+    "url": "https://arxiv.org/abs/2605.14950v1",
+    "pdf_url": "https://arxiv.org/pdf/2605.14950v1",
+    "categories": [
+      "cs.CV",
+      "cs.RO"
+    ],
+    "primary_category": "cs.CV",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
     "id": "2605.13778v1",
     "title": "Realtime-VLA FLASH: Speculative Inference Framework for Diffusion-based VLAs",
     "authors": [
@@ -134,7 +197,7 @@
     "auto_category": "VLA"
   },
   {
-    "id": "2605.13276v1",
+    "id": "2605.13276v2",
     "title": "D-VLA: A High-Concurrency Distributed Asynchronous Reinforcement Learning Framework for Vision-Language-Action Models",
     "authors": [
       "Yucheng Guo",
@@ -153,8 +216,8 @@
     "summary": "The rapid evolution of Embodied AI has enabled Vision-Language-Action (VLA) models to excel in multimodal perception and task execution. However, applying Reinforcement Learning (RL) to these massive models in large-scale distributed environments faces severe systemic bottlenecks, primarily due to the resource conflict between high-fidelity physical simulation and the intensive VRAM/bandwidth demands of deep learning. This conflict often leaves overall throughput constrained by execution-phase i",
     "published": "2026-05-13",
     "published_iso": "2026-05-13T09:54:31+00:00",
-    "url": "https://arxiv.org/abs/2605.13276v1",
-    "pdf_url": "https://arxiv.org/pdf/2605.13276v1",
+    "url": "https://arxiv.org/abs/2605.13276v2",
+    "pdf_url": "https://arxiv.org/pdf/2605.13276v2",
     "categories": [
       "cs.AI",
       "cs.RO"
@@ -220,7 +283,7 @@
     "auto_category": "VLA"
   },
   {
-    "id": "2605.12624v1",
+    "id": "2605.12624v2",
     "title": "MindVLA-U1: VLA Beats VA with Unified Streaming Architecture for Autonomous Driving",
     "authors": [
       "Yuzhou Huang",
@@ -236,8 +299,8 @@
     "summary": "Autonomous driving has progressed from modular pipelines toward end-to-end unification, and Vision-Language-Action (VLA) models are a natural extension of this journey beyond Vision-to-Action (VA). In practice, driving VLAs have often trailed VA on planning quality, suggesting that the difficulty is not simply model scale but the interface through which semantic reasoning, temporal context, and continuous control are combined. We argue that this gap reflects how VLA has been built -- as isolated",
     "published": "2026-05-12",
     "published_iso": "2026-05-12T18:09:42+00:00",
-    "url": "https://arxiv.org/abs/2605.12624v1",
-    "pdf_url": "https://arxiv.org/pdf/2605.12624v1",
+    "url": "https://arxiv.org/abs/2605.12624v2",
+    "pdf_url": "https://arxiv.org/pdf/2605.12624v2",
     "categories": [
       "cs.RO",
       "cs.CV"
@@ -458,7 +521,7 @@
     "auto_category": "VLA"
   },
   {
-    "id": "2605.11459v1",
+    "id": "2605.11459v2",
     "title": "Overcoming Dynamics-Blindness: Training-Free Pace-and-Path Correction for VLA Models",
     "authors": [
       "Yanyan Zhang",
@@ -474,8 +537,8 @@
     "summary": "Vision-Language-Action (VLA) models achieve remarkable flexibility and generalization beyond classical control paradigms. However, most prevailing VLAs are trained under a single-frame observation paradigm, which leaves them structurally blind to temporal dynamics. Consequently, these models degrade severely in non-stationary scenarios, even when trained or finetuned on dynamic datasets. Existing approaches either require expensive retraining or suffer from latency bottlenecks and poor temporal ",
     "published": "2026-05-12",
     "published_iso": "2026-05-12T03:17:59+00:00",
-    "url": "https://arxiv.org/abs/2605.11459v1",
-    "pdf_url": "https://arxiv.org/pdf/2605.11459v1",
+    "url": "https://arxiv.org/abs/2605.11459v2",
+    "pdf_url": "https://arxiv.org/pdf/2605.11459v2",
     "categories": [
       "cs.RO",
       "cs.AI",
@@ -835,53 +898,6 @@
     "auto_category": "VLA"
   },
   {
-    "id": "2605.09343v1",
-    "title": "SKG-VLA: Scene Knowledge Graph Priors for Structured Scene Semantics and Multimodal Reasoning for Decision Making",
-    "authors": [
-      "Zeyu Li",
-      "Lei Li"
-    ],
-    "summary": "Decision making in large-scale complaint handling systems increasingly relies on heterogeneous evidence, including complaint narratives, screenshots, order metadata, historical interactions, and platform policies. Existing complaint understanding systems mainly perform shallow classification or template matching over isolated modalities, while underutilizing explicit scene structure, rule knowledge, and cross-evidence dependencies. To address this limitation, we present SKG-VLA for multimodal co",
-    "published": "2026-05-10",
-    "published_iso": "2026-05-10T05:43:58+00:00",
-    "url": "https://arxiv.org/abs/2605.09343v1",
-    "pdf_url": "https://arxiv.org/pdf/2605.09343v1",
-    "categories": [
-      "cs.AI"
-    ],
-    "primary_category": "cs.AI",
-    "code_url": null,
-    "project_url": null,
-    "auto_category": "VLA"
-  },
-  {
-    "id": "2605.09005v1",
-    "title": "Towards Backdoor-Based Ownership Verification for Vision-Language-Action Models",
-    "authors": [
-      "Ming Sun",
-      "Rui Wang",
-      "Xingrui Yu",
-      "Lihua Jing",
-      "Hangyu Du",
-      "Zhenglin Wan",
-      "Xu Pan",
-      "Ivor Tsang"
-    ],
-    "summary": "Vision-Language-Action models (VLAs) support generalist robotic control by enabling end-to-end decision policies directly from multi-modal inputs. As trained VLAs are increasingly shared and adapted, protecting model ownership becomes essential for secure deployment and responsible open-source usage. In this paper, we present GuardVLA, the first backdoor-based ownership verification framework specifically designed for VLAs. GuardVLA embeds a stealthy and harmless backdoor watermark into the prot",
-    "published": "2026-05-09",
-    "published_iso": "2026-05-09T15:44:19+00:00",
-    "url": "https://arxiv.org/abs/2605.09005v1",
-    "pdf_url": "https://arxiv.org/pdf/2605.09005v1",
-    "categories": [
-      "cs.RO",
-      "cs.AI"
-    ],
-    "primary_category": "cs.RO",
-    "code_url": null,
-    "project_url": null,
-    "auto_category": "VLA"
-  },
-  {
     "id": "2605.07794v1",
     "title": "NoiseGate: Learning Per-Latent Timestep Schedules as Information Gating in World Action Models",
     "authors": [
@@ -1197,7 +1213,7 @@
     "auto_category": "World Model"
   },
   {
-    "id": "2604.19092v1",
+    "id": "2604.19092v2",
     "title": "RoboWM-Bench: A Benchmark for Evaluating World Models in Robotic Manipulation",
     "authors": [
       "Feng Jiang",
@@ -1212,11 +1228,11 @@
       "Chen Xie",
       "Ruihai Wu"
     ],
-    "summary": "Recent advances in large-scale video world models have enabled increasingly realistic future prediction, raising the prospect of leveraging imagined videos for robot learning. However, visual realism does not imply physical plausibility, and behaviors inferred from generated videos may violate dynamics and fail when executed by embodied agents. Existing benchmarks begin to incorporate notions of physical plausibility, but they largely remain perception- or diagnostic-oriented and do not systemat",
+    "summary": "Recent advances in large-scale video world models have enabled increasingly realistic future prediction, raising the prospect of using generated videos as scalable supervision for robot learning. However, for embodied manipulation, perceptual realism alone is not sufficient: generated interactions must also be physically consistent and executable by robotic agents. Existing benchmarks provide valuable assessments of visual quality and physical plausibility, but they do not systematically evaluat",
     "published": "2026-04-21",
     "published_iso": "2026-04-21T05:09:56+00:00",
-    "url": "https://arxiv.org/abs/2604.19092v1",
-    "pdf_url": "https://arxiv.org/pdf/2604.19092v1",
+    "url": "https://arxiv.org/abs/2604.19092v2",
+    "pdf_url": "https://arxiv.org/pdf/2604.19092v2",
     "categories": [
       "cs.RO",
       "cs.AI"
