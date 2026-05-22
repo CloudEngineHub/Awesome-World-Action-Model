@@ -69,44 +69,22 @@ This repository aims to provide a comprehensive, curated, and continuously updat
 
 ## 🆕 Latest Papers (Auto-updated)
 
-> Papers are automatically fetched daily from arXiv. Last updated: 2026-05-20
+> Papers are automatically fetched daily from arXiv. Last updated: 2026-05-21
 
 ### VLA
 
 | Paper | Date | Code |
 |-------|------|------|
+| [GesVLA: Gesture-Aware Vision-Language-Action Model Embedded Representations](https://arxiv.org/abs/2605.22812v1)<br><small>Wenxuan Guo, Ziyuan Li et al.</small> | 2026-05-21 |  |
+| [From Abstraction to Instantiation: Learning Behavioral Representation for Vision-Language-Action Model](https://arxiv.org/abs/2605.22671v1)<br><small>Bing Hu, Zaijing Li et al.</small> | 2026-05-21 |  |
+| [Pre-VLA: Preemptive Runtime Verification for Reliable Vision-Language-Action and World-Model Rollouts](https://arxiv.org/abs/2605.22446v1)<br><small>Zhen Sun, Yongjian Guo et al.</small> | 2026-05-21 |  |
+| [Spatial Memory for Out-of-Vision Manipulation in Vision-Language-Action](https://arxiv.org/abs/2605.22283v1)<br><small>Pengteng Li, Weiyu Guo et al.</small> | 2026-05-21 |  |
+| [LVDrive: Latent Visual Representation Enhanced Vision-Language-Action Autonomous Driving Model](https://arxiv.org/abs/2605.22089v1)<br><small>Xiaodong Mei, Diankun Zhang et al.</small> | 2026-05-21 |  |
+| [EvoScene-VLA: Evolving Scene Beliefs Inside the Action Decoder for Chunked Robot Control](https://arxiv.org/abs/2605.21862v1)<br><small>Chushan Zhang, Ruihan Lu et al.</small> | 2026-05-21 |  |
+| [CrossVLA: Cross-Paradigm Post-Training and Inference Optimization for Vision-Language-Action Models](https://arxiv.org/abs/2605.21854v1)<br><small>Zhi Liu</small> | 2026-05-21 |  |
 | [Lost in Fog: Sensor Perturbations Expose Reasoning Fragility in Driving VLAs](https://arxiv.org/abs/2605.21446v1)<br><small>Abhinaw Priyadershi, Jelena Frtunikj</small> | 2026-05-20 |  |
 | [PointACT: Vision-Language-Action Models with Multi-Scale Point-Action Interaction](https://arxiv.org/abs/2605.21414v1)<br><small>Shizhe Chen, Paul Pacaud et al.</small> | 2026-05-20 |  |
-| [DriveMA: Rethinking Language Interfaces in Driving VLAs with One-Step Meta-Actions](https://arxiv.org/abs/2605.21273v1)<br><small>Weicheng Zheng, Yixin Huang et al.</small> | 2026-05-20 |  |
-| [Grounding Driving VLA via Inverse Kinematics](https://arxiv.org/abs/2605.21061v1)<br><small>Junsung Park, Hyunjung Shim</small> | 2026-05-20 |  |
-| [VLA-REPLICA: A Low-Cost, Reproducible Benchmark for Real-World Evaluation of Vision-Language-Action Models](https://arxiv.org/abs/2605.20774v1)<br><small>Alex S. Huang, Jiahui Zhang et al.</small> | 2026-05-20 |  |
-| [RoVLA: Multi-Consistency Constraints for Robust Vision-Language-Action Models](https://arxiv.org/abs/2605.19678v1)<br><small>Jingzhou Luo, Yifan Wen et al.</small> | 2026-05-19 |  |
-| [PAPO-VLA: Planning-Aware Policy Optimization for Vision-Language-Action Models](https://arxiv.org/abs/2605.19580v1)<br><small>Peizheng Guo, Jingyao Wang et al.</small> | 2026-05-19 |  |
-| [SafeAlign-VLA: A Negative-Enhanced Safe Alignment Framework for Risk-Aware Autonomous Driving](https://arxiv.org/abs/2605.19524v1)<br><small>Kefei Tian, Yuansheng Lian et al.</small> | 2026-05-19 |  |
-| [DEFLECT: Delay-Robust Execution via Flow-matching Likelihood-Estimated Counterfactual Tuning for VLA Policies](https://arxiv.org/abs/2605.19294v1)<br><small>Yixiang Zhu, Yonghao Chen et al.</small> | 2026-05-19 |  |
-| [Rethinking Muon Beyond Pretraining: Spectral Failures and High-Pass Remedies for VLA and RLVR](https://arxiv.org/abs/2605.19282v1)<br><small>Chongyu Fan, Gaowen Liu et al.</small> | 2026-05-19 |  |
-
-### World Model
-
-| Paper | Date | Code |
-|-------|------|------|
-| [GaussianDream: A Feed-Forward 3D Gaussian World Model for Robotic Manipulation](https://arxiv.org/abs/2605.20752v1)<br><small>Zijian Zhang, Yuqing Jiang et al.</small> | 2026-05-20 |  |
-| [WorldVLN: Autoregressive World Action Model for Aerial Vision-Language Navigation](https://arxiv.org/abs/2605.15964v1)<br><small>Baining Zhao, Jiacheng Xu et al.</small> | 2026-05-15 |  |
-| [World Action Models: The Next Frontier in Embodied AI](https://arxiv.org/abs/2605.12090v1)<br><small>Siyin Wang, Junhao Shi et al.</small> | 2026-05-12 |  |
-| [HarmoWAM: Harmonizing Generalizable and Precise Manipulation via Adaptive World Action Models](https://arxiv.org/abs/2605.10942v1)<br><small>Qiuxuan Feng, Jiale Yu et al.</small> | 2026-05-11 |  |
-| [NoiseGate: Learning Per-Latent Timestep Schedules as Information Gating in World Action Models](https://arxiv.org/abs/2605.07794v1)<br><small>Wen Huang, Haoran Sun et al.</small> | 2026-05-08 |  |
-| [Is the Future Compatible? Diagnosing Dynamic Consistency in World Action Models](https://arxiv.org/abs/2605.07514v1)<br><small>Bo-Kai Ruan, Teng-Fang Hsiao et al.</small> | 2026-05-08 |  |
-| [OA-WAM: Object-Addressable World Action Model for Robust Robot Manipulation](https://arxiv.org/abs/2605.06481v1)<br><small>Yushan Liu, Peibo Sun et al.</small> | 2026-05-07 |  |
-| [CKT-WAM: Parameter-Efficient Context Knowledge Transfer Between World Action Models](https://arxiv.org/abs/2605.06247v1)<br><small>Yuhua Jiang, Yijun Guo et al.</small> | 2026-05-07 |  |
-| [When to Trust Imagination: Adaptive Action Execution for World Action Models](https://arxiv.org/abs/2605.06222v2)<br><small>Rui Wang, Yue Zhang et al.</small> | 2026-05-07 |  |
-| [World Model for Robot Learning: A Comprehensive Survey](https://arxiv.org/abs/2605.00080v1)<br><small>Bohan Hou, Gen Li et al.</small> | 2026-04-30 |  |
-
-### Policy
-
-| Paper | Date | Code |
-|-------|------|------|
-| [Being-H0.7: A Latent World-Action Model from Egocentric Videos](https://arxiv.org/abs/2605.00078v1)<br><small>Hao Luo, Wanpeng Zhang et al.</small> | 2026-04-30 |  |
-| [Enhancing Policy Learning with World-Action Model](https://arxiv.org/abs/2603.28955v1)<br><small>Yuci Han, Alper Yilmaz</small> | 2026-03-30 |  |
+| [DriveMA: Rethinking Language Interfaces in Driving VLAs with One-Step Meta-Actions](https://arxiv.org/abs/2605.21273v2)<br><small>Weicheng Zheng, Yixin Huang et al.</small> | 2026-05-20 |  |
 
 ---
 
