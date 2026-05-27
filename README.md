@@ -69,37 +69,15 @@ This repository aims to provide a comprehensive, curated, and continuously updat
 
 ## 🆕 Latest Papers (Auto-updated)
 
-> Papers are automatically fetched daily from arXiv. Last updated: 2026-05-24
-
-### VLA
-
-| Paper | Date | Code |
-|-------|------|------|
-| [Adaptive Action Chunking at Inference-time for Vision-Language-Action Models](https://arxiv.org/abs/2604.04161v2)<br><small>Yuanchang Liang, Xiaobo Wang et al.</small> | 2026-04-05 |  |
-| [ProgressVLA: Progress-Guided Diffusion Policy for Vision-Language Robotic Manipulation](https://arxiv.org/abs/2603.27670v1)<br><small>Hongyu Yan, Qiwei Li et al.</small> | 2026-03-29 |  |
-| [SilentDrift: Exploiting Action Chunking for Stealthy Backdoor Attacks on Vision-Language-Action Models](https://arxiv.org/abs/2601.14323v1)<br><small>Bingxin Xu, Yuzhang Shang et al.</small> | 2026-01-20 |  |
-| [PD-VLA: Accelerating Vision-Language-Action Model Integrated with Action Chunking via Parallel Decoding](https://arxiv.org/abs/2503.02310v2)<br><small>Wenxuan Song, Jiayi Chen et al.</small> | 2025-03-04 |  |
-
-### World Model
-
-| Paper | Date | Code |
-|-------|------|------|
-| [Feedback World Model Enables Precise Guidance of Diffusion Policy](https://arxiv.org/abs/2605.15705v1)<br><small>Tuo An, Jindou Jia et al.</small> | 2026-05-15 |  |
+> Papers are automatically fetched daily from arXiv. Last updated: 2025-03-11
 
 ### Policy
 
 | Paper | Date | Code |
 |-------|------|------|
-| [Learning High-Frequency Continuous Action Chunks in Latent Space](https://arxiv.org/abs/2605.24931v1)<br><small>Kunyun Wang, Yuhang Zheng et al.</small> | 2026-05-24 |  |
-| [Smoother Action Chunking Flow Policy via Prior-Corrected Orthogonal Trust-Region Guidance](https://arxiv.org/abs/2605.24433v1)<br><small>Kai Fang, Hailong Pei et al.</small> | 2026-05-23 |  |
-| [Understanding Multimodal Failure in Action-Chunking Behavioral Cloning](https://arxiv.org/abs/2605.22493v1)<br><small>Lorenzo Mazza, Massimiliano Datres et al.</small> | 2026-05-21 |  |
-| [Mobile UMI: Cross-View Diffusion Policy with Decoupled Kinematics for Mobile Manipulation](https://arxiv.org/abs/2605.20894v1)<br><small>Haoran Huang, Haonan Dong et al.</small> | 2026-05-20 |  |
-| [SADP: Subgoal-Aware Diffusion Policy for Explainable Robots Learned from Foundation Model Generated Demonstrations](https://arxiv.org/abs/2605.16871v1)<br><small>Site Hu, Takato Horii</small> | 2026-05-16 |  |
-| [Diffusion Policy for Coordinated Control of a Nonholonomic Mobile Base and Dual Arms in Door Opening and Passing](https://arxiv.org/abs/2605.15352v1)<br><small>Shangqun Yu, Matthew En et al.</small> | 2026-05-14 |  |
-| [SI-Diff: A Framework for Learning Search and High-Precision Insertion with a Force-Domain Diffusion Policy](https://arxiv.org/abs/2605.12247v1)<br><small>Yibo Liu, Stanko Oparnica et al.</small> | 2026-05-12 |  |
-| [VADF: Vision-Adaptive Diffusion Policy Framework for Efficient Robotic Manipulation](https://arxiv.org/abs/2604.15938v1)<br><small>Xinglei Yu, Zhenyang Liu et al.</small> | 2026-04-17 |  |
-| [HiPolicy: Hierarchical Multi-Frequency Action Chunking for Policy Learning](https://arxiv.org/abs/2604.06067v1)<br><small>Jiyao Zhang, Zimu Han et al.</small> | 2026-04-07 |  |
-| [Diffusion Policy with Bayesian Expert Selection for Active Multi-Target Tracking](https://arxiv.org/abs/2604.03404v1)<br><small>Haotian Xiang, Qin Lu et al.</small> | 2026-04-03 |  |
+| [Cross-Embodiment Robotic Manipulation Synthesis via Guided Demonstrations through CycleVAE and Human Behavior Transformer](https://arxiv.org/abs/2503.08622v1)<br><small>Apan Dastider, Hao Fang et al.</small> | 2025-03-11 |  |
+| [BeTAIL: Behavior Transformer Adversarial Imitation Learning from Human Racing Gameplay](https://arxiv.org/abs/2402.14194v2)<br><small>Catherine Weaver, Chen Tang et al.</small> | 2024-02-22 |  |
+| [Behavior Transformers: Cloning $k$ modes with one stone](https://arxiv.org/abs/2206.11251v2)<br><small>Nur Muhammad Mahi Shafiullah, Zichen Jeff Cui et al.</small> | 2022-06-22 |  |
 
 ---
 
