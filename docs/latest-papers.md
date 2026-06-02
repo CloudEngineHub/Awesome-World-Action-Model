@@ -1,6 +1,6 @@
 # 📚 Latest ArXiv Papers - World Action Models
 
-Generated on: 2026-06-01 04:14:04
+Generated on: 2026-06-02 04:07:36
 
 Total papers: 50
 
@@ -8,26 +8,30 @@ Total papers: 50
 
 | Paper | Date | Code |
 |-------|------|------|
+| [Intercepting the Future: Latent-Space Predictive World Model for Dynamic VLA Manipulation](https://arxiv.org/abs/2606.02486v1)<br><small>Shahram Najam Syed et al.</small> | 2026-06-01 |  |
+| [Towards Precise Intent-Aligned VLA Aerial Navigation via Expert-Guided GRPO](https://arxiv.org/abs/2606.02313v1)<br><small>Tianyang Chen et al.</small> | 2026-06-01 |  |
+| [FATE-VLA:Failue-aware test generation for vision-language-action models](https://arxiv.org/abs/2606.02307v1)<br><small>Arusa Kanwal et al.</small> | 2026-06-01 |  |
+| [RoboSemanticBench: Diagnosing Semantic Grounding in Action Prediction for VLA Models](https://arxiv.org/abs/2606.02277v1)<br><small>Bin Yu et al.</small> | 2026-06-01 |  |
+| [The Lie We Tell: Correcting the Euclidean Fallacy in Vision Language Action Policies via Score Matching on Tangent Space](https://arxiv.org/abs/2606.01847v1)<br><small>Bing-Cheng Chuang et al.</small> | 2026-06-01 |  |
+| [LEGS: Fine-Tuning Teleop-Free VLAs for Humanoid Loco-manipulation in an Embodied Gaussian Splatting World](https://arxiv.org/abs/2606.01458v1)<br><small>Hojune Kim et al.</small> | 2026-05-31 |  |
+| [Beyond Task Success: Behavioral and Representational Diagnostics for WAM and VLA](https://arxiv.org/abs/2606.01095v1)<br><small>Hung Mai et al.</small> | 2026-05-31 |  |
+| [Make Your VLA More Robust Without More Data By Interleaving Motion Planning](https://arxiv.org/abs/2606.00985v1)<br><small>Dan BW Choe et al.</small> | 2026-05-31 |  |
+| [Threading Optimization for Vision-Language-Action Model Inference in Low-Cost Smart Agricultural Manipulation](https://arxiv.org/abs/2606.00966v1)<br><small>Keith Truongcao et al.</small> | 2026-05-31 |  |
+| [SafeVLA-Bench: A Benchmark for the Success-Safety Gap in Vision-Language-Action Models](https://arxiv.org/abs/2606.00773v1)<br><small>Jialiang Fan et al.</small> | 2026-05-30 |  |
+| [PaCo-VLA: Passivity-Shielded Compliance Prior for Contact-Rich Vision-Language-Action Manipulation](https://arxiv.org/abs/2606.00515v1)<br><small>Haofan Cao et al.</small> | 2026-05-30 |  |
+| [Closed-Loop Neural Activation Control in Vision-Language-Action Models](https://arxiv.org/abs/2606.00269v1)<br><small>Abhijith Babu et al.</small> | 2026-05-29 |  |
+| [Per-Group Error, Not Total MSE: Fine-Tuning Vision-Language-Action Models for 11-DoF Mobile Manipulation](https://arxiv.org/abs/2606.00253v1)<br><small>Pau Montagut Bofi et al.</small> | 2026-05-29 |  |
+| [Continuous Reasoning for Vision-Language-Action](https://arxiv.org/abs/2606.00229v1)<br><small>Yueh-Hua Wu et al.</small> | 2026-05-29 |  |
 | [DeMaVLA: A Vision-Language-Action Foundation Model for Generalizable Deformable Manipulation](https://arxiv.org/abs/2605.31286v1)<br><small>Taiyi Su et al.</small> | 2026-05-29 |  |
-| [DriveMA: Driving Vision-Language-Action Models with verifiable Meta-Actions](https://arxiv.org/abs/2605.31271v1)<br><small>Weicheng Zheng et al.</small> | 2026-05-29 |  |
-| [HARP-VLA: Human-Robot Aligned Representation Learning for Vision-Language-Action Model](https://arxiv.org/abs/2605.31234v1)<br><small>Xiang Zhu et al.</small> | 2026-05-29 |  |
-| [Can Aerial VLA Models Cooperate? Evaluating Closed-Loop Air-Ground Coordination with CARLA-Air](https://arxiv.org/abs/2605.31066v1)<br><small>Tianle Zeng et al.</small> | 2026-05-29 |  |
-| [Does Visual Information Play a Decisive Role in Vision-Language-Action Model Driving Behavior?](https://arxiv.org/abs/2605.31041v1)<br><small>Jingtao He et al.</small> | 2026-05-29 |  |
-| [Hide-and-Seek in Trajectories: Discovering Failure Signals for VLA Runtime Monitoring](https://arxiv.org/abs/2605.30834v1)<br><small>Seongheon Park et al.</small> | 2026-05-29 |  |
-| [Primitive Subspaces Mediate Few-Shot Transfer in VLAs](https://arxiv.org/abs/2605.30695v1)<br><small>Anya Singh et al.</small> | 2026-05-29 |  |
-| [BOKBO (Best of K Bad Options): Calibrated Abstention for VLA Policies](https://arxiv.org/abs/2605.30660v1)<br><small>Anya Singh et al.</small> | 2026-05-28 |  |
-| [ELAN4D: Embodiment-Centric 4D Supervision for Vision-Language-Action Models via Plug-and-Play Adaptation](https://arxiv.org/abs/2605.30484v1)<br><small>Zeyuan He et al.</small> | 2026-05-28 |  |
-| [Gaze2Act: Gaze-Conditioned Vision-Language-Action Policies for Interactive Robot Manipulation](https://arxiv.org/abs/2605.30282v1)<br><small>Kuangji Zuo et al.</small> | 2026-05-28 |  |
-| [Qwen-VLA: Unifying Vision-Language-Action Modeling across Tasks, Environments, and Robot Embodiments](https://arxiv.org/abs/2605.30280v1)<br><small>Qiuyue Wang et al.</small> | 2026-05-28 |  |
-| [BORA: Bridging Offline Reinforcement Learning and Online Residual Adaptation for Real-World Dexterous VLA Models](https://arxiv.org/abs/2605.30226v1)<br><small>Zhongxi Chen et al.</small> | 2026-05-28 |  |
-| [VLA-Trace: Diagnosing Vision-Language-Action Models through Representation and Behavior Tracing](https://arxiv.org/abs/2605.30117v1)<br><small>Haoyuan Shi et al.</small> | 2026-05-28 |  |
-| [VisualThink-VLA: Visual Intermediate Reasoning for Effective and Low-Latency Vision-Language-Action Policies](https://arxiv.org/abs/2605.30011v1)<br><small>Mingjian Gao et al.</small> | 2026-05-28 |  |
-| [PhAIL: A Real-Robot VLA Benchmark and Distributional Methodology](https://arxiv.org/abs/2605.29710v1)<br><small>Sergey Arkhangelskiy</small> | 2026-05-28 |  |
 
 ## World Model
 
 | Paper | Date | Code |
 |-------|------|------|
+| [WALL-WM: Carving World Action Modeling at the Event Joints](https://arxiv.org/abs/2606.01955v1)<br><small>Shalfun Li et al.</small> | 2026-06-01 |  |
+| [RoboTrustBench: Benchmarking the Trustworthiness of Video World Models for Robotic Manipulation](https://arxiv.org/abs/2606.01600v1)<br><small>Huiqiong Li et al.</small> | 2026-06-01 |  |
+| [$τ_0$-WM: A Unified Video-Action World Model for Robotic Manipulation](https://arxiv.org/abs/2606.01027v1)<br><small>Pengfei Zhou et al.</small> | 2026-05-31 |  |
+| [World Models for Robotic Manipulation: A Survey](https://arxiv.org/abs/2606.00113v1)<br><small>Fangyuan Wang et al.</small> | 2026-05-27 |  |
 | [SANTS: A State-Adaptive Scheduler for World Action Models](https://arxiv.org/abs/2605.27947v1)<br><small>Yirui Sun et al.</small> | 2026-05-27 |  |
 | [Point Tracking Improves World Action Models](https://arxiv.org/abs/2605.23856v1)<br><small>Jiarui Guan et al.</small> | 2026-05-22 |  |
 | [GEM-4D: Geometry-Enhanced Video World Models for Robot Manipulation](https://arxiv.org/abs/2605.22882v2)<br><small>Kaichen Zhou et al.</small> | 2026-05-20 |  |
@@ -39,10 +43,6 @@ Total papers: 50
 | [Is the Future Compatible? Diagnosing Dynamic Consistency in World Action Models](https://arxiv.org/abs/2605.07514v1)<br><small>Bo-Kai Ruan et al.</small> | 2026-05-08 |  |
 | [OA-WAM: Object-Addressable World Action Model for Robust Robot Manipulation](https://arxiv.org/abs/2605.06481v1)<br><small>Yushan Liu et al.</small> | 2026-05-07 |  |
 | [CKT-WAM: Parameter-Efficient Context Knowledge Transfer Between World Action Models](https://arxiv.org/abs/2605.06247v1)<br><small>Yuhua Jiang et al.</small> | 2026-05-07 |  |
-| [When to Trust Imagination: Adaptive Action Execution for World Action Models](https://arxiv.org/abs/2605.06222v2)<br><small>Rui Wang et al.</small> | 2026-05-07 |  |
-| [World Model for Robot Learning: A Comprehensive Survey](https://arxiv.org/abs/2605.00080v1)<br><small>Bohan Hou et al.</small> | 2026-04-30 |  |
-| [MotuBrain: An Advanced World Action Model for Robot Control](https://arxiv.org/abs/2604.27792v2)<br><small> MotuBrain Team et al.</small> | 2026-04-30 |  |
-| [STARRY: Spatial-Temporal Action-Centric World Modeling for Robotic Manipulation](https://arxiv.org/abs/2604.26848v2)<br><small>Yuxuan Tian et al.</small> | 2026-04-29 |  |
 
 ## Policy
 
