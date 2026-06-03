@@ -69,27 +69,28 @@ This repository aims to provide a comprehensive, curated, and continuously updat
 
 ## 🆕 Latest Papers (Auto-updated)
 
-> Papers are automatically fetched daily from arXiv. Last updated: 2026-06-01
+> Papers are automatically fetched daily from arXiv. Last updated: 2026-06-02
 
 ### VLA
 
 | Paper | Date | Code |
 |-------|------|------|
+| [PHASER: Phase-Aware and Semantic Experience Replay for Vision-Language-Action Models](https://arxiv.org/abs/2606.03598v1)<br><small>Ziyang Chen, Shaoguang Wang et al.</small> | 2026-06-02 |  |
+| [Partially Observable Adversarial Patch Attacks on Vision-Language-Action Models in Robotics](https://arxiv.org/abs/2606.03556v1)<br><small>Xiaofei Wang, Mingliang Han et al.</small> | 2026-06-02 |  |
+| [GeoAlign: Beyond Semantics with State-Guided Spatial Alignment in VLA Models](https://arxiv.org/abs/2606.03240v1)<br><small>Yizhi Chen, Zhanxiang Cao et al.</small> | 2026-06-02 |  |
+| [TTT-VLA: Test-Time Latent Prompt Optimization for Vision-Language-Action Models](https://arxiv.org/abs/2606.03127v1)<br><small>Wenbo Zhang, Jianxiong Li et al.</small> | 2026-06-02 |  |
+| [See Less, Specify More: Visual Evidence Budgets for Generalizable VLAs](https://arxiv.org/abs/2606.02735v1)<br><small>Yueh-Hua Wu, Tatsuya Matsushima et al.</small> | 2026-06-01 |  |
 | [Intercepting the Future: Latent-Space Predictive World Model for Dynamic VLA Manipulation](https://arxiv.org/abs/2606.02486v1)<br><small>Shahram Najam Syed, Arthur Jakobsson et al.</small> | 2026-06-01 |  |
 | [Towards Precise Intent-Aligned VLA Aerial Navigation via Expert-Guided GRPO](https://arxiv.org/abs/2606.02313v1)<br><small>Tianyang Chen, Wenjun Li et al.</small> | 2026-06-01 |  |
 | [FATE-VLA:Failue-aware test generation for vision-language-action models](https://arxiv.org/abs/2606.02307v1)<br><small>Arusa Kanwal, Pablo Valle et al.</small> | 2026-06-01 |  |
 | [RoboSemanticBench: Diagnosing Semantic Grounding in Action Prediction for VLA Models](https://arxiv.org/abs/2606.02277v1)<br><small>Bin Yu, Yao Zhang et al.</small> | 2026-06-01 |  |
 | [The Lie We Tell: Correcting the Euclidean Fallacy in Vision Language Action Policies via Score Matching on Tangent Space](https://arxiv.org/abs/2606.01847v1)<br><small>Bing-Cheng Chuang, I-Hsuan Chu et al.</small> | 2026-06-01 |  |
-| [LEGS: Fine-Tuning Teleop-Free VLAs for Humanoid Loco-manipulation in an Embodied Gaussian Splatting World](https://arxiv.org/abs/2606.01458v1)<br><small>Hojune Kim, Timothy Chen et al.</small> | 2026-05-31 |  |
-| [Beyond Task Success: Behavioral and Representational Diagnostics for WAM and VLA](https://arxiv.org/abs/2606.01095v1)<br><small>Hung Mai, Bin Zhu et al.</small> | 2026-05-31 |  |
-| [Make Your VLA More Robust Without More Data By Interleaving Motion Planning](https://arxiv.org/abs/2606.00985v1)<br><small>Dan BW Choe, Sundhar Vinodh Sangeetha et al.</small> | 2026-05-31 |  |
-| [Threading Optimization for Vision-Language-Action Model Inference in Low-Cost Smart Agricultural Manipulation](https://arxiv.org/abs/2606.00966v1)<br><small>Keith Truongcao, Christopher Nhu et al.</small> | 2026-05-31 |  |
-| [SafeVLA-Bench: A Benchmark for the Success-Safety Gap in Vision-Language-Action Models](https://arxiv.org/abs/2606.00773v1)<br><small>Jialiang Fan, Weizhe Xu et al.</small> | 2026-05-30 |  |
 
 ### World Model
 
 | Paper | Date | Code |
 |-------|------|------|
+| [GeoSem-WAM: Geometry- and Semantic-Aware World Action Models](https://arxiv.org/abs/2606.03188v1)<br><small>Fulong Ma, Daojie Peng et al.</small> | 2026-06-02 |  |
 | [WALL-WM: Carving World Action Modeling at the Event Joints](https://arxiv.org/abs/2606.01955v1)<br><small>Shalfun Li, Victor Yao et al.</small> | 2026-06-01 |  |
 | [RoboTrustBench: Benchmarking the Trustworthiness of Video World Models for Robotic Manipulation](https://arxiv.org/abs/2606.01600v1)<br><small>Huiqiong Li, Jiayu Wang et al.</small> | 2026-06-01 |  |
 | [$τ_0$-WM: A Unified Video-Action World Model for Robotic Manipulation](https://arxiv.org/abs/2606.01027v1)<br><small>Pengfei Zhou, Shengcong Chen et al.</small> | 2026-05-31 |  |
@@ -99,7 +100,6 @@ This repository aims to provide a comprehensive, curated, and continuously updat
 | [GEM-4D: Geometry-Enhanced Video World Models for Robot Manipulation](https://arxiv.org/abs/2605.22882v2)<br><small>Kaichen Zhou, Yuzhen Chen et al.</small> | 2026-05-20 |  |
 | [GaussianDream: A Feed-Forward 3D Gaussian World Model for Robotic Manipulation](https://arxiv.org/abs/2605.20752v2)<br><small>Zijian Zhang, Yuqing Jiang et al.</small> | 2026-05-20 |  |
 | [WorldVLN: Autoregressive World Action Model for Aerial Vision-Language Navigation](https://arxiv.org/abs/2605.15964v1)<br><small>Baining Zhao, Jiacheng Xu et al.</small> | 2026-05-15 |  |
-| [World Action Models: The Next Frontier in Embodied AI](https://arxiv.org/abs/2605.12090v1)<br><small>Siyin Wang, Junhao Shi et al.</small> | 2026-05-12 |  |
 
 ### Policy
 

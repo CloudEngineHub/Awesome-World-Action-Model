@@ -1,6 +1,6 @@
 # 📚 Latest ArXiv Papers - World Action Models
 
-Generated on: 2026-06-02 04:07:36
+Generated on: 2026-06-03 04:17:19
 
 Total papers: 50
 
@@ -8,6 +8,11 @@ Total papers: 50
 
 | Paper | Date | Code |
 |-------|------|------|
+| [PHASER: Phase-Aware and Semantic Experience Replay for Vision-Language-Action Models](https://arxiv.org/abs/2606.03598v1)<br><small>Ziyang Chen et al.</small> | 2026-06-02 |  |
+| [Partially Observable Adversarial Patch Attacks on Vision-Language-Action Models in Robotics](https://arxiv.org/abs/2606.03556v1)<br><small>Xiaofei Wang et al.</small> | 2026-06-02 |  |
+| [GeoAlign: Beyond Semantics with State-Guided Spatial Alignment in VLA Models](https://arxiv.org/abs/2606.03240v1)<br><small>Yizhi Chen et al.</small> | 2026-06-02 |  |
+| [TTT-VLA: Test-Time Latent Prompt Optimization for Vision-Language-Action Models](https://arxiv.org/abs/2606.03127v1)<br><small>Wenbo Zhang et al.</small> | 2026-06-02 |  |
+| [See Less, Specify More: Visual Evidence Budgets for Generalizable VLAs](https://arxiv.org/abs/2606.02735v1)<br><small>Yueh-Hua Wu et al.</small> | 2026-06-01 |  |
 | [Intercepting the Future: Latent-Space Predictive World Model for Dynamic VLA Manipulation](https://arxiv.org/abs/2606.02486v1)<br><small>Shahram Najam Syed et al.</small> | 2026-06-01 |  |
 | [Towards Precise Intent-Aligned VLA Aerial Navigation via Expert-Guided GRPO](https://arxiv.org/abs/2606.02313v1)<br><small>Tianyang Chen et al.</small> | 2026-06-01 |  |
 | [FATE-VLA:Failue-aware test generation for vision-language-action models](https://arxiv.org/abs/2606.02307v1)<br><small>Arusa Kanwal et al.</small> | 2026-06-01 |  |
@@ -18,16 +23,12 @@ Total papers: 50
 | [Make Your VLA More Robust Without More Data By Interleaving Motion Planning](https://arxiv.org/abs/2606.00985v1)<br><small>Dan BW Choe et al.</small> | 2026-05-31 |  |
 | [Threading Optimization for Vision-Language-Action Model Inference in Low-Cost Smart Agricultural Manipulation](https://arxiv.org/abs/2606.00966v1)<br><small>Keith Truongcao et al.</small> | 2026-05-31 |  |
 | [SafeVLA-Bench: A Benchmark for the Success-Safety Gap in Vision-Language-Action Models](https://arxiv.org/abs/2606.00773v1)<br><small>Jialiang Fan et al.</small> | 2026-05-30 |  |
-| [PaCo-VLA: Passivity-Shielded Compliance Prior for Contact-Rich Vision-Language-Action Manipulation](https://arxiv.org/abs/2606.00515v1)<br><small>Haofan Cao et al.</small> | 2026-05-30 |  |
-| [Closed-Loop Neural Activation Control in Vision-Language-Action Models](https://arxiv.org/abs/2606.00269v1)<br><small>Abhijith Babu et al.</small> | 2026-05-29 |  |
-| [Per-Group Error, Not Total MSE: Fine-Tuning Vision-Language-Action Models for 11-DoF Mobile Manipulation](https://arxiv.org/abs/2606.00253v1)<br><small>Pau Montagut Bofi et al.</small> | 2026-05-29 |  |
-| [Continuous Reasoning for Vision-Language-Action](https://arxiv.org/abs/2606.00229v1)<br><small>Yueh-Hua Wu et al.</small> | 2026-05-29 |  |
-| [DeMaVLA: A Vision-Language-Action Foundation Model for Generalizable Deformable Manipulation](https://arxiv.org/abs/2605.31286v1)<br><small>Taiyi Su et al.</small> | 2026-05-29 |  |
 
 ## World Model
 
 | Paper | Date | Code |
 |-------|------|------|
+| [GeoSem-WAM: Geometry- and Semantic-Aware World Action Models](https://arxiv.org/abs/2606.03188v1)<br><small>Fulong Ma et al.</small> | 2026-06-02 |  |
 | [WALL-WM: Carving World Action Modeling at the Event Joints](https://arxiv.org/abs/2606.01955v1)<br><small>Shalfun Li et al.</small> | 2026-06-01 |  |
 | [RoboTrustBench: Benchmarking the Trustworthiness of Video World Models for Robotic Manipulation](https://arxiv.org/abs/2606.01600v1)<br><small>Huiqiong Li et al.</small> | 2026-06-01 |  |
 | [$τ_0$-WM: A Unified Video-Action World Model for Robotic Manipulation](https://arxiv.org/abs/2606.01027v1)<br><small>Pengfei Zhou et al.</small> | 2026-05-31 |  |
@@ -42,7 +43,6 @@ Total papers: 50
 | [NoiseGate: Learning Per-Latent Timestep Schedules as Information Gating in World Action Models](https://arxiv.org/abs/2605.07794v1)<br><small>Wen Huang et al.</small> | 2026-05-08 |  |
 | [Is the Future Compatible? Diagnosing Dynamic Consistency in World Action Models](https://arxiv.org/abs/2605.07514v1)<br><small>Bo-Kai Ruan et al.</small> | 2026-05-08 |  |
 | [OA-WAM: Object-Addressable World Action Model for Robust Robot Manipulation](https://arxiv.org/abs/2605.06481v1)<br><small>Yushan Liu et al.</small> | 2026-05-07 |  |
-| [CKT-WAM: Parameter-Efficient Context Knowledge Transfer Between World Action Models](https://arxiv.org/abs/2605.06247v1)<br><small>Yuhua Jiang et al.</small> | 2026-05-07 |  |
 
 ## Policy
 
