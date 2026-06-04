@@ -69,27 +69,21 @@ This repository aims to provide a comprehensive, curated, and continuously updat
 
 ## 🆕 Latest Papers (Auto-updated)
 
-> Papers are automatically fetched daily from arXiv. Last updated: 2026-06-02
+> Papers are automatically fetched daily from arXiv. Last updated: 2026-06-03
 
 ### VLA
 
 | Paper | Date | Code |
 |-------|------|------|
-| [PHASER: Phase-Aware and Semantic Experience Replay for Vision-Language-Action Models](https://arxiv.org/abs/2606.03598v1)<br><small>Ziyang Chen, Shaoguang Wang et al.</small> | 2026-06-02 |  |
-| [Partially Observable Adversarial Patch Attacks on Vision-Language-Action Models in Robotics](https://arxiv.org/abs/2606.03556v1)<br><small>Xiaofei Wang, Mingliang Han et al.</small> | 2026-06-02 |  |
-| [GeoAlign: Beyond Semantics with State-Guided Spatial Alignment in VLA Models](https://arxiv.org/abs/2606.03240v1)<br><small>Yizhi Chen, Zhanxiang Cao et al.</small> | 2026-06-02 |  |
-| [TTT-VLA: Test-Time Latent Prompt Optimization for Vision-Language-Action Models](https://arxiv.org/abs/2606.03127v1)<br><small>Wenbo Zhang, Jianxiong Li et al.</small> | 2026-06-02 |  |
-| [See Less, Specify More: Visual Evidence Budgets for Generalizable VLAs](https://arxiv.org/abs/2606.02735v1)<br><small>Yueh-Hua Wu, Tatsuya Matsushima et al.</small> | 2026-06-01 |  |
-| [Intercepting the Future: Latent-Space Predictive World Model for Dynamic VLA Manipulation](https://arxiv.org/abs/2606.02486v1)<br><small>Shahram Najam Syed, Arthur Jakobsson et al.</small> | 2026-06-01 |  |
-| [Towards Precise Intent-Aligned VLA Aerial Navigation via Expert-Guided GRPO](https://arxiv.org/abs/2606.02313v1)<br><small>Tianyang Chen, Wenjun Li et al.</small> | 2026-06-01 |  |
-| [FATE-VLA:Failue-aware test generation for vision-language-action models](https://arxiv.org/abs/2606.02307v1)<br><small>Arusa Kanwal, Pablo Valle et al.</small> | 2026-06-01 |  |
-| [RoboSemanticBench: Diagnosing Semantic Grounding in Action Prediction for VLA Models](https://arxiv.org/abs/2606.02277v1)<br><small>Bin Yu, Yao Zhang et al.</small> | 2026-06-01 |  |
-| [The Lie We Tell: Correcting the Euclidean Fallacy in Vision Language Action Policies via Score Matching on Tangent Space](https://arxiv.org/abs/2606.01847v1)<br><small>Bing-Cheng Chuang, I-Hsuan Chu et al.</small> | 2026-06-01 |  |
+| [Adaptive Action Chunking at Inference-time for Vision-Language-Action Models](https://arxiv.org/abs/2604.04161v2)<br><small>Yuanchang Liang, Xiaobo Wang et al.</small> | 2026-04-05 |  |
+| [SilentDrift: Exploiting Action Chunking for Stealthy Backdoor Attacks on Vision-Language-Action Models](https://arxiv.org/abs/2601.14323v2)<br><small>Bingxin Xu, Yuzhang Shang et al.</small> | 2026-01-20 |  |
+| [PD-VLA: Accelerating Vision-Language-Action Model Integrated with Action Chunking via Parallel Decoding](https://arxiv.org/abs/2503.02310v2)<br><small>Wenxuan Song, Jiayi Chen et al.</small> | 2025-03-04 |  |
 
 ### World Model
 
 | Paper | Date | Code |
 |-------|------|------|
+| [OSCAR: Omni-Embodiment Skeleton-Conditioned World Action Model for Robotics](https://arxiv.org/abs/2606.04463v1)<br><small>Zhuoyuan Wu, Jun Gao</small> | 2026-06-03 |  |
 | [GeoSem-WAM: Geometry- and Semantic-Aware World Action Models](https://arxiv.org/abs/2606.03188v1)<br><small>Fulong Ma, Daojie Peng et al.</small> | 2026-06-02 |  |
 | [WALL-WM: Carving World Action Modeling at the Event Joints](https://arxiv.org/abs/2606.01955v1)<br><small>Shalfun Li, Victor Yao et al.</small> | 2026-06-01 |  |
 | [RoboTrustBench: Benchmarking the Trustworthiness of Video World Models for Robotic Manipulation](https://arxiv.org/abs/2606.01600v1)<br><small>Huiqiong Li, Jiayu Wang et al.</small> | 2026-06-01 |  |
@@ -99,13 +93,21 @@ This repository aims to provide a comprehensive, curated, and continuously updat
 | [Point Tracking Improves World Action Models](https://arxiv.org/abs/2605.23856v1)<br><small>Jiarui Guan, Wenshuai Zhao et al.</small> | 2026-05-22 |  |
 | [GEM-4D: Geometry-Enhanced Video World Models for Robot Manipulation](https://arxiv.org/abs/2605.22882v2)<br><small>Kaichen Zhou, Yuzhen Chen et al.</small> | 2026-05-20 |  |
 | [GaussianDream: A Feed-Forward 3D Gaussian World Model for Robotic Manipulation](https://arxiv.org/abs/2605.20752v2)<br><small>Zijian Zhang, Yuqing Jiang et al.</small> | 2026-05-20 |  |
-| [WorldVLN: Autoregressive World Action Model for Aerial Vision-Language Navigation](https://arxiv.org/abs/2605.15964v1)<br><small>Baining Zhao, Jiacheng Xu et al.</small> | 2026-05-15 |  |
 
 ### Policy
 
 | Paper | Date | Code |
 |-------|------|------|
+| [WAM-Nav: Asymmetric Latent World-Action Modeling for Unified Visual Navigation](https://arxiv.org/abs/2606.04907v1)<br><small>Ning Yang, Yan Huang et al.</small> | 2026-06-03 |  |
+| [Set-Supervised Diffusion Policy: Learning Action-Chunking Diffusion through Corrections](https://arxiv.org/abs/2606.01865v1)<br><small>Zhaoting Li, Gang Chen et al.</small> | 2026-06-01 |  |
+| [PACE: Phase-Aware Chunk Execution for Robot Policies with Action Chunking](https://arxiv.org/abs/2606.00537v1)<br><small>Junnan Nie, Jiayi Li et al.</small> | 2026-05-30 |  |
+| [Learning High-Frequency Continuous Action Chunks in Latent Space](https://arxiv.org/abs/2605.24931v1)<br><small>Kunyun Wang, Yuhang Zheng et al.</small> | 2026-05-24 |  |
+| [Smoother Action Chunking Flow Policy via Prior-Corrected Orthogonal Trust-Region Guidance](https://arxiv.org/abs/2605.24433v1)<br><small>Kai Fang, Hailong Pei et al.</small> | 2026-05-23 |  |
+| [Understanding Multimodal Failure in Action-Chunking Behavioral Cloning](https://arxiv.org/abs/2605.22493v1)<br><small>Lorenzo Mazza, Massimiliano Datres et al.</small> | 2026-05-21 |  |
 | [Being-H0.7: A Latent World-Action Model from Egocentric Videos](https://arxiv.org/abs/2605.00078v1)<br><small>Hao Luo, Wanpeng Zhang et al.</small> | 2026-04-30 |  |
+| [HiPolicy: Hierarchical Multi-Frequency Action Chunking for Policy Learning](https://arxiv.org/abs/2604.06067v1)<br><small>Jiyao Zhang, Zimu Han et al.</small> | 2026-04-07 |  |
+| [Closed-Loop Action Chunks with Dynamic Corrections for Training-Free Diffusion Policy](https://arxiv.org/abs/2603.01953v2)<br><small>Pengyuan Wu, Pingrui Zhang et al.</small> | 2026-03-02 |  |
+| [SERNF: Sample-Efficient Real-World Dexterous Policy Fine-Tuning via Action-Chunked Critics and Normalizing Flows](https://arxiv.org/abs/2602.09580v3)<br><small>Chenyu Yang, Denis Tarasov et al.</small> | 2026-02-10 |  |
 
 ---
 
