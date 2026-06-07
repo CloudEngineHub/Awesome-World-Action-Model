@@ -69,22 +69,15 @@ This repository aims to provide a comprehensive, curated, and continuously updat
 
 ## 🆕 Latest Papers (Auto-updated)
 
-> Papers are automatically fetched daily from arXiv. Last updated: 2026-06-04
+> Papers are automatically fetched daily from arXiv. Last updated: 2025-03-11
 
-### VLA
+### Policy
 
 | Paper | Date | Code |
 |-------|------|------|
-| [TempoVLA: Learning Speed-Controllable Vision-Language-Action Policies](https://arxiv.org/abs/2606.06491v1)<br><small>Dong Jing, Jingchen Nie et al.</small> | 2026-06-04 |  |
-| [MPCoT: Reward-Guided Multi-Path Latent Reasoning for Test-Time Scalable Vision-Language-Action](https://arxiv.org/abs/2606.06245v1)<br><small>Boyang Zhang, Lianlei Shan</small> | 2026-06-04 |  |
-| [AffordanceVLA: A Vision-Language-Action Model Empowering Action Generation through Affordance-Aware Understanding](https://arxiv.org/abs/2606.06155v1)<br><small>Qize Yu, Jiadi You et al.</small> | 2026-06-04 |  |
-| [WorldFly: A World-Model-Based Vision-Language-Action Model for UAV Navigation](https://arxiv.org/abs/2606.06147v1)<br><small>Shengtao Zheng, Kai Li et al.</small> | 2026-06-04 |  |
-| [PiL-World: A Chunk-Wise World Model for VLA Policy-in-the-Loop Evaluation](https://arxiv.org/abs/2606.05773v1)<br><small>Chong Ma, Taiyi Su et al.</small> | 2026-06-04 |  |
-| [Let It Be Simple: One-Step Action Generation for Vision-Language-Action Models](https://arxiv.org/abs/2606.05737v1)<br><small>Yitong Chen, Shiduo Zhang et al.</small> | 2026-06-04 |  |
-| [FlowPRO: Reward-Free Reinforced Fine-Tuning of Flow-Matching VLAs via Proximalized Preference Optimization](https://arxiv.org/abs/2606.05468v1)<br><small>Yihao Wu, He Zhang et al.</small> | 2026-06-03 |  |
-| [Potential-Guided Flow Matching for Vision-Language-Action Policy Improvement](https://arxiv.org/abs/2606.04968v1)<br><small>Yunpeng Mei, Jiakai He et al.</small> | 2026-06-03 |  |
-| [VISTA: Vision-Grounded and Physics-Validated Adaptation of UMI data for VLA Training](https://arxiv.org/abs/2606.04708v2)<br><small>Siyuan Yang, Linzheng Guo et al.</small> | 2026-06-03 |  |
-| [3DThinkVLA: Endowing Vision-Language-Action Models with Latent 3D Priors via 3D-Thinking-Guided Co-training](https://arxiv.org/abs/2606.04436v1)<br><small>Jiaxin Shi, Xidong Zhang et al.</small> | 2026-06-03 |  |
+| [Cross-Embodiment Robotic Manipulation Synthesis via Guided Demonstrations through CycleVAE and Human Behavior Transformer](https://arxiv.org/abs/2503.08622v1)<br><small>Apan Dastider, Hao Fang et al.</small> | 2025-03-11 |  |
+| [BeTAIL: Behavior Transformer Adversarial Imitation Learning from Human Racing Gameplay](https://arxiv.org/abs/2402.14194v2)<br><small>Catherine Weaver, Chen Tang et al.</small> | 2024-02-22 |  |
+| [Behavior Transformers: Cloning $k$ modes with one stone](https://arxiv.org/abs/2206.11251v2)<br><small>Nur Muhammad Mahi Shafiullah, Zichen Jeff Cui et al.</small> | 2022-06-22 |  |
 
 ---
 
