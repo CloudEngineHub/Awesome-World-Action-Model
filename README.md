@@ -69,43 +69,45 @@ This repository aims to provide a comprehensive, curated, and continuously updat
 
 ## 🆕 Latest Papers (Auto-updated)
 
-> Papers are automatically fetched daily from arXiv. Last updated: 2026-06-09
+> Papers are automatically fetched daily from arXiv. Last updated: 2026-06-11
 
 ### VLA
 
 | Paper | Date | Code |
 |-------|------|------|
-| [LIBERO-Occ: Evaluating and Improving Vision-Language-Action Models under Scene-Induced Occlusion via Viewpoint Imagination](https://arxiv.org/abs/2606.10862v1)<br><small>Taishan Li, Jiwen Zhang et al.</small> | 2026-06-09 |  |
-| [VeriSpace: Spatially Grounded Action Verification for Vision-Language-Action Models](https://arxiv.org/abs/2606.10568v1)<br><small>Guiyu Zhao, Longteng Guo et al.</small> | 2026-06-09 |  |
-| [Uncovering Vulnerability of Vision-Language-Action Models under Joint-Level Physical Faults](https://arxiv.org/abs/2606.10501v1)<br><small>Minsoo Jo, Taeju Kwon et al.</small> | 2026-06-09 |  |
-| [Act on What You See: Unlocking Safe Social Navigation in Vision-Language-Action Models](https://arxiv.org/abs/2606.10495v1)<br><small>Qingzi Wang, Xiyang Wu et al.</small> | 2026-06-09 |  |
-| [A Practical Recipe Towards Improving Sim-and-Real Correlation for VLA Evaluation](https://arxiv.org/abs/2606.10366v1)<br><small>Shuo Wang, Hanyuan Xu et al.</small> | 2026-06-09 |  |
-| [What Matters in Orchestrating Robot Policies: A Systematic Study of Hierarchical VLA Agents](https://arxiv.org/abs/2606.10267v1)<br><small>Jiaheng Hu, Mohit Shridhar et al.</small> | 2026-06-09 |  |
-| [Flow Control: Steering Vision-Language-Action Models with Simple Real-Time Inputs](https://arxiv.org/abs/2606.10180v1)<br><small>Jonathan C. Kao, Jason Chan et al.</small> | 2026-06-08 |  |
-| [MemoryVLA++: Temporal Modeling via Memory and Imagination in Vision-Language-Action Models](https://arxiv.org/abs/2606.09827v1)<br><small>Hao Shi, Weiye Li et al.</small> | 2026-06-08 |  |
-| [Your Model Already Knows: Attention-Guided Safety Filter for Vision-Language-Action Models](https://arxiv.org/abs/2606.09749v1)<br><small>Seongbin Park, Fan Zhang et al.</small> | 2026-06-08 |  |
-| [ProbeAct: Probe-Guided Training-Free Failure Recovery in Vision-Language-Action Models](https://arxiv.org/abs/2606.09740v1)<br><small>Fan Zhang, Seongbin Park et al.</small> | 2026-06-08 |  |
+| [LabVLA: Grounding Vision-Language-Action Models in Scientific Laboratories](https://arxiv.org/abs/2606.13578v1)<br><small>Baochang Ren, Xinjie Liu et al.</small> | 2026-06-11 |  |
+| [GIVE: Grounding Human Gestures in Vision-Language-Action Models](https://arxiv.org/abs/2606.13435v1)<br><small>Pengfei Liu, Gen Li et al.</small> | 2026-06-11 |  |
+| [Trajectory-Level Redirection Attacks on Vision-Language-Action Models](https://arxiv.org/abs/2606.12978v1)<br><small>Gokul Puthumanaillam, Vardhan Dongre et al.</small> | 2026-06-11 |  |
+| [AIR-VLA+: Decoupling Movement and Manipulation via Cascaded Dual-Action Decoders with Asymmetric MoE for Aerial Robots](https://arxiv.org/abs/2606.12859v1)<br><small>Jianli Sun, Bin Tian et al.</small> | 2026-06-11 |  |
+| [VLADriveBench: Evaluating CoT-Action Relationship in VLA for Autonomous Driving](https://arxiv.org/abs/2606.12706v1)<br><small>Thach Nguyen, Danhua Guo et al.</small> | 2026-06-10 |  |
+| [PersonaDrive: Human-Style Retrieval-Augmented VLA Agents for Closed-Loop Driving Simulation](https://arxiv.org/abs/2606.12616v1)<br><small>Mahmoud Srewa, Praneetsai Iddamsetty et al.</small> | 2026-06-10 |  |
+| [World Pilot: Steering Vision-Language-Action Models with World-Action Priors](https://arxiv.org/abs/2606.12403v1)<br><small>Zefu Lin, Rongxu Cui et al.</small> | 2026-06-10 |  |
+| [APT: Action Expert Pretraining Improves Instruction Generalization of Vision-Language-Action Policies](https://arxiv.org/abs/2606.12366v1)<br><small>Kechun Xu, Zhenjie Zhu et al.</small> | 2026-06-10 |  |
+| [CHORUS: Decentralized Multi-Embodiment Collaboration with One VLA Policy](https://arxiv.org/abs/2606.12352v1)<br><small>Ria Doshi, Tian Gao et al.</small> | 2026-06-10 |  |
+| [Learning What to Say to Your VLA: Mostly Harmless Vision Language Action Model Steering](https://arxiv.org/abs/2606.12299v1)<br><small>Hyun Joe Jeong, Gokul Swamy et al.</small> | 2026-06-10 |  |
 
 ### World Model
 
 | Paper | Date | Code |
 |-------|------|------|
+| [RepWAM: World Action Modeling with Representation Visual-Action Tokenizers](https://arxiv.org/abs/2606.13674v1)<br><small>Junke Wang, Qihang Zhang et al.</small> | 2026-06-11 |  |
+| [$	exttt{WEAVER}$, Better, Faster, Longer: An Effective World Model for Robotic Manipulation](https://arxiv.org/abs/2606.13672v1)<br><small>Arnav Kumar Jain, Yilin Wu et al.</small> | 2026-06-11 |  |
+| [NavWAM: A Navigation World Action Model for Goal-Conditioned Visual Navigation](https://arxiv.org/abs/2606.13494v1)<br><small>Daichi Azuma, Taiki Miyanishi et al.</small> | 2026-06-11 |  |
+| [EWAM: An Enhanced World Action Model for Closed-Loop Online Adaptation in Embodied Intelligence](https://arxiv.org/abs/2606.12690v1)<br><small>Xin Zhou, Cong Miao</small> | 2026-06-10 |  |
+| [Making Foresight Actionable: Repurposing Representation Alignment in World Action Models](https://arxiv.org/abs/2606.12217v1)<br><small>Lu Qiu, Yizhuo Li et al.</small> | 2026-06-10 |  |
 | [HiMem-WAM: Hierarchical Memory-Gated World Action Models for Robotic Manipulation](https://arxiv.org/abs/2606.10363v1)<br><small>Xiaoquan Sun, Ruijian Zhang et al.</small> | 2026-06-09 |  |
 | [MotionWAM: Towards Foundation World Action Models for Real-Time Humanoid Loco-Manipulation](https://arxiv.org/abs/2606.09215v1)<br><small>Jia Zheng, Teli Ma et al.</small> | 2026-06-08 |  |
 | [C$^3$ache: Accelerating World Action Models with Cross Inference Chunk Cache](https://arxiv.org/abs/2606.08962v1)<br><small>Weisen Zhao, Lam Nguyen et al.</small> | 2026-06-08 |  |
 | [Dream-Tac: A Unified Tactile World Action Model for Contact-Rich Robot Manipulation](https://arxiv.org/abs/2606.08737v1)<br><small>Yunfan Lou, Yifan Ye et al.</small> | 2026-06-07 |  |
 | [FAWAM: Force-Aware World Action Models for Closed-Loop Contact-Rich Manipulation](https://arxiv.org/abs/2606.08555v1)<br><small>Haotian He, Zeyu Yan et al.</small> | 2026-06-07 |  |
-| [Light-WAM: Efficient World Action Models with State-Fusion Action Decoding](https://arxiv.org/abs/2606.08242v1)<br><small>Ziang Li, Dongzhou Cheng et al.</small> | 2026-06-06 |  |
-| [Dreaming when Necessary: Advancing World Action Models with Adaptive Multi-Modal Reasoning](https://arxiv.org/abs/2606.07089v1)<br><small>Yinzhou Tang, Jingbo Xu et al.</small> | 2026-06-05 |  |
-| [Flash-WAM: Modality-Aware Distillation for World Action Models](https://arxiv.org/abs/2606.05254v1)<br><small>Arman Akbari, Ci Zhang et al.</small> | 2026-06-03 |  |
-| [OSCAR: Omni-Embodiment Action-Conditioned World Model for Robotics](https://arxiv.org/abs/2606.04463v2)<br><small>Zhuoyuan Wu, Jun Gao</small> | 2026-06-03 |  |
-| [GeoSem-WAM: Geometry- and Semantic-Aware World Action Models](https://arxiv.org/abs/2606.03188v1)<br><small>Fulong Ma, Daojie Peng et al.</small> | 2026-06-02 |  |
 
 ### Policy
 
 | Paper | Date | Code |
 |-------|------|------|
-| [Efficient-WAM: A 1B-Parameter World-Action Model with Low-Cost Future Imagination](https://arxiv.org/abs/2606.10040v1)<br><small>Jiajun Li, Tiecheng Guo et al.</small> | 2026-06-08 |  |
+| [MaskWAM: Unifying Mask Prompting and Prediction for World-Action Models](https://arxiv.org/abs/2606.13515v1)<br><small>Hanyang Yu, Haitao Lin et al.</small> | 2026-06-11 |  |
+| [Diffusion Transformer World-Action Model for AV Scene Prediction](https://arxiv.org/abs/2606.12987v1)<br><small>Ruslan Sharifullin, Benjamin Jiang et al.</small> | 2026-06-11 |  |
+| [Efficient-WAM: A 1B-Parameter World-Action Model with Low-Cost Future Imagination](https://arxiv.org/abs/2606.10040v2)<br><small>Jiajun Li, Tiecheng Guo et al.</small> | 2026-06-08 |  |
 | [AHA-WAM:Asynchronous Horizon-Adaptive World-Action Modeling with Observation-Guided Context Routing](https://arxiv.org/abs/2606.09811v1)<br><small>Jisong Cai, Long Ling et al.</small> | 2026-06-08 |  |
 | [WAM-Nav: Asymmetric Latent World-Action Modeling for Unified Visual Navigation](https://arxiv.org/abs/2606.04907v1)<br><small>Ning Yang, Yan Huang et al.</small> | 2026-06-03 |  |
 
