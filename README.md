@@ -69,27 +69,28 @@ This repository aims to provide a comprehensive, curated, and continuously updat
 
 ## 🆕 Latest Papers (Auto-updated)
 
-> Papers are automatically fetched daily from arXiv. Last updated: 2026-06-11
+> Papers are automatically fetched daily from arXiv. Last updated: 2026-06-12
 
 ### VLA
 
 | Paper | Date | Code |
 |-------|------|------|
+| [Hy-Embodied-0.5-VLA: From Vision-Language-Action Models to a Real-World Robot Learning Stack](https://arxiv.org/abs/2606.14409v1)<br><small>He Zhang, Lingzhu Xiang et al.</small> | 2026-06-12 |  |
+| [Elastic Queries Reinforcement Learning: Self-Aware Policy Execution for VLA Models](https://arxiv.org/abs/2606.14375v1)<br><small>Ge Wang, Xinyu Tan et al.</small> | 2026-06-12 |  |
+| [When and How Severely: Scenario-Specific Safety Envelopes for Driving VLAs](https://arxiv.org/abs/2606.14238v1)<br><small>Abhinaw Priyadershi, Jelena Frtunikj</small> | 2026-06-12 |  |
+| [Encoder Winners Do Not Reliably Transfer Across VLA Backbone Scale: A Frozen-Backbone Grafting Diagnostic](https://arxiv.org/abs/2606.14153v1)<br><small>Qingping Zeng, Fei She</small> | 2026-06-12 |  |
+| [Self-Improving VLA Policies: Selected Diffusion Noise for Spurious-Robust Action Smoothing](https://arxiv.org/abs/2606.14084v1)<br><small>Duc Minh Nguyen, Bao-Ngoc Dao et al.</small> | 2026-06-12 |  |
+| [RT-VLA: Real-Time Vision-Language-Action Models via Knowledge Distillation](https://arxiv.org/abs/2606.14010v1)<br><small>Xiangyu Huang, Zhenlin Hua et al.</small> | 2026-06-12 |  |
+| [PhysVLA: Towards Physically-Grounded VLA for Embodied Robotic Manipulation](https://arxiv.org/abs/2606.13886v1)<br><small>Namai Chandra, Shriram Damodaran et al.</small> | 2026-06-11 |  |
+| [Output-Level Regularization Eliminates the Seed Lottery in Single-GPU VLA Fine-Tuning](https://arxiv.org/abs/2606.13856v1)<br><small>Jeffrin Sam, Dzmitry Tsetserukou</small> | 2026-06-11 |  |
 | [LabVLA: Grounding Vision-Language-Action Models in Scientific Laboratories](https://arxiv.org/abs/2606.13578v1)<br><small>Baochang Ren, Xinjie Liu et al.</small> | 2026-06-11 |  |
 | [GIVE: Grounding Human Gestures in Vision-Language-Action Models](https://arxiv.org/abs/2606.13435v1)<br><small>Pengfei Liu, Gen Li et al.</small> | 2026-06-11 |  |
-| [Trajectory-Level Redirection Attacks on Vision-Language-Action Models](https://arxiv.org/abs/2606.12978v1)<br><small>Gokul Puthumanaillam, Vardhan Dongre et al.</small> | 2026-06-11 |  |
-| [AIR-VLA+: Decoupling Movement and Manipulation via Cascaded Dual-Action Decoders with Asymmetric MoE for Aerial Robots](https://arxiv.org/abs/2606.12859v1)<br><small>Jianli Sun, Bin Tian et al.</small> | 2026-06-11 |  |
-| [VLADriveBench: Evaluating CoT-Action Relationship in VLA for Autonomous Driving](https://arxiv.org/abs/2606.12706v1)<br><small>Thach Nguyen, Danhua Guo et al.</small> | 2026-06-10 |  |
-| [PersonaDrive: Human-Style Retrieval-Augmented VLA Agents for Closed-Loop Driving Simulation](https://arxiv.org/abs/2606.12616v1)<br><small>Mahmoud Srewa, Praneetsai Iddamsetty et al.</small> | 2026-06-10 |  |
-| [World Pilot: Steering Vision-Language-Action Models with World-Action Priors](https://arxiv.org/abs/2606.12403v1)<br><small>Zefu Lin, Rongxu Cui et al.</small> | 2026-06-10 |  |
-| [APT: Action Expert Pretraining Improves Instruction Generalization of Vision-Language-Action Policies](https://arxiv.org/abs/2606.12366v1)<br><small>Kechun Xu, Zhenjie Zhu et al.</small> | 2026-06-10 |  |
-| [CHORUS: Decentralized Multi-Embodiment Collaboration with One VLA Policy](https://arxiv.org/abs/2606.12352v1)<br><small>Ria Doshi, Tian Gao et al.</small> | 2026-06-10 |  |
-| [Learning What to Say to Your VLA: Mostly Harmless Vision Language Action Model Steering](https://arxiv.org/abs/2606.12299v1)<br><small>Hyun Joe Jeong, Gokul Swamy et al.</small> | 2026-06-10 |  |
 
 ### World Model
 
 | Paper | Date | Code |
 |-------|------|------|
+| [WAM4D: Fast 4D World Action Model via Spatial Register Tokens](https://arxiv.org/abs/2606.14048v1)<br><small>Ying Li, Xiaobao Wei et al.</small> | 2026-06-12 |  |
 | [RepWAM: World Action Modeling with Representation Visual-Action Tokenizers](https://arxiv.org/abs/2606.13674v1)<br><small>Junke Wang, Qihang Zhang et al.</small> | 2026-06-11 |  |
 | [$	exttt{WEAVER}$, Better, Faster, Longer: An Effective World Model for Robotic Manipulation](https://arxiv.org/abs/2606.13672v1)<br><small>Arnav Kumar Jain, Yilin Wu et al.</small> | 2026-06-11 |  |
 | [NavWAM: A Navigation World Action Model for Goal-Conditioned Visual Navigation](https://arxiv.org/abs/2606.13494v1)<br><small>Daichi Azuma, Taiki Miyanishi et al.</small> | 2026-06-11 |  |
@@ -99,7 +100,6 @@ This repository aims to provide a comprehensive, curated, and continuously updat
 | [MotionWAM: Towards Foundation World Action Models for Real-Time Humanoid Loco-Manipulation](https://arxiv.org/abs/2606.09215v1)<br><small>Jia Zheng, Teli Ma et al.</small> | 2026-06-08 |  |
 | [C$^3$ache: Accelerating World Action Models with Cross Inference Chunk Cache](https://arxiv.org/abs/2606.08962v1)<br><small>Weisen Zhao, Lam Nguyen et al.</small> | 2026-06-08 |  |
 | [Dream-Tac: A Unified Tactile World Action Model for Contact-Rich Robot Manipulation](https://arxiv.org/abs/2606.08737v1)<br><small>Yunfan Lou, Yifan Ye et al.</small> | 2026-06-07 |  |
-| [FAWAM: Force-Aware World Action Models for Closed-Loop Contact-Rich Manipulation](https://arxiv.org/abs/2606.08555v1)<br><small>Haotian He, Zeyu Yan et al.</small> | 2026-06-07 |  |
 
 ### Policy
 
