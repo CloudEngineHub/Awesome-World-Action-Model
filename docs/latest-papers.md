@@ -1,6 +1,6 @@
 # 📚 Latest ArXiv Papers - World Action Models
 
-Generated on: 2026-06-16 04:20:54
+Generated on: 2026-06-17 04:15:38
 
 Total papers: 50
 
@@ -8,6 +8,9 @@ Total papers: 50
 
 | Paper | Date | Code |
 |-------|------|------|
+| [Uncertainty Quantification for Flow-Based Vision-Language-Action Models](https://arxiv.org/abs/2606.18043v1)<br><small>Ralf Römer et al.</small> | 2026-06-16 |  |
+| [MuseVLA: An Adaptive Multimodal Sensing Vision-Language-Action Model for Robotic Manipulation](https://arxiv.org/abs/2606.17598v1)<br><small>Xingyuming Liu et al.</small> | 2026-06-16 |  |
+| [ACE-Ego-0: Unifying Egocentric Human and Robotic Data for VLA Pretraining](https://arxiv.org/abs/2606.17200v1)<br><small>Hao Li et al.</small> | 2026-06-15 |  |
 | [Hierarchical Advantage Weighting for Online RL Fine-Tuning of VLAs from Sparse Episode Outcomes](https://arxiv.org/abs/2606.17043v1)<br><small>Tongyan Fang et al.</small> | 2026-06-15 |  |
 | [Learned Image Compression for Vision-Language-Action Models](https://arxiv.org/abs/2606.16253v1)<br><small>Hyeonjun Kim et al.</small> | 2026-06-15 |  |
 | [Beyond English: Uncovering the Multilingual Gap in Vision-Language-Action Models](https://arxiv.org/abs/2606.15714v1)<br><small>Hanyang Chen et al.</small> | 2026-06-14 |  |
@@ -20,9 +23,6 @@ Total papers: 50
 | [Steering Autoregressive Vision-Language-Action Policies via Action Token Intervention](https://arxiv.org/abs/2606.15021v1)<br><small>Jason Chan et al.</small> | 2026-06-12 |  |
 | [Hy-Embodied-0.5-VLA: From Vision-Language-Action Models to a Real-World Robot Learning Stack](https://arxiv.org/abs/2606.14409v1)<br><small>He Zhang et al.</small> | 2026-06-12 |  |
 | [Elastic Queries Reinforcement Learning: Self-Aware Policy Execution for VLA Models](https://arxiv.org/abs/2606.14375v1)<br><small>Ge Wang et al.</small> | 2026-06-12 |  |
-| [When and How Severely: Scenario-Specific Safety Envelopes for Driving VLAs](https://arxiv.org/abs/2606.14238v2)<br><small>Abhinaw Priyadershi et al.</small> | 2026-06-12 |  |
-| [Encoder Winners Do Not Reliably Transfer Across VLA Backbone Scale: A Frozen-Backbone Grafting Diagnostic](https://arxiv.org/abs/2606.14153v1)<br><small>Qingping Zeng et al.</small> | 2026-06-12 |  |
-| [Self-Improving VLA Policies: Selected Diffusion Noise for Spurious-Robust Action Smoothing](https://arxiv.org/abs/2606.14084v1)<br><small>Duc Minh Nguyen et al.</small> | 2026-06-12 |  |
 
 ## World Model
 
@@ -48,11 +48,11 @@ Total papers: 50
 
 | Paper | Date | Code |
 |-------|------|------|
+| [WAM-RL: World-Action Model Reinforcement Learning with Reconstruction Rewards and Online Video SFT](https://arxiv.org/abs/2606.17906v1)<br><small>Zezhong Qian et al.</small> | 2026-06-16 |  |
 | [Metis: A Generalizable and Efficient World-Action Model for Autonomous Driving and Urban Navigation](https://arxiv.org/abs/2606.15869v1)<br><small>Jingyu Li et al.</small> | 2026-06-14 |  |
 | [MaskWAM: Unifying Mask Prompting and Prediction for World-Action Models](https://arxiv.org/abs/2606.13515v1)<br><small>Hanyang Yu et al.</small> | 2026-06-11 |  |
 | [Diffusion Transformer World-Action Model for AV Scene Prediction](https://arxiv.org/abs/2606.12987v1)<br><small>Ruslan Sharifullin et al.</small> | 2026-06-11 |  |
 | [Efficient-WAM: A 1B-Parameter World-Action Model with Low-Cost Future Imagination](https://arxiv.org/abs/2606.10040v2)<br><small>Jiajun Li et al.</small> | 2026-06-08 |  |
 | [AHA-WAM:Asynchronous Horizon-Adaptive World-Action Modeling with Observation-Guided Context Routing](https://arxiv.org/abs/2606.09811v1)<br><small>Jisong Cai et al.</small> | 2026-06-08 |  |
-| [WAM-Nav: Asymmetric Latent World-Action Modeling for Unified Visual Navigation](https://arxiv.org/abs/2606.04907v2)<br><small>Ning Yang et al.</small> | 2026-06-03 |  |
 
 ---

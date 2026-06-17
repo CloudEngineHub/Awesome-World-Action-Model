@@ -1,5 +1,114 @@
 [
   {
+    "id": "2606.18043v1",
+    "title": "Uncertainty Quantification for Flow-Based Vision-Language-Action Models",
+    "authors": [
+      "Ralf Römer",
+      "Maximilian Seeliger",
+      "Saida Liu",
+      "Ben Sturgis",
+      "Marco Bagatella",
+      "Daniel Marta",
+      "Andreas Krause",
+      "Angela P. Schoellig"
+    ],
+    "summary": "Vision-language-action models (VLAs) combine vision-language backbones with expressive generative action heads trained via flow matching on large-scale robotic datasets. Despite their strong empirical performance in robotic manipulation, VLAs lack mechanisms to quantify confidence in their predictions and to detect when their actions may be unreliable. This presents a critical limitation for real-world deployment in non-stationary environments, where models inevitably encounter scenarios outside",
+    "published": "2026-06-16",
+    "published_iso": "2026-06-16T15:19:09+00:00",
+    "url": "https://arxiv.org/abs/2606.18043v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.18043v1",
+    "categories": [
+      "cs.RO",
+      "cs.LG"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
+    "id": "2606.17906v1",
+    "title": "WAM-RL: World-Action Model Reinforcement Learning with Reconstruction Rewards and Online Video SFT",
+    "authors": [
+      "Zezhong Qian",
+      "Xiaowei Chi",
+      "Yu Qi",
+      "Haozhan Li",
+      "Zhi Yang Chen",
+      "Shanghang Zhang"
+    ],
+    "summary": "Recent World-Action (WA) models demonstrate strong generalization ability and data efficiency, but they typically rely on expert trajectories for training. This reliance limits their ability to acquire fine-grained manipulation skills beyond the demonstration distribution and prevents them from continuously improving through real-world interaction. To address these limitations, we propose WAM-RL, a reinforcement learning framework that enables joint optimization of the world model and the action",
+    "published": "2026-06-16",
+    "published_iso": "2026-06-16T13:29:12+00:00",
+    "url": "https://arxiv.org/abs/2606.17906v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.17906v1",
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "Policy"
+  },
+  {
+    "id": "2606.17598v1",
+    "title": "MuseVLA: An Adaptive Multimodal Sensing Vision-Language-Action Model for Robotic Manipulation",
+    "authors": [
+      "Xingyuming Liu",
+      "Ruichun Ma",
+      "Heyu Guo",
+      "Qixiu Li",
+      "Qingwen Yang",
+      "Lin Luo",
+      "Shiqi Jiang",
+      "Chenren Xu",
+      "Jiaolong Yang",
+      "Baining Guo"
+    ],
+    "summary": "Humans naturally leverage diverse sensing modalities to interact with the physical world, while most Vision-Language-Action (VLA) models for robotics rely solely on RGB observations. This limits their ability to perceive physical properties that are difficult or impossible to infer from RGB cameras, such as temperature, sound, or radar response. We present MuseVLA, an adaptive multimodal sensing VLA model that integrates novel sensors as on-demand tools for robotic manipulation. Given a task ins",
+    "published": "2026-06-16",
+    "published_iso": "2026-06-16T07:04:13+00:00",
+    "url": "https://arxiv.org/abs/2606.17598v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.17598v1",
+    "categories": [
+      "cs.RO",
+      "cs.CV"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
+    "id": "2606.17200v1",
+    "title": "ACE-Ego-0: Unifying Egocentric Human and Robotic Data for VLA Pretraining",
+    "authors": [
+      "Hao Li",
+      "Ganlong Zhao",
+      "Yufei Liu",
+      "Haotian Hou",
+      "Guoquan Ye",
+      "Tongyan Fang",
+      "Chunxiao Liu",
+      "Siyuan Huang",
+      "Jianbo Liu",
+      "Xiaogang Wang",
+      "Hongsheng Li"
+    ],
+    "summary": "Vision-Language-Action (VLA) models benefit from large-scale and diverse embodied data, yet scaling robot trajectory collection is costly and labor-intensive. Recent advances show that large-scale egocentric human videos provide complementary real-world supervision in pretraining. However, joint training on human and robot data remains challenging due to divergences in action spaces, embodiment structures, temporal dynamics, and supervision quality. We introduce ACE-EGO-0, a unified VLA pretrain",
+    "published": "2026-06-15",
+    "published_iso": "2026-06-15T18:40:18+00:00",
+    "url": "https://arxiv.org/abs/2606.17200v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.17200v1",
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
     "id": "2606.17043v1",
     "title": "Hierarchical Advantage Weighting for Online RL Fine-Tuning of VLAs from Sparse Episode Outcomes",
     "authors": [
@@ -930,52 +1039,6 @@
     "auto_category": "VLA"
   },
   {
-    "id": "2606.12352v1",
-    "title": "CHORUS: Decentralized Multi-Embodiment Collaboration with One VLA Policy",
-    "authors": [
-      "Ria Doshi",
-      "Tian Gao",
-      "Annie Chen",
-      "Chelsea Finn",
-      "Jeannette Bohg"
-    ],
-    "summary": "Multi-robot collaboration allows robots to efficiently take on a wide range of tasks, from moving a couch through a doorway to assembling structures on a construction site. However, achieving such coordination in mobile multi-robot settings remains challenging: centralized methods conditioned on the combined observations of a team scale poorly with team size, and decentralized methods that train one policy per robot often require explicit alignment procedures or information sharing at inference ",
-    "published": "2026-06-10",
-    "published_iso": "2026-06-10T17:26:08+00:00",
-    "url": "https://arxiv.org/abs/2606.12352v1",
-    "pdf_url": "https://arxiv.org/pdf/2606.12352v1",
-    "categories": [
-      "cs.RO",
-      "cs.AI"
-    ],
-    "primary_category": "cs.RO",
-    "code_url": null,
-    "project_url": null,
-    "auto_category": "VLA"
-  },
-  {
-    "id": "2606.12299v1",
-    "title": "Learning What to Say to Your VLA: Mostly Harmless Vision Language Action Model Steering",
-    "authors": [
-      "Hyun Joe Jeong",
-      "Gokul Swamy",
-      "Andrea Bajcsy"
-    ],
-    "summary": "Vision-Language-Action (VLA) models provide a natural language interface to robot control, but the mapping from language to behavior is often brittle and unintuitive: semantically similar instructions can induce drastically different behaviors, while some capabilities may not be elicitable through prompting alone. As a result, both human instructions and zero-shot language models can fail to reliably steer VLAs toward successful task execution. In this work, we propose a framework that interacti",
-    "published": "2026-06-10",
-    "published_iso": "2026-06-10T16:34:49+00:00",
-    "url": "https://arxiv.org/abs/2606.12299v1",
-    "pdf_url": "https://arxiv.org/pdf/2606.12299v1",
-    "categories": [
-      "cs.RO",
-      "cs.LG"
-    ],
-    "primary_category": "cs.RO",
-    "code_url": null,
-    "project_url": null,
-    "auto_category": "VLA"
-  },
-  {
     "id": "2606.12217v1",
     "title": "Making Foresight Actionable: Repurposing Representation Alignment in World Action Models",
     "authors": [
@@ -1000,31 +1063,6 @@
     "code_url": null,
     "project_url": null,
     "auto_category": "World Model"
-  },
-  {
-    "id": "2606.12109v1",
-    "title": "Bridging the Morphology Gap: Adapting VLA Models to Dexterous Manipulation via Intent-Conditioned Fine-Tuning",
-    "authors": [
-      "Chuanke Pang",
-      "Junyi Huang",
-      "Zhijun Zhao",
-      "Yaobing Wang",
-      "Kun Xu",
-      "Xilun Ding"
-    ],
-    "summary": "Vision-Language-Action (VLA) models have demonstrated remarkable zero-shot generalization in robotic manipulation, yet the vast majority of pre-trained pipelines remain strictly confined to low-DoF parallel grippers. Adapting these rich semantic priors to high-DoF dexterous hands introduces a severe morphology gap, direct end-to-end joint fine-tuning inherently causes catastrophic forgetting of spatial reasoning and acute action manifold collapse due to data scarcity. In this paper, we present I",
-    "published": "2026-06-10",
-    "published_iso": "2026-06-10T14:03:52+00:00",
-    "url": "https://arxiv.org/abs/2606.12109v1",
-    "pdf_url": "https://arxiv.org/pdf/2606.12109v1",
-    "categories": [
-      "cs.RO",
-      "cs.AI"
-    ],
-    "primary_category": "cs.RO",
-    "code_url": null,
-    "project_url": null,
-    "auto_category": "VLA"
   },
   {
     "id": "2606.10363v1",
@@ -1300,35 +1338,5 @@
     "code_url": null,
     "project_url": null,
     "auto_category": "World Model"
-  },
-  {
-    "id": "2606.04907v2",
-    "title": "WAM-Nav: Asymmetric Latent World-Action Modeling for Unified Visual Navigation",
-    "authors": [
-      "Ning Yang",
-      "Yan Huang",
-      "Kaiwen Peng",
-      "Ziheng He",
-      "Kai Wang",
-      "Cui Miao",
-      "Kailin Lyu",
-      "Guo Li",
-      "Xiaofeng Wang",
-      "Zheng Zhu",
-      "Jing Liu",
-      "Nianfeng Liu"
-    ],
-    "summary": "Visual navigation requires generating smooth and collision-free trajectories under complex geometric and physical constraints. Existing reactive policies that directly map observations to actions lack anticipatory reasoning, limiting their ability to proactively avoid obstacles. While visual imagination offers predictive foresight, conventional modular approaches separate scene prediction from policy learning, often leading to error accumulation and inefficient inference. To address these limita",
-    "published": "2026-06-03",
-    "published_iso": "2026-06-03T14:05:19+00:00",
-    "url": "https://arxiv.org/abs/2606.04907v2",
-    "pdf_url": "https://arxiv.org/pdf/2606.04907v2",
-    "categories": [
-      "cs.RO"
-    ],
-    "primary_category": "cs.RO",
-    "code_url": null,
-    "project_url": null,
-    "auto_category": "Policy"
   }
 ]

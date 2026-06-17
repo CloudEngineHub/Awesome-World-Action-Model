@@ -69,12 +69,15 @@ This repository aims to provide a comprehensive, curated, and continuously updat
 
 ## 🆕 Latest Papers (Auto-updated)
 
-> Papers are automatically fetched daily from arXiv. Last updated: 2026-06-15
+> Papers are automatically fetched daily from arXiv. Last updated: 2026-06-16
 
 ### VLA
 
 | Paper | Date | Code |
 |-------|------|------|
+| [Uncertainty Quantification for Flow-Based Vision-Language-Action Models](https://arxiv.org/abs/2606.18043v1)<br><small>Ralf Römer, Maximilian Seeliger et al.</small> | 2026-06-16 |  |
+| [MuseVLA: An Adaptive Multimodal Sensing Vision-Language-Action Model for Robotic Manipulation](https://arxiv.org/abs/2606.17598v1)<br><small>Xingyuming Liu, Ruichun Ma et al.</small> | 2026-06-16 |  |
+| [ACE-Ego-0: Unifying Egocentric Human and Robotic Data for VLA Pretraining](https://arxiv.org/abs/2606.17200v1)<br><small>Hao Li, Ganlong Zhao et al.</small> | 2026-06-15 |  |
 | [Hierarchical Advantage Weighting for Online RL Fine-Tuning of VLAs from Sparse Episode Outcomes](https://arxiv.org/abs/2606.17043v1)<br><small>Tongyan Fang, Siyuan Huang et al.</small> | 2026-06-15 |  |
 | [Learned Image Compression for Vision-Language-Action Models](https://arxiv.org/abs/2606.16253v1)<br><small>Hyeonjun Kim, Jegwang Ryu et al.</small> | 2026-06-15 |  |
 | [Beyond English: Uncovering the Multilingual Gap in Vision-Language-Action Models](https://arxiv.org/abs/2606.15714v1)<br><small>Hanyang Chen, Hongliang Li et al.</small> | 2026-06-14 |  |
@@ -82,9 +85,6 @@ This repository aims to provide a comprehensive, curated, and continuously updat
 | [SAPS: Shared Autonomy for Policy Steering by Blending Teleoperation with a Pretrained VLA](https://arxiv.org/abs/2606.15568v1)<br><small>Crystal Zhou, Jehan Yang et al.</small> | 2026-06-14 |  |
 | [Acting While Understanding: Asynchronous Semantic-Action Decoupling for Real-Time Vision-Language-Action Models](https://arxiv.org/abs/2606.15285v1)<br><small>Shenhao Yan, Ge Wang et al.</small> | 2026-06-13 |  |
 | [VLALeaks: Membership Inference Attacks against Vision-Language-Action Models](https://arxiv.org/abs/2606.15165v1)<br><small>Xukun Luan, Jinyan Liu et al.</small> | 2026-06-13 |  |
-| [MotionVLA: Vision-Language-Action Model for Humanoid Motion](https://arxiv.org/abs/2606.15142v1)<br><small>Nonghai Zhang, Siyu Zhai et al.</small> | 2026-06-13 |  |
-| [Think Less, Act Early: Reinforced Latent Reasoning with Early Exit in Vision-Language-Action Models](https://arxiv.org/abs/2606.15099v1)<br><small>Dianqiao Lei, Lianlei Shan</small> | 2026-06-13 |  |
-| [Steering Autoregressive Vision-Language-Action Policies via Action Token Intervention](https://arxiv.org/abs/2606.15021v1)<br><small>Jason Chan, Jonathan C. Kao</small> | 2026-06-12 |  |
 
 ### World Model
 
@@ -105,12 +105,12 @@ This repository aims to provide a comprehensive, curated, and continuously updat
 
 | Paper | Date | Code |
 |-------|------|------|
+| [WAM-RL: World-Action Model Reinforcement Learning with Reconstruction Rewards and Online Video SFT](https://arxiv.org/abs/2606.17906v1)<br><small>Zezhong Qian, Xiaowei Chi et al.</small> | 2026-06-16 |  |
 | [Metis: A Generalizable and Efficient World-Action Model for Autonomous Driving and Urban Navigation](https://arxiv.org/abs/2606.15869v1)<br><small>Jingyu Li, Zhe Liu et al.</small> | 2026-06-14 |  |
 | [MaskWAM: Unifying Mask Prompting and Prediction for World-Action Models](https://arxiv.org/abs/2606.13515v1)<br><small>Hanyang Yu, Haitao Lin et al.</small> | 2026-06-11 |  |
 | [Diffusion Transformer World-Action Model for AV Scene Prediction](https://arxiv.org/abs/2606.12987v1)<br><small>Ruslan Sharifullin, Benjamin Jiang et al.</small> | 2026-06-11 |  |
 | [Efficient-WAM: A 1B-Parameter World-Action Model with Low-Cost Future Imagination](https://arxiv.org/abs/2606.10040v2)<br><small>Jiajun Li, Tiecheng Guo et al.</small> | 2026-06-08 |  |
 | [AHA-WAM:Asynchronous Horizon-Adaptive World-Action Modeling with Observation-Guided Context Routing](https://arxiv.org/abs/2606.09811v1)<br><small>Jisong Cai, Long Ling et al.</small> | 2026-06-08 |  |
-| [WAM-Nav: Asymmetric Latent World-Action Modeling for Unified Visual Navigation](https://arxiv.org/abs/2606.04907v2)<br><small>Ning Yang, Yan Huang et al.</small> | 2026-06-03 |  |
 
 ---
 
