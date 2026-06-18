@@ -1,5 +1,108 @@
 [
   {
+    "id": "2606.19297v1",
+    "title": "Does VLA Even Know the Basics? Measuring Commonsense and World Knowledge Retention in Vision-Language-Action Models",
+    "authors": [
+      "Nikita Kachaev",
+      "Andrey Moskalenko",
+      "Matvey Skripkin",
+      "Nikita Kurlaev",
+      "Daria Pugacheva",
+      "Albina Burlova",
+      "Mikhail Kolosov",
+      "Denis Shepelev",
+      "Andrey Kuznetsov",
+      "Elena Tutubalina",
+      "Aleksandr I. Panov",
+      "Alexey K. Kovalev",
+      "Vlad Shakhuro"
+    ],
+    "summary": "Embodied Vision-Language-Action (VLA) models are typically obtained by fine-tuning powerful pretrained VLMs on robotics data, yet it is unclear how much commonsense and factual knowledge they retain after adaptation. Failures on knowledge-sensitive tasks are ambiguous, conflating missing knowledge with poor generalization of low-level control. We introduce Act2Answer, a lightweight protocol that adapts VLM knowledge benchmarks to VLA evaluation by requiring agents to answer through action. Each ",
+    "published": "2026-06-17",
+    "published_iso": "2026-06-17T17:20:46+00:00",
+    "url": "https://arxiv.org/abs/2606.19297v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.19297v1",
+    "categories": [
+      "cs.LG",
+      "cs.RO"
+    ],
+    "primary_category": "cs.LG",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
+    "id": "2606.18955v1",
+    "title": "Motion-Focused Latent Action Enables Cross-Embodiment VLA Training from Human EgoVideos",
+    "authors": [
+      "Runze Xu",
+      "Yiluo Zhang",
+      "Jian Wang",
+      "Yu Wang",
+      "Jincheng Yu"
+    ],
+    "summary": "Training generalist Vision-Language-Action(VLA) models typically requires massive, diverse robotic datasets with high-fidelity action annotations. While egocentric human manipulation videos are abundant and capture significant environmental diversity, the absence of action labels makes them difficult to use in conventional training paradigms. To address this, we propose a latent-action-based framework designed to extract general action priors from unlabeled human videos. The architecture feature",
+    "published": "2026-06-17",
+    "published_iso": "2026-06-17T11:37:59+00:00",
+    "url": "https://arxiv.org/abs/2606.18955v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.18955v1",
+    "categories": [
+      "cs.CV",
+      "cs.RO"
+    ],
+    "primary_category": "cs.CV",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
+    "id": "2606.18953v1",
+    "title": "Object-Centric Residual RL for Zero-Shot Sim-to-Real VLA Enhancement",
+    "authors": [
+      "Kinam Kim",
+      "Namiko Saito",
+      "Heecheol Kim",
+      "Katsushi Ikeuchi",
+      "Jaegul Choo",
+      "Yasuyuki Matsushita"
+    ],
+    "summary": "Vision-Language-Action (VLA) models can generalize across diverse manipulation tasks, but their imitation-learning-based policies remain brittle in precise physical interactions due to compounding execution errors; Can a reinforcement learning policy trained purely in simulation improve the robustness of real-world VLAs zero-shot? Residual RL, which learns a corrective policy on top of a frozen VLA, offers a natural framework, but existing approaches face a fundamental sim-to-real dilemma: privi",
+    "published": "2026-06-17",
+    "published_iso": "2026-06-17T11:36:54+00:00",
+    "url": "https://arxiv.org/abs/2606.18953v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.18953v1",
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
+    "id": "2606.18426v1",
+    "title": "VEGA: Learning Navigation VLAs from In-the-Wild Egocentric Video with Geometric Trajectory Supervision",
+    "authors": [
+      "Gershom Seneviratne",
+      "Yohan Abeysinghe",
+      "Jianyu An",
+      "Vaibhav Shende",
+      "Dinesh Manocha"
+    ],
+    "summary": "We introduce VEGA, an approach for training navigation VisionLanguage-Action (VLA) models from unlabeled egocentric navigation videos. Internet-scale egocentric videos provide a scalable source of navigation-relevant visual observations, capturing cluttered scenes, close-range obstacles, and natural human motion through real-world spaces. However, these videos are not directly usable for policy learning because they do not provide obstacle-aware trajectories conditioned on explicit navigation go",
+    "published": "2026-06-16",
+    "published_iso": "2026-06-16T19:21:14+00:00",
+    "url": "https://arxiv.org/abs/2606.18426v1",
+    "pdf_url": "https://arxiv.org/pdf/2606.18426v1",
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
     "id": "2606.18043v1",
     "title": "Uncertainty Quantification for Flow-Based Vision-Language-Action Models",
     "authors": [
@@ -704,8 +807,8 @@
     "auto_category": "World Model"
   },
   {
-    "id": "2606.13672v1",
-    "title": "$\\texttt{WEAVER}$, Better, Faster, Longer: An Effective World Model for Robotic Manipulation",
+    "id": "2606.13672v2",
+    "title": "WEAVER, Better, Faster, Longer: An Effective World Model for Robotic Manipulation",
     "authors": [
       "Arnav Kumar Jain",
       "Yilin Wu",
@@ -716,8 +819,8 @@
     "summary": "The potential impacts of world models (WMs, i.e., learned simulators) on robotics are far-reaching -- policy evaluation, policy improvement, and test-time planning -- all with limited real-world interaction. To unlock these downstream capabilities, a WM needs to jointly satisfy three desiderata: $\\textit{(i)}$ fidelity (i.e., producing simulated trajectories that correlate with reality), $\\textit{(ii)}$ consistency (i.e., producing simulated trajectories that are coherent over long horizons), an",
     "published": "2026-06-11",
     "published_iso": "2026-06-11T17:59:15+00:00",
-    "url": "https://arxiv.org/abs/2606.13672v1",
-    "pdf_url": "https://arxiv.org/pdf/2606.13672v1",
+    "url": "https://arxiv.org/abs/2606.13672v2",
+    "pdf_url": "https://arxiv.org/pdf/2606.13672v2",
     "categories": [
       "cs.RO"
     ],
@@ -924,29 +1027,6 @@
     "auto_category": "VLA"
   },
   {
-    "id": "2606.12706v1",
-    "title": "VLADriveBench: Evaluating CoT-Action Relationship in VLA for Autonomous Driving",
-    "authors": [
-      "Thach Nguyen",
-      "Danhua Guo",
-      "Tom Lampo",
-      "Fei Wu",
-      "Burhan Yaman"
-    ],
-    "summary": "Vision-language-action (VLA) models generate chain-of-thought (CoT) reasoning alongside driving trajectories, but existing benchmarks evaluate only trajectory quality and do not assess whether the CoT is relevant, consistent, or causally connected to the driving action. We introduce VLADriveBench, a framework that combines observational metrics (mentioning, hallucination, contradiction, action alignment) with a CoT intervention protocol to provide complementary views of the CoT-action relationsh",
-    "published": "2026-06-10",
-    "published_iso": "2026-06-10T21:53:33+00:00",
-    "url": "https://arxiv.org/abs/2606.12706v1",
-    "pdf_url": "https://arxiv.org/pdf/2606.12706v1",
-    "categories": [
-      "cs.CV"
-    ],
-    "primary_category": "cs.CV",
-    "code_url": null,
-    "project_url": null,
-    "auto_category": "VLA"
-  },
-  {
     "id": "2606.12690v1",
     "title": "EWAM: An Enhanced World Action Model for Closed-Loop Online Adaptation in Embodied Intelligence",
     "authors": [
@@ -966,77 +1046,6 @@
     "code_url": null,
     "project_url": null,
     "auto_category": "World Model"
-  },
-  {
-    "id": "2606.12616v1",
-    "title": "PersonaDrive: Human-Style Retrieval-Augmented VLA Agents for Closed-Loop Driving Simulation",
-    "authors": [
-      "Mahmoud Srewa",
-      "Praneetsai Iddamsetty",
-      "Mohammad Abdullah Al Faruque",
-      "Salma Elmalaki"
-    ],
-    "summary": "Closed-loop driving simulators typically populate their environments with non-ego traffic agents that behave largely the same way, produced either by rule-based traffic managers or by learned models trained toward a single behavioral mode. Recent work introduces style variation through post-hoc labels on observational data or LLM-inferred reward weights, but these signals act as proxies for what a style should reward rather than demonstrations of humans explicitly asked to drive in that style. W",
-    "published": "2026-06-10",
-    "published_iso": "2026-06-10T19:16:31+00:00",
-    "url": "https://arxiv.org/abs/2606.12616v1",
-    "pdf_url": "https://arxiv.org/pdf/2606.12616v1",
-    "categories": [
-      "cs.AI",
-      "cs.CL"
-    ],
-    "primary_category": "cs.AI",
-    "code_url": null,
-    "project_url": null,
-    "auto_category": "VLA"
-  },
-  {
-    "id": "2606.12403v1",
-    "title": "World Pilot: Steering Vision-Language-Action Models with World-Action Priors",
-    "authors": [
-      "Zefu Lin",
-      "Rongxu Cui",
-      "Junjia Xu",
-      "Xiaojuan Jin",
-      "Wenling Li",
-      "Lue Fan",
-      "Zhaoxiang Zhang"
-    ],
-    "summary": "Vision-Language-Action (VLA) models inherit semantic grounding from large-scale pretraining and perform competently across in-distribution manipulation tasks. This grounding, however, is built on static image-text pairs, whereas manipulation is a continuous, contact-rich process whose dynamics this pretraining cannot capture. We present World Pilot, a VLA framework that augments the policy with priors from a World-Action Model (WAM), routed into the decision chain through two complementary pathw",
-    "published": "2026-06-10",
-    "published_iso": "2026-06-10T17:59:08+00:00",
-    "url": "https://arxiv.org/abs/2606.12403v1",
-    "pdf_url": "https://arxiv.org/pdf/2606.12403v1",
-    "categories": [
-      "cs.RO"
-    ],
-    "primary_category": "cs.RO",
-    "code_url": null,
-    "project_url": null,
-    "auto_category": "VLA"
-  },
-  {
-    "id": "2606.12366v1",
-    "title": "APT: Action Expert Pretraining Improves Instruction Generalization of Vision-Language-Action Policies",
-    "authors": [
-      "Kechun Xu",
-      "Zhenjie Zhu",
-      "Anzhe Chen",
-      "Rong Xiong",
-      "Yue Wang"
-    ],
-    "summary": "Vision-Language-Action (VLA) models that couple pretrained Vision-Language Models (VLMs) with continuous action experts have achieved strong manipulation performance, yet generalization to out-of-distribution (OOD) language instructions remains poor. A known challenge is the structural imbalance in VLA data, where language is far less diverse than visual and action content, making policies prone to visual shortcuts. While discrete-action methods mitigate this through vision-language co-training,",
-    "published": "2026-06-10",
-    "published_iso": "2026-06-10T17:34:25+00:00",
-    "url": "https://arxiv.org/abs/2606.12366v1",
-    "pdf_url": "https://arxiv.org/pdf/2606.12366v1",
-    "categories": [
-      "cs.RO"
-    ],
-    "primary_category": "cs.RO",
-    "code_url": null,
-    "project_url": null,
-    "auto_category": "VLA"
   },
   {
     "id": "2606.12217v1",

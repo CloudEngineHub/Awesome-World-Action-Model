@@ -1,6 +1,6 @@
 # 📚 Latest ArXiv Papers - World Action Models
 
-Generated on: 2026-06-17 04:15:38
+Generated on: 2026-06-18 04:07:41
 
 Total papers: 50
 
@@ -8,6 +8,10 @@ Total papers: 50
 
 | Paper | Date | Code |
 |-------|------|------|
+| [Does VLA Even Know the Basics? Measuring Commonsense and World Knowledge Retention in Vision-Language-Action Models](https://arxiv.org/abs/2606.19297v1)<br><small>Nikita Kachaev et al.</small> | 2026-06-17 |  |
+| [Motion-Focused Latent Action Enables Cross-Embodiment VLA Training from Human EgoVideos](https://arxiv.org/abs/2606.18955v1)<br><small>Runze Xu et al.</small> | 2026-06-17 |  |
+| [Object-Centric Residual RL for Zero-Shot Sim-to-Real VLA Enhancement](https://arxiv.org/abs/2606.18953v1)<br><small>Kinam Kim et al.</small> | 2026-06-17 |  |
+| [VEGA: Learning Navigation VLAs from In-the-Wild Egocentric Video with Geometric Trajectory Supervision](https://arxiv.org/abs/2606.18426v1)<br><small>Gershom Seneviratne et al.</small> | 2026-06-16 |  |
 | [Uncertainty Quantification for Flow-Based Vision-Language-Action Models](https://arxiv.org/abs/2606.18043v1)<br><small>Ralf Römer et al.</small> | 2026-06-16 |  |
 | [MuseVLA: An Adaptive Multimodal Sensing Vision-Language-Action Model for Robotic Manipulation](https://arxiv.org/abs/2606.17598v1)<br><small>Xingyuming Liu et al.</small> | 2026-06-16 |  |
 | [ACE-Ego-0: Unifying Egocentric Human and Robotic Data for VLA Pretraining](https://arxiv.org/abs/2606.17200v1)<br><small>Hao Li et al.</small> | 2026-06-15 |  |
@@ -19,10 +23,6 @@ Total papers: 50
 | [Acting While Understanding: Asynchronous Semantic-Action Decoupling for Real-Time Vision-Language-Action Models](https://arxiv.org/abs/2606.15285v1)<br><small>Shenhao Yan et al.</small> | 2026-06-13 |  |
 | [VLALeaks: Membership Inference Attacks against Vision-Language-Action Models](https://arxiv.org/abs/2606.15165v1)<br><small>Xukun Luan et al.</small> | 2026-06-13 |  |
 | [MotionVLA: Vision-Language-Action Model for Humanoid Motion](https://arxiv.org/abs/2606.15142v1)<br><small>Nonghai Zhang et al.</small> | 2026-06-13 |  |
-| [Think Less, Act Early: Reinforced Latent Reasoning with Early Exit in Vision-Language-Action Models](https://arxiv.org/abs/2606.15099v1)<br><small>Dianqiao Lei et al.</small> | 2026-06-13 |  |
-| [Steering Autoregressive Vision-Language-Action Policies via Action Token Intervention](https://arxiv.org/abs/2606.15021v1)<br><small>Jason Chan et al.</small> | 2026-06-12 |  |
-| [Hy-Embodied-0.5-VLA: From Vision-Language-Action Models to a Real-World Robot Learning Stack](https://arxiv.org/abs/2606.14409v1)<br><small>He Zhang et al.</small> | 2026-06-12 |  |
-| [Elastic Queries Reinforcement Learning: Self-Aware Policy Execution for VLA Models](https://arxiv.org/abs/2606.14375v1)<br><small>Ge Wang et al.</small> | 2026-06-12 |  |
 
 ## World Model
 
@@ -31,7 +31,7 @@ Total papers: 50
 | [LaWAM: Latent World Action Models for Efficient Dynamics-Aware Robot Policies](https://arxiv.org/abs/2606.15768v1)<br><small>Jialei Chen et al.</small> | 2026-06-14 |  |
 | [WAM4D: Fast 4D World Action Model via Spatial Register Tokens](https://arxiv.org/abs/2606.14048v1)<br><small>Ying Li et al.</small> | 2026-06-12 |  |
 | [RepWAM: World Action Modeling with Representation Visual-Action Tokenizers](https://arxiv.org/abs/2606.13674v2)<br><small>Junke Wang et al.</small> | 2026-06-11 |  |
-| [$\texttt{WEAVER}$, Better, Faster, Longer: An Effective World Model for Robotic Manipulation](https://arxiv.org/abs/2606.13672v1)<br><small>Arnav Kumar Jain et al.</small> | 2026-06-11 |  |
+| [WEAVER, Better, Faster, Longer: An Effective World Model for Robotic Manipulation](https://arxiv.org/abs/2606.13672v2)<br><small>Arnav Kumar Jain et al.</small> | 2026-06-11 |  |
 | [NavWAM: A Navigation World Action Model for Goal-Conditioned Visual Navigation](https://arxiv.org/abs/2606.13494v1)<br><small>Daichi Azuma et al.</small> | 2026-06-11 |  |
 | [EWAM: An Enhanced World Action Model for Closed-Loop Online Adaptation in Embodied Intelligence](https://arxiv.org/abs/2606.12690v1)<br><small>Xin Zhou et al.</small> | 2026-06-10 |  |
 | [Making Foresight Actionable: Repurposing Representation Alignment in World Action Models](https://arxiv.org/abs/2606.12217v1)<br><small>Lu Qiu et al.</small> | 2026-06-10 |  |
