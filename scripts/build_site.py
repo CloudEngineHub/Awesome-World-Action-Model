@@ -26,7 +26,11 @@ INCLUDE_SECTIONS = [
     "Action Representations & Tokenization",
     "Foundational Robot Policies",
     "Resources",
+    "Extended Paper Index (Auto-Curated, Newest First)",
 ]
+
+SUMMARY_RE = re.compile(r"<summary>\s*(?:<b>)?(.*?)(?:</b>)?\s*(?:·.*?)?</summary>", re.I)
+NAME_LINK_RE = re.compile(r"^\[([^\]]+)\]\(([^)]+)\)")
 
 YEAR_RE = re.compile(r"^(19|20|21)\d{2}$")
 LINK_RE = re.compile(r"\[([^\]]+)\]\(([^)]+)\)")
@@ -92,6 +96,17 @@ def parse_readme(text: str):
             cur_section_obj["groups"].append(cur_group)
             continue
 
+        # collapsible <details><summary>…</summary> groups (Extended Paper Index)
+        if "<summary" in line and cur_section_obj:
+            m = SUMMARY_RE.search(line)
+            sub = (m.group(1).strip() if m else "More")
+            header = []
+            cur_group = {"title": sub, "items": []}
+            cur_section_obj["groups"].append(cur_group)
+            continue
+        if line.strip() in ("<details>", "</details>"):
+            continue
+
         if line.startswith("|") and cur_section_obj is not None:
             cells = [c.strip() for c in line.strip().strip("|").split("|")]
             # header row
@@ -104,17 +119,24 @@ def parse_readme(text: str):
             if len(cells) < 2:
                 continue
 
-            name = clean_name(cells[0])
             links = parse_links(cells[-1])
+            # name cell may be a markdown link [Title](url) (Extended Index rows)
+            nlink = NAME_LINK_RE.match(cells[0].strip())
+            if nlink:
+                name = clean_name(nlink.group(1))
+                links.setdefault("paper", nlink.group(2))
+            else:
+                name = clean_name(cells[0])
             year = ""
             desc_cells = cells[1:-1]
             # pull a year out of the middle columns if present
             kept = []
             for c in desc_cells:
-                if YEAR_RE.match(c.strip()):
-                    year = c.strip()
+                cs = c.strip()
+                if YEAR_RE.match(cs) or re.match(r"^\d{4}-\d{2}-\d{2}$", cs):
+                    year = cs
                 else:
-                    kept.append(c.strip())
+                    kept.append(cs)
             desc = " · ".join(x for x in kept if x)
             # strip markdown emphasis from description, keep plain text
             desc = re.sub(r"\*([^*]+)\*", r"\1", desc)
