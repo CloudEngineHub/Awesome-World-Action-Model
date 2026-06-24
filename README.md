@@ -68,7 +68,8 @@ flowchart TD
   - [Foundation / General World Models](#foundation--general-world-models)
   - [WAM from Video Generation](#wam-from-video-generation)
   - [WAM from VLMs](#wam-from-vlms)
-  - [WAM from Scratch (Latent Dynamics & JEPA)](#wam-from-scratch-latent-dynamics--jepa)
+  - [Unified VLA–World Models](#unified-vlaworld-models)
+  - [Latent & JEPA World Models](#latent--jepa-world-models)
   - [Domain World Models (Driving & Navigation)](#domain-world-models-driving--navigation)
 - [🧩 Action Representations & Tokenization](#-action-representations--tokenization)
 - [🦾 Foundational Robot Policies](#-foundational-robot-policies)
@@ -157,6 +158,9 @@ Recent surveys that define the field and motivate the taxonomy used here.
 | 3D and 4D World Modeling: A Survey | Kong et al. | 2025 | [📄](https://arxiv.org/abs/2509.07996) |
 | Learning Embodied Intelligence from Physical Simulators and World Models | Long et al. | 2025 | [📄](https://arxiv.org/abs/2507.00917) |
 | Embodied AI: From LLMs to World Models | Feng et al. | 2025 | [📄](https://arxiv.org/abs/2509.20021) |
+| World Model for Robot Learning: A Comprehensive Survey | Hou et al. | 2026 | [📄](https://arxiv.org/abs/2605.00080) |
+| Modeling the Mental World for Embodied AI: A Comprehensive Review | Liu et al. | 2026 | [📄](https://arxiv.org/abs/2601.02378) |
+| The Role of World Models in Shaping Autonomous Driving: A Survey | Tu et al. | 2025 | [📄](https://arxiv.org/abs/2502.10498) |
 
 ### Vision-Language-Action
 
@@ -170,6 +174,9 @@ Recent surveys that define the field and motivate the taxonomy used here.
 | VLA Models for Robotics: A Review Towards Real-World Applications | Kawaharazuka et al. | 2025 | [📄](https://arxiv.org/abs/2510.07077) · [🌐](https://vla-survey.github.io/) |
 | An Anatomy of VLA Models: From Modules to Milestones and Challenges | — | 2025 | [📄](https://arxiv.org/abs/2512.11362) |
 | Pure Vision-Language-Action Models: A Comprehensive Survey | — | 2025 | [📄](https://arxiv.org/abs/2509.19012) |
+| A Survey on Efficient Vision-Language-Action Models | Yu et al. | 2025 | [📄](https://arxiv.org/abs/2510.24795) |
+| A Survey on VLA Models for Autonomous Driving | Jiang et al. | 2025 | [📄](https://arxiv.org/abs/2506.24044) |
+| VLA in Robotics: A Survey of Datasets, Benchmarks, and Data Engines | Wang et al. | 2026 | [📄](https://arxiv.org/abs/2604.23001) |
 
 ### Foundation Models & Embodied AI
 
@@ -183,6 +190,8 @@ Recent surveys that define the field and motivate the taxonomy used here.
 | Generative AI in Robotic Manipulation: A Survey | Zhang et al. | 2025 | [📄](https://arxiv.org/abs/2503.03464) |
 | A Survey of Sim-to-Real Methods in RL with Foundation Models | Da et al. | 2025 | [📄](https://arxiv.org/abs/2502.13187) |
 | Behavior Foundation Model: Towards Next-Generation Whole-Body Control of Humanoids | Yuan et al. | 2025 | [📄](https://arxiv.org/abs/2506.20487) |
+| Towards a Unified Understanding of Robot Manipulation: A Comprehensive Survey | Bai et al. | 2025 | [📄](https://arxiv.org/abs/2510.10903) |
+| Robotic Foundation Models for Industrial Control: A Survey & Readiness Assessment | Kube et al. | 2026 | [📄](https://arxiv.org/abs/2603.06749) |
 
 ---
 
@@ -228,6 +237,9 @@ Following the *action-tokenization* view ([Zhong et al., 2025](https://arxiv.org
 | **π0.5** | A VLA with Open-World Generalization | 2025 | [📄](https://arxiv.org/abs/2504.16054) · [🌐](https://www.pi.website/blog/pi05) |
 | **Gemini Robotics** | Bringing AI into the Physical World | 2025 | [📄](https://arxiv.org/abs/2503.20020) · [🌐](https://deepmind.google/models/gemini-robotics/) |
 | **GR00T N1** | An Open Foundation Model for Generalist Humanoid Robots | 2025 | [📄](https://arxiv.org/abs/2503.14734) · [💻](https://github.com/NVIDIA/Isaac-GR00T) |
+| **EO-1** | An Open Unified Embodied Foundation Model (interleaved reasoning + acting) | 2025 | [📄](https://arxiv.org/abs/2508.21112) · [🌐](https://eo-robotics.ai/eo-1) |
+| **GR-3** | Large-Scale Vision-Language-Action Model (Technical Report) | 2025 | [📄](https://arxiv.org/abs/2507.15493) |
+| **FLOWER** | Democratizing Generalist Robot Policies with Efficient VLA Flow Policies | 2025 | [📄](https://arxiv.org/abs/2509.04996) |
 | **π0** | A Vision-Language-Action Flow Model for General Robot Control | 2024 | [📄](https://arxiv.org/abs/2410.24164) · [🌐](https://www.pi.website/blog/pi0) |
 
 ### By Capability
@@ -242,6 +254,8 @@ Following the *action-tokenization* view ([Zhong et al., 2025](https://arxiv.org
 | **Gemini Robotics 1.5** | Embodied Reasoning & Motion Transfer | 2025 | [📄](https://arxiv.org/abs/2510.03342) |
 | **ThinkAct** | VLA Reasoning via Reinforced Visual Latent Planning | 2025 | [📄](https://arxiv.org/abs/2507.16815) |
 | **OpenHelix** | A Short Survey & Open-Source Dual-System VLA | 2025 | [📄](https://arxiv.org/abs/2505.03912) |
+| **FiS-VLA** | Fast-in-Slow: A Dual-System Foundation Model for Unified Fast–Slow Reasoning | 2025 | [📄](https://arxiv.org/abs/2506.01953) |
+| **WALL-OSS** | Igniting VLMs toward the Embodied Space | 2025 | [📄](https://arxiv.org/abs/2509.11766) · [💻](https://github.com/X-Square-Robot/wall-x) |
 | **CoT-VLA** | Visual Chain-of-Thought Reasoning for VLA | 2025 | [📄](https://arxiv.org/abs/2503.22020) |
 
 #### 3D / 4D-Aware VLA
@@ -260,6 +274,7 @@ Following the *action-tokenization* view ([Zhong et al., 2025](https://arxiv.org
 |-------|-------|------|-------|
 | **FASTER** | Rethinking Real-Time Flow VLAs | 2026 | [📄](https://arxiv.org/abs/2603.19199) |
 | **RTC** | Real-Time Chunking: Running VLAs at Real-Time Speed | 2025 | [📄](https://arxiv.org/abs/2510.26742) |
+| **NanoVLA** | Routing-Decoupled VLA for Nano-Sized Generalist Policies | 2025 | [📄](https://arxiv.org/abs/2510.25122) |
 | **VLA-Adapter** | A Tiny-Scale VLA Paradigm | 2025 | [📄](https://arxiv.org/abs/2509.09372) |
 | **OpenVLA-OFT** | Fine-Tuning VLAs: Optimizing Speed and Success | 2025 | [📄](https://arxiv.org/abs/2502.19645) · [🌐](https://openvla-oft.github.io) |
 | **TinyVLA** | Fast, Data-Efficient VLA Models | 2024 | [📄](https://arxiv.org/abs/2409.12514) · [🌐](https://tiny-vla.github.io) |
@@ -271,7 +286,9 @@ Following the *action-tokenization* view ([Zhong et al., 2025](https://arxiv.org
 | Model | Title | Year | Links |
 |-------|-------|------|-------|
 | **π_RL** | Online RL Fine-Tuning for Flow-based VLAs | 2025 | [📄](https://arxiv.org/abs/2510.25889) |
+| **VLA-RFT** | RL Fine-Tuning with Verified Rewards in World Simulators | 2025 | [📄](https://arxiv.org/abs/2510.00406) |
 | **SimpleVLA-RL** | Scaling VLA Training via Reinforcement Learning | 2025 | [📄](https://arxiv.org/abs/2509.09674) |
+| **ConRFT** | A Reinforced Fine-Tuning Method for VLA via Consistency Policy | 2025 | [📄](https://arxiv.org/abs/2502.05450) |
 
 ---
 
@@ -285,6 +302,8 @@ Organized by **what the model predicts and how it is built**, following the embo
 
 | Model | Title | Year | Links |
 |-------|-------|------|-------|
+| **Cosmos-Predict2.5** | World Simulation with Video Foundation Models for Physical AI | 2025 | [📄](https://arxiv.org/abs/2511.00062) · [💻](https://github.com/nvidia-cosmos/cosmos-predict2.5) |
+| **Cosmos-Reason1** | From Physical Common Sense to Embodied Reasoning | 2025 | [📄](https://arxiv.org/abs/2503.15558) |
 | **Cosmos** | World Foundation Model Platform for Physical AI | 2025 | [📄](https://arxiv.org/abs/2501.03575) · [🌐](https://developer.nvidia.com/cosmos) |
 | **V-JEPA 2** | Self-Supervised Video Models Enable Understanding, Prediction & Planning | 2025 | [📄](https://arxiv.org/abs/2506.09985) |
 | **iVideoGPT** | Interactive VideoGPTs are Scalable World Models | 2024 | [📄](https://arxiv.org/abs/2405.15223) |
@@ -314,6 +333,16 @@ Organized by **what the model predicts and how it is built**, following the embo
 |-------|-------|------|-------|
 | **DreamVLA** | A VLA Model Dreamed with Comprehensive World Knowledge | 2025 | [📄](https://arxiv.org/abs/2507.04447) |
 | **Goal-VLA** | Image-Generative VLMs as Object-Centric World Models for VLA | 2025 | [📄](https://arxiv.org/abs/2506.23919) |
+
+### Unified VLA–World Models
+
+> Single architectures that jointly learn to **act** and to **predict world dynamics**, blurring the VLA/WAM boundary.
+
+| Model | Title | Year | Links |
+|-------|-------|------|-------|
+| **RynnVLA-002** | A Unified Vision-Language-Action and World Model | 2025 | [📄](https://arxiv.org/abs/2511.17502) · [💻](https://github.com/alibaba-damo-academy/RynnVLA-002) |
+| **WholeBodyVLA** | Unified Latent VLA for Whole-Body Loco-Manipulation | 2025 | [📄](https://arxiv.org/abs/2512.11047) · [💻](https://github.com/OpenDriveLab/WholebodyVLA) |
+| **WorldVLA** | Towards an Autoregressive Action World Model | 2025 | [📄](https://arxiv.org/abs/2506.21539) · [💻](https://github.com/alibaba-damo-academy/WorldVLA) |
 
 ### Latent & JEPA World Models
 
@@ -377,6 +406,9 @@ Non-VLA policies and planners that remain standard baselines in the experimental
 |------|-------------|-------|-------|
 | **Open X-Embodiment** | Cross-embodiment aggregation behind the RT-X models | 1M+ traj · 22 embodiments | [📄](https://arxiv.org/abs/2310.08864) · [🌐](https://robotics-transformer-x.github.io/) |
 | **AgiBot World** | Large-scale real-world manipulation (Colosseo) | 1M+ traj · 217 tasks | [📄](https://arxiv.org/abs/2503.06669) · [🌐](https://agibot-world.com/) |
+| **EgoScale** | Scaling dexterous manipulation with diverse egocentric human data | egocentric · 2026 | [📄](https://arxiv.org/abs/2602.16710) |
+| **DexCanvas** | Human demos ↔ robot learning for dexterous manipulation | dexterous | [📄](https://arxiv.org/abs/2510.15786) |
+| **Galaxea Open-World** | Mobile-bimanual dataset paired with the G0 dual-system VLA | 500 hrs · 150 tasks | [📄](https://arxiv.org/abs/2509.00576) · [💻](https://github.com/OpenGalaxea) |
 | **DROID** | In-the-wild Franka manipulation across 3 continents | 76K traj · 564 scenes | [📄](https://arxiv.org/abs/2403.12945) · [🌐](https://droid-dataset.github.io/) |
 | **RoboMIND** | Multi-embodiment teleop incl. labeled failures | 107K traj · 479 tasks | [📄](https://arxiv.org/abs/2412.13877) · [🌐](https://x-humanoid-robomind.github.io/) |
 | **BridgeData V2** | WidowX manipulation w/ language + goal images | 60K traj · 24 envs | [📄](https://arxiv.org/abs/2308.12952) · [🌐](https://rail-berkeley.github.io/bridgedata/) |
@@ -396,6 +428,9 @@ Non-VLA policies and planners that remain standard baselines in the experimental
 | **ManiSkill3** | GPU-parallel manipulation (30K+ FPS) | [📄](https://arxiv.org/abs/2410.00425) · [🌐](https://maniskill.ai/) |
 | **THE COLOSSEUM** | Robustness under 14 environmental perturbations | [📄](https://arxiv.org/abs/2402.08191) · [🌐](https://robot-colosseum.github.io/) |
 | **RoboArena** | Distributed crowd-sourced *real-world* policy eval | [📄](https://arxiv.org/abs/2506.18123) · [🌐](https://robo-arena.github.io/) |
+| **RoboChallenge** | Large-scale real-robot evaluation of embodied policies | [📄](https://arxiv.org/abs/2510.17950) |
+| **RobotArena ∞** | Scalable robot benchmarking via real-to-sim translation | [📄](https://arxiv.org/abs/2510.23571) · [🌐](https://robotarenainf.github.io) |
+| **WorldArena** | Perception & functional-utility benchmark for embodied world models | [📄](https://arxiv.org/abs/2602.08971) |
 | **Meta-World** | 50 tabletop tasks for multi-task / meta-RL | [📄](https://arxiv.org/abs/1910.10897) · [💻](https://github.com/Farama-Foundation/Metaworld) |
 | **RLBench** | 100 hand-designed manipulation tasks | [📄](https://arxiv.org/abs/1909.12271) · [💻](https://github.com/stepjam/RLBench) |
 
