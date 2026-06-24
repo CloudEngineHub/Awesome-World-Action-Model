@@ -26,7 +26,7 @@ This document contains baseline methods extracted from experimental tables of ma
 | **AVA-VLA** | VLA with Active Visual Attention | 2025 | Active visual attention |
 | **OpenVLA** | An Open-Source VLA | 2024 | First open-source VLA |
 | **Octo** | Open-Source Generalist Robot Policy | 2024 | Modular generalist policy |
-| **π0** | Multimodal Autoregressive Action Model | 2024 | Flow matching + action expert |
+| **π0** | A Vision-Language-Action Flow Model for Robot Control | 2024 | Flow matching + action expert |
 | **AC2-VLA** | Action-Context-Aware Adaptive Computation in VLA | Yu et al. | 2026 | https://arxiv.org/abs/2601.19634 |
 | **APPLV** | Adaptive Planner Parameter Learning from VLA | Lu et al. | 2026 | https://arxiv.org/abs/2603.08862 |
 | **Act, Think or Abstain** | Complexity-Aware Adaptive Inference for VLA | Izzo et al. | 2026 | https://arxiv.org/abs/2603.05147 |
@@ -72,7 +72,7 @@ This document contains baseline methods extracted from experimental tables of ma
 | **DreamerV1** | Learning Behaviors from Pixels | 2020 | Original world model |
 | **I-JEPA** | Image-based Joint-Embedding Predictive Architecture | 2023 | Joint embedding predictive |
 | **V-JEPA** | Video Joint-Embedding Predictive Architecture | 2024 | Video joint embedding |
-| **Cosmos Policy** | World Models for Robotics | 2024 | NVIDIA world model policy |
+| **Cosmos Policy** | Fine-Tuning Video Models for Visuomotor Control & Planning | 2026 | NVIDIA world-action policy |
 
 ## Policy Baselines
 

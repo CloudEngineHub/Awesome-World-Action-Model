@@ -1,69 +1,97 @@
 <div align="center">
 
-# 🤖 Awesome World Action Models
+# 🤖 Awesome World Action Models [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-**📜 A Curated List of World Action Models, Vision-Language-Action (VLA), and Embodied AI Research**
+**A curated, continuously-updated reading list of World Action Models (WAM), Vision-Language-Action (VLA) models, and Embodied AI — organized by a survey-grounded taxonomy.**
 
-![Awesome](https://awesome.re/badge.svg)
-![Auto-updated](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/HyperbolicCurve/Awesome-World-Action-Model/main/.github/metrics.json&query=updated&label=Last%20Update&color=brightgreen)
-![License](https://img.shields.io/badge/license-MIT-blue)
+[![Last Update](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/HyperbolicCurve/Awesome-World-Action-Model/main/.github/metrics.json&query=updated&label=Last%20Update&color=brightgreen)](https://github.com/HyperbolicCurve/Awesome-World-Action-Model)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#-contributing)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Stars](https://img.shields.io/github/stars/HyperbolicCurve/Awesome-World-Action-Model?style=social)](https://github.com/HyperbolicCurve/Awesome-World-Action-Model/stargazers)
 
 </div>
 
+---
+
 ## Overview
 
-This repository aims to provide a comprehensive, curated, and continuously updated list of research papers, resources, and tools related to **World Action Models (WAM)**, **Vision-Language-Action (VLA)** models, and **Embodied AI**. The goal is to help researchers and engineers navigate the rapidly evolving field of robotics foundation models.
+The push toward **general-purpose robots** has produced two converging families of foundation models:
 
-**World Action Models** are robotics policies that leverage world modeling capabilities—predicting future states—for action prediction. They represent a paradigm shift from reactive policies to predictive, world-aware decision-making.
+- **Vision-Language-Action (VLA)** models inherit the language grounding and visual understanding of pretrained **Vision-Language Models (VLMs)** and adapt them to emit actions — a scalable route to language-conditioned policies.
+- **World Action Models (WAM)** start from a **world model / video backbone** that predicts *how a scene evolves*, and adapt that predictive prior to emit actions — trading the "language→motion" grounding gap for a "dynamics→action" one.
 
-**Vision-Language-Action (VLA)** models combine the rich language grounding and visual understanding of Vision-Language Models (VLMs) with action prediction, offering a scalable route toward general-purpose, language-conditioned robot policies.
+These two families overlap: a WAM built on a pretrained VLM is simultaneously a VLA *and* a WAM. This list maps that landscape with a taxonomy grounded in the recent survey literature (see [Surveys](#-surveys)), so each category has a clear, defensible scope rather than an ad-hoc label.
+
+> [!NOTE]
+> **Legend** — 📄 arXiv · 🌐 project page · 💻 code · 📊 dataset/benchmark. Tables are sorted newest-first within each category. The [🆕 Latest Papers](#-latest-papers-auto-updated) section is refreshed daily from arXiv by a [GitHub Action](.github/workflows/update-papers.yml); everything else is hand-curated.
+
+---
+
+## Taxonomy at a Glance
+
+```mermaid
+flowchart TD
+    A[Robot Foundation Models] --> B[Vision-Language-Action<br/>VLA]
+    A --> C[World &amp; World-Action Models<br/>WM / WAM]
+    A --> R[Action Representations]
+    A --> P[Foundational Policies]
+
+    B --> B1[By Action Representation:<br/>Autoregressive · Diffusion · Flow-Matching]
+    B --> B2[By Capability:<br/>Reasoning/Dual-System · 3D-4D · Efficient · RL Fine-Tuning]
+
+    C --> C1[Foundation / General World Models]
+    C --> C2[WAM from Video Generation]
+    C --> C3[WAM from VLMs]
+    C --> C4[WAM from Scratch · Latent / JEPA]
+    C --> C5[Domain: Driving · Navigation]
+
+    R --> R1[Discrete / Autoregressive Tokenizers]
+    R --> R2[Diffusion &amp; Flow-Matching Policies]
+```
 
 ## Table of Contents
 
-- [Key Definitions](#key-definitions)
-- [Comparison Methods & Baselines](#comparison-methods--baselines)
-- [Surveys](#surveys)
-- [VLA Models](#vla-models)
-  - [General VLA](#general-vla)
-  - [VLA with Reasoning](#vla-with-reasoning)
-  - [VLA with 3D/4D Modeling](#vla-with-3d4d-modeling)
-  - [Efficient VLA](#efficient-vla)
-  - [VLA with RL Fine-tuning](#vla-with-rl-fine-tuning)
-- [World Action Models](#world-action-models)
+- [🔑 Key Definitions](#-key-definitions)
+- [🆕 Latest Papers (Auto-updated)](#-latest-papers-auto-updated)
+- [📚 Surveys](#-surveys)
+- [🤖 Vision-Language-Action (VLA) Models](#-vision-language-action-vla-models)
+  - [By Action Representation](#by-action-representation)
+    - [Autoregressive / Discrete-Token VLA](#autoregressive--discrete-token-vla)
+    - [Diffusion-based VLA](#diffusion-based-vla)
+    - [Flow-Matching VLA](#flow-matching-vla)
+  - [By Capability](#by-capability)
+    - [Reasoning & Dual-System (Fast–Slow) VLA](#reasoning--dualsystem-fastslow-vla)
+    - [3D / 4D-Aware VLA](#3d--4d-aware-vla)
+    - [Efficient & Real-Time VLA](#efficient--real-time-vla)
+    - [RL Fine-Tuning for VLA](#rl-fine-tuning-for-vla)
+- [🌎 World & World-Action Models](#-world--world-action-models)
+  - [Foundation / General World Models](#foundation--general-world-models)
   - [WAM from Video Generation](#wam-from-video-generation)
   - [WAM from VLMs](#wam-from-vlms)
-  - [WAM from Scratch](#wam-from-scratch)
-- [Action Representations](#action-representations)
-  - [Discrete Tokenization](#discrete-tokenization)
-  - [Diffusion Policies](#diffusion-policies)
-- [Robotics Policies](#robotics-policies)
-- [Resources](#resources)
+  - [WAM from Scratch (Latent Dynamics & JEPA)](#wam-from-scratch-latent-dynamics--jepa)
+  - [Domain World Models (Driving & Navigation)](#domain-world-models-driving--navigation)
+- [🧩 Action Representations & Tokenization](#-action-representations--tokenization)
+- [🦾 Foundational Robot Policies](#-foundational-robot-policies)
+- [📦 Resources](#-resources)
   - [Datasets](#datasets)
   - [Benchmarks](#benchmarks)
   - [Simulation Platforms](#simulation-platforms)
   - [Tools & Frameworks](#tools--frameworks)
+- [📋 Full Paper Index & Baselines](#-full-paper-index--baselines)
+- [🤝 Contributing](#-contributing)
 
 ---
 
-## Comparison Methods & Baselines
+## 🔑 Key Definitions
 
-<details>
-<summary><b>📊 Click to expand baseline methods and complete paper list</b></summary>
+| Term | Definition | Canonical reference |
+|------|------------|---------------------|
+| **Vision-Language-Action (VLA)** | A robot policy that adapts a pretrained **VLM** to map images + language instructions to actions. | [RT-2](https://arxiv.org/abs/2307.15818) (Brohan et al., 2023) |
+| **World Model (WM)** | A learned model that predicts future states of an environment (in pixels, latents, or 3D/4D), used for planning, simulation, or representation. | [World Models](https://arxiv.org/abs/1803.10122) (Ha & Schmidhuber, 2018) |
+| **World Action Model (WAM)** | A policy that **leverages world-modeling capability (predicting future states) for action prediction** — typically by adapting a video / world-model backbone to emit actions. | [GR-1](https://arxiv.org/abs/2312.13139) (Wu et al., 2023) |
 
-### Quick Reference (from experimental tables)
-
-| Category | Key Baselines |
-|-----------|----------------|
-| **VLA** | RT-1, RT-2, OpenVLA, Octo, π0, X-VLA, UniVLA, SmolVLA, VLANeXt |
-| **Policy** | Diffusion Policy, ACT, BeT, PerAct, MVP, R3M, CQL, IQL |
-| **World Model** | DreamerV1/V2/V3, I-JEPA, V-JEPA, DreamZero |
-
-### Documentation
-
-- 📋 [Complete Paper List](docs/all-papers.md) (129 papers, sorted newest first)
-- 📊 [Baseline Methods](docs/baselines.md) (detailed comparison methods from experimental tables)
-
-</details>
+> [!IMPORTANT]
+> **VLA ∩ WAM.** The families intersect: a WAM built on a pretrained VLM is *both*. The split in this list is by **what prior the model starts from** — VLM-style vision-language priors (VLA) vs. video/dynamics priors (WAM) — and, within VLA, by **how actions are represented**, the axis most surveys agree is the field's clearest discriminator.
 
 ---
 
@@ -115,253 +143,328 @@ This repository aims to provide a comprehensive, curated, and continuously updat
 ---
 
 
-## Key Definitions
+## 📚 Surveys
 
-### Vision-Language-Action (VLA) Models
+Recent surveys that define the field and motivate the taxonomy used here.
 
-VLA models are robotics policies that inherit the pretrained VLMs' rich language grounding and visual understanding abilities to offer a scalable route toward general-purpose, language-conditioned robot policies.
-
-**Key Paper:** [RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control](https://arxiv.org/abs/2307.15818) | Brohan et al. (2023) | [Project](https://robotics-transformer2.github.io)
-
-### World Action Models (WAM)
-
-WAM models are robotics policies that leverage the world modeling capability (i.e., predicting future states) for action prediction.
-
-**Key Paper:** [DreamZero: World Action Models are Zero-shot Policies](https://arxiv.org/abs/2602.15922) | Chen et al. (2026) | [Project](https://dreamzero0.github.io)
-
-> **Note:** There is an intersection between VLA and WAM: WAMs built upon pretrained VLMs are simultaneously both VLA and WAM.
-
----
-
-## Surveys
+### World & Embodied World Models
 
 | Title | Authors | Year | Links |
 |-------|---------|------|-------|
-| Vision-Language-Action (VLA) Models: Concepts, Progress, Applications and Challenges | Applied AI Research Lab | 2025 | [arXiv](https://arxiv.org/abs/2505.04769) |
-| A Survey on Vision-Language-Action Models for Embodied AI | Ma et al. | 2024 | [arXiv](https://arxiv.org/abs/2405.14093) |
-| Foundation Models for Embodied AI | Driess et al. | 2024 | [arXiv](https://arxiv.org/abs/2407.21200) |
+| Understanding World or Predicting Future? A Comprehensive Survey of World Models | Ding et al. | 2024 | [📄](https://arxiv.org/abs/2411.14499) |
+| A Comprehensive Survey on World Models for Embodied AI | Li et al. | 2025 | [📄](https://arxiv.org/abs/2510.16732) |
+| 3D and 4D World Modeling: A Survey | Kong et al. | 2025 | [📄](https://arxiv.org/abs/2509.07996) |
+| Learning Embodied Intelligence from Physical Simulators and World Models | Long et al. | 2025 | [📄](https://arxiv.org/abs/2507.00917) |
+| Embodied AI: From LLMs to World Models | Feng et al. | 2025 | [📄](https://arxiv.org/abs/2509.20021) |
+
+### Vision-Language-Action
+
+| Title | Authors | Year | Links |
+|-------|---------|------|-------|
+| A Survey on Vision-Language-Action Models for Embodied AI | Ma et al. | 2024 | [📄](https://arxiv.org/abs/2405.14093) |
+| A Survey on VLA Models: An Action Tokenization Perspective | Zhong et al. | 2025 | [📄](https://arxiv.org/abs/2507.01925) |
+| VLA Models: Concepts, Progress, Applications and Challenges | Sapkota et al. | 2025 | [📄](https://arxiv.org/abs/2505.04769) |
+| Large VLM-based VLA Models for Robotic Manipulation: A Survey | Shao et al. | 2025 | [📄](https://arxiv.org/abs/2508.13073) |
+| Efficient VLA Models for Embodied Manipulation: A Systematic Survey | Guan et al. | 2025 | [📄](https://arxiv.org/abs/2510.17111) |
+| VLA Models for Robotics: A Review Towards Real-World Applications | Kawaharazuka et al. | 2025 | [📄](https://arxiv.org/abs/2510.07077) · [🌐](https://vla-survey.github.io/) |
+
+### Foundation Models & Embodied AI
+
+| Title | Authors | Year | Links |
+|-------|---------|------|-------|
+| Foundation Models in Robotics: Applications, Challenges, and the Future | Firoozi et al. | 2023 | [📄](https://arxiv.org/abs/2312.07843) |
+| Toward General-Purpose Robots via Foundation Models: A Survey | Hu et al. | 2023 | [📄](https://arxiv.org/abs/2312.08782) |
+| Aligning Cyber Space with Physical World: A Survey on Embodied AI | Liu et al. | 2024 | [📄](https://arxiv.org/abs/2407.06886) |
+| Generative AI in Robotic Manipulation: A Survey | Zhang et al. | 2025 | [📄](https://arxiv.org/abs/2503.03464) |
+| A Survey of Sim-to-Real Methods in RL with Foundation Models | Da et al. | 2025 | [📄](https://arxiv.org/abs/2502.13187) |
 
 ---
 
-## VLA Models
+## 🤖 Vision-Language-Action (VLA) Models
 
-### General VLA
+Following the *action-tokenization* view ([Zhong et al., 2025](https://arxiv.org/abs/2507.01925)), the primary split is by **how actions are represented**; capability-oriented subsections (reasoning, 3D/4D, efficiency, RL) cut across it. A few pre-/non-VLM generalist policies (e.g., RT-1, Octo) are listed alongside their successors to show lineage — see [Foundational Robot Policies](#-foundational-robot-policies) for the strictly non-VLA baselines.
 
-| # | Paper | Authors | Year | Links |
-|---|-------|---------|------|-------|
-| 1 | **AC2-VLA**: Action-Context-Aware Adaptive Computation in VLA | Yu et al. | 2026 | [arXiv](https://arxiv.org/abs/2601.19634) |
-| 2 | **APPLV**: Adaptive Planner Parameter Learning from VLA | Lu et al. | 2026 | [arXiv](https://arxiv.org/abs/2603.08862) |
-| 3 | **Act, Think or Abstain**: Complexity-Aware Adaptive Inference for VLA | Izzo et al. | 2026 | [arXiv](https://arxiv.org/abs/2603.05147) |
-| 4 | **AnyCamVLA**: Zero-Shot Camera Adaptation for Viewpoint Robust VLA | Heo et al. | 2026 | [arXiv](https://arxiv.org/abs/2603.05868) |
-| 5 | **CLARE**: Continuous Learning for VLA via Adapter Routing | Römer et al. | 2026 | [arXiv](https://arxiv.org/abs/2601.09512) |
-| 6 | **DIAL**: Decoupling Intent and Action via Latent World Modeling for VLA | Chen et al. | 2026 | [arXiv](https://arxiv.org/abs/2603.29844) |
-| 7 | **EAPruning**: Adaptive Pruning with Interleaved Inference for VLA | Huang et al. | 2026 | [arXiv](https://arxiv.org/abs/2602.00780) |
-| 8 | **ETA-VLA**: Efficient Token Adaptation | Wang et al. | 2026 | [arXiv](https://arxiv.org/abs/2603.25766) |
-| 9 | **FAVLA**: Force-Adaptive Fast-Slow VLA | Li et al. | 2026 | [arXiv](https://arxiv.org/abs/2602.23648) |
-| 10 | **HarvestFlex**: Harvesting via VLA Policy Adaptation | Zhao et al. | 2026 | [arXiv](https://arxiv.org/abs/2603.05982) |
-| 11 | **On-the-Fly VLA**: VLA Adaptation via Test-Time RL | Liu et al. | 2026 | [arXiv](https://arxiv.org/abs/2601.06748) |
-| 12 | **ProbeFlow**: Training-Free Adaptive Flow Matching for VLA | Fang et al. | 2026 | [arXiv](https://arxiv.org/abs/2603.17850) |
-| 13 | **RAFT**: Adapting VLA Models via Force-aware Curriculum | Zhang et al. | 2026 | [arXiv](https://arxiv.org/abs/2602.12532) |
-| 14 | **ROBOGATE**: Adaptive Failure Discovery for Safe Robot Policy | Kim et al. | 2026 | [arXiv](https://arxiv.org/abs/2603.22126) |
-| 15 | **SAMoE-VLA**: Scene Adaptive Mixture-of-Experts VLA | You et al. | 2026 | [arXiv](https://arxiv.org/abs/2603.08113) |
-| 16 | **SCALE**: Self-Uncertainty Adaptive Looking for VLA | Choi et al. | 2026 | [arXiv](https://arxiv.org/abs/2602.04208) |
-| 17 | **SOMA**: Memory-Augmented System for VLA Robustness | Li et al. | 2026 | [arXiv](https://arxiv.org/abs/2603.24060) |
-| 18 | **VGAS**: Adaptive Capacity Allocation for VLA | Kim et al. | 2026 | [arXiv](https://arxiv.org/abs/2603.07404) |
-| 19 | **VLA-Acceleration**: Accelerate VLA through Visual Token Caching | Wei et al. | 2026 | [arXiv](https://arxiv.org/abs/2602.00686) |
-| 20 | **VGAS**: Value-Guided Action-Chunk Selection for VLA | Xu et al. | 2026 | [arXiv](https://arxiv.org/abs/2602.07399) |
-| 21 | **VLANeXt**: Recipes for Building Strong VLA Models | Liu et al. | 2026 | [arXiv](https://arxiv.org/abs/2602.18532) [Project](https://dravenalg.github.io/VLANeXt/) |
-| 22 | **HoloBrain-0**: Technical Report | Horizon Robotics | 2026 | [arXiv](https://arxiv.org/abs/2602.12062) [Project](https://horizonrobotics.github.io/robot_lab/holobrain/) |
-| 23 | **FocusVLA**: Focused Visual Utilization for VLA Models | Zhang et al. | 2026 | [arXiv](https://arxiv.org/abs/2603.28740) |
-| 24 | **StreamingVLA**: Streaming VLA with Action Flow Matching | Shi et al. | 2026 | [arXiv](https://arxiv.org/abs/2603.28565) |
-| 25 | **ABot-M0**: VLA with Action Manifold Learning | AMAP CVLab | 2026 | [arXiv](https://arxiv.org/abs/2602.11236) [Project](https://amap-cvlab.github.io/ABot-Manipulation/) |
-| 26 | **SimVLA**: A Simple VLA Baseline for Robotic Manipulation | FrontierRoBo | 2026 | [arXiv](https://arxiv.org/abs/2602.18224) [Project](https://frontierrobo.github.io/SimVLA/) |
-| 27 | **Lingbot-VLA**: A Pragmatic VLA Foundation Model | Robbyant | 2026 | [arXiv](https://arxiv.org/abs/2601.18692) [Project](https://technology.robbyant.com/lingbot-vla/) |
-| 28 | **AC-DiT**: AC-DiT: Adaptive Coordination Diffusion Transformer | Chen et al. | 2025 | [arXiv](https://arxiv.org/abs/2507.01961) |
-| 29 | **U-DiT**: U-DiT: U-shaped Diffusion Transformers | Wu et al. | 2025 | [arXiv](https://arxiv.org/abs/2509.24579) |
-| 30 | **VLA-Adapter**: VLA-Adapter: Tiny-Scale VLA Paradigm | Wang et al. | 2025 | [arXiv](https://arxiv.org/abs/2509.09372) |
-| 31 | **Gemini Robotics**: Bringing AI into the Physical World | DeepMind | 2025 | [arXiv](https://arxiv.org/abs/2503.20020) [Project](https://deepmind.google/models/gemini-robotics/) |
-| 32 | **π\*0.6**: A VLA That Learns From Experience | Black et al. | 2025 | [arXiv](https://arxiv.org/abs/2511.14759) [Project](https://www.pi.website/blog/pistar06) |
-| 33 | **X-VLA**: Soft-Prompted Transformer as Scalable Cross-Embodiment VLA | Zheng et al. | 2025 | [arXiv](https://arxiv.org/abs/2510.10274) [Project](https://thu-air-dream.github.io/X-VLA/) |
-| 34 | **UniVLA**: Unified Vision-Language-Action Model | Wu et al. | 2025 | [arXiv](https://arxiv.org/abs/2506.19850) [Project](https://robertwyq.github.io/univla.github.io/) |
-| 35 | **SmolVLA**: A VLA for Affordable and Efficient Robotics | LeRobot | 2025 | [arXiv](https://arxiv.org/abs/2506.01844) [Project](https://github.com/huggingface/lerobot) |
-| 36 | **NORA**: A Small Open-Sourced Generalist VLA | Nandan et al. | 2025 | [arXiv](https://arxiv.org/abs/2504.19854) [Project](https://declare-lab.github.io/nora) |
-| 37 | **VLA-0**: Building State-of-the-Art VLAs with Zero Modification | VLA0 | 2025 | [arXiv](https://arxiv.org/abs/2510.13054) [Project](https://vla0.github.io) |
-| 38 | **CronusVLA**: Efficient Multi-Frame VLA | Li et al. | 2025 | [arXiv](https://arxiv.org/abs/2506.19816) [Project](https://lihaohn.github.io/CronusVLA.github.io/) |
-| 39 | **OpenVLA-OFT**: Fine-Tuning VLAs: Optimizing Speed and Success | Lee et al. | 2025 | [arXiv](https://arxiv.org/abs/2502.19645) [Project](https://openvla-oft.github.io) |
-| 40 | **AsyncVLA**: Asynchronous Flow Matching for VLA | Jiang et al. | 2025 | [arXiv](https://arxiv.org/abs/2511.14148) [Project](https://github.com/YuhuaJiang2002/AsyncVLA) |
-| 41 | **AVA-VLA**: VLA with Active Visual Attention | Li et al. | 2025 | [arXiv](https://arxiv.org/abs/2511.18960) |
-| 42 | **A-VL**: Adaptive Attention for Large VLA | Zhang et al. | 2024 | [arXiv](https://arxiv.org/abs/2409.14846) |
-| 43 | **ADEM-VL**: Adaptive and Embedded Fusion for VLA | Hao et al. | 2024 | [arXiv](https://arxiv.org/abs/2410.17779) |
-| 44 | **OpenVLA**: OpenVLA: An Open-Source Vision-Language-Action Model | Kim et al. | 2024 | [arXiv](https://arxiv.org/abs/2406.09246) [Project](https://openvla.github.io) |
-| 45 | **Octo**: Octo: An Open-Source Generalist Robot Policy | Ghosh et al. | 2024 | [arXiv](https://arxiv.org/abs/2405.12213) [Project](https://octo-models.github.io) |
-| 46 | **π0**: A Multimodal Autoregressive Action Model | Black et al. | 2024 | [arXiv](https://arxiv.org/abs/2410.24164) [Project](https://www.pi.website/blog/p0) |
-| 47 | **RT-2**: Vision-Language-Action Models | Brohan et al. | 2023 | [arXiv](https://arxiv.org/abs/2307.15818) [Project](https://robotics-transformer2.github.io) |
-| 48 | **RT-1**: Robotics Transformer for Real-World Control at Scale | Brohan et al. | 2022 | [arXiv](https://arxiv.org/abs/2212.06817) [Project](https://robotics-transformer1.github.io) |
-| 49 | **VL-Adapter**: VL-Adapter: Parameter-Efficient Transfer Learning | Sung et al. | 2021 | [arXiv](https://arxiv.org/abs/2112.06825) |
+### By Action Representation
 
-### VLA with Reasoning
+#### Autoregressive / Discrete-Token VLA
 
-| # | Paper | Authors | Year | Links |
-|---|-------|---------|------|-------|
-| 1 | **ACoT-VLA**: Action Chain-of-Thought for VLA Models | AgibotTech | 2026 | [arXiv](https://arxiv.org/abs/2601.11404) [Project](https://github.com/AgibotTech/ACoT-VLA) |
-| 2 | **Fast-ThinkAct**: Efficient Vision-Language-Action Reasoning | Chen et al. | 2026 | [arXiv](https://arxiv.org/abs/2601.09708) |
-| 3 | **CoT-VLA**: Visual Chain-of-Thought Reasoning for VLA | Chen et al. | 2025 | [arXiv](https://arxiv.org/abs/2503.22020) |
-| 4 | **ThinkAct**: Vision-Language-Action Reasoning via Reinforced Visual Latent Planning | Chen et al. | 2025 | [arXiv](https://arxiv.org/abs/2507.16815) |
-| 5 | **UniVLA**: VLA with World Model | Wu et al. | 2025 | [arXiv](https://arxiv.org/abs/2506.19850) |
+> Actions are binned into discrete tokens and decoded like text. Simple and VLM-native; high-frequency dexterity needs better tokenizers (see [FAST](https://arxiv.org/abs/2501.09747)).
 
-### VLA with 3D/4D Modeling
+| Model | Title | Year | Links |
+|-------|-------|------|-------|
+| **VLA-0** | Building SOTA VLAs with Zero Modification | 2025 | [📄](https://arxiv.org/abs/2510.13054) · [🌐](https://vla0.github.io) |
+| **UniVLA** | Unified Vision-Language-Action Model (native multimodal tokens) | 2025 | [📄](https://arxiv.org/abs/2506.19850) · [🌐](https://robertwyq.github.io/univla.github.io/) |
+| **π0-FAST** | Autoregressive π0 variant using the FAST action tokenizer | 2025 | [📄](https://arxiv.org/abs/2501.09747) · [🌐](https://www.pi.website/research/fast) |
+| **OpenVLA** | An Open-Source Vision-Language-Action Model | 2024 | [📄](https://arxiv.org/abs/2406.09246) · [🌐](https://openvla.github.io) · [💻](https://github.com/openvla/openvla) |
+| **RT-2** | VLA Models Transfer Web Knowledge to Robotic Control | 2023 | [📄](https://arxiv.org/abs/2307.15818) · [🌐](https://robotics-transformer2.github.io) |
+| **RT-1** | Robotics Transformer for Real-World Control at Scale | 2022 | [📄](https://arxiv.org/abs/2212.06817) · [🌐](https://robotics-transformer1.github.io) · [💻](https://github.com/google-research/robotics_transformer) |
 
-| # | Paper | Authors | Year | Links |
-|---|-------|---------|------|-------|
-| 1 | **3D-VLA**: A 3D Vision-Language-Action Generative World Model | Chen et al. | 2024 | [arXiv](https://arxiv.org/abs/2403.09631) |
-| 2 | **VoxPoser**: 3D-Aware VLA | Huang et al. | 2023 | [arXiv](https://arxiv.org/abs/2307.05973) [Project](https://voxposer.github.io) |
+#### Diffusion-based VLA
 
-### Efficient VLA
+> A diffusion action head denoises continuous action chunks conditioned on vision-language features.
 
-| # | Paper | Authors | Year | Links |
-|---|-------|---------|------|-------|
-| 1 | **FASTER**: Rethinking Real-Time Flow VLAs | Liu et al. | 2026 | [arXiv](https://arxiv.org/abs/2603.19199) |
-| 2 | **SmolVLA**: A Vision-Language-Action Model for Affordable Robotics | LeRobot | 2025 | [arXiv](https://arxiv.org/abs/2506.01844) |
-| 3 | **AsyncVLA**: Asynchronous Flow Matching for VLA | Jiang et al. | 2025 | [arXiv](https://arxiv.org/abs/2511.14148) [Project](https://github.com/YuhuaJiang2002/AsyncVLA) |
-| 4 | **OpenHelix**: A Short Survey and Open-Source Dual-System VLA | Google DeepMind | 2025 | [arXiv](https://arxiv.org/abs/2505.03912) |
-| 5 | **RTC**: Running VLAs at Real-time Speed | Google DeepMind | 2025 | [arXiv](https://arxiv.org/abs/2510.26742) |
-| 6 | **AVA-VLA**: VLA with Active Visual Attention | Li et al. | 2025 | [arXiv](https://arxiv.org/abs/2511.18960) |
+| Model | Title | Year | Links |
+|-------|-------|------|-------|
+| **RoboVLMs** | Towards Generalist Robot Policies: What Matters in Building VLAs | 2024 | [📄](https://arxiv.org/abs/2412.14058) · [🌐](https://robovlms.github.io) |
+| **CogACT** | A Foundational VLA Model for Synergizing Cognition and Action | 2024 | [📄](https://arxiv.org/abs/2411.19650) |
+| **TinyVLA** | Fast, Data-Efficient VLA Models for Manipulation | 2024 | [📄](https://arxiv.org/abs/2409.12514) · [🌐](https://tiny-vla.github.io) |
+| **Octo** | An Open-Source Generalist Robot Policy | 2024 | [📄](https://arxiv.org/abs/2405.12213) · [🌐](https://octo-models.github.io) · [💻](https://github.com/octo-models/octo) |
 
-### VLA with RL Fine-tuning
+#### Flow-Matching VLA
 
-| # | Paper | Authors | Year | Links |
-|---|-------|---------|------|-------|
-| 1 | **SimpleVLA-RL**: Scaling VLA Training via Reinforcement Learning | Pi Team | 2025 | [arXiv](https://arxiv.org/abs/2509.09674) |
-| 2 | **OpenVLA-OFT**: Fine-Tuning VLAs: Optimizing Speed and Success | Lee et al. | 2025 | [arXiv](https://arxiv.org/abs/2502.19645) [Project](https://openvla-oft.github.io) |
+> A conditional flow/vector field transports noise to action chunks — the dominant head for current SOTA generalist VLAs.
+
+| Model | Title | Year | Links |
+|-------|-------|------|-------|
+| **π*0.6** | A VLA That Learns From Experience | 2025 | [📄](https://arxiv.org/abs/2511.14759) · [🌐](https://www.pi.website/blog/pistar06) |
+| **X-VLA** | Soft-Prompted Transformer as a Scalable Cross-Embodiment VLA | 2025 | [📄](https://arxiv.org/abs/2510.10274) · [🌐](https://thu-air-dream.github.io/X-VLA/) · [💻](https://github.com/2toinf/X-VLA) |
+| **SmolVLA** | A VLA for Affordable and Efficient Robotics | 2025 | [📄](https://arxiv.org/abs/2506.01844) · [💻](https://github.com/huggingface/lerobot) |
+| **π0.5** | A VLA with Open-World Generalization | 2025 | [📄](https://arxiv.org/abs/2504.16054) · [🌐](https://www.pi.website/blog/pi05) |
+| **Gemini Robotics** | Bringing AI into the Physical World | 2025 | [📄](https://arxiv.org/abs/2503.20020) · [🌐](https://deepmind.google/models/gemini-robotics/) |
+| **GR00T N1** | An Open Foundation Model for Generalist Humanoid Robots | 2025 | [📄](https://arxiv.org/abs/2503.14734) · [💻](https://github.com/NVIDIA/Isaac-GR00T) |
+| **π0** | A Vision-Language-Action Flow Model for General Robot Control | 2024 | [📄](https://arxiv.org/abs/2410.24164) · [🌐](https://www.pi.website/blog/pi0) |
+
+### By Capability
+
+#### Reasoning & Dual-System (Fast–Slow) VLA
+
+> Explicit chain-of-thought / embodied reasoning, or a slow System-2 planner paired with a fast System-1 controller.
+
+| Model | Title | Year | Links |
+|-------|-------|------|-------|
+| **ACoT-VLA** | Action Chain-of-Thought for VLA Models | 2026 | [📄](https://arxiv.org/abs/2601.11404) · [💻](https://github.com/AgibotTech/ACoT-VLA) |
+| **Gemini Robotics 1.5** | Embodied Reasoning & Motion Transfer | 2025 | [📄](https://arxiv.org/abs/2510.03342) |
+| **ThinkAct** | VLA Reasoning via Reinforced Visual Latent Planning | 2025 | [📄](https://arxiv.org/abs/2507.16815) |
+| **OpenHelix** | A Short Survey & Open-Source Dual-System VLA | 2025 | [📄](https://arxiv.org/abs/2505.03912) |
+| **CoT-VLA** | Visual Chain-of-Thought Reasoning for VLA | 2025 | [📄](https://arxiv.org/abs/2503.22020) |
+
+#### 3D / 4D-Aware VLA
+
+> Policies that reason over explicit 3D/4D structure (point clouds, occupancy, predicted future frames) rather than 2D images alone. (VoxPoser, a zero-shot 3D value-map planner, lives under [Foundational Robot Policies](#-foundational-robot-policies).)
+
+| Model | Title | Year | Links |
+|-------|-------|------|-------|
+| **3D-VLA** | A 3D Vision-Language-Action Generative World Model | 2024 | [📄](https://arxiv.org/abs/2403.09631) |
+
+#### Efficient & Real-Time VLA
+
+> Compression, caching, parallel decoding, and distillation to make VLAs small and fast enough for real-time / edge control ([Guan et al., 2025](https://arxiv.org/abs/2510.17111)).
+
+| Model | Title | Year | Links |
+|-------|-------|------|-------|
+| **FASTER** | Rethinking Real-Time Flow VLAs | 2026 | [📄](https://arxiv.org/abs/2603.19199) |
+| **RTC** | Real-Time Chunking: Running VLAs at Real-Time Speed | 2025 | [📄](https://arxiv.org/abs/2510.26742) |
+| **VLA-Adapter** | A Tiny-Scale VLA Paradigm | 2025 | [📄](https://arxiv.org/abs/2509.09372) |
+| **OpenVLA-OFT** | Fine-Tuning VLAs: Optimizing Speed and Success | 2025 | [📄](https://arxiv.org/abs/2502.19645) · [🌐](https://openvla-oft.github.io) |
+| **TinyVLA** | Fast, Data-Efficient VLA Models | 2024 | [📄](https://arxiv.org/abs/2409.12514) · [🌐](https://tiny-vla.github.io) |
+
+#### RL Fine-Tuning for VLA
+
+> Reinforcement learning (often on top of flow-/diffusion-based VLAs) to improve over imitation-only training.
+
+| Model | Title | Year | Links |
+|-------|-------|------|-------|
+| **π_RL** | Online RL Fine-Tuning for Flow-based VLAs | 2025 | [📄](https://arxiv.org/abs/2510.25889) |
+| **SimpleVLA-RL** | Scaling VLA Training via Reinforcement Learning | 2025 | [📄](https://arxiv.org/abs/2509.09674) |
+
+---
+
+## 🌎 World & World-Action Models
+
+Organized by **what the model predicts and how it is built**, following the embodied-world-model taxonomy of [Li et al., 2025](https://arxiv.org/abs/2510.16732) and the WAM split popularized by [awesome-vla-wam](https://github.com/DravenALG/awesome-vla-wam).
+
+### General World Models
+
+> General-purpose models of environment dynamics — spanning classical latent world models for model-based RL (World Models, DreamerV3) and modern large-scale video / foundation world models — used for planning, neural simulation, or as backbones for WAMs.
+
+| Model | Title | Year | Links |
+|-------|-------|------|-------|
+| **Cosmos** | World Foundation Model Platform for Physical AI | 2025 | [📄](https://arxiv.org/abs/2501.03575) · [🌐](https://developer.nvidia.com/cosmos) |
+| **V-JEPA 2** | Self-Supervised Video Models Enable Understanding, Prediction & Planning | 2025 | [📄](https://arxiv.org/abs/2506.09985) |
+| **iVideoGPT** | Interactive VideoGPTs are Scalable World Models | 2024 | [📄](https://arxiv.org/abs/2405.15223) |
+| **Genie** | Generative Interactive Environments | 2024 | [📄](https://arxiv.org/abs/2402.15391) |
+| **DreamerV3** | Mastering Diverse Domains through World Models | 2023 | [📄](https://arxiv.org/abs/2301.04104) · [💻](https://github.com/danijar/dreamerv3) |
+| **UniSim** | Learning Interactive Real-World Simulators | 2023 | [📄](https://arxiv.org/abs/2310.06114) |
+| **World Models** | Recurrent latent world model + controller (origin of the term) | 2018 | [📄](https://arxiv.org/abs/1803.10122) |
 
 ### WAM from Video Generation
 
-| # | Paper | Authors | Year | Links |
-|---|-------|---------|------|-------|
-| 1 | **DreamZero**: World Action Models are Zero-shot Policies | Chen et al. | 2026 | [arXiv](https://arxiv.org/abs/2602.15922) [Project](https://dreamzero0.github.io) |
-| 2 | **DiT4DiT**: Jointly Modeling Video Dynamics and Actions | Ma et al. | 2026 | [arXiv](https://arxiv.org/abs/2603.10448) |
-| 3 | **Cosmos Policy**: Fine-Tuning Video Models for Visuomotor Control and Planning | NVIDIA | 2026 | [arXiv](https://arxiv.org/abs/2601.16163) [Project](https://developer.nvidia.com/cosmos) |
-| 4 | **Video2Act**: A Dual-System Video Diffusion Policy | Sun et al. | 2025 | [arXiv](https://arxiv.org/abs/2512.03044) |
+> A (text-/image-conditioned) video generator imagines future frames; actions are recovered via an inverse-dynamics / action head.
+
+| Model | Title | Year | Links |
+|-------|-------|------|-------|
+| **DreamZero** | World Action Models are Zero-shot Policies | 2026 | [📄](https://arxiv.org/abs/2602.15922) · [🌐](https://dreamzero0.github.io) |
+| **DiT4DiT** | Jointly Modeling Video Dynamics and Actions | 2026 | [📄](https://arxiv.org/abs/2603.10448) |
+| **Cosmos Policy** | Fine-Tuning Video Models for Visuomotor Control & Planning | 2026 | [📄](https://arxiv.org/abs/2601.16163) · [🌐](https://developer.nvidia.com/cosmos) |
+| **Video2Act** | A Dual-System Video Diffusion Policy | 2025 | [📄](https://arxiv.org/abs/2512.03044) |
+| **GR-2** | A Generative Video-Language-Action Model with Web-Scale Knowledge | 2024 | [📄](https://arxiv.org/abs/2410.06158) |
+| **GR-1** | Large-Scale Video Generative Pre-training for Visual Robot Manipulation | 2023 | [📄](https://arxiv.org/abs/2312.13139) |
 
 ### WAM from VLMs
 
-| # | Paper | Authors | Year | Links |
-|---|-------|---------|------|-------|
-| 1 | **Goal-VLA**: Image-Generative VLMs as Object-Centric World Models Empower VLA | Lee et al. | 2025 | [arXiv](https://arxiv.org/abs/2506.23919) |
+> A pretrained VLM is turned into a world model (e.g., predicting goal images / object-centric futures) that then drives action.
 
-### WAM from Scratch
+| Model | Title | Year | Links |
+|-------|-------|------|-------|
+| **DreamVLA** | A VLA Model Dreamed with Comprehensive World Knowledge | 2025 | [📄](https://arxiv.org/abs/2507.04447) |
+| **Goal-VLA** | Image-Generative VLMs as Object-Centric World Models for VLA | 2025 | [📄](https://arxiv.org/abs/2506.23919) |
 
-| # | Paper | Authors | Year | Links |
-|---|-------|---------|------|-------|
-| 1 | **V-JEPA**: Video Joint-Embedding Predictive Architecture | Esser et al. | 2024 | [arXiv](https://arxiv.org/abs/2402.05883) |
-| 2 | **DreamerV3**: Mastering Atari from Pixels | Hafner et al. | 2023 | [arXiv](https://arxiv.org/abs/2301.04104) [Project](https://github.com/danijar/dreamer) |
-| 3 | **I-JEPA**: Image-based Joint-Embedding Predictive Architecture | Esser et al. | 2023 | [arXiv](https://arxiv.org/abs/2301.08243) |
+### Latent & JEPA World Models
 
-## Action Representations
+> Self-supervised *latent* predictive models (non-reconstructive joint-embedding / JEPA). The JEPA foundations (I-JEPA) learn to predict in representation space; the action-conditioned variant (V-JEPA 2-AC) turns that prior into a world model for planning.
 
-### Discrete Tokenization
+| Model | Title | Year | Links |
+|-------|-------|------|-------|
+| **V-JEPA 2-AC** | Action-Conditioned Latent World Model for Zero-Shot Planning | 2025 | [📄](https://arxiv.org/abs/2506.09985) |
+| **I-JEPA** | Image-based Joint-Embedding Predictive Architecture (representation foundation) | 2023 | [📄](https://arxiv.org/abs/2301.08243) |
 
-| # | Paper | Authors | Year | Links |
-|---|-------|---------|------|-------|
-| 1 | **Behavior Transformers (BeT)**: Multimodal Action Discretization | Shafiullah et al. | 2022 | [arXiv](https://arxiv.org/abs/2206.11251) |
-| 2 | **Action Bins**: Discretizing Continuous Actions | Brohan et al. | 2023 | [arXiv](https://arxiv.org/abs/2307.15818) |
-| 3 | **Action Tokens**: Learning Discrete Action Spaces | Chi et al. | 2023 | [arXiv](https://arxiv.org/abs/2303.04137) |
+### Domain World Models (Driving & Navigation)
 
-### Diffusion Policies
-
-| # | Paper | Authors | Year | Links |
-|---|-------|---------|------|-------|
-| 1 | **Diffusion Policy**: Diffusion for Robot Control | Chi et al. | 2023 | [arXiv](https://arxiv.org/abs/2303.04137) [Project](https://diffusion-policy.cs.columbia.edu) |
-| 2 | **ACT/ALOHA**: Action Chunking Transformer | Zhao et al. | 2023 | [arXiv](https://arxiv.org/abs/2304.13705) [Project](https://aloha.ai) |
-| 3 | **Flow Matching Policy**: Flow Matching for Action Generation | Zhou et al. | 2024 | [arXiv](https://arxiv.org/abs/2408.11039) [Project](https://github.com/facebookresearch/flow_matching) |
-| 4 | **Transfusion**: AR + Diffusion in One Transformer | Zhou et al. | 2024 | [arXiv](https://arxiv.org/abs/2408.11039) |
+| Model | Title | Year | Links |
+|-------|-------|------|-------|
+| **GAIA-2** | A Controllable Multi-View Generative World Model for Autonomous Driving | 2025 | [📄](https://arxiv.org/abs/2503.20523) |
+| **Navigation World Models** | Conditional Diffusion Transformer for Navigation | 2024 | [📄](https://arxiv.org/abs/2412.03572) |
+| **GAIA-1** | A Generative World Model for Autonomous Driving | 2023 | [📄](https://arxiv.org/abs/2309.17080) |
 
 ---
 
-## Robotics Policies
+## 🧩 Action Representations & Tokenization
 
-| # | Paper | Authors | Year | Links |
-|---|-------|---------|------|-------|
-| 1 | **RT-1**: Robotics Transformer for Real-World Control | Brohan et al. | 2022 | [arXiv](https://arxiv.org/abs/2212.06817) [Code](https://github.com/google-research/robotics_transformer) |
-| 2 | **Diffusion Policy**: Diffusion for Robot Control | Chi et al. | 2023 | [arXiv](https://arxiv.org/abs/2303.04137) |
-| 3 | **ACT/ALOHA**: Action Chunking Transformer | Zhao et al. | 2023 | [arXiv](https://arxiv.org/abs/2304.13705) |
-| 4 | **Behavior Transformers (BeT)**: Multimodal Action | Shafiullah et al. | 2022 | [arXiv](https://arxiv.org/abs/2206.11251) |
-| 5 | **PerAct**: Behavior Primitive Discovery | Nasiriany et al. | 2023 | [arXiv](https://arxiv.org/abs/2210.03366) |
+Building blocks shared across VLA and WAM policies — how continuous actions become learnable targets.
+
+### Discrete / Autoregressive Tokenizers
+
+| Method | Title | Year | Links |
+|--------|-------|------|-------|
+| **FAST** | Efficient (DCT-based) Action Tokenization for VLAs | 2025 | [📄](https://arxiv.org/abs/2501.09747) · [🌐](https://www.pi.website/research/fast) |
+| **BeT** | Behavior Transformers: Cloning *k* Modes with One Stone | 2022 | [📄](https://arxiv.org/abs/2206.11251) |
+
+### Continuous & Chunked Action Policies
+
+> Heads that emit continuous action chunks — by denoising diffusion (Diffusion Policy) or by chunked sequence prediction with a CVAE (ACT). Flow-matching heads (π0, SmolVLA, …) are listed with their models under [Flow-Matching VLA](#flow-matching-vla).
+
+| Method | Title | Year | Links |
+|--------|-------|------|-------|
+| **Diffusion Policy** | Visuomotor Policy Learning via Action Diffusion | 2023 | [📄](https://arxiv.org/abs/2303.04137) · [🌐](https://diffusion-policy.cs.columbia.edu) |
+| **ACT / ALOHA** | Action Chunking with Transformers | 2023 | [📄](https://arxiv.org/abs/2304.13705) · [🌐](https://tonyzhaozh.github.io/aloha/) |
 
 ---
 
-## Resources
+## 🦾 Foundational Robot Policies
+
+Non-VLA policies and planners that remain standard baselines in the experimental tables of the papers above. (Diffusion Policy, ACT, and BeT are described under [Action Representations](#-action-representations--tokenization).)
+
+| Method | Title | Year | Links |
+|--------|-------|------|-------|
+| **CrossFormer** | Scaling Cross-Embodied Learning: One Policy for Manipulation, Navigation, Locomotion & Flight | 2024 | [📄](https://arxiv.org/abs/2408.11812) · [💻](https://github.com/rail-berkeley/crossformer) |
+| **RoboFlamingo** | Vision-Language Foundation Models as Effective Robot Imitators | 2023 | [📄](https://arxiv.org/abs/2311.01378) · [💻](https://github.com/RoboFlamingo/RoboFlamingo) |
+| **VoxPoser** | Composable 3D Value Maps for Robotic Manipulation (zero-shot LLM + 3D planner) | 2023 | [📄](https://arxiv.org/abs/2307.05973) · [🌐](https://voxposer.github.io) |
+| **RT-1** | Robotics Transformer for Real-World Control at Scale | 2022 | [📄](https://arxiv.org/abs/2212.06817) |
+
+---
+
+## 📦 Resources
 
 ### Datasets
 
-| Name | Description | Size | Links |
-|------|-------------|------|-------|
-| **OXE** | Open X-Embodiment Dataset | 500k+ episodes | [Project](https://robotics-transformer-x.github.io) |
-| **RT-1 Dataset** | Real Robot Manipulation | 130k episodes | [Project](https://robotics-transformer1.github.io) |
-| **BridgeData** | Robot Learning Dataset | 70k episodes | [Project](https://rail.berkeley.edu/bridge_data) |
-| **ALOHA** | Bimanual Manipulation | 10k+ episodes | [Project](https://aloha.ai) |
-| **AgiBot World** | Large-scale Robot Dataset | 1M+ episodes | [Project](https://www.agibot-world.com) |
-| **UMI** | Unified Manipulation Interface | 15k episodes | [Project](https://umisystem.github.io) |
-| **DROID** | Dataset for Robot Imitation | 80k episodes | [Project](https://droid-dataset.github.io) |
+| Name | Description | Scale | Links |
+|------|-------------|-------|-------|
+| **Open X-Embodiment** | Cross-embodiment aggregation behind the RT-X models | 1M+ traj · 22 embodiments | [📄](https://arxiv.org/abs/2310.08864) · [🌐](https://robotics-transformer-x.github.io/) |
+| **AgiBot World** | Large-scale real-world manipulation (Colosseo) | 1M+ traj · 217 tasks | [📄](https://arxiv.org/abs/2503.06669) · [🌐](https://agibot-world.com/) |
+| **DROID** | In-the-wild Franka manipulation across 3 continents | 76K traj · 564 scenes | [📄](https://arxiv.org/abs/2403.12945) · [🌐](https://droid-dataset.github.io/) |
+| **RoboMIND** | Multi-embodiment teleop incl. labeled failures | 107K traj · 479 tasks | [📄](https://arxiv.org/abs/2412.13877) · [🌐](https://x-humanoid-robomind.github.io/) |
+| **BridgeData V2** | WidowX manipulation w/ language + goal images | 60K traj · 24 envs | [📄](https://arxiv.org/abs/2308.12952) · [🌐](https://rail-berkeley.github.io/bridgedata/) |
+| **RH20T** | Contact-rich skills w/ paired human demos | 110K+ seq · 147 tasks | [📄](https://arxiv.org/abs/2307.00595) · [🌐](https://rh20t.github.io/) |
+| **Ego-Exo4D** | Simultaneous ego + exo video of skilled activity | 1,286 hrs | [📄](https://arxiv.org/abs/2311.18259) · [🌐](https://ego-exo4d-data.org/) |
+| **Ego4D** | Massive egocentric daily-life video | 3,670 hrs | [📄](https://arxiv.org/abs/2110.07058) · [🌐](https://ego4d-data.org/) |
 
 ### Benchmarks
 
 | Name | Description | Links |
 |------|-------------|-------|
-| **Libero** | Modular Benchmark for Robot Learning | [Project](https://libero-project.github.io) |
-| **RLBench** | Real Robot Benchmark | [Project](https://www.roboticbenchmark.org/rlbench) |
-| **ManiSkill** | Generalizable Manipulation | [Project](https://maniskill.github.io) |
-| **CALVIN** | Language-conditioned Manipulation | [Project](https://calvin.cs.uni-freiburg.de) |
-| **RoboNet** | Large-scale Robot Dataset | [Project](https://robonet.cs.berkeley.edu) |
-| **Metaworld** | Multi-task Benchmark | [Project](https://www.metaworldrl.org) |
+| **LIBERO** | Lifelong robot-learning, 130 manipulation tasks (de-facto VLA eval) | [📄](https://arxiv.org/abs/2306.03310) · [💻](https://github.com/Lifelong-Robot-Learning/LIBERO) |
+| **CALVIN** | Long-horizon language-conditioned manipulation | [📄](https://arxiv.org/abs/2112.03227) · [💻](https://github.com/mees/calvin) |
+| **SimplerEnv** | Real-to-sim evaluation for manipulation policies | [📄](https://arxiv.org/abs/2405.05941) · [🌐](https://simpler-env.github.io/) |
+| **RoboCasa** | Large-scale kitchen simulation (100 tasks) | [📄](https://arxiv.org/abs/2406.02523) · [🌐](https://robocasa.ai/) |
+| **VLABench** | World-knowledge & long-horizon language tasks | [📄](https://arxiv.org/abs/2412.18194) · [🌐](https://vlabench.github.io/) |
+| **ManiSkill3** | GPU-parallel manipulation (30K+ FPS) | [📄](https://arxiv.org/abs/2410.00425) · [🌐](https://maniskill.ai/) |
+| **THE COLOSSEUM** | Robustness under 14 environmental perturbations | [📄](https://arxiv.org/abs/2402.08191) · [🌐](https://robot-colosseum.github.io/) |
+| **RoboArena** | Distributed crowd-sourced *real-world* policy eval | [📄](https://arxiv.org/abs/2506.18123) · [🌐](https://robo-arena.github.io/) |
+| **Meta-World** | 50 tabletop tasks for multi-task / meta-RL | [📄](https://arxiv.org/abs/1910.10897) · [💻](https://github.com/Farama-Foundation/Metaworld) |
+| **RLBench** | 100 hand-designed manipulation tasks | [📄](https://arxiv.org/abs/1909.12271) · [💻](https://github.com/stepjam/RLBench) |
 
 ### Simulation Platforms
 
 | Name | Description | Links |
 |------|-------------|-------|
-| **Isaac Gym** | NVIDIA GPU-accelerated Physics | [Project](https://developer.nvidia.com/isaac-gym) |
-| **Isaac Lab** | Robot Learning Framework | [Project](https://isaac-sim.github.io/IsaacLab) |
-| **Gazebo** | Classic Robot Simulator | [Project](https://gazebosim.org) |
-| **Mujoco** | Physics Engine | [Project](https://mujoco.org) |
-| **PyBullet** | Physics Simulation | [Project](https://pybullet.org) |
-| **Habitat** | Embodied AI Simulation | [Project](https://aihabitat.org) |
-| **iGibson** | Interactive Gibson Environment | [Project](https://svl.stanford.edu/igibson) |
+| **Isaac Sim / Isaac Lab** | GPU-native robotics sim + RL/IL framework (Omniverse/USD) | [🌐](https://github.com/isaac-sim/IsaacLab) |
+| **MuJoCo / MJX** | Standard rigid-body engine + JAX/XLA parallel variant | [🌐](https://github.com/google-deepmind/mujoco) |
+| **Genesis** | Generative, multi-solver physics platform (up to ~43M FPS) | [🌐](https://github.com/Genesis-Embodied-AI/Genesis) |
+| **ManiSkill** | GPU-parallel manipulation simulator on SAPIEN | [🌐](https://github.com/haosulab/ManiSkill) |
+| **SAPIEN** | Part-level articulated-object simulator (PartNet-Mobility) | [📄](https://arxiv.org/abs/2003.08515) · [🌐](https://sapien.ucsd.edu/) |
+| **Habitat** | Photorealistic indoor navigation & rearrangement | [🌐](https://github.com/facebookresearch/habitat-sim) |
+| **ThreeDWorld** | Multimodal Unity3D sim (vision + audio + physics) | [📄](https://arxiv.org/abs/2007.04954) · [🌐](https://www.threedworld.org/) |
+| **Newton** | Open, differentiable GPU physics engine (NVIDIA + DeepMind + Disney) | [🌐](https://github.com/newton-physics/newton) |
 
 ### Tools & Frameworks
 
 | Name | Description | Links |
 |------|-------------|-------|
-| **LeRobot** | Hugging Face Robotics Framework | [Project](https://github.com/huggingface/lerobot) |
-| **PyRobot** | Robotics Learning Framework | [Project](https://pyrobot.org) |
-| **Robomimic** | Imitation Learning Framework | [Project](https://robomimic.github.io) |
-| **OmniGibson** | Sim2Real Platform | [Project](https://behavior.stanford.edu/omnigibson) |
-| **ManiSkill2** | Manipulation Benchmark | [Project](https://github.com/haosulab/ManiSkill2) |
+| **LeRobot** | End-to-end PyTorch robot-learning library + datasets + low-cost HW | [📄](https://arxiv.org/abs/2602.22818) · [💻](https://github.com/huggingface/lerobot) |
+| **openpi** | Open models & training/inference for π0, π0-FAST, π0.5 | [💻](https://github.com/Physical-Intelligence/openpi) |
+| **Isaac GR00T** | Open humanoid foundation-model framework + checkpoints | [💻](https://github.com/NVIDIA/Isaac-GR00T) |
+| **OpenVLA** | Training / LoRA fine-tuning for the 7B OpenVLA model | [💻](https://github.com/openvla/openvla) |
+| **Octo** | JAX/Flax generalist transformer policy on OXE | [💻](https://github.com/octo-models/octo) |
+| **robomimic / robosuite** | Learning-from-demonstration framework + MuJoCo manipulation sim | [💻](https://github.com/ARISE-Initiative/robomimic) |
+| **HIL-SERL** | Human-in-the-loop, sample-efficient real-world RL | [💻](https://github.com/rail-berkeley/hil-serl) |
 
 ---
 
-## Contributing
+## 📋 Full Paper Index & Baselines
 
-Contributions are welcome! This repository uses automated tools for paper discovery:
+<details>
+<summary><b>📊 Click to expand the complete paper list and baseline methods</b></summary>
 
-1. **Add a paper**: Edit the README directly or open an issue
-2. **Fix errors**: Submit a PR with corrections
-3. **Suggest improvements**: Open an issue with your ideas
+The curated tables above highlight landmark and representative work. For the exhaustive, auto-maintained index and the baseline methods extracted from experimental tables, see:
 
-To run the paper scraper locally:
+- 📋 **[Complete Paper List](docs/all-papers.md)** — full index, sorted newest-first
+- 📊 **[Baseline Methods](docs/baselines.md)** — comparison methods from major VLA/WAM papers
+
+### Quick Reference (common baselines)
+
+| Family | Key baselines |
+|--------|---------------|
+| **VLA** | RT-1, RT-2, OpenVLA, Octo, π0, π0.5, X-VLA, UniVLA, SmolVLA |
+| **Policy** | Diffusion Policy, ACT, BeT, RoboFlamingo, CrossFormer |
+| **World Model** | DreamerV3, I-JEPA, V-JEPA 2, Genie, Cosmos, GR-1/GR-2 |
+
+</details>
+
+---
+
+## 🤝 Contributing
+
+Contributions are very welcome! To add or fix a paper:
+
+1. **Add a paper** — open a PR placing it in the appropriate category (keep tables sorted newest-first), or open an issue with the arXiv link.
+2. **Fix an error** — submit a PR with the correction.
+3. **New papers appear automatically** — the [🆕 Latest Papers](#-latest-papers-auto-updated) section is regenerated daily by the scraper; do not hand-edit it.
+
+To run the discovery pipeline locally:
+
 ```bash
 pip install -r requirements.txt
-python scripts/arxiv_scraper.py --max-results 100 --days-back 180
+python scripts/arxiv_scraper.py --max-results 50 --days-back 30   # writes data/papers.json
+python scripts/update_readme.py                                  # refreshes the auto section
 ```
 
 ## License
 
-This repository is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Released under the [MIT License](LICENSE).
 
 ## Acknowledgments
 
-- Inspired by [awesome-vla-wam](https://github.com/DravenALG/awesome-vla-wam.git)
-- Inspired by [awesome-physical-ai](https://github.com/keon/awesome-physical-ai.git)
-- Inspired by [awesome-vla-study](https://github.com/MilkClouds/awesome-vla-study.git)
+Inspired by [awesome-vla-wam](https://github.com/DravenALG/awesome-vla-wam), [awesome-physical-ai](https://github.com/keon/awesome-physical-ai), and [awesome-vla-study](https://github.com/MilkClouds/awesome-vla-study). Taxonomy grounded in the surveys listed [above](#-surveys).
 
 ---
 
