@@ -9,6 +9,8 @@
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Stars](https://img.shields.io/github/stars/HyperbolicCurve/Awesome-World-Action-Model?style=social)](https://github.com/HyperbolicCurve/Awesome-World-Action-Model/stargazers)
 
+🏠 **Repository:** [github.com/HyperbolicCurve/Awesome-World-Action-Model](https://github.com/HyperbolicCurve/Awesome-World-Action-Model) · 🌐 **Website:** [hyperboliccurve.github.io/Awesome-World-Action-Model](https://hyperboliccurve.github.io/Awesome-World-Action-Model/)
+
 </div>
 
 ---
