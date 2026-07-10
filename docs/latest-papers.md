@@ -1,6 +1,6 @@
 # 📚 Latest ArXiv Papers - World Action Models
 
-Generated on: 2026-07-09 03:24:32
+Generated on: 2026-07-10 03:27:34
 
 Total papers: 50
 
@@ -8,10 +8,14 @@ Total papers: 50
 
 | Paper | Date | Code |
 |-------|------|------|
+| [FabriVLA: A Lightweight Vision-Language-Action Model for Precise Multi-Task Manipulation](https://arxiv.org/abs/2607.08575v1)<br><small>Shiyuan Yang et al.</small> | 2026-07-09 |  |
+| [Harness VLA: Steering Frozen VLAs into Reliable Manipulation Primitives via Memory-Guided Agents](https://arxiv.org/abs/2607.08448v1)<br><small>Yixian Zhang et al.</small> | 2026-07-09 |  |
+| [WCog-VLA: A Dual-Level World-Cognitive Vision-Language-Action Model for End-to-End Autonomous Driving](https://arxiv.org/abs/2607.08375v1)<br><small>Xuerun Yan et al.</small> | 2026-07-09 |  |
+| [LEEVLA: Seeing What Matters in Latent Environment Evolution for Vision-Language-Action](https://arxiv.org/abs/2607.08182v1)<br><small>Qi Lyu et al.</small> | 2026-07-09 |  |
 | [Dual Latent Memory in Vision-Language-Action Models for Robotic Manipulation](https://arxiv.org/abs/2607.07608v1)<br><small>Hongyu Qu et al.</small> | 2026-07-08 |  |
 | [Vision Language Action (VLA) Models for Unmanned Aerial Robotics and Bimanual Manipulation: A Review](https://arxiv.org/abs/2607.06706v1)<br><small>Inkyu Sa et al.</small> | 2026-07-07 |  |
 | [Lift3D-VLA: Lifting VLA Models to 3D Geometry and Dynamics-Aware Manipulation](https://arxiv.org/abs/2607.06564v1)<br><small>Jiaming Liu et al.</small> | 2026-07-07 |  |
-| [Pelican-VLA 0.5: Attending Before Acting Benefits Generalization](https://arxiv.org/abs/2607.06655v1)<br><small>Zeyuan Ding et al.</small> | 2026-07-07 |  |
+| [Pelican-VLA 0.5: Attending Before Acting Benefits Generalization](https://arxiv.org/abs/2607.06655v2)<br><small>Zeyuan Ding et al.</small> | 2026-07-07 |  |
 | [SIEVE: Structure-Aware Data Selection for Imitation Learning with VLA Models](https://arxiv.org/abs/2607.06442v1)<br><small>Changti Wu et al.</small> | 2026-07-07 |  |
 | [From Foundation to Application: Improving VLA Models in Practice](https://arxiv.org/abs/2607.06403v1)<br><small>Wei Wu et al.</small> | 2026-07-07 |  |
 | [Training-Free Acceleration for Vision-Language-Action Models with Action Caching and Refinement](https://arxiv.org/abs/2607.06370v1)<br><small>Ryuji Oi et al.</small> | 2026-07-07 |  |
@@ -19,15 +23,12 @@ Total papers: 50
 | [From Fixed to Free Cameras: Calibration-Free View-Robust Vision-Language-Action Model](https://arxiv.org/abs/2607.05396v1)<br><small>Wenhao Li et al.</small> | 2026-07-06 |  |
 | [Green for Go, Red for No: Visual Grounding via Semantic Segmentation for VLA Navigation Policies](https://arxiv.org/abs/2607.05122v1)<br><small>Adrian Szvoren et al.</small> | 2026-07-06 |  |
 | [CAC-VLA: Context-Gated Action Conditioning for Vision-Language-Action Models](https://arxiv.org/abs/2607.04816v1)<br><small>Yifu Xiong et al.</small> | 2026-07-06 |  |
-| [Do Vision-Language-Action Models Mean What They Say? On the Role of Faithfulness in Embodied Reasoning](https://arxiv.org/abs/2607.04681v1)<br><small>Matthew Foutter et al.</small> | 2026-07-06 |  |
-| [PixelPilot: Scalable Vision-Language-Action Models for End-to-End Autonomous Driving](https://arxiv.org/abs/2607.04637v1)<br><small>Pin Tang et al.</small> | 2026-07-06 |  |
-| [SEAM: Smooth Execution of Action-Chunked Motion for Vision-Language-Action Policies](https://arxiv.org/abs/2607.04609v1)<br><small>Dijia Zhan et al.</small> | 2026-07-06 |  |
-| [Simple-to-Complex Structured Demonstrations for Vision-Language-Action Learning](https://arxiv.org/abs/2607.04591v1)<br><small>Xinchuan Qiu et al.</small> | 2026-07-06 |  |
 
 ## World Model
 
 | Paper | Date | Code |
 |-------|------|------|
+| [EgoWAM: World Action Models Beyond Pixels with In-the-Wild Egocentric Human Data](https://arxiv.org/abs/2607.08436v1)<br><small>Baoyu Li et al.</small> | 2026-07-08 |  |
 | [RynnWorld-4D: 4D Embodied World Models for Robotic Manipulation](https://arxiv.org/abs/2607.06559v1)<br><small>Haoyu Zhao et al.</small> | 2026-07-07 |  |
 | [Learning 4D Geometric Priors for Inference-Efficient World Action Models](https://arxiv.org/abs/2607.05468v1)<br><small>Jianjun Zhang et al.</small> | 2026-07-06 |  |
 | [KAM-WM: Kinematic Affordance Maps from Latent World Models for Robot Manipulation](https://arxiv.org/abs/2607.04652v1)<br><small>Xinyu Shao et al.</small> | 2026-07-06 |  |
@@ -42,7 +43,6 @@ Total papers: 50
 | [Tactile-WAM: Touch-Aware World Action Model with Tactile Asymmetric Attention](https://arxiv.org/abs/2606.26663v1)<br><small>Siyu Wu et al.</small> | 2026-06-25 |  |
 | [In-Context World Modeling for Robotic Control](https://arxiv.org/abs/2606.26025v3)<br><small>Siyin Wang et al.</small> | 2026-06-24 |  |
 | [MV-WAM: Manifold-Aware World Action Model with Value Augmentation](https://arxiv.org/abs/2606.21088v1)<br><small>Jintao Chen et al.</small> | 2026-06-19 |  |
-| [MemoryWAM: Efficient World Action Modeling with Persistent Memory](https://arxiv.org/abs/2606.20562v1)<br><small>Sizhe Yang et al.</small> | 2026-06-18 |  |
 
 ## Policy
 
