@@ -101,7 +101,7 @@ flowchart TD
 
 ## 🆕 Latest Papers (Auto-updated)
 
-> Papers are automatically fetched daily from arXiv. Last updated: 2026-07-20
+> Papers are automatically fetched daily from arXiv. Last updated: 2026-07-21
 
 ### VLA
 
@@ -122,6 +122,8 @@ flowchart TD
 
 | Paper | Date | Code |
 |-------|------|------|
+| [WorldScape Policy 2.0: Empowering Steerable World Action Modeling with Reasoning-Augmented Memory](https://arxiv.org/abs/2607.18840v1)<br><small>Haisheng Su, Zongdai Liu et al.</small> | 2026-07-21 |  |
+| [RoboInter1.5: A Holistic Intermediate Representation Suite for Embodied World Modeling and Robotic Manipulation](https://arxiv.org/abs/2607.18709v1)<br><small>Ziqin Wang, Hao Li et al.</small> | 2026-07-21 |  |
 | [GeoWorldAD: Geometry World Action Model for Autonomous Driving](https://arxiv.org/abs/2607.17521v1)<br><small>Songyan Zhang, Jinyuan Tian et al.</small> | 2026-07-20 |  |
 | [Test-Time Scaling for World Action Models via Zero-Shot Geometric Evaluation](https://arxiv.org/abs/2607.17454v1)<br><small>Zesen Zhao, Minkyoung Cho et al.</small> | 2026-07-20 |  |
 | [Steering Robustness into World Action Models via Mechanistic Interpretability and Optimal Control](https://arxiv.org/abs/2607.14943v1)<br><small>Jihoon Hong, Julian Skifstad et al.</small> | 2026-07-16 |  |
@@ -130,8 +132,6 @@ flowchart TD
 | [EgoWAM: World Action Models Beyond Pixels with In-the-Wild Egocentric Human Data](https://arxiv.org/abs/2607.08436v1)<br><small>Baoyu Li, Xinchen Yin et al.</small> | 2026-07-08 |  |
 | [RynnWorld-4D: 4D Embodied World Models for Robotic Manipulation](https://arxiv.org/abs/2607.06559v1)<br><small>Haoyu Zhao, Xingyue Zhao et al.</small> | 2026-07-07 |  |
 | [Learning 4D Geometric Priors for Inference-Efficient World Action Models](https://arxiv.org/abs/2607.05468v1)<br><small>Jianjun Zhang, Jian Zhu et al.</small> | 2026-07-06 |  |
-| [KAM-WM: Kinematic Affordance Maps from Latent World Models for Robot Manipulation](https://arxiv.org/abs/2607.04652v1)<br><small>Xinyu Shao, Keru Zhou et al.</small> | 2026-07-06 |  |
-| [VT-WAM: Visual-Tactile World Action Model for Contact-Rich Manipulation](https://arxiv.org/abs/2607.02503v1)<br><small>Shuai Tian, Yupeng Zheng et al.</small> | 2026-07-02 |  |
 
 ### Policy
 
@@ -142,7 +142,6 @@ flowchart TD
 | [WAM-TTT: Steering World-Action Models by Watching Human Play at Test Time](https://arxiv.org/abs/2607.06988v2)<br><small>Yusen Feng, Bingchen Han et al.</small> | 2026-07-08 |  |
 | [HALO-WA: Hybrid-Attention Latent-Guided Online Reinforcement Learning for World-Action Models](https://arxiv.org/abs/2607.04265v1)<br><small>Angen Ye, Weijie Ke et al.</small> | 2026-07-05 |  |
 | [Efficient Sim-to-Real Transfer of World-Action Models from Synthetic Priors](https://arxiv.org/abs/2606.31101v1)<br><small>Zixing Wang, Kausik Sivakumar et al.</small> | 2026-06-30 |  |
-| [DIM-WAM: World-Action Modeling with Diverse Historical Event Memory](https://arxiv.org/abs/2606.27677v2)<br><small>Kai Wang, Zhaopeng Gu et al.</small> | 2026-06-26 |  |
 
 ---
 
@@ -466,13 +465,14 @@ Non-VLA policies and planners that remain standard baselines in the experimental
 <!-- EXT-PAPERS:start -->
 ## 🗂️ Extended Paper Index (Auto-Curated, Newest First)
 
-> A broader, continuously-mined index of recent arXiv work that complements the curated highlights above — **182 additional papers**, newest first. Last updated: 2026-07-16. Auto-generated from `data/*.json` by [`scripts/expand_papers.py`](scripts/expand_papers.py); papers already highlighted above are omitted here to avoid duplication.
+> A broader, continuously-mined index of recent arXiv work that complements the curated highlights above — **183 additional papers**, newest first. Last updated: 2026-07-16. Auto-generated from `data/*.json` by [`scripts/expand_papers.py`](scripts/expand_papers.py); papers already highlighted above are omitted here to avoid duplication.
 
 <details>
-<summary><b>VLA — General & Manipulation</b> · 44 papers</summary>
+<summary><b>VLA — General & Manipulation</b> · 45 papers</summary>
 
 | Paper | Authors | Date | Links |
 |-------|---------|------|-------|
+| [Towards Human-like Physical Intelligence: Lifelong Vision-Language-Action Learning for Robotic Manipulation](https://arxiv.org/abs/2607.14852v2) | Yao He, Gan Sun et al. | 2026-07-16 |  |
 | [FoMoVLA: Bridging Visual Foresight and Motion Guidance for Vision-Language-Action Models](https://arxiv.org/abs/2607.14739v1) | Wei Li, Peijin Jia et al. | 2026-07-16 |  |
 | [Action QFormer: Structured Representation Shaping under Action Supervision in Vision-Language-Action Models](https://arxiv.org/abs/2607.14635v1) | Yufeng Ji, Wenhao Tang et al. | 2026-07-16 |  |
 | [DiMaS: Distribution Matching for Steering Vision-Language-Action Models](https://arxiv.org/abs/2607.14280v1) | Pegah Khayatan, Sara Meziane et al. | 2026-07-15 |  |
@@ -578,12 +578,11 @@ Non-VLA policies and planners that remain standard baselines in the experimental
 </details>
 
 <details>
-<summary><b>VLA — RL & Post-Training</b> · 7 papers</summary>
+<summary><b>VLA — RL & Post-Training</b> · 6 papers</summary>
 
 | Paper | Authors | Date | Links |
 |-------|---------|------|-------|
 | [ExToken: Structured Exploration for Efficient Vision-Language-Action Reinforcement Fine-tuning](https://arxiv.org/abs/2607.12931v1) | Yilun Kong, Yunpeng Qing et al. | 2026-07-14 |  |
-| [CLAP: Direct VLM-to-VLA Adaptation via Language-Action Grounding](https://arxiv.org/abs/2607.08974v1) | Yuri Ishitoya, Jeremy Siburian et al. | 2026-07-09 |  |
 | [VLA-OPD: Bridging Offline SFT and Online RL for Vision-Language-Action Models via On-Policy Distillation](http://arxiv.org/abs/2603.26666v1) | Zhide Zhong, Haodong Yan et al. | 2026-03-27 |  |
 | [On-the-Fly VLA Adaptation via Test-Time Reinforcement Learning](http://arxiv.org/abs/2601.06748v2) | Changyu Liu, Yiyang Liu et al. | 2026-01-11 |  |
 | [VLA Model Post-Training via Action-Chunked PPO and Self Behavior Cloning](http://arxiv.org/abs/2509.25718v1) | Si-Cheng Wang, Tian-Yu Xiang et al. | 2025-09-30 |  |
@@ -641,10 +640,12 @@ Non-VLA policies and planners that remain standard baselines in the experimental
 </details>
 
 <details>
-<summary><b>World Models — General & Foundation</b> · 10 papers</summary>
+<summary><b>World Models — General & Foundation</b> · 12 papers</summary>
 
 | Paper | Authors | Date | Links |
 |-------|---------|------|-------|
+| [KAM-WM: Kinematic Affordance Maps from Latent World Models for Robot Manipulation](https://arxiv.org/abs/2607.04652v1) | Xinyu Shao, Keru Zhou et al. | 2026-07-06 |  |
+| [VT-WAM: Visual-Tactile World Action Model for Contact-Rich Manipulation](https://arxiv.org/abs/2607.02503v1) | Shuai Tian, Yupeng Zheng et al. | 2026-07-02 |  |
 | [GigaWorld-1: A Roadmap to Build World Models for Robot Policy Evaluation](https://arxiv.org/abs/2607.02642v1) |  GigaWorld Team, Angyuan Ma et al. | 2026-07-02 |  |
 | [LOME: Learning Human-Object Manipulation with Action-Conditioned Egocentric World Model](http://arxiv.org/abs/2603.27449v1) | Quankai Gao, Jiawei Yang et al. | 2026-03-28 |  |
 | [OmniVTA: Visuo-Tactile World Modeling for Contact-Rich Robotic Manipulation](http://arxiv.org/abs/2603.19201v2) | Yuhang Zheng, Songen Gu et al. | 2026-03-19 |  |
@@ -675,11 +676,10 @@ Non-VLA policies and planners that remain standard baselines in the experimental
 </details>
 
 <details>
-<summary><b>World Models — Driving & Navigation</b> · 5 papers</summary>
+<summary><b>World Models — Driving & Navigation</b> · 4 papers</summary>
 
 | Paper | Authors | Date | Links |
 |-------|---------|------|-------|
-| [Pondering the Way: Spatial-perceiving World Action Model for Embodied Navigation](https://arxiv.org/abs/2606.29908v1) | Hong Chen, Daqi Liu et al. | 2026-06-29 |  |
 | [Enhancing Policy Learning with World-Action Model](http://arxiv.org/abs/2603.28955v1) | Yuci Han, Alper Yilmaz | 2026-03-30 |  |
 | [Latent-WAM: Latent World Action Modeling for End-to-End Autonomous Driving](http://arxiv.org/abs/2603.24581v1) | Linbo Wang, Yupeng Zheng et al. | 2026-03-25 |  |
 | [NavThinker: Action-Conditioned World Models for Coupled Prediction and Planning in Social Navigation](http://arxiv.org/abs/2603.15359v2) | Tianshuai Hu, Zeying Gong et al. | 2026-03-16 |  |

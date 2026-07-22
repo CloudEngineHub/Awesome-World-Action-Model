@@ -1,5 +1,65 @@
 [
   {
+    "id": "2607.18840v1",
+    "title": "WorldScape Policy 2.0: Empowering Steerable World Action Modeling with Reasoning-Augmented Memory",
+    "authors": [
+      "Haisheng Su",
+      "Zongdai Liu",
+      "Xin Jin",
+      "Haoxuan Dou",
+      "Chengming Hu",
+      "Baorun Li",
+      "Zhanwang Liu",
+      "Ruiyan Xu",
+      "Jianjie Fang",
+      "Xin Zhang",
+      "Zhenjie Yang",
+      "Xue Yang",
+      "Chen Gao",
+      "Junchi Yan",
+      "Yong Li",
+      "Wei Wu"
+    ],
+    "summary": "World Action Models (WAMs) offer a promising paradigm for robotic manipulation by jointly modeling visual state transitions and robot actions. However, existing WAMs are constrained by limited temporal context, coarse episode-level language supervision, and predominantly text-only conditioning, which hinder task-progress tracking and fine-grained language-video-action grounding while limiting visual-context reasoning and cross-embodiment transfer. In this paper, we introduce WorldScape Policy 2.",
+    "published": "2026-07-21",
+    "published_iso": "2026-07-21T08:25:37+00:00",
+    "url": "https://arxiv.org/abs/2607.18840v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.18840v1",
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "World Model"
+  },
+  {
+    "id": "2607.18709v1",
+    "title": "RoboInter1.5: A Holistic Intermediate Representation Suite for Embodied World Modeling and Robotic Manipulation",
+    "authors": [
+      "Ziqin Wang",
+      "Hao Li",
+      "Weijun Wang",
+      "Junhao Cai",
+      "Jia Zeng",
+      "Yilun Chen",
+      "Jiangmiao Pang",
+      "Si Liu"
+    ],
+    "summary": "Existing robot datasets remain expensive to curate, embodiment-specific, and insufficiently annotated with the fine-grained structure required for generalizable reasoning, execution, or long-horizon environment dynamics simulation. Building on our prior work, RoboInter1.0, we present RoboInter1.5, an extended and holistic suite of intermediate representations for both robotic manipulation and embodied world modeling. RoboInter1.5 provides a unified resource of data, benchmarks, and models center",
+    "published": "2026-07-21",
+    "published_iso": "2026-07-21T05:05:01+00:00",
+    "url": "https://arxiv.org/abs/2607.18709v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.18709v1",
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "World Model"
+  },
+  {
     "id": "2607.18231v1",
     "title": "FM-VLA: Force-based Memory for Vision-Language-Action Models in Contact-Rich Manipulation",
     "authors": [
@@ -456,6 +516,29 @@
     "code_url": null,
     "project_url": null,
     "auto_category": "World Model"
+  },
+  {
+    "id": "2607.14852v2",
+    "title": "Towards Human-like Physical Intelligence: Lifelong Vision-Language-Action Learning for Robotic Manipulation",
+    "authors": [
+      "Yao He",
+      "Gan Sun",
+      "Wenqi Liang",
+      "Fazeng Li",
+      "Yang Cong"
+    ],
+    "summary": "Similar to the natural capabilities of humans to sequentially learn new tasks, robots with Vision-Language-Action (VLA) models should possess lifelong learning ability to learn a new task when deployed in open-world environments. However, most recently proposed lifelong learning models aim to effectively learn the current task (plasticity) or maintain high accuracy on previous tasks (stability), while the plasticity-stability trade-off remains largely unsolved in robotic manipulation models. To ",
+    "published": "2026-07-16",
+    "published_iso": "2026-07-16T11:22:06+00:00",
+    "url": "https://arxiv.org/abs/2607.14852v2",
+    "pdf_url": "https://arxiv.org/pdf/2607.14852v2",
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
   },
   {
     "id": "2607.14739v1",
@@ -951,31 +1034,6 @@
     "auto_category": "VLA"
   },
   {
-    "id": "2607.08974v1",
-    "title": "CLAP: Direct VLM-to-VLA Adaptation via Language-Action Grounding",
-    "authors": [
-      "Yuri Ishitoya",
-      "Jeremy Siburian",
-      "Masashi Hamaya",
-      "Kuniaki Saito",
-      "Cristian C. Beltran-Hernandez",
-      "Mai Nishimura"
-    ],
-    "summary": "Vision-language-action models (VLAs) inherit semantic capabilities from pretrained VLMs, yet large-scale post-training on robot data and architectural modifications can reshape the backbone so extensively that it becomes difficult to isolate what the VLM contributes to control. Directly converting pretrained VLMs into VLAs with minimal architectural change offers a more transparent path to understanding how VLM capabilities transfer across model scales. The core obstacle is output-distribution m",
-    "published": "2026-07-09",
-    "published_iso": "2026-07-09T22:34:11+00:00",
-    "url": "https://arxiv.org/abs/2607.08974v1",
-    "pdf_url": "https://arxiv.org/pdf/2607.08974v1",
-    "categories": [
-      "cs.RO",
-      "cs.AI"
-    ],
-    "primary_category": "cs.RO",
-    "code_url": null,
-    "project_url": null,
-    "auto_category": "VLA"
-  },
-  {
     "id": "2607.08436v1",
     "title": "EgoWAM: World Action Models Beyond Pixels with In-the-Wild Egocentric Human Data",
     "authors": [
@@ -1316,67 +1374,6 @@
     "pdf_url": "https://arxiv.org/pdf/2606.31101v1",
     "categories": [
       "cs.RO"
-    ],
-    "primary_category": "cs.RO",
-    "code_url": null,
-    "project_url": null,
-    "auto_category": "Policy"
-  },
-  {
-    "id": "2606.29908v1",
-    "title": "Pondering the Way: Spatial-perceiving World Action Model for Embodied Navigation",
-    "authors": [
-      "Hong Chen",
-      "Daqi Liu",
-      "Zehan Zhang",
-      "Haiguang Wang",
-      "Tianhao Lu",
-      "Longfei Yan",
-      "Haiyang Sun",
-      "Fangzhen Li",
-      "Hongwei Xie",
-      "Bing Wang",
-      "Guang Chen",
-      "Hangjun Ye",
-      "Yihua Tan"
-    ],
-    "summary": "Existing world model-based planners for visual navigation typically follow a verification-centric paradigm, decoupling goal intent from trajectory synthesis. This approach suffers from candidate dependence, heavy computational overhead, and inconsistencies between sampled actions and predicted visuals. To address these issues, we propose SWAM (Spatial-perceiving World Action Model), a task-centric joint observation-action generation framework. Given start and goal RGB observations, SWAM performs",
-    "published": "2026-06-29",
-    "published_iso": "2026-06-29T07:43:47+00:00",
-    "url": "https://arxiv.org/abs/2606.29908v1",
-    "pdf_url": "https://arxiv.org/pdf/2606.29908v1",
-    "categories": [
-      "cs.RO",
-      "cs.AI"
-    ],
-    "primary_category": "cs.RO",
-    "code_url": null,
-    "project_url": null,
-    "auto_category": "World Model"
-  },
-  {
-    "id": "2606.27677v2",
-    "title": "DIM-WAM: World-Action Modeling with Diverse Historical Event Memory",
-    "authors": [
-      "Kai Wang",
-      "Zhaopeng Gu",
-      "Yixiang Chen",
-      "Yuan Xu",
-      "Qisen Ma",
-      "Jiabing Yang",
-      "Zhaowen Li",
-      "Yan Huang",
-      "Liang Wang",
-      "Peng Su"
-    ],
-    "summary": "World-action models have shown promising robot-manipulation performance by jointly predicting future visual states and actions. However, existing methods mainly rely on short-term history and short-horizon future prediction, which is insufficient for long-horizon tasks whose correct execution depends on earlier observations and task progress. Such temporally dependent tasks require effective use of complementary temporal information, including recent local context, cross-stage historical events,",
-    "published": "2026-06-26",
-    "published_iso": "2026-06-26T03:17:39+00:00",
-    "url": "https://arxiv.org/abs/2606.27677v2",
-    "pdf_url": "https://arxiv.org/pdf/2606.27677v2",
-    "categories": [
-      "cs.RO",
-      "cs.CV"
     ],
     "primary_category": "cs.RO",
     "code_url": null,

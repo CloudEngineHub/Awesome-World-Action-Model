@@ -1,6 +1,6 @@
 # 📚 Latest ArXiv Papers - World Action Models
 
-Generated on: 2026-07-21 02:46:44
+Generated on: 2026-07-22 02:46:40
 
 Total papers: 50
 
@@ -19,15 +19,17 @@ Total papers: 50
 | [Think at 5 Hz, Act at 20 Hz: Asynchronous Fast-Slow Vision-Language-Action Inference for Closed-Loop Driving](https://arxiv.org/abs/2607.15621v1)<br><small>Yun Li et al.</small> | 2026-07-17 |  |
 | [Xiaomi-Robotics-1: Scaling Vision-Language-Action Models with over 100K Hours of Real-World Trajectories](https://arxiv.org/abs/2607.15330v1)<br><small> Xiaomi Robotics Team et al.</small> | 2026-07-16 |  |
 | [CosFly-VLA: A Spatially Aware Vision-Language-Action Model for UAV Tracking](https://arxiv.org/abs/2607.15004v1)<br><small>Ruilong Ren et al.</small> | 2026-07-16 |  |
+| [Towards Human-like Physical Intelligence: Lifelong Vision-Language-Action Learning for Robotic Manipulation](https://arxiv.org/abs/2607.14852v2)<br><small>Yao He et al.</small> | 2026-07-16 |  |
 | [FoMoVLA: Bridging Visual Foresight and Motion Guidance for Vision-Language-Action Models](https://arxiv.org/abs/2607.14739v1)<br><small>Wei Li et al.</small> | 2026-07-16 |  |
 | [Lights, Camera, Malfunction: When Illumination Robustness Leaves VLA Models Blind to Color](https://arxiv.org/abs/2607.14698v1)<br><small>Marino Watanabe et al.</small> | 2026-07-16 |  |
 | [Reflex: Real-Time VLA Control through Streaming Inference](https://arxiv.org/abs/2607.14695v1)<br><small>Yuanchun Guo et al.</small> | 2026-07-16 |  |
-| [Action QFormer: Structured Representation Shaping under Action Supervision in Vision-Language-Action Models](https://arxiv.org/abs/2607.14635v1)<br><small>Yufeng Ji et al.</small> | 2026-07-16 |  |
 
 ## World Model
 
 | Paper | Date | Code |
 |-------|------|------|
+| [WorldScape Policy 2.0: Empowering Steerable World Action Modeling with Reasoning-Augmented Memory](https://arxiv.org/abs/2607.18840v1)<br><small>Haisheng Su et al.</small> | 2026-07-21 |  |
+| [RoboInter1.5: A Holistic Intermediate Representation Suite for Embodied World Modeling and Robotic Manipulation](https://arxiv.org/abs/2607.18709v1)<br><small>Ziqin Wang et al.</small> | 2026-07-21 |  |
 | [GeoWorldAD: Geometry World Action Model for Autonomous Driving](https://arxiv.org/abs/2607.17521v1)<br><small>Songyan Zhang et al.</small> | 2026-07-20 |  |
 | [Test-Time Scaling for World Action Models via Zero-Shot Geometric Evaluation](https://arxiv.org/abs/2607.17454v1)<br><small>Zesen Zhao et al.</small> | 2026-07-20 |  |
 | [Steering Robustness into World Action Models via Mechanistic Interpretability and Optimal Control](https://arxiv.org/abs/2607.14943v1)<br><small>Jihoon Hong et al.</small> | 2026-07-16 |  |
@@ -41,8 +43,6 @@ Total papers: 50
 | [GigaWorld-1: A Roadmap to Build World Models for Robot Policy Evaluation](https://arxiv.org/abs/2607.02642v1)<br><small> GigaWorld Team et al.</small> | 2026-07-02 |  |
 | [From World Models to World Action Models: A Concise Tutorial for Robotics](https://arxiv.org/abs/2607.00836v3)<br><small>Xiaoxiong Zhang et al.</small> | 2026-07-01 |  |
 | [ABot-M0.5: Unified Mobility-and-Manipulation World Action Model](https://arxiv.org/abs/2607.00678v2)<br><small>Ronghan Chen et al.</small> | 2026-07-01 |  |
-| [DVG-WM: Disentangled Video Generation Enables Efficient Embodied World Model for Robotic Manipulation](https://arxiv.org/abs/2606.32028v2)<br><small>Ziyu Shan et al.</small> | 2026-06-30 |  |
-| [Pondering the Way: Spatial-perceiving World Action Model for Embodied Navigation](https://arxiv.org/abs/2606.29908v1)<br><small>Hong Chen et al.</small> | 2026-06-29 |  |
 
 ## Policy
 
@@ -53,6 +53,5 @@ Total papers: 50
 | [WAM-TTT: Steering World-Action Models by Watching Human Play at Test Time](https://arxiv.org/abs/2607.06988v2)<br><small>Yusen Feng et al.</small> | 2026-07-08 |  |
 | [HALO-WA: Hybrid-Attention Latent-Guided Online Reinforcement Learning for World-Action Models](https://arxiv.org/abs/2607.04265v1)<br><small>Angen Ye et al.</small> | 2026-07-05 |  |
 | [Efficient Sim-to-Real Transfer of World-Action Models from Synthetic Priors](https://arxiv.org/abs/2606.31101v1)<br><small>Zixing Wang et al.</small> | 2026-06-30 |  |
-| [DIM-WAM: World-Action Modeling with Diverse Historical Event Memory](https://arxiv.org/abs/2606.27677v2)<br><small>Kai Wang et al.</small> | 2026-06-26 |  |
 
 ---
