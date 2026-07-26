@@ -101,47 +101,30 @@ flowchart TD
 
 ## 🆕 Latest Papers (Auto-updated)
 
-> Papers are automatically fetched daily from arXiv. Last updated: 2026-07-21
+> Papers are automatically fetched daily from arXiv. Last updated: 2026-06-21
 
 ### VLA
 
 | Paper | Date | Code |
 |-------|------|------|
-| [FM-VLA: Force-based Memory for Vision-Language-Action Models in Contact-Rich Manipulation](https://arxiv.org/abs/2607.18231v1)<br><small>Ruicheng Li, Qixiu Li et al.</small> | 2026-07-20 |  |
-| [Closing the Loop in Humanoid VLA: Persistent 3D Object Tokens for Verifiable Loco-Manipulation](https://arxiv.org/abs/2607.18016v1)<br><small>Peng Ren, Haoyang Ge et al.</small> | 2026-07-20 |  |
-| [Reasoning as a Double-Edged Sword: Architecture and Cross-Stage Robustness in Vision-Language-Action Models](https://arxiv.org/abs/2607.17786v1)<br><small>Tuan Duong Trinh, Naveed Akhtar et al.</small> | 2026-07-20 |  |
-| [VLA-ReID: Video-Level Association for Re-Identification in Multi-Object Tracking with Highly Similar Objects](https://arxiv.org/abs/2607.17157v1)<br><small>Yanrong Qin, Xiaoyan Cao et al.</small> | 2026-07-19 |  |
-| [What Do They See? Interpreting Complex Road Scenarios Through the Eyes of Vision-Language-Action Models for Safe and Trustworthy Autonomous Vehicle Learning](https://arxiv.org/abs/2607.16938v1)<br><small>Kalpana Panda, Wesley Maia et al.</small> | 2026-07-18 |  |
-| [Foresight Residual RL for Long-Horizon Robot Manipulation with Vision-Language-Action Models](https://arxiv.org/abs/2607.16506v1)<br><small>Yuhan Liu, Xinyu Zhang et al.</small> | 2026-07-17 |  |
-| [JoyNexus: Service-Oriented Multi-Tenant Post-Training for VLA Models](https://arxiv.org/abs/2607.16074v1)<br><small>Haoran Sun, Wentao Zhang et al.</small> | 2026-07-17 |  |
-| [AC-VLA: Robust Out-of-Distribution Action Execution via Compositional Learning](https://arxiv.org/abs/2607.15714v1)<br><small>Xiaojiang Peng, Kai Peng et al.</small> | 2026-07-17 |  |
-| [Think at 5 Hz, Act at 20 Hz: Asynchronous Fast-Slow Vision-Language-Action Inference for Closed-Loop Driving](https://arxiv.org/abs/2607.15621v1)<br><small>Yun Li, Jiachen Gong et al.</small> | 2026-07-17 |  |
-| [Xiaomi-Robotics-1: Scaling Vision-Language-Action Models with over 100K Hours of Real-World Trajectories](https://arxiv.org/abs/2607.15330v1)<br><small> Xiaomi Robotics Team, Jun Guo et al.</small> | 2026-07-16 |  |
+| [Hy-Embodied-0.5-VLA: From Vision-Language-Action Models to a Real-World Robot Learning Stack](https://arxiv.org/abs/2606.14409v2)<br><small>He Zhang, Lingzhu Xiang et al.</small> | 2026-06-12 |  |
 
 ### World Model
 
 | Paper | Date | Code |
 |-------|------|------|
-| [WorldScape Policy 2.0: Empowering Steerable World Action Modeling with Reasoning-Augmented Memory](https://arxiv.org/abs/2607.18840v1)<br><small>Haisheng Su, Zongdai Liu et al.</small> | 2026-07-21 |  |
-| [RoboInter1.5: A Holistic Intermediate Representation Suite for Embodied World Modeling and Robotic Manipulation](https://arxiv.org/abs/2607.18709v1)<br><small>Ziqin Wang, Hao Li et al.</small> | 2026-07-21 |  |
-| [GeoWorldAD: Geometry World Action Model for Autonomous Driving](https://arxiv.org/abs/2607.17521v1)<br><small>Songyan Zhang, Jinyuan Tian et al.</small> | 2026-07-20 |  |
-| [Test-Time Scaling for World Action Models via Zero-Shot Geometric Evaluation](https://arxiv.org/abs/2607.17454v1)<br><small>Zesen Zhao, Minkyoung Cho et al.</small> | 2026-07-20 |  |
-| [Steering Robustness into World Action Models via Mechanistic Interpretability and Optimal Control](https://arxiv.org/abs/2607.14943v1)<br><small>Jihoon Hong, Julian Skifstad et al.</small> | 2026-07-16 |  |
-| [FlowWAM: Optical Flow as a Unified Action Representation for World Action Models](https://arxiv.org/abs/2607.13017v1)<br><small>Yixiang Chen, Peiyan Li et al.</small> | 2026-07-14 |  |
-| [From World Action Models to Embodied Brains: A Roadmap for Open-World Physical Intelligence](https://arxiv.org/abs/2607.11689v1)<br><small>Yuanzhi Liang, Xufeng Zhan et al.</small> | 2026-07-13 |  |
-| [EgoWAM: World Action Models Beyond Pixels with In-the-Wild Egocentric Human Data](https://arxiv.org/abs/2607.08436v1)<br><small>Baoyu Li, Xinchen Yin et al.</small> | 2026-07-08 |  |
-| [RynnWorld-4D: 4D Embodied World Models for Robotic Manipulation](https://arxiv.org/abs/2607.06559v1)<br><small>Haoyu Zhao, Xingyue Zhao et al.</small> | 2026-07-07 |  |
-| [Learning 4D Geometric Priors for Inference-Efficient World Action Models](https://arxiv.org/abs/2607.05468v1)<br><small>Jianjun Zhang, Jian Zhu et al.</small> | 2026-07-06 |  |
+| [Learning Primitive Embodied World Models: Towards Scalable Robotic Learning](https://arxiv.org/abs/2508.20840v3)<br><small>Qiao Sun, Liujia Yang et al.</small> | 2025-08-28 |  |
 
 ### Policy
 
 | Paper | Date | Code |
 |-------|------|------|
-| [BadWAM: When World-Action Models Dream Right but Act Wrong](https://arxiv.org/abs/2607.15207v1)<br><small>Qi Li, Xingyi Yang et al.</small> | 2026-07-16 |  |
-| [AeroAct: Action-Centered World-Action Models for Language-Conditioned Quadrotor Flight](https://arxiv.org/abs/2607.14997v1)<br><small>Xinhong Zhang, Qiyuan Zhu et al.</small> | 2026-07-16 |  |
-| [WAM-TTT: Steering World-Action Models by Watching Human Play at Test Time](https://arxiv.org/abs/2607.06988v2)<br><small>Yusen Feng, Bingchen Han et al.</small> | 2026-07-08 |  |
-| [HALO-WA: Hybrid-Attention Latent-Guided Online Reinforcement Learning for World-Action Models](https://arxiv.org/abs/2607.04265v1)<br><small>Angen Ye, Weijie Ke et al.</small> | 2026-07-05 |  |
-| [Efficient Sim-to-Real Transfer of World-Action Models from Synthetic Priors](https://arxiv.org/abs/2606.31101v1)<br><small>Zixing Wang, Kausik Sivakumar et al.</small> | 2026-06-30 |  |
+| [Do Rigid-Body Simulators Dream of Soft Robots? Learning Contact-Rich Manipulation for Tendon-Driven Continuum Robots](https://arxiv.org/abs/2606.22397v1)<br><small>Chengnan Shentu, Nicholas Baldassini et al.</small> | 2026-06-21 |  |
+| [Zero-Shot Sim-to-Real Robot Learning: A Dexterous Manipulation Study on Reactive Catching](https://arxiv.org/abs/2605.09789v1)<br><small>Kejia Ren, Gaotian Wang et al.</small> | 2026-05-10 |  |
+| [A Soft Wrist with Anisotropic and Selectable Stiffness for Robust Robot Learning in Contact-rich Manipulation](https://arxiv.org/abs/2602.14434v1)<br><small>Steven Oh, Tomoya Takahashi et al.</small> | 2026-02-16 |  |
+| [Kaiwu: A Multimodal Manipulation Dataset and Framework for Robot Learning and Human-Robot Interaction](https://arxiv.org/abs/2503.05231v2)<br><small>Shuo Jiang, Haonan Li et al.</small> | 2025-03-07 |  |
+| [Human-in-the-loop Embodied Intelligence with Interactive Simulation Environment for Surgical Robot Learning](https://arxiv.org/abs/2301.00452v2)<br><small>Yonghao Long, Wang Wei et al.</small> | 2023-01-01 |  |
+| [Accelerating Robot Learning of Contact-Rich Manipulations: A Curriculum Learning Study](https://arxiv.org/abs/2204.12844v2)<br><small>Cristian C. Beltran-Hernandez, Damien Petit et al.</small> | 2022-04-27 |  |
 
 ---
 
