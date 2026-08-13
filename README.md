@@ -101,22 +101,30 @@ flowchart TD
 
 ## 🆕 Latest Papers (Auto-updated)
 
-> Papers are automatically fetched daily from arXiv. Last updated: 2026-07-30
+> Papers are automatically fetched daily from arXiv. Last updated: 2026-08-06
 
-### VLA
+### World Model
 
 | Paper | Date | Code |
 |-------|------|------|
-| [RedFlow: Redirect Failure into Action-Level Corrections for Flow-matching VLA Policy](https://arxiv.org/abs/2607.27782v1)<br><small>Zhengyang Yan, Junhao Li et al.</small> | 2026-07-30 |  |
-| [TurboVLA: Real-Time Vision-Language-Action Model at 32 Hz on an RTX 4090 with <1 GB VRAM](https://arxiv.org/abs/2607.27205v1)<br><small>Hengyi Xie, Chenfei Yao et al.</small> | 2026-07-29 |  |
-| [RL$^2$-VLA: Adaptive RL Latent Compositional Steering with Test-Time Scaling for Vision-Language-Action Models](https://arxiv.org/abs/2607.26991v2)<br><small>Derek Ming Siang Tan, Shailesh Shailesh et al.</small> | 2026-07-29 |  |
-| [Route by Kinematics, Act by Observation: Kinematics-Supervised Expert Routing in MoE-Augmented VLA](https://arxiv.org/abs/2607.26807v1)<br><small>Tianhang Yang, Yanze Zheng et al.</small> | 2026-07-29 |  |
-| [Explicit Kinematic Guidance from Analytic Concepts for Vision-Language-Action Models](https://arxiv.org/abs/2607.26513v1)<br><small>Mingyang Sun, Jiude Wei et al.</small> | 2026-07-29 |  |
-| [SAM3D-Guided Object-Centric Representation Alignment for Vision-Language-Action Models](https://arxiv.org/abs/2607.25912v1)<br><small>Zonghe Liu, Shanyuan Jie et al.</small> | 2026-07-28 |  |
-| [A Causality-aware Infer-diagnose-refine Framework for Test-time Modality Adaptation in VLA Models](https://arxiv.org/abs/2607.25516v1)<br><small>Haoyu Zhang, Yuwei Wu et al.</small> | 2026-07-28 |  |
-| [CoTinyVLA: Chain-of-Thought Distillation for a Sub-Billion-Parameter Vision-Language-Action Model](https://arxiv.org/abs/2607.25487v1)<br><small>Minhyeok Lee, Chiyoung Kim et al.</small> | 2026-07-28 |  |
-| [τ: Learning Touch-Augmented Vision-Language-Action Models from Future Visual Supervision](https://arxiv.org/abs/2607.24485v2)<br><small>Ning Cheng, Jinan Xu et al.</small> | 2026-07-27 |  |
-| [A Motion-Aware Vector Quantization Framework with Centroid Reuse for Efficient VLA Inference](https://arxiv.org/abs/2607.24148v1)<br><small>Zhuoran Song, Haozhe Jiang et al.</small> | 2026-07-27 |  |
+| [Temporal Logic Guidance for Action-Only Diffusion Policies with World Models](https://arxiv.org/abs/2606.22729v1)<br><small>Moritz Zoellner, Anastasios Manganaris et al.</small> | 2026-06-22 |  |
+| [Unifying Object-Centric World Models and Diffusion Policy: A Hierarchical Framework for Multi-Stage Robotic Tasks](https://arxiv.org/abs/2606.08775v1)<br><small>Raktim Gautam Goswami, Prashanth Krishnamurthy et al.</small> | 2026-06-07 |  |
+| [Feedback World Model Enables Precise Guidance of Diffusion Policy](https://arxiv.org/abs/2605.15705v1)<br><small>Tuo An, Jindou Jia et al.</small> | 2026-05-15 |  |
+
+### Policy
+
+| Paper | Date | Code |
+|-------|------|------|
+| [VIDP: Variable Impedance Diffusion Policy for Compliant Robot Manipulation from Diverse Demonstrations](https://arxiv.org/abs/2608.06210v1)<br><small>Hisham Khalil, Neil Fernandes et al.</small> | 2026-08-06 |  |
+| [FA-RDP: A Frequency-Adaptive Reactive Diffusion Policy for Contact-Rich Manipulation](https://arxiv.org/abs/2607.28596v1)<br><small>Lifeng Zhuo, Wendi Chen et al.</small> | 2026-07-30 |  |
+| [X-NavDP: Generalizing Navigation Diffusion Policy to Novel Behavior and Embodiments with Group Q-score Reweighted Matching](https://arxiv.org/abs/2607.28560v2)<br><small>Tianyu Yang, Yiming Zeng et al.</small> | 2026-07-30 |  |
+| [PAC-DP: PAC-Bayesian Diffusion Policy Learning](https://arxiv.org/abs/2607.24296v1)<br><small>Mohammad Hasan Yeganegi, Dian Yu et al.</small> | 2026-07-27 |  |
+| [Asynchronous Multimodal Diffusion Policy Composition via Latency-Aware Guidance Fusion](https://arxiv.org/abs/2607.17257v1)<br><small>Zihao He, Hongjie Fang et al.</small> | 2026-07-19 |  |
+| [Stage-Aware and Roughness-Constrained Diffusion Policy for Multi-Stage Robotic Polishing](https://arxiv.org/abs/2606.25754v1)<br><small>Shuai Ke, Jiexin Zhang et al.</small> | 2026-06-24 |  |
+| [DiffusionVS: A Generative Framework for Robust Visual Servoing Based on Diffusion Policy](https://arxiv.org/abs/2606.19397v1)<br><small>Hongkang Cui, Rui He et al.</small> | 2026-06-17 |  |
+| [Ambient Diffusion Policy: Imitation Learning from Suboptimal Data in Robotics](https://arxiv.org/abs/2606.12365v1)<br><small>Adam Wei, Nicholas Pfaff et al.</small> | 2026-06-10 |  |
+| [Latent Diffusion Policy: Shaping Latent Spaces for Diffusion-Based Robotic Manipulation](https://arxiv.org/abs/2606.08657v1)<br><small>Zhexuan Zhou, Yichen Lai et al.</small> | 2026-06-07 |  |
+| [PACT: Self-Evolving Physical Safety Alignment for Diffusion Policies in Embodied Manipulation](https://arxiv.org/abs/2606.08414v1)<br><small>Lingxuan Wu, Zijian Zhu et al.</small> | 2026-06-07 |  |
 
 ---
 
@@ -440,7 +448,7 @@ Non-VLA policies and planners that remain standard baselines in the experimental
 <!-- EXT-PAPERS:start -->
 ## 🗂️ Extended Paper Index (Auto-Curated, Newest First)
 
-> A broader, continuously-mined index of recent arXiv work that complements the curated highlights above — **158 additional papers**, newest first. Last updated: 2026-03-31. Auto-generated from `data/*.json` by [`scripts/expand_papers.py`](scripts/expand_papers.py); papers already highlighted above are omitted here to avoid duplication.
+> A broader, continuously-mined index of recent arXiv work that complements the curated highlights above — **167 additional papers**, newest first. Last updated: 2026-06-04. Auto-generated from `data/*.json` by [`scripts/expand_papers.py`](scripts/expand_papers.py); papers already highlighted above are omitted here to avoid duplication.
 
 <details>
 <summary><b>VLA — General & Manipulation</b> · 37 papers</summary>
@@ -638,10 +646,19 @@ Non-VLA policies and planners that remain standard baselines in the experimental
 </details>
 
 <details>
-<summary><b>Policies — Diffusion & Flow</b> · 27 papers</summary>
+<summary><b>Policies — Diffusion & Flow</b> · 36 papers</summary>
 
 | Paper | Authors | Date | Links |
 |-------|---------|------|-------|
+| [L-SDPPO: Policy Optimization of Spiking Diffusion Policy for Intra-vehicular Robotic Manipulation](https://arxiv.org/abs/2606.06049v1) | Liwen Zhang, Dong Zhou et al. | 2026-06-04 |  |
+| [MoDex: A Diffusion Policy for Sequential Multi-Object Dexterous Grasping](https://arxiv.org/abs/2606.05407v1) | Haofei Lu, Hongjia Liu et al. | 2026-06-03 |  |
+| [Set-Supervised Diffusion Policy: Learning Action-Chunking Diffusion through Corrections](https://arxiv.org/abs/2606.01865v1) | Zhaoting Li, Gang Chen et al. | 2026-06-01 |  |
+| [Mobile UMI: Cross-View Diffusion Policy with Decoupled Kinematics for Mobile Manipulation](https://arxiv.org/abs/2605.20894v1) | Haoran Huang, Haonan Dong et al. | 2026-05-20 |  |
+| [SADP: Subgoal-Aware Diffusion Policy for Explainable Robots Learned from Foundation Model Generated Demonstrations](https://arxiv.org/abs/2605.16871v1) | Site Hu, Takato Horii | 2026-05-16 |  |
+| [Diffusion Policy for Coordinated Control of a Nonholonomic Mobile Base and Dual Arms in Door Opening and Passing](https://arxiv.org/abs/2605.15352v1) | Shangqun Yu, Matthew En et al. | 2026-05-14 |  |
+| [SI-Diff: A Framework for Learning Search and High-Precision Insertion with a Force-Domain Diffusion Policy](https://arxiv.org/abs/2605.12247v1) | Yibo Liu, Stanko Oparnica et al. | 2026-05-12 |  |
+| [VADF: Vision-Adaptive Diffusion Policy Framework for Efficient Robotic Manipulation](https://arxiv.org/abs/2604.15938v1) | Xinglei Yu, Zhenyang Liu et al. | 2026-04-17 |  |
+| [Diffusion Policy with Bayesian Expert Selection for Active Multi-Target Tracking](https://arxiv.org/abs/2604.03404v1) | Haotian Xiang, Qin Lu et al. | 2026-04-03 |  |
 | [Encoding Predictability and Legibility for Style-Conditioned Diffusion Policy](http://arxiv.org/abs/2603.16368v1) | Adrien Jacquet Crétides, Mouad Abrini et al. | 2026-03-17 |  |
 | [ReMAP-DP: Reprojected Multi-view Aligned PointMaps for Diffusion Policy](http://arxiv.org/abs/2603.14977v2) | Xinzhang Yang, Renjun Wu et al. | 2026-03-16 |  |
 | [REFINE-DP: Diffusion Policy Fine-tuning for Humanoid Loco-manipulation via Reinforcement Learning](http://arxiv.org/abs/2603.13707v2) | Zhaoyuan Gu, Yipu Chen et al. | 2026-03-14 |  |
