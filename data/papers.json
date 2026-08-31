@@ -1,5 +1,89 @@
 [
   {
+    "id": "2608.28108v1",
+    "title": "DeicticVLA: Unifying Instruction Modes Based on Language and Deictic Gestures in a Single VLA",
+    "authors": [
+      "Kango Yanagida",
+      "Tatsuya Aoki",
+      "Yuichiro Yoshikawa",
+      "Takato Horii"
+    ],
+    "summary": "Vision-Language-Action models (VLAs) allow users to specify manipulation tasks in natural language, but distinguishing a target or placement goal among objects of the same category or similar appearance requires detailed expressions that VLAs may not use reliably. We propose DeicticVLA, which canonicalizes Language Instruction (LI), Vision-Language Instruction (VLI), and Visual Instruction (VI) into a text prompt and deictic masks through text-prompt completion and deictic gesture grounding, ena",
+    "published": "2026-08-28",
+    "published_iso": "2026-08-28T09:14:09+00:00",
+    "url": "https://arxiv.org/abs/2608.28108v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.28108v1",
+    "categories": [
+      "cs.RO",
+      "cs.CV"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
+    "id": "2608.27609v1",
+    "title": "PHR-VLA: Planning Horizon Reasoning for Vision-Language-Action Models",
+    "authors": [
+      "Davood Soleymanzadeh",
+      "Kaidi Zhang",
+      "Zhiyuan Zhang",
+      "Bihao Zhang",
+      "Xiao Liang",
+      "Yu She",
+      "Minghui Zheng"
+    ],
+    "summary": "Vision-language-action models (VLAs) have shown strong promise for general-purpose robotic manipulation by mapping language instructions and vision observations directly to actions. However, most VLAs primarily condition action prediction on current observations and lack an explicit mechanism for reasoning over future task dynamics, which is particularly important for fine-grained, contact-rich manipulation. We present PHR-VLA, a framework that enables planning-horizon reasoning in VLAs through ",
+    "published": "2026-08-27",
+    "published_iso": "2026-08-27T18:42:35+00:00",
+    "url": "https://arxiv.org/abs/2608.27609v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.27609v1",
+    "categories": [
+      "cs.RO",
+      "cs.AI"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
+    "id": "2608.27550v1",
+    "title": "Beyond Data Scaling: Representation-Centric Continued Pre-training for Vision-Language-Action Models",
+    "authors": [
+      "Senqiao Yang",
+      "Chengyao Wang",
+      "Yuxin Chen",
+      "Zixuan Wang",
+      "Longxiang Tang",
+      "Haokun Gui",
+      "Jinhui Ye",
+      "Changsheng Lu",
+      "Xiaoyang Wu",
+      "Mingkang Zhu",
+      "Pengguang Chen",
+      "Shu Liu",
+      "Zhuotao Tian",
+      "Hengshuang Zhao",
+      "Bei Yu",
+      "Jiaya Jia"
+    ],
+    "summary": "Scaling robot data is crucial for building generalist Vision-Language-Action (VLA) models, yet robot trajectories are harder to scale than web-scale image-text data because embodied collection is costly and sparsely covers the physical world. This makes representation quality a central bottleneck: under a fixed robot-data budget, continued pre-training must turn limited trajectories into transferable visual-action knowledge rather than merely fit actions. We propose VLAct, a VLA-oriented VLM bac",
+    "published": "2026-08-27",
+    "published_iso": "2026-08-27T17:59:40+00:00",
+    "url": "https://arxiv.org/abs/2608.27550v1",
+    "pdf_url": "https://arxiv.org/pdf/2608.27550v1",
+    "categories": [
+      "cs.RO",
+      "cs.CV"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
     "id": "2608.27384v1",
     "title": "FlashVLA: Streaming Action Decoding for Fast and Asynchronous VLA Inference",
     "authors": [
@@ -1139,53 +1223,6 @@
     "auto_category": "VLA"
   },
   {
-    "id": "2608.17600v1",
-    "title": "LIBERO-VIFO: Benchmarking the Capability and Safety of Visual Cue Following in Vision-Language-Action Models",
-    "authors": [
-      "Zhengyan Qian",
-      "Rui Yan",
-      "Alex Jinpeng Wang",
-      "Jinhui Tang"
-    ],
-    "summary": "Visual cues are increasingly adopted to guide robot learning, but whether Vision-Language-Action (VLA) models can reliably follow authorized cues while disregarding unauthorized ones remains unclear. Existing work covers only a narrow range of cue forms and focuses on final task success, providing only a coarse assessment of cue-following capability. Treating all visual cues as authorized also leaves safety risks of unauthorized following unexplored. To address these gaps, we introduce LIBERO-VI",
-    "published": "2026-08-18",
-    "published_iso": "2026-08-18T10:07:17+00:00",
-    "url": "https://arxiv.org/abs/2608.17600v1",
-    "pdf_url": "https://arxiv.org/pdf/2608.17600v1",
-    "categories": [
-      "cs.RO"
-    ],
-    "primary_category": "cs.RO",
-    "code_url": null,
-    "project_url": null,
-    "auto_category": "VLA"
-  },
-  {
-    "id": "2608.21440v1",
-    "title": "Geo-VLA: Geometry-Aware Vision-Language-Action Planning via Internalization of Map Semantics",
-    "authors": [
-      "Ran Chen",
-      "Jiaxing Ren",
-      "Zhikun Zhang",
-      "Yunhao Hou",
-      "Junbao Zhuo",
-      "Bochao Zou"
-    ],
-    "summary": "Vision-language-action (VLA) models have advanced end-to-end autonomous driving by leveraging foundation models for semantic reasoning and long-tail generalization. However, their planning performance remains limited in complex driving environments because image-only representations inadequately capture planning-relevant road geometry and topology. In this paper, we propose Geo-VLA, a plug-and-play framework that enhances VLA models by learning geometry-aware visual representations. During train",
-    "published": "2026-08-18",
-    "published_iso": "2026-08-18T08:25:58+00:00",
-    "url": "https://arxiv.org/abs/2608.21440v1",
-    "pdf_url": "https://arxiv.org/pdf/2608.21440v1",
-    "categories": [
-      "cs.RO",
-      "cs.AI"
-    ],
-    "primary_category": "cs.RO",
-    "code_url": null,
-    "project_url": null,
-    "auto_category": "VLA"
-  },
-  {
     "id": "2608.13489v1",
     "title": "DreamX-Phi 1.0: Action-Conditioned Video World Model for Robotic Manipulation",
     "authors": [
@@ -1281,32 +1318,6 @@
     "categories": [
       "cs.RO",
       "cs.AI",
-      "cs.CV"
-    ],
-    "primary_category": "cs.RO",
-    "code_url": null,
-    "project_url": null,
-    "auto_category": "Policy"
-  },
-  {
-    "id": "2608.10860v2",
-    "title": "Flex-$π$: A Multi-Stream World-Action Model with Compute Flexibility",
-    "authors": [
-      "Ge Yan",
-      "Jinghao Liu",
-      "Yuzhi Fan",
-      "Lei Cai",
-      "Minwen Liao",
-      "Jesse Zhang",
-      "Dieter Fox"
-    ],
-    "summary": "World-action models (WAMs) predict the future to act better, but nearly all of them predict only RGB latents, trained purely for pixel reconstruction, with no explicit signal for the 3D geometry or object semantics manipulation needs. We find a surprising free lunch: the same frozen video-generation VAE that encodes RGB also encodes 3D pointmaps almost losslessly, with no pointmap-specific training at all. This lets us supervise Flex-$π$, a 6B-parameter WAM, on 3D geometry and object-centric DIN",
-    "published": "2026-08-11",
-    "published_iso": "2026-08-11T12:33:51+00:00",
-    "url": "https://arxiv.org/abs/2608.10860v2",
-    "pdf_url": "https://arxiv.org/pdf/2608.10860v2",
-    "categories": [
-      "cs.RO",
       "cs.CV"
     ],
     "primary_category": "cs.RO",

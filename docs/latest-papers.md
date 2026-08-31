@@ -1,6 +1,6 @@
 # 📚 Latest ArXiv Papers - World Action Models
 
-Generated on: 2026-08-30 04:08:03
+Generated on: 2026-08-31 04:13:25
 
 Total papers: 50
 
@@ -8,6 +8,9 @@ Total papers: 50
 
 | Paper | Date | Code |
 |-------|------|------|
+| [DeicticVLA: Unifying Instruction Modes Based on Language and Deictic Gestures in a Single VLA](https://arxiv.org/abs/2608.28108v1)<br><small>Kango Yanagida et al.</small> | 2026-08-28 |  |
+| [PHR-VLA: Planning Horizon Reasoning for Vision-Language-Action Models](https://arxiv.org/abs/2608.27609v1)<br><small>Davood Soleymanzadeh et al.</small> | 2026-08-27 |  |
+| [Beyond Data Scaling: Representation-Centric Continued Pre-training for Vision-Language-Action Models](https://arxiv.org/abs/2608.27550v1)<br><small>Senqiao Yang et al.</small> | 2026-08-27 |  |
 | [FlashVLA: Streaming Action Decoding for Fast and Asynchronous VLA Inference](https://arxiv.org/abs/2608.27384v1)<br><small>Zekai Li et al.</small> | 2026-08-27 |  |
 | [TemporalFlow-VLA: Learning Physically Grounded Execution History for Long-Horizon Robot Manipulation](https://arxiv.org/abs/2608.26821v1)<br><small>Jiarui Yang et al.</small> | 2026-08-27 |  |
 | [TrapVLA: Trapping Vision-Language-Action Models in Configured Failure Modes](https://arxiv.org/abs/2608.26578v1)<br><small>Jun-Hui Liu et al.</small> | 2026-08-27 |  |
@@ -20,9 +23,6 @@ Total papers: 50
 | [Hierarchical Skill Retrieval for Data-Efficient Adaptation of Vision-Language-Action Models](https://arxiv.org/abs/2608.24042v1)<br><small>Haoran Hao et al.</small> | 2026-08-25 |  |
 | [Act with Intent: Distilling Behavior Intent for Vision-Language-Action Models](https://arxiv.org/abs/2608.23478v1)<br><small>Sangoh Lee et al.</small> | 2026-08-24 |  |
 | [ROS2SmolVLA: Enabling Small Vision-Language-Action Models for Integration into Industrial-Grade Lightweight Robots](https://arxiv.org/abs/2608.23320v1)<br><small>Nils Mandischer et al.</small> | 2026-08-24 |  |
-| [Think Only When Needed: Prompt-Authority Control for Selective Slow-Path Intervention in Vision-Language-Action Manipulation](https://arxiv.org/abs/2608.23224v1)<br><small>Zhiruo Zhou et al.</small> | 2026-08-24 |  |
-| [Pointing-VLA: Typed Spatial Grounding Interfaces for Vision-Language-Action Manipulation](https://arxiv.org/abs/2608.23138v1)<br><small>Xiwen Chen et al.</small> | 2026-08-24 |  |
-| [UniMem: Unifying Multimodal Memory and Control for Vision-Language-Action Models](https://arxiv.org/abs/2608.22869v1)<br><small>Lars Osterberg et al.</small> | 2026-08-24 |  |
 
 ## World Model
 
@@ -54,6 +54,5 @@ Total papers: 50
 | [On the Capability Separation Between World-Model Policy Learning and Imitated World-Action Models](https://arxiv.org/abs/2608.22197v1)<br><small>Yang Yu</small> | 2026-08-23 |  |
 | [DECOWAM: Decoupled Whole-Body World-Action Model for Legged Mobile Manipulation](https://arxiv.org/abs/2608.20114v2)<br><small>Siyuan Ma et al.</small> | 2026-08-20 |  |
 | [Surgical WAM: A World-Action Model for Data-Efficient Surgical Robot Learning](https://arxiv.org/abs/2608.11204v1)<br><small>Wenrui Bao et al.</small> | 2026-08-11 |  |
-| [Flex-$π$: A Multi-Stream World-Action Model with Compute Flexibility](https://arxiv.org/abs/2608.10860v2)<br><small>Ge Yan et al.</small> | 2026-08-11 |  |
 
 ---

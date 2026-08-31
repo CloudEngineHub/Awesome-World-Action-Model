@@ -101,12 +101,15 @@ flowchart TD
 
 ## 🆕 Latest Papers (Auto-updated)
 
-> Papers are automatically fetched daily from arXiv. Last updated: 2026-08-27
+> Papers are automatically fetched daily from arXiv. Last updated: 2026-08-28
 
 ### VLA
 
 | Paper | Date | Code |
 |-------|------|------|
+| [DeicticVLA: Unifying Instruction Modes Based on Language and Deictic Gestures in a Single VLA](https://arxiv.org/abs/2608.28108v1)<br><small>Kango Yanagida, Tatsuya Aoki et al.</small> | 2026-08-28 |  |
+| [PHR-VLA: Planning Horizon Reasoning for Vision-Language-Action Models](https://arxiv.org/abs/2608.27609v1)<br><small>Davood Soleymanzadeh, Kaidi Zhang et al.</small> | 2026-08-27 |  |
+| [Beyond Data Scaling: Representation-Centric Continued Pre-training for Vision-Language-Action Models](https://arxiv.org/abs/2608.27550v1)<br><small>Senqiao Yang, Chengyao Wang et al.</small> | 2026-08-27 |  |
 | [FlashVLA: Streaming Action Decoding for Fast and Asynchronous VLA Inference](https://arxiv.org/abs/2608.27384v1)<br><small>Zekai Li, Jiaming Tang et al.</small> | 2026-08-27 |  |
 | [TemporalFlow-VLA: Learning Physically Grounded Execution History for Long-Horizon Robot Manipulation](https://arxiv.org/abs/2608.26821v1)<br><small>Jiarui Yang, Yehao Lu et al.</small> | 2026-08-27 |  |
 | [TrapVLA: Trapping Vision-Language-Action Models in Configured Failure Modes](https://arxiv.org/abs/2608.26578v1)<br><small>Jun-Hui Liu, Kun-Yu Lin et al.</small> | 2026-08-27 |  |
@@ -114,9 +117,6 @@ flowchart TD
 | [MA-VLA: Multi-Arm Vision-Language-Action Model for Collaboration and Compositional Generalization](https://arxiv.org/abs/2608.25864v1)<br><small>Zaibin Zhang, Junlan Xiao et al.</small> | 2026-08-26 |  |
 | [RA-VLA: Retrieval-Augmented VLA for Test-Time Adaptation](https://arxiv.org/abs/2608.25585v1)<br><small>Sanghwan Jang, Minjin Jeon et al.</small> | 2026-08-26 |  |
 | [V-Link: Recovering Lost Visual Representations in Action DiT for Vision-Language-Action Models](https://arxiv.org/abs/2608.25308v1)<br><small>Yehao Lu, Jiarui Yang et al.</small> | 2026-08-26 |  |
-| [Gripper-aware Vision Language Action Models](https://arxiv.org/abs/2608.24603v1)<br><small>Hanyi Zhang, Zihong Luo et al.</small> | 2026-08-25 |  |
-| [GaussVLA: Geometry-Aware Spatial Reasoning for Vision-Language-Action Model](https://arxiv.org/abs/2608.24959v1)<br><small>Md Selim Sarowar, Md Tanvir Islam et al.</small> | 2026-08-25 |  |
-| [Hierarchical Skill Retrieval for Data-Efficient Adaptation of Vision-Language-Action Models](https://arxiv.org/abs/2608.24042v1)<br><small>Haoran Hao, Shahram Najam Syed et al.</small> | 2026-08-25 |  |
 
 ### World Model
 
@@ -143,7 +143,6 @@ flowchart TD
 | [On the Capability Separation Between World-Model Policy Learning and Imitated World-Action Models](https://arxiv.org/abs/2608.22197v1)<br><small>Yang Yu</small> | 2026-08-23 |  |
 | [DECOWAM: Decoupled Whole-Body World-Action Model for Legged Mobile Manipulation](https://arxiv.org/abs/2608.20114v2)<br><small>Siyuan Ma, Boshi Zhang et al.</small> | 2026-08-20 |  |
 | [Surgical WAM: A World-Action Model for Data-Efficient Surgical Robot Learning](https://arxiv.org/abs/2608.11204v1)<br><small>Wenrui Bao, Tianyun Jiang et al.</small> | 2026-08-11 |  |
-| [Flex-$π$: A Multi-Stream World-Action Model with Compute Flexibility](https://arxiv.org/abs/2608.10860v2)<br><small>Ge Yan, Jinghao Liu et al.</small> | 2026-08-11 |  |
 
 ---
 
@@ -467,7 +466,7 @@ Non-VLA policies and planners that remain standard baselines in the experimental
 <!-- EXT-PAPERS:start -->
 ## 🗂️ Extended Paper Index (Auto-Curated, Newest First)
 
-> A broader, continuously-mined index of recent arXiv work that complements the curated highlights above — **181 additional papers**, newest first. Last updated: 2026-08-24. Auto-generated from `data/*.json` by [`scripts/expand_papers.py`](scripts/expand_papers.py); papers already highlighted above are omitted here to avoid duplication.
+> A broader, continuously-mined index of recent arXiv work that complements the curated highlights above — **182 additional papers**, newest first. Last updated: 2026-08-25. Auto-generated from `data/*.json` by [`scripts/expand_papers.py`](scripts/expand_papers.py); papers already highlighted above are omitted here to avoid duplication.
 
 <details>
 <summary><b>VLA — General & Manipulation</b> · 40 papers</summary>
@@ -518,10 +517,11 @@ Non-VLA policies and planners that remain standard baselines in the experimental
 </details>
 
 <details>
-<summary><b>VLA — Reasoning, Planning & Dual-System</b> · 7 papers</summary>
+<summary><b>VLA — Reasoning, Planning & Dual-System</b> · 8 papers</summary>
 
 | Paper | Authors | Date | Links |
 |-------|---------|------|-------|
+| [GaussVLA: Geometry-Aware Spatial Reasoning for Vision-Language-Action Model](https://arxiv.org/abs/2608.24959v1) | Md Selim Sarowar, Md Tanvir Islam et al. | 2026-08-25 |  |
 | [Think Only When Needed: Prompt-Authority Control for Selective Slow-Path Intervention in Vision-Language-Action Manipulation](https://arxiv.org/abs/2608.23224v1) | Zhiruo Zhou, Zelin Li et al. | 2026-08-24 |  |
 | [Pointing-VLA: Typed Spatial Grounding Interfaces for Vision-Language-Action Manipulation](https://arxiv.org/abs/2608.23138v1) | Xiwen Chen, Zelin Li et al. | 2026-08-24 |  |
 | [Do World Action Models Generalize Better than VLAs? A Robustness Study](http://arxiv.org/abs/2603.22078v1) | Zhanguang Zhang, Zhiyuan Li et al. | 2026-03-23 |  |
@@ -533,12 +533,11 @@ Non-VLA policies and planners that remain standard baselines in the experimental
 </details>
 
 <details>
-<summary><b>VLA — Autonomous Driving</b> · 12 papers</summary>
+<summary><b>VLA — Autonomous Driving</b> · 11 papers</summary>
 
 | Paper | Authors | Date | Links |
 |-------|---------|------|-------|
 | [A Collaborative Multi-Modality Interaction for VLA-based End-to-End Autonomous Driving](https://arxiv.org/abs/2608.20890v1) | Jingtao Sun, Xiaohai He et al. | 2026-08-21 |  |
-| [Geo-VLA: Geometry-Aware Vision-Language-Action Planning via Internalization of Map Semantics](https://arxiv.org/abs/2608.21440v1) | Ran Chen, Jiaxing Ren et al. | 2026-08-18 |  |
 | [StreamingVLA: Streaming Vision-Language-Action Model with Action Flow Matching and Adaptive Early Observation](http://arxiv.org/abs/2603.28565v1) | Yiran Shi, Dongqi Guo et al. | 2026-03-30 |  |
 | [Uni-World VLA: Interleaved World Modeling and Planning for Autonomous Driving](http://arxiv.org/abs/2603.27287v1) | Qiqi Liu, Huan Xu et al. | 2026-03-28 |  |
 | [Vega: Learning to Drive with Natural Language Instructions](http://arxiv.org/abs/2603.25741v2) | Sicheng Zuo, Yuxuan Li et al. | 2026-03-26 |  |
@@ -553,10 +552,11 @@ Non-VLA policies and planners that remain standard baselines in the experimental
 </details>
 
 <details>
-<summary><b>VLA — Dexterous & Humanoid</b> · 1 papers</summary>
+<summary><b>VLA — Dexterous & Humanoid</b> · 2 papers</summary>
 
 | Paper | Authors | Date | Links |
 |-------|---------|------|-------|
+| [Gripper-aware Vision Language Action Models](https://arxiv.org/abs/2608.24603v1) | Hanyi Zhang, Zihong Luo et al. | 2026-08-25 |  |
 | [Grounding Sim-to-Real Generalization in Dexterous Manipulation: An Empirical Study with Vision-Language-Action Models](http://arxiv.org/abs/2603.22876v1) | Ruixing Jin, Zicheng Zhu et al. | 2026-03-24 |  |
 
 </details>
@@ -585,10 +585,11 @@ Non-VLA policies and planners that remain standard baselines in the experimental
 </details>
 
 <details>
-<summary><b>VLA — Efficient & Real-Time</b> · 23 papers</summary>
+<summary><b>VLA — Efficient & Real-Time</b> · 24 papers</summary>
 
 | Paper | Authors | Date | Links |
 |-------|---------|------|-------|
+| [Hierarchical Skill Retrieval for Data-Efficient Adaptation of Vision-Language-Action Models](https://arxiv.org/abs/2608.24042v1) | Haoran Hao, Shahram Najam Syed et al. | 2026-08-25 |  |
 | [Act with Intent: Distilling Behavior Intent for Vision-Language-Action Models](https://arxiv.org/abs/2608.23478v1) | Sangoh Lee, Sangwoo Mo et al. | 2026-08-24 |  |
 | [ROS2SmolVLA: Enabling Small Vision-Language-Action Models for Integration into Industrial-Grade Lightweight Robots](https://arxiv.org/abs/2608.23320v1) | Nils Mandischer, Noah Böckmann et al. | 2026-08-24 |  |
 | [Just Noticeable Difference Modeling for Token Compression in Vision-Language-Action Models](https://arxiv.org/abs/2608.21247v1) | Zhuoyuan Li, Rui Zhao et al. | 2026-08-21 |  |
@@ -616,7 +617,7 @@ Non-VLA policies and planners that remain standard baselines in the experimental
 </details>
 
 <details>
-<summary><b>VLA — Safety, Robustness & Evaluation</b> · 16 papers</summary>
+<summary><b>VLA — Safety, Robustness & Evaluation</b> · 15 papers</summary>
 
 | Paper | Authors | Date | Links |
 |-------|---------|------|-------|
@@ -624,7 +625,6 @@ Non-VLA policies and planners that remain standard baselines in the experimental
 | [CertVLA: Certified Defense against Physical Visual Attacks for Vision-Language-Action Models](https://arxiv.org/abs/2608.20791v1) | Hui Lu, Zhijie Peng et al. | 2026-08-21 |  |
 | [Logic-VLA: A Temporal Logic Conditioned Vision-Language-Action Model](https://arxiv.org/abs/2608.20556v1) | Celina Shiyu Wang, Yiqi Zhao et al. | 2026-08-20 |  |
 | [GS-VLA: Plug-and-Play Viewpoint Canonicalization for Frozen VLA Policies via Gaussian Splatting](https://arxiv.org/abs/2608.19066v1) | Yechan Park, HyunJin Kim | 2026-08-19 |  |
-| [LIBERO-VIFO: Benchmarking the Capability and Safety of Visual Cue Following in Vision-Language-Action Models](https://arxiv.org/abs/2608.17600v1) | Zhengyan Qian, Rui Yan et al. | 2026-08-18 |  |
 | [SABER: A Stealthy Agentic Black-Box Attack Framework for Vision-Language-Action Models](http://arxiv.org/abs/2603.24935v1) | Xiyang Wu, Guangyao Shi et al. | 2026-03-26 |  |
 | [SOMA: Strategic Orchestration and Memory-Augmented System for Vision-Language-Action Model Robustness via In-Context Adaptation](http://arxiv.org/abs/2603.24060v2) | Zhuoran Li, Zhiyang Li et al. | 2026-03-25 |  |
 | [ROBOGATE: Adaptive Failure Discovery for Safe Robot Policy Deployment via Two-Stage Boundary-Focused Sampling](http://arxiv.org/abs/2603.22126v2) | Azuki Kim | 2026-03-23 |  |
