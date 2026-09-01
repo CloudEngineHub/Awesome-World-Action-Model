@@ -1,58 +1,30 @@
 # 📚 Latest ArXiv Papers - World Action Models
 
-Generated on: 2026-08-31 04:13:25
+Generated on: 2026-09-01 04:06:29
 
-Total papers: 50
+Total papers: 8
 
 ## VLA
 
 | Paper | Date | Code |
 |-------|------|------|
-| [DeicticVLA: Unifying Instruction Modes Based on Language and Deictic Gestures in a Single VLA](https://arxiv.org/abs/2608.28108v1)<br><small>Kango Yanagida et al.</small> | 2026-08-28 |  |
-| [PHR-VLA: Planning Horizon Reasoning for Vision-Language-Action Models](https://arxiv.org/abs/2608.27609v1)<br><small>Davood Soleymanzadeh et al.</small> | 2026-08-27 |  |
-| [Beyond Data Scaling: Representation-Centric Continued Pre-training for Vision-Language-Action Models](https://arxiv.org/abs/2608.27550v1)<br><small>Senqiao Yang et al.</small> | 2026-08-27 |  |
-| [FlashVLA: Streaming Action Decoding for Fast and Asynchronous VLA Inference](https://arxiv.org/abs/2608.27384v1)<br><small>Zekai Li et al.</small> | 2026-08-27 |  |
-| [TemporalFlow-VLA: Learning Physically Grounded Execution History for Long-Horizon Robot Manipulation](https://arxiv.org/abs/2608.26821v1)<br><small>Jiarui Yang et al.</small> | 2026-08-27 |  |
-| [TrapVLA: Trapping Vision-Language-Action Models in Configured Failure Modes](https://arxiv.org/abs/2608.26578v1)<br><small>Jun-Hui Liu et al.</small> | 2026-08-27 |  |
-| [StreamPI: Streaming Multimodal Temporal Modeling for Vision-Language-Action Models](https://arxiv.org/abs/2608.26067v1)<br><small>Zhe Liu et al.</small> | 2026-08-26 |  |
-| [MA-VLA: Multi-Arm Vision-Language-Action Model for Collaboration and Compositional Generalization](https://arxiv.org/abs/2608.25864v1)<br><small>Zaibin Zhang et al.</small> | 2026-08-26 |  |
-| [RA-VLA: Retrieval-Augmented VLA for Test-Time Adaptation](https://arxiv.org/abs/2608.25585v1)<br><small>Sanghwan Jang et al.</small> | 2026-08-26 |  |
-| [V-Link: Recovering Lost Visual Representations in Action DiT for Vision-Language-Action Models](https://arxiv.org/abs/2608.25308v1)<br><small>Yehao Lu et al.</small> | 2026-08-26 |  |
-| [Gripper-aware Vision Language Action Models](https://arxiv.org/abs/2608.24603v1)<br><small>Hanyi Zhang et al.</small> | 2026-08-25 |  |
-| [GaussVLA: Geometry-Aware Spatial Reasoning for Vision-Language-Action Model](https://arxiv.org/abs/2608.24959v1)<br><small>Md Selim Sarowar et al.</small> | 2026-08-25 |  |
-| [Hierarchical Skill Retrieval for Data-Efficient Adaptation of Vision-Language-Action Models](https://arxiv.org/abs/2608.24042v1)<br><small>Haoran Hao et al.</small> | 2026-08-25 |  |
-| [Act with Intent: Distilling Behavior Intent for Vision-Language-Action Models](https://arxiv.org/abs/2608.23478v1)<br><small>Sangoh Lee et al.</small> | 2026-08-24 |  |
-| [ROS2SmolVLA: Enabling Small Vision-Language-Action Models for Integration into Industrial-Grade Lightweight Robots](https://arxiv.org/abs/2608.23320v1)<br><small>Nils Mandischer et al.</small> | 2026-08-24 |  |
+| [Hy-Embodied-0.5-VLA: From Vision-Language-Action Models to a Real-World Robot Learning Stack](https://arxiv.org/abs/2606.14409v2)<br><small>He Zhang et al.</small> | 2026-06-12 |  |
 
 ## World Model
 
 | Paper | Date | Code |
 |-------|------|------|
-| [Making Latent Evolution Explicit: Operator-Structured Transitions for World Action Models](https://arxiv.org/abs/2608.27259v1)<br><small>Xiaoxiao Lu et al.</small> | 2026-08-27 |  |
-| [Riemann-1.0: An Embodied World Action Model for Physical AI](https://arxiv.org/abs/2608.27033v1)<br><small>Haofeng Sun et al.</small> | 2026-08-27 |  |
-| [4DGS-WAM: Bridging Past and Future with an Object-Centric World Action Model based on 4D Gaussian Splatting](https://arxiv.org/abs/2608.25956v1)<br><small>Yueen Ma et al.</small> | 2026-08-26 |  |
-| [GaussianDream++: Efficient 3D Gaussian World Modeling for Robotic Manipulation](https://arxiv.org/abs/2608.25659v1)<br><small>Yuqing Jiang et al.</small> | 2026-08-26 |  |
-| [Latent Action as Intention Enables Efficient Future Imagination for World Action Models](https://arxiv.org/abs/2608.24882v1)<br><small>Xiang Li et al.</small> | 2026-08-25 |  |
-| [GameWAM: A World Action Model for Video Games](https://arxiv.org/abs/2608.26200v1)<br><small>Yuncheng Guo et al.</small> | 2026-08-25 |  |
-| [GeoWAM: Visual Geometry World Action Models for Autonomous Driving](https://arxiv.org/abs/2608.23486v2)<br><small>Yiren Lu et al.</small> | 2026-08-24 |  |
-| [LD4WAM: Learning Latent Dynamics from Human Videos for World Action Models](https://arxiv.org/abs/2608.22403v1)<br><small>Zhenhao Shen et al.</small> | 2026-08-23 |  |
-| [WAM-OPD: On-Policy Distillation for World Action Models](https://arxiv.org/abs/2608.22364v1)<br><small>Liuhaichen Yang et al.</small> | 2026-08-23 |  |
-| [WA-JEPA: Rethinking the Video JEPA Paradigm for World-Action Modeling in Autonomous Driving](https://arxiv.org/abs/2608.20974v1)<br><small>Xinlin Wang et al.</small> | 2026-08-21 |  |
-| [HiTac-WAM: A Hierarchical Tactile World Action Model for Contact-Rich Robot Manipulation](https://arxiv.org/abs/2608.19574v1)<br><small>Chao Xue et al.</small> | 2026-08-20 |  |
-| [RISE: Adaptive Imagination for World Action Models](https://arxiv.org/abs/2608.20430v1)<br><small>Hongbo Lu et al.</small> | 2026-08-20 |  |
-| [DreamX-Phi 1.0: Action-Conditioned Video World Model for Robotic Manipulation](https://arxiv.org/abs/2608.13489v1)<br><small> DreamX Team et al.</small> | 2026-08-13 |  |
-| [Foresight Without Seeing: Latent Futures for World Action Models](https://arxiv.org/abs/2608.11605v1)<br><small>Jiakai Huang et al.</small> | 2026-08-12 |  |
-| [Keep the Future, Drop the Rollout: RIFT for World Action Models](https://arxiv.org/abs/2608.11521v2)<br><small>Chushan Zhang et al.</small> | 2026-08-12 |  |
+| [Learning Primitive Embodied World Models: Towards Scalable Robotic Learning](https://arxiv.org/abs/2508.20840v3)<br><small>Qiao Sun et al.</small> | 2025-08-28 |  |
 
 ## Policy
 
 | Paper | Date | Code |
 |-------|------|------|
-| [Zero-WAM: In-Context World-Action Modeling from Human Videos for Open-Ended Task Generalization](https://arxiv.org/abs/2608.26103v2)<br><small>Jiaming Zhou et al.</small> | 2026-08-26 |  |
-| [GaussianWAM: Distilling Geometry and Semantics from 3D Gaussian Fields into World-Action Models](https://arxiv.org/abs/2608.24714v1)<br><small>Zijian Zhang et al.</small> | 2026-08-25 |  |
-| [GlanceWAM: Sparse Test-Time Imagination for World-Action Models](https://arxiv.org/abs/2608.23927v1)<br><small>Linhan Wang et al.</small> | 2026-08-25 |  |
-| [On the Capability Separation Between World-Model Policy Learning and Imitated World-Action Models](https://arxiv.org/abs/2608.22197v1)<br><small>Yang Yu</small> | 2026-08-23 |  |
-| [DECOWAM: Decoupled Whole-Body World-Action Model for Legged Mobile Manipulation](https://arxiv.org/abs/2608.20114v2)<br><small>Siyuan Ma et al.</small> | 2026-08-20 |  |
-| [Surgical WAM: A World-Action Model for Data-Efficient Surgical Robot Learning](https://arxiv.org/abs/2608.11204v1)<br><small>Wenrui Bao et al.</small> | 2026-08-11 |  |
+| [Do Rigid-Body Simulators Dream of Soft Robots? Learning Contact-Rich Manipulation for Tendon-Driven Continuum Robots](https://arxiv.org/abs/2606.22397v1)<br><small>Chengnan Shentu et al.</small> | 2026-06-21 |  |
+| [Zero-Shot Sim-to-Real Robot Learning: A Dexterous Manipulation Study on Reactive Catching](https://arxiv.org/abs/2605.09789v1)<br><small>Kejia Ren et al.</small> | 2026-05-10 |  |
+| [A Soft Wrist with Anisotropic and Selectable Stiffness for Robust Robot Learning in Contact-rich Manipulation](https://arxiv.org/abs/2602.14434v1)<br><small>Steven Oh et al.</small> | 2026-02-16 |  |
+| [Kaiwu: A Multimodal Manipulation Dataset and Framework for Robot Learning and Human-Robot Interaction](https://arxiv.org/abs/2503.05231v2)<br><small>Shuo Jiang et al.</small> | 2025-03-07 |  |
+| [Human-in-the-loop Embodied Intelligence with Interactive Simulation Environment for Surgical Robot Learning](https://arxiv.org/abs/2301.00452v2)<br><small>Yonghao Long et al.</small> | 2023-01-01 |  |
+| [Accelerating Robot Learning of Contact-Rich Manipulations: A Curriculum Learning Study](https://arxiv.org/abs/2204.12844v2)<br><small>Cristian C. Beltran-Hernandez et al.</small> | 2022-04-27 |  |
 
 ---
