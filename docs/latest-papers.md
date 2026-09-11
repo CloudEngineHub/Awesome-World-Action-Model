@@ -1,6 +1,6 @@
 # 📚 Latest ArXiv Papers - World Action Models
 
-Generated on: 2026-09-10 03:30:28
+Generated on: 2026-09-11 03:28:22
 
 Total papers: 50
 
@@ -8,6 +8,8 @@ Total papers: 50
 
 | Paper | Date | Code |
 |-------|------|------|
+| [IMLE-VLA: Fast Single-Step Action Generation for Vision-Language-Action Policies](https://arxiv.org/abs/2609.10915v1)<br><small>Kian Hosseinkhani et al.</small> | 2026-09-10 |  |
+| [HuRo: Robotizing Human Videos for Scalable VLA Pretraining](https://arxiv.org/abs/2609.10706v1)<br><small>Jinho Jeong et al.</small> | 2026-09-09 |  |
 | [Frequency-Conditioned Flow Matching for Vision-Language-Action Models](https://arxiv.org/abs/2609.10405v1)<br><small>Haochen Niu et al.</small> | 2026-09-09 |  |
 | [RoboDrop: Curating VLA Post-Training Data via Local Gradient Compatibility](https://arxiv.org/abs/2609.10021v1)<br><small>Runze Xu et al.</small> | 2026-09-09 |  |
 | [Time-Frequency Geometric Cross-Attention for Chunked Vision-Language-Action Models](https://arxiv.org/abs/2609.09925v1)<br><small>Shengye Dong et al.</small> | 2026-09-09 |  |
@@ -21,8 +23,6 @@ Total papers: 50
 | [Where Success Breaks: Failure-Boundary Learning for Robust Vision-Language-Action Models](https://arxiv.org/abs/2609.06114v1)<br><small>Yanzhe Chen et al.</small> | 2026-09-05 |  |
 | [LayerRoute: Action-Conditioned Mixture-of-Layers Routing for Vision-Language-Action Policies](https://arxiv.org/abs/2609.06079v1)<br><small>Zheng Lu et al.</small> | 2026-09-05 |  |
 | [CR-VLA-Force: Learning Control-aware Compliance VLA Model for Robust Contact-rich Robotic Manipulation](https://arxiv.org/abs/2609.05832v1)<br><small>Zhaohong Mai et al.</small> | 2026-09-05 |  |
-| [Towards Neuro-Symbolic Procedural Reasoning for Long-Horizon Vision-Language-Action Manipulation](https://arxiv.org/abs/2609.05369v1)<br><small>Vivek Chavan et al.</small> | 2026-09-04 |  |
-| [RoboSPA: Can VLA Models Go Beyond Simple Scenes and Short-Horizon Tasks?](https://arxiv.org/abs/2609.05324v1)<br><small>Zhenxuan Fan et al.</small> | 2026-09-04 |  |
 
 ## World Model
 
@@ -38,15 +38,15 @@ Total papers: 50
 | [4DGS-WAM: Bridging Past and Future with an Object-Centric World Action Model based on 4D Gaussian Splatting](https://arxiv.org/abs/2608.25956v1)<br><small>Yueen Ma et al.</small> | 2026-08-26 |  |
 | [GaussianDream++: Efficient 3D Gaussian World Modeling for Robotic Manipulation](https://arxiv.org/abs/2608.25659v1)<br><small>Yuqing Jiang et al.</small> | 2026-08-26 |  |
 | [Latent Action as Intention Enables Efficient Future Imagination for World Action Models](https://arxiv.org/abs/2608.24882v2)<br><small>Xiang Li et al.</small> | 2026-08-25 |  |
-| [GameWAM: A World Action Model for Video Games](https://arxiv.org/abs/2608.26200v1)<br><small>Yuncheng Guo et al.</small> | 2026-08-25 |  |
+| [GameWAM: A World Action Model for Video Games](https://arxiv.org/abs/2608.26200v2)<br><small>Yuncheng Guo et al.</small> | 2026-08-25 |  |
 | [GeoWAM: Visual Geometry World Action Models for Autonomous Driving](https://arxiv.org/abs/2608.23486v2)<br><small>Yiren Lu et al.</small> | 2026-08-24 |  |
 | [LD4WAM: Learning Latent Dynamics from Human Videos for World Action Models](https://arxiv.org/abs/2608.22403v1)<br><small>Zhenhao Shen et al.</small> | 2026-08-23 |  |
-| [WAM-OPD: On-Policy Distillation for World Action Models](https://arxiv.org/abs/2608.22364v1)<br><small>Liuhaichen Yang et al.</small> | 2026-08-23 |  |
 
 ## Policy
 
 | Paper | Date | Code |
 |-------|------|------|
+| [Memory as Plans: World-Action Modeling with Memory-Grounded Planning](https://arxiv.org/abs/2609.11561v1)<br><small>Sizhe Zhao et al.</small> | 2026-09-10 |  |
 | [OpenWAM: An Open, Modular Exploration Towards Systematic World-Action Model Pretraining](https://arxiv.org/abs/2609.07398v1)<br><small>Yuran Wang et al.</small> | 2026-09-07 |  |
 | [GE-Act 2.0: Pretraining and Scaling a World-Action Model for Robotic Manipulation](https://arxiv.org/abs/2609.05588v1)<br><small> AgiBot Research Team et al.</small> | 2026-09-04 |  |
 | [TacPAC: Tactile Prediction and Real-Time Action Correction in World-Action Models for Contact-Rich Manipulation](https://arxiv.org/abs/2609.05266v1)<br><small>Zipei Ma et al.</small> | 2026-09-04 |  |

@@ -1,5 +1,86 @@
 [
   {
+    "id": "2609.11561v1",
+    "title": "Memory as Plans: World-Action Modeling with Memory-Grounded Planning",
+    "authors": [
+      "Sizhe Zhao",
+      "Haozhe Xie",
+      "Weiyu Zhao",
+      "Chenchu Zhang",
+      "Huan Wang",
+      "Chenyang Wang",
+      "Qinglin Liu",
+      "Shengping Zhang"
+    ],
+    "summary": "Mainstream robotic policies often adopt a Markovian formulation, but many complex real-world manipulation tasks are inherently non-Markovian, requiring long-horizon memory beyond the current observation. Existing memory mechanisms often rely on language summaries, growing visual windows, or their combinations, and may therefore lose fine-grained visual evidence or face a trade-off between history coverage and execution efficiency. We introduce MaP-WAM, a Memory-as-Plans framework that decomposes",
+    "published": "2026-09-10",
+    "published_iso": "2026-09-10T13:52:51+00:00",
+    "url": "https://arxiv.org/abs/2609.11561v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.11561v1",
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "Policy"
+  },
+  {
+    "id": "2609.10915v1",
+    "title": "IMLE-VLA: Fast Single-Step Action Generation for Vision-Language-Action Policies",
+    "authors": [
+      "Kian Hosseinkhani",
+      "Qinhe Peng",
+      "George Shramko",
+      "Mehran Aghabozorgi",
+      "Jianing Qian",
+      "Tristan Engst",
+      "Alireza Moazeni",
+      "Dinesh Jayaraman",
+      "Ke Li"
+    ],
+    "summary": "Vision-language-action (VLA) policies leverage pretrained vision-language backbones to achieve strong cross-task generalization. A leading design couples this backbone with a dedicated continuous action head trained via diffusion or flow matching. However, such heads rely on iterative multi-step sampling, for example 10 Euler steps in $π_{0.5}$. This creates an inference bottleneck that produces stop-and-go movement in the robot and slower task completion. We introduce IMLE-VLA, which replaces t",
+    "published": "2026-09-10",
+    "published_iso": "2026-09-10T00:00:32+00:00",
+    "url": "https://arxiv.org/abs/2609.10915v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.10915v1",
+    "categories": [
+      "cs.RO",
+      "cs.CV"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
+    "id": "2609.10706v1",
+    "title": "HuRo: Robotizing Human Videos for Scalable VLA Pretraining",
+    "authors": [
+      "Jinho Jeong",
+      "Se June Joo",
+      "Jaehyun Kang",
+      "Dongyun Kim",
+      "Yena Kim",
+      "Hanjung Kim",
+      "Seon Joo Kim"
+    ],
+    "summary": "Human video datasets have emerged as a compelling alternative to expensive real-robot data, offering rich diversity at scale. To bridge the human-to-robot embodiment gap, existing approaches either robotize videos in task-matched settings or address observation and action alignment separately at scale. In this work, we systematically examine whether robotized human videos can provide effective and scalable supervision for pretraining vision-language-action (VLA) policies. To this end, we develop",
+    "published": "2026-09-09",
+    "published_iso": "2026-09-09T18:02:05+00:00",
+    "url": "https://arxiv.org/abs/2609.10706v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.10706v1",
+    "categories": [
+      "cs.RO",
+      "cs.CV",
+      "cs.LG"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "VLA"
+  },
+  {
     "id": "2609.10405v1",
     "title": "Frequency-Conditioned Flow Matching for Vision-Language-Action Models",
     "authors": [
@@ -937,51 +1018,6 @@
     "auto_category": "VLA"
   },
   {
-    "id": "2609.01215v1",
-    "title": "REFACTOR-VLA: Unsupervised Library Learning of Typed Motor Programs",
-    "authors": [
-      "Riyaaz Shaik",
-      "Chandru Venkataraman"
-    ],
-    "summary": "Most vision-language-action (VLA) models -- OpenVLA, $π_0$, RT-2, RDT-1B -- are monolithic: they emit raw motor commands or short action chunks without organizing behavior into reusable abstractions, so they degrade on long-horizon tasks and resist interpretation. Existing skill-discovery methods sidestep the core question of when two action sequences are behaviorally equivalent, either clustering contrastive embeddings or delegating the judgment to a language model uncalibrated to the robot's d",
-    "published": "2026-09-01",
-    "published_iso": "2026-09-01T13:19:05+00:00",
-    "url": "https://arxiv.org/abs/2609.01215v1",
-    "pdf_url": "https://arxiv.org/pdf/2609.01215v1",
-    "categories": [
-      "cs.LG",
-      "cs.AI",
-      "cs.RO"
-    ],
-    "primary_category": "cs.LG",
-    "code_url": null,
-    "project_url": null,
-    "auto_category": "VLA"
-  },
-  {
-    "id": "2609.00908v2",
-    "title": "Knowing When to Stop: Adaptive Action Chunking via Internal Cross-Attention Dynamics in VLAs",
-    "authors": [
-      "Runze Xu",
-      "Xiaolong Shan",
-      "Shuang Dai",
-      "Yu Wang",
-      "Jincheng Yu"
-    ],
-    "summary": "Action chunking is a standard execution strategy in modern Vision-Language-Action (VLA) frameworks, but fixed execution horizons impose a trade-off between efficiency and accuracy. Short chunks require frequent inference and may cause oscillatory behavior, whereas long chunks can become misaligned with newly observed states. We address this limitation with an adaptive action chunking approach based on internal cross-attention dynamics in the action expert. We observe that, as the prediction hori",
-    "published": "2026-09-01",
-    "published_iso": "2026-09-01T08:38:16+00:00",
-    "url": "https://arxiv.org/abs/2609.00908v2",
-    "pdf_url": "https://arxiv.org/pdf/2609.00908v2",
-    "categories": [
-      "cs.RO"
-    ],
-    "primary_category": "cs.RO",
-    "code_url": null,
-    "project_url": null,
-    "auto_category": "VLA"
-  },
-  {
     "id": "2609.00188v1",
     "title": "ZimaBlue: Evolving Generalizable World Action Models through Scalable Video Pre-training",
     "authors": [
@@ -1217,7 +1253,7 @@
     "auto_category": "World Model"
   },
   {
-    "id": "2608.26200v1",
+    "id": "2608.26200v2",
     "title": "GameWAM: A World Action Model for Video Games",
     "authors": [
       "Yuncheng Guo",
@@ -1228,8 +1264,8 @@
     "summary": "Modern video games combine first-person perception, rapid visual changes, persistent world state, and heterogeneous native controls. Existing game agents map visual and task context directly to actions but lack explicit world dynamics modeling, whereas interactive game world models predict visual futures from supplied actions but do not serve as task policies. World-Action Models (WAMs) unify these objectives, but remain largely unexplored under the dynamics and open-ended interaction of video g",
     "published": "2026-08-25",
     "published_iso": "2026-08-25T17:21:15+00:00",
-    "url": "https://arxiv.org/abs/2608.26200v1",
-    "pdf_url": "https://arxiv.org/pdf/2608.26200v1",
+    "url": "https://arxiv.org/abs/2608.26200v2",
+    "pdf_url": "https://arxiv.org/pdf/2608.26200v2",
     "categories": [
       "cs.AI",
       "cs.CV",
@@ -1355,29 +1391,6 @@
       "cs.RO"
     ],
     "primary_category": "cs.RO",
-    "code_url": null,
-    "project_url": null,
-    "auto_category": "World Model"
-  },
-  {
-    "id": "2608.22364v1",
-    "title": "WAM-OPD: On-Policy Distillation for World Action Models",
-    "authors": [
-      "Liuhaichen Yang",
-      "Zhuang Jiang",
-      "Chenchao Sheng",
-      "Zezhi Tang"
-    ],
-    "summary": "World action models (WAMs) couple visual future prediction with robot action generation, but accelerated students can lose task capabilities during distillation and later encounter states that are poorly represented by offline data. We study whether on-policy distillation (OPD) can repair such a student without requiring sparse-reward reinforcement learning. We introduce WAM-OPD, a deployment-consistent post-training recipe for a video-first WAM. The student acts in the environment and therefore",
-    "published": "2026-08-23",
-    "published_iso": "2026-08-23T11:06:45+00:00",
-    "url": "https://arxiv.org/abs/2608.22364v1",
-    "pdf_url": "https://arxiv.org/pdf/2608.22364v1",
-    "categories": [
-      "cs.AI",
-      "cs.RO"
-    ],
-    "primary_category": "cs.AI",
     "code_url": null,
     "project_url": null,
     "auto_category": "World Model"
