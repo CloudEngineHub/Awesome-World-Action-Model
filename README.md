@@ -101,49 +101,30 @@ flowchart TD
 
 ## 🆕 Latest Papers (Auto-updated)
 
-> Papers are automatically fetched daily from arXiv. Last updated: 2026-09-10
+> Papers are automatically fetched daily from arXiv. Last updated: 2026-06-21
 
 ### VLA
 
 | Paper | Date | Code |
 |-------|------|------|
-| [IMLE-VLA: Fast Single-Step Action Generation for Vision-Language-Action Policies](https://arxiv.org/abs/2609.10915v1)<br><small>Kian Hosseinkhani, Qinhe Peng et al.</small> | 2026-09-10 |  |
-| [HuRo: Robotizing Human Videos for Scalable VLA Pretraining](https://arxiv.org/abs/2609.10706v1)<br><small>Jinho Jeong, Se June Joo et al.</small> | 2026-09-09 |  |
-| [Frequency-Conditioned Flow Matching for Vision-Language-Action Models](https://arxiv.org/abs/2609.10405v1)<br><small>Haochen Niu, Shengye Dong et al.</small> | 2026-09-09 |  |
-| [RoboDrop: Curating VLA Post-Training Data via Local Gradient Compatibility](https://arxiv.org/abs/2609.10021v1)<br><small>Runze Xu, Yuanfan Xu et al.</small> | 2026-09-09 |  |
-| [Time-Frequency Geometric Cross-Attention for Chunked Vision-Language-Action Models](https://arxiv.org/abs/2609.09925v1)<br><small>Shengye Dong, Haochen Niu et al.</small> | 2026-09-09 |  |
-| [TANGO: Humanoid Navigation in Cluttered Environments with a Whole-Body Vision-Language-Action Model](https://arxiv.org/abs/2609.09158v1)<br><small>Anqi Li, Yuxin Chen et al.</small> | 2026-09-08 |  |
-| [DeCAL: Towards Physically-Grounded Dexterous Vision-Language-Action Models via Contact-Aware Latent Co-Imagination](https://arxiv.org/abs/2609.09119v1)<br><small>Yankai Fu, Ning Chen et al.</small> | 2026-09-08 |  |
-| [ComVLA: Communication-Aware Split Inference for VLA Models in 6G-Connected Robotics](https://arxiv.org/abs/2609.07838v1)<br><small>Boliang Liu, Wint Yi Poe et al.</small> | 2026-09-07 |  |
-| [ICI-VLA: In-Context Imitation with Spatiotemporally Aligned Demonstrations for Vision-Language-Action Models](https://arxiv.org/abs/2609.07581v1)<br><small>Songhua Yang, Ziyu Liu et al.</small> | 2026-09-07 |  |
-| [Measuring Language Transfer in Robot Policies: Adding Greek to a Cosmos3 Vision-Language-Action Policy](https://arxiv.org/abs/2609.07470v1)<br><small>Ayoub Kirouane, Georgios Giaples et al.</small> | 2026-09-07 |  |
+| [Hy-Embodied-0.5-VLA: From Vision-Language-Action Models to a Real-World Robot Learning Stack](https://arxiv.org/abs/2606.14409v2)<br><small>He Zhang, Lingzhu Xiang et al.</small> | 2026-06-12 |  |
 
 ### World Model
 
 | Paper | Date | Code |
 |-------|------|------|
-| [Learning to Use Imagination: Progress-Conditioned Future Utilization for World Action Models](https://arxiv.org/abs/2609.06578v1)<br><small>Yijie Zhu, Zitong Yu et al.</small> | 2026-09-06 |  |
-| [Spatially Aware World Action Model via Geometric Latent Diffusion](https://arxiv.org/abs/2609.02531v1)<br><small>Javier Alejandro Lopetegui Gonzalez, Paul Pacaud et al.</small> | 2026-09-02 |  |
-| [World-Coherent Decoding: Self-Verifying Test-Time Planning for World Action Models](https://arxiv.org/abs/2609.02159v1)<br><small>Chuhan Zhang, Seiji Ito et al.</small> | 2026-09-02 |  |
-| [ZimaBlue: Evolving Generalizable World Action Models through Scalable Video Pre-training](https://arxiv.org/abs/2609.00188v1)<br><small>Xionghao Wu, Yijun Yang et al.</small> | 2026-08-31 |  |
-| [Hydra: A Navigation World Action Model with Discrete Latent Planning and Continuous Flow-Matching Execution](https://arxiv.org/abs/2608.28995v1)<br><small>Mohammad Nazeri, Alexandyr Card et al.</small> | 2026-08-29 |  |
-| [Making Latent Evolution Explicit: Operator-Structured Transitions for World Action Models](https://arxiv.org/abs/2608.27259v1)<br><small>Xiaoxiao Lu, Yunlong Dong et al.</small> | 2026-08-27 |  |
-| [Riemann-1.0: An Embodied World Action Model for Physical AI](https://arxiv.org/abs/2608.27033v1)<br><small>Haofeng Sun, Jiangbo Pei et al.</small> | 2026-08-27 |  |
-| [4DGS-WAM: Bridging Past and Future with an Object-Centric World Action Model based on 4D Gaussian Splatting](https://arxiv.org/abs/2608.25956v1)<br><small>Yueen Ma, Zenglin Xu et al.</small> | 2026-08-26 |  |
-| [GaussianDream++: Efficient 3D Gaussian World Modeling for Robotic Manipulation](https://arxiv.org/abs/2608.25659v1)<br><small>Yuqing Jiang, Zijian Zhang et al.</small> | 2026-08-26 |  |
-| [Latent Action as Intention Enables Efficient Future Imagination for World Action Models](https://arxiv.org/abs/2608.24882v2)<br><small>Xiang Li, Yupeng Zheng et al.</small> | 2026-08-25 |  |
+| [Learning Primitive Embodied World Models: Towards Scalable Robotic Learning](https://arxiv.org/abs/2508.20840v3)<br><small>Qiao Sun, Liujia Yang et al.</small> | 2025-08-28 |  |
 
 ### Policy
 
 | Paper | Date | Code |
 |-------|------|------|
-| [Memory as Plans: World-Action Modeling with Memory-Grounded Planning](https://arxiv.org/abs/2609.11561v1)<br><small>Sizhe Zhao, Haozhe Xie et al.</small> | 2026-09-10 |  |
-| [OpenWAM: An Open, Modular Exploration Towards Systematic World-Action Model Pretraining](https://arxiv.org/abs/2609.07398v1)<br><small>Yuran Wang, Siqiao Huang et al.</small> | 2026-09-07 |  |
-| [GE-Act 2.0: Pretraining and Scaling a World-Action Model for Robotic Manipulation](https://arxiv.org/abs/2609.05588v1)<br><small> AgiBot Research Team, Renhang Liu et al.</small> | 2026-09-04 |  |
-| [TacPAC: Tactile Prediction and Real-Time Action Correction in World-Action Models for Contact-Rich Manipulation](https://arxiv.org/abs/2609.05266v1)<br><small>Zipei Ma, Xiaofei Wei et al.</small> | 2026-09-04 |  |
-| [Zero-WAM: In-Context World-Action Modeling from Human Videos for Open-Ended Task Generalization](https://arxiv.org/abs/2608.26103v2)<br><small>Jiaming Zhou, Qihang Zhang et al.</small> | 2026-08-26 |  |
-| [GaussianWAM: Distilling Geometry and Semantics from 3D Gaussian Fields into World-Action Models](https://arxiv.org/abs/2608.24714v1)<br><small>Zijian Zhang, Yuqing Jiang et al.</small> | 2026-08-25 |  |
-| [GlanceWAM: Sparse Test-Time Imagination for World-Action Models](https://arxiv.org/abs/2608.23927v1)<br><small>Linhan Wang, Zijian An et al.</small> | 2026-08-25 |  |
+| [Do Rigid-Body Simulators Dream of Soft Robots? Learning Contact-Rich Manipulation for Tendon-Driven Continuum Robots](https://arxiv.org/abs/2606.22397v1)<br><small>Chengnan Shentu, Nicholas Baldassini et al.</small> | 2026-06-21 |  |
+| [Zero-Shot Sim-to-Real Robot Learning: A Dexterous Manipulation Study on Reactive Catching](https://arxiv.org/abs/2605.09789v1)<br><small>Kejia Ren, Gaotian Wang et al.</small> | 2026-05-10 |  |
+| [A Soft Wrist with Anisotropic and Selectable Stiffness for Robust Robot Learning in Contact-rich Manipulation](https://arxiv.org/abs/2602.14434v1)<br><small>Steven Oh, Tomoya Takahashi et al.</small> | 2026-02-16 |  |
+| [Kaiwu: A Multimodal Manipulation Dataset and Framework for Robot Learning and Human-Robot Interaction](https://arxiv.org/abs/2503.05231v2)<br><small>Shuo Jiang, Haonan Li et al.</small> | 2025-03-07 |  |
+| [Human-in-the-loop Embodied Intelligence with Interactive Simulation Environment for Surgical Robot Learning](https://arxiv.org/abs/2301.00452v2)<br><small>Yonghao Long, Wang Wei et al.</small> | 2023-01-01 |  |
+| [Accelerating Robot Learning of Contact-Rich Manipulations: A Curriculum Learning Study](https://arxiv.org/abs/2204.12844v2)<br><small>Cristian C. Beltran-Hernandez, Damien Petit et al.</small> | 2022-04-27 |  |
 
 ---
 
