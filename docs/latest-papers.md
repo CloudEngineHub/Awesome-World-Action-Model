@@ -1,6 +1,6 @@
 # 📚 Latest ArXiv Papers - World Action Models
 
-Generated on: 2026-09-27 04:08:38
+Generated on: 2026-09-28 04:09:56
 
 Total papers: 50
 
@@ -8,6 +8,13 @@ Total papers: 50
 
 | Paper | Date | Code |
 |-------|------|------|
+| [Towards VLA-Dreamer: Refining VLA Behavior Using World Models](https://arxiv.org/abs/2609.31313v1)<br><small>Parsa Mastouri Kashani et al.</small> | 2026-09-25 |  |
+| [Kintsugi-VLA: Turning Failed Robot Rollouts into Recovery Data through Interventional Recoverability](https://arxiv.org/abs/2609.31048v1)<br><small>Ivan Snegirev et al.</small> | 2026-09-25 |  |
+| [The Linear Representation Hypothesis for Vision-Language-Action Models](https://arxiv.org/abs/2609.30996v1)<br><small>Minseok Jeong et al.</small> | 2026-09-25 |  |
+| [Causeway: Restoring Task Accessibility for Instruction Switching in VLA Policies](https://arxiv.org/abs/2609.30913v1)<br><small>Qingzi Wang et al.</small> | 2026-09-25 |  |
+| [VLaRL: Augmenting Vision-Language-Action Models with Simulation-Trained Latent-Conditioned Residual RL](https://arxiv.org/abs/2609.30868v1)<br><small>Namiko Saito et al.</small> | 2026-09-25 |  |
+| [Fast Plans, Faithful Actions: Closing the Planning-Execution Gap in Hierarchical Vision-Language-Action Models](https://arxiv.org/abs/2609.30833v1)<br><small>Chuanliang Xie et al.</small> | 2026-09-25 |  |
+| [VLALight: Lightweight Vision-Language-Action Models for Emergency-Aware Traffic Signal Control](https://arxiv.org/abs/2609.30709v1)<br><small>Kemou Jiang et al.</small> | 2026-09-25 |  |
 | [Self-Adaptive VLA for Robust Robot Deployment](https://arxiv.org/abs/2609.30092v1)<br><small>Hongxin Zhang et al.</small> | 2026-09-24 |  |
 | [Decoupled Early Exits for Task-Dependent Compute Allocation in Flow-Matching VLAs](https://arxiv.org/abs/2609.29382v1)<br><small>Riccardo Andrea Izzo et al.</small> | 2026-09-24 |  |
 | [AdaHVLA: Adaptive Harnesses for Long-Horizon Vision-Language-Action Execution](https://arxiv.org/abs/2609.29204v1)<br><small>Junyi Tang et al.</small> | 2026-09-24 |  |
@@ -16,18 +23,12 @@ Total papers: 50
 | [TANDEM: Task and Motion Planning with As-Needed Demonstrations for Efficient Vision-Language-Action Model Fine-tuning](https://arxiv.org/abs/2609.28314v1)<br><small>Samrat Sahoo et al.</small> | 2026-09-23 |  |
 | [MemBodied: Recurrent Associative Memory for Vision-Language-Action Models](https://arxiv.org/abs/2609.28256v1)<br><small>Tej Deep Pala et al.</small> | 2026-09-23 |  |
 | [Dissecting Advantage-Guided Post-Training for Vision-Language-Action Policies](https://arxiv.org/abs/2609.28161v1)<br><small>Jiahang Cao et al.</small> | 2026-09-23 |  |
-| [Less Language, More Latents: Annotation-Efficient VLAs for Driving](https://arxiv.org/abs/2609.27747v1)<br><small>Alexey Zakharov et al.</small> | 2026-09-23 |  |
-| [CereVLA: Cerebellum-Inspired Consequence-Aware Residual Governance for Efficient Vision-Language-Action Execution](https://arxiv.org/abs/2609.27468v1)<br><small>Shuai Zeng et al.</small> | 2026-09-23 |  |
-| [BEE: Intervention-Adaptive Real-World Reinforcement Learning with Vision-Language-Action Models](https://arxiv.org/abs/2609.27450v1)<br><small>Weihui Zhao et al.</small> | 2026-09-23 |  |
-| [RouteRLT: Learning When and Which RL Specialist Should Control a Vision-Language-Action Policy](https://arxiv.org/abs/2609.26467v1)<br><small>Chongyu Zhu et al.</small> | 2026-09-22 |  |
-| [SafeLoop: Risk-Aware Rollback for Vision-Language-Action Manipulation](https://arxiv.org/abs/2609.26313v1)<br><small>Zeyu Lou et al.</small> | 2026-09-22 |  |
-| [RoboTwin-Phys: Do WAMs and VLAs Understand the Physical World?](https://arxiv.org/abs/2609.26292v1)<br><small>Jiaqi Zhang et al.</small> | 2026-09-22 |  |
-| [Beyond Reconstruction Error: Analytical and Data-Driven Action Tokenization for Autoregressive Vision-Language-Action Models](https://arxiv.org/abs/2609.25820v1)<br><small>Yuxin Yang et al.</small> | 2026-09-22 |  |
 
 ## World Model
 
 | Paper | Date | Code |
 |-------|------|------|
+| [InternW0-$Δ$: A World Action Model Bridging Predictive Dynamics and Actions with 20K+ Hours of Open Data](https://arxiv.org/abs/2609.31394v1)<br><small>Xingyu Miao et al.</small> | 2026-09-25 |  |
 | [Rolling-WAM: World Action Models with Rolling Imagination](https://arxiv.org/abs/2609.30247v1)<br><small>Yinghua Zhou et al.</small> | 2026-09-24 |  |
 | [DeltaWAM: Delta World Action Models for Bimanual Manipulation](https://arxiv.org/abs/2609.28811v1)<br><small>Han Yan et al.</small> | 2026-09-23 |  |
 | [Latent evolving World Action Model](https://arxiv.org/abs/2609.27455v2)<br><small>Xueji Fang et al.</small> | 2026-09-23 |  |
