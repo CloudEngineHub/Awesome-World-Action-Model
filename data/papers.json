@@ -1,1 +1,779 @@
-[]
+[
+  {
+    "id": "2610.30136v1",
+    "title": "Agentic World Action Models",
+    "authors": [
+      "Zhuoyang Liu",
+      "Dantong Niu",
+      "Botong Zhang",
+      "Boning Shao",
+      "Jing Wang",
+      "Ruijie Zheng",
+      "Yuvan Sharma",
+      "Runyu Lu",
+      "Jiaming Liu",
+      "Renrui Zhang",
+      "Roei Herzig",
+      "Yutong Bai",
+      "Ken Goldberg",
+      "Danfei Xu",
+      "Yuke Zhu",
+      "Guanzhi Wang",
+      "Linxi \"Jim\" Fan",
+      "Trevor Darrell"
+    ],
+    "summary": "Recent world action models provide visual foresight and future prediction for robot manipulation, but lack explicit mechanisms for compositional skill reuse. Agentic robotics combines code-based planning and reasoning with reusable skills, but often lacks predictive grounding in physical dynamics. We introduce AW-0, an agentic world action model framework that integrates code-based planning with joint video and action prediction. We jointly model code, future video, and robot actions as three co",
+    "published": "2026-10-21",
+    "published_iso": "2026-10-21T17:59:56+00:00",
+    "url": "https://arxiv.org/abs/2610.30136v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.30136v1",
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "World Model"
+  },
+  {
+    "id": "2610.30117v1",
+    "title": "CW-WAM: A Structured Contact-Wrench World Action Model for Force-Sensitive Manipulation",
+    "authors": [
+      "Houzhu Ding",
+      "Xinda Qi",
+      "Luqi Wang",
+      "Ming Yang"
+    ],
+    "summary": "Force-sensitive manipulation requires contact and load information that is not provided explicitly by visual observations. We present CW-WAM, a world action model that jointly predicts video, motion, and contact wrench. Inspired by hybrid motion-force control, it contains a unified interaction module that treats both motion and contact wrench as modeling targets and predicts time-aligned motion-wrench chunks as control references. A pair-causal attention mechanism structures the motion-wrench de",
+    "published": "2026-10-21",
+    "published_iso": "2026-10-21T17:55:53+00:00",
+    "url": "https://arxiv.org/abs/2610.30117v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.30117v1",
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "World Model"
+  },
+  {
+    "id": "2610.29282v1",
+    "title": "Relational Geometry Forcing for World Action Models",
+    "authors": [
+      "Yuan Xu",
+      "Yixiang Chen",
+      "Qisen Ma",
+      "Jiabing Yang",
+      "Peiyan Li",
+      "Kai Wang",
+      "Jianhua Yang",
+      "Jianlou Si",
+      "Jun Huang",
+      "Jing Liu",
+      "Nianfeng Liu",
+      "Yan Huang",
+      "Liang Wang"
+    ],
+    "summary": "World Action Models (WAMs) have shown strong potential for robot manipulation by jointly learning visual dynamics and executable actions. However, their video and action objectives do not explicitly constrain the 3D geometry that is crucial for precise manipulation. Recently, geometry-aware WAMs introduce depth or 4D prediction branches, whereas representation alignment methods supervise intermediate WAM features with pretrained 3D foundation models. Yet we find that such pointwise alignment ben",
+    "published": "2026-10-21",
+    "published_iso": "2026-10-21T06:35:27+00:00",
+    "url": "https://arxiv.org/abs/2610.29282v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.29282v1",
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "World Model"
+  },
+  {
+    "id": "2610.29168v1",
+    "title": "How Representational Priors Shape Generalization in World Action Models",
+    "authors": [
+      "Junha Chun",
+      "Youngjoon Jeong",
+      "Taesup Kim"
+    ],
+    "summary": "World action models (WAMs) are shown to substantially diverge under generalization performance based on their generative backbones. We investigate this gap through the representational geometry that WAMs inherit from their backbones and how policy training reorganizes it. Our central hypothesis is that a useful representational prior would structure geometry that separates nuisance information from the in-distribution manifold in advance of training as a policy. We quantify this with nuisance or",
+    "published": "2026-10-21",
+    "published_iso": "2026-10-21T03:59:35+00:00",
+    "url": "https://arxiv.org/abs/2610.29168v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.29168v1",
+    "categories": [
+      "cs.RO",
+      "cs.AI",
+      "cs.CV"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "World Model"
+  },
+  {
+    "id": "2610.28613v1",
+    "title": "Physical Canvas: A Vision Tactile World Model For Robot Policy Evaluation And Learning",
+    "authors": [
+      "Zebin Xing",
+      "Yuhang Zheng",
+      "Yupeng Zheng",
+      "Yichen Zhang",
+      "Zichen Li",
+      "Shangqing Zhou",
+      "Yujie Zang",
+      "Yuchen Liu",
+      "Zhongpu Xia",
+      "Haoran Li",
+      "Qichao Zhang"
+    ],
+    "summary": "Evaluating and post-training robot policies through physical interaction is costly and difficult to scale, motivating action-conditioned world models as interactive simulators. However, visually plausible predictions can misrepresent contact dynamics, providing unreliable feedback for policy evaluation and learning. We introduce PhysCanvas, a state-consistent visuo-tactile world model for contact-rich robot manipulation. PhysCanvas unifies multi-view RGB, tactile images, marker displacement, tas",
+    "published": "2026-10-20",
+    "published_iso": "2026-10-20T17:54:03+00:00",
+    "url": "https://arxiv.org/abs/2610.28613v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.28613v1",
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "World Model"
+  },
+  {
+    "id": "2610.28431v1",
+    "title": "Plausible Future, Wrong Choice: Steering World-Action Models toward Intended Future",
+    "authors": [
+      "Zhuohao Li",
+      "Jiawei He",
+      "Yuxuan Yan",
+      "Lang Zhou",
+      "Yinghao Li",
+      "Yanrui Li",
+      "Tianyu Zhang",
+      "Yi-Yang Song",
+      "Xirui Wu andYi-Lin Wei",
+      "Fating Hong",
+      "Qing Zhang",
+      "Zhilin Zhao",
+      "Jingdong Wang",
+      "Wei-Shi Zheng"
+    ],
+    "summary": "World-Action Models (WAMs) have emerged as a promising paradigm for embodied generalist policies by jointly modeling future world evolution and robot actions across diverse manipulation tasks. However, representing diverse futures is only the first step: a capable WAM must also generate futures that match the requirements of the current task and execution progress. In long-horizon manipulation where similar observation-action segments occur across different tasks and stages, existing approaches ",
+    "published": "2026-10-20",
+    "published_iso": "2026-10-20T15:58:45+00:00",
+    "url": "https://arxiv.org/abs/2610.28431v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.28431v1",
+    "categories": [
+      "cs.RO",
+      "cs.AI"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "Policy"
+  },
+  {
+    "id": "2610.26813v1",
+    "title": "PICA-WAM: Visual Perturbation Invariance via Cross-Appearance Self-Alignment in World Action Models",
+    "authors": [
+      "Yude Zou",
+      "Yifei Yao",
+      "Guanbo Jiao",
+      "Jianming Ma",
+      "Guanjie Zheng",
+      "Xing Gao"
+    ],
+    "summary": "World Action Models (WAMs) jointly predict future video and generate actions, yet remain sensitive to task-irrelevant visual perturbations, i.e., changes in visual appearance that should not affect robot behavior. We identify a gap in conventional WAM training: video prediction encourages representations to preserve appearance information, while action generation does not explicitly enforce invariance to task-irrelevant appearance. Data augmentation exposes WAMs to such perturbations but does no",
+    "published": "2026-10-19",
+    "published_iso": "2026-10-19T17:50:59+00:00",
+    "url": "https://arxiv.org/abs/2610.26813v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.26813v1",
+    "categories": [
+      "cs.CV",
+      "cs.RO"
+    ],
+    "primary_category": "cs.CV",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "World Model"
+  },
+  {
+    "id": "2610.26564v1",
+    "title": "PrismWAM: Decoupling State Representations in World Action Models",
+    "authors": [
+      "Tianyu Xin",
+      "Wanqi Zhong",
+      "Bowen Hu",
+      "Zhangchi Guo",
+      "Lijie Wang",
+      "Yiming Wang",
+      "Haoran Liao",
+      "Heyang Yu",
+      "Xiaoyu Tian",
+      "Zhiding Yu",
+      "Yiming Li"
+    ],
+    "summary": "World Action Models (WAMs) typically represent the world through latent embeddings from pretrained video models, which entangle heterogeneous aspects of the world, from how it looks (e.g., texture and color) to how it is physically configured (e.g., occupancy and pose). This raises an underexplored question: $\\textbf{what should constitute the state of a WAM?}$ We argue that the world state should separate how the world appears from how the world evolves under action: the former captures semanti",
+    "published": "2026-10-19",
+    "published_iso": "2026-10-19T15:21:30+00:00",
+    "url": "https://arxiv.org/abs/2610.26564v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.26564v1",
+    "categories": [
+      "cs.CV"
+    ],
+    "primary_category": "cs.CV",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "World Model"
+  },
+  {
+    "id": "2610.25763v1",
+    "title": "TrajWAM: An Efficient Trajectory-Guided World Action Model for Dynamic Robotic Manipulation",
+    "authors": [
+      "Haohan Geng",
+      "Sha Zhang",
+      "Weishuo Sun",
+      "Guanting Ye",
+      "Wenhao Yu",
+      "Yuang Xie",
+      "Qicheng Zeng",
+      "Peng Ye",
+      "Jiajun Deng",
+      "Jianmin Ji"
+    ],
+    "summary": "Dynamic object manipulation requires robots to anticipate target motion while replanning fast enough to avoid executing outdated actions. Existing approaches either rely on fast reactive control without an explicit future target state or encode anticipated motion only implicitly. World Action Models (WAMs) offer a promising alternative by coupling future visual prediction with action generation, but scene-level video objectives may underrepresent target dynamics that are critical for manipulatio",
+    "published": "2026-10-19",
+    "published_iso": "2026-10-19T04:21:22+00:00",
+    "url": "https://arxiv.org/abs/2610.25763v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.25763v1",
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "World Model"
+  },
+  {
+    "id": "2610.23156v1",
+    "title": "ORD-WM: Learning Object-Centric Rigid Dynamics for 3D World Modeling in Robotic Manipulation",
+    "authors": [
+      "Yueyang Weng",
+      "Xiaopeng Zhang",
+      "Yuxi Ou",
+      "Yongjin Mu",
+      "Chengzhi Zhao",
+      "Yanjie Li"
+    ],
+    "summary": "World models provide robots with a predictive mechanism for reasoning about how actions change object states in manipulation tasks. However, existing image-based and dense 3D world models do not explicitly impose object-level rigid motion, leaving rigid-object geometry preservation to be learned implicitly and making multi-step rollouts susceptible to shape drift or object-level motion inconsistency. To address this, we propose ORD-WM, a 3D world model that learns object-centric rigid dynamics f",
+    "published": "2026-10-16",
+    "published_iso": "2026-10-16T08:54:15+00:00",
+    "url": "https://arxiv.org/abs/2610.23156v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.23156v1",
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "World Model"
+  },
+  {
+    "id": "2610.22363v1",
+    "title": "Perceive, Predict, and Plan: a Unified World Action Model for Egocentric Dexterous Manipulation",
+    "authors": [
+      "Zirui Wu",
+      "Chen Guo",
+      "Tianjian Jiang",
+      "Zeren Jiang",
+      "Zeming Li",
+      "Lingchen Yang",
+      "Longteng Duan",
+      "Ying Xue",
+      "Handi Yin",
+      "Shenyuan Gao",
+      "Martin R. Oswald",
+      "Jun Zhang",
+      "Ping Tan",
+      "Jie Song"
+    ],
+    "summary": "We introduce P$^{3}$-WAM, a unified world action model for egocentric dexterous manipulation that learns 3D perception, action-conditioned prediction, and goal-directed planning through three complementary modes: Perceive, which reconstructs articulated hand motion and camera trajectories from video; Predict, which generates visual futures under prescribed actions; and Plan, which jointly generates action trajectories and their anticipated visual consequences conditioned on an initial image, a l",
+    "published": "2026-10-15",
+    "published_iso": "2026-10-15T17:59:07+00:00",
+    "url": "https://arxiv.org/abs/2610.22363v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.22363v1",
+    "categories": [
+      "cs.CV",
+      "cs.RO"
+    ],
+    "primary_category": "cs.CV",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "World Model"
+  },
+  {
+    "id": "2610.20157v1",
+    "title": "Atomic-WAM: Execution-Grounded Atomic-Motion Reasoning for World Action Models",
+    "authors": [
+      "Shijun Shi",
+      "Zhe Liu",
+      "Zhi Hou",
+      "Yinan Chen",
+      "Tao Zhang",
+      "Kai Hu",
+      "Yong Liu",
+      "Jiangning Zhang"
+    ],
+    "summary": "World Action Models (WAMs) typically adapt video foundation models to robotic control through joint video and action prediction. However, task-level instructions may leave the next physical interaction underspecified, requiring semantic grounding and state-dependent motion selection. To this end, we introduce Atomic-WAM, an understand-then-execute framework that connects task reasoning to action generation through atomic-motion descriptions. Specifically, a vision-language reasoner describes the",
+    "published": "2026-10-14",
+    "published_iso": "2026-10-14T13:13:35+00:00",
+    "url": "https://arxiv.org/abs/2610.20157v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.20157v1",
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "World Model"
+  },
+  {
+    "id": "2610.19957v1",
+    "title": "Complementary Future Token Pruning for World Action Models",
+    "authors": [
+      "Baekseung Kim",
+      "Junhoo Lee",
+      "Sohyeon Hong",
+      "Suhyun Jeon",
+      "Minkyu Kim",
+      "Seungyeon Kim",
+      "Donghoon Han",
+      "Nojun Kwak"
+    ],
+    "summary": "World action models (WAMs) jointly predict future visual states and robot actions, but processing dense future-frame tokens incurs substantial inference latency. We propose CF-Prune, a training-free framework for pruning future-frame tokens in pretrained WAMs. Our key insight is that future visual predictions support action generation and therefore need not preserve every visual detail required for high-fidelity video synthesis. CF-Prune combines instruction and action attention to identify task",
+    "published": "2026-10-14",
+    "published_iso": "2026-10-14T10:39:16+00:00",
+    "url": "https://arxiv.org/abs/2610.19957v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.19957v1",
+    "categories": [
+      "cs.RO",
+      "cs.CV"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "World Model"
+  },
+  {
+    "id": "2610.18697v2",
+    "title": "UniW(A)M: A Unified Mixture-of-Experts Framework for World and World-Action Models",
+    "authors": [
+      "Jingbo Xu",
+      "Jianjie Fang",
+      "Zhuohang Li",
+      "Zihao Song",
+      "Zhaolu Wang",
+      "Xvyuan Liu",
+      "Xin Zhang",
+      "Haisheng Su",
+      "Yinzhou Tang",
+      "Chen Gao",
+      "Wei Wu",
+      "Yong Li"
+    ],
+    "summary": "World models (WMs) and world-action models (WAMs) focus on future world prediction and executable action generation, respectively. Although these models learn shared physical dynamics and interaction semantics from embodied trajectories, they are typically trained in isolation, which restricts knowledge reuse between prediction and control. The central challenge is therefore to develop a unified learning framework that shares these dynamics while preserving the distinct modeling capabilities req",
+    "published": "2026-10-13",
+    "published_iso": "2026-10-13T16:47:16+00:00",
+    "url": "https://arxiv.org/abs/2610.18697v2",
+    "pdf_url": "https://arxiv.org/pdf/2610.18697v2",
+    "categories": [
+      "cs.RO",
+      "cs.AI",
+      "cs.CV",
+      "cs.LG"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "Policy"
+  },
+  {
+    "id": "2610.18038v2",
+    "title": "Data-Free Continual Learning for World Action Model with Rectified Generative Replay",
+    "authors": [
+      "Kaipeng Fang",
+      "Hangxu Liu",
+      "Chaojian Shi",
+      "Yunsong Zhou",
+      "Hongzi Zhu",
+      "Minyi Guo",
+      "Jingkuan Song",
+      "Lianli Gao"
+    ],
+    "summary": "World action models (WAMs) built on pretrained video generation models adapt quickly to new robotic tasks, but they forget previously learned tasks under sequential fine-tuning. Experience replay (ER) mitigates such forgetting by rehearsing data of previous tasks, yet this data is often unavailable in robotics, where a policy is deployed as weights only and its training data is not shared along with it. In this work, we ask whether a WAM can achieve data-free continual learning by regenerating i",
+    "published": "2026-10-13",
+    "published_iso": "2026-10-13T09:27:32+00:00",
+    "url": "https://arxiv.org/abs/2610.18038v2",
+    "pdf_url": "https://arxiv.org/pdf/2610.18038v2",
+    "categories": [
+      "cs.RO",
+      "cs.CV"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "World Model"
+  },
+  {
+    "id": "2610.17526v1",
+    "title": "Box-WAM: Box Trajectories as Compact State Representations for World Action Models",
+    "authors": [
+      "Qinxi Yu",
+      "Wenzhou Ding",
+      "Gloria X. Wang",
+      "Albert J. Zhai",
+      "Shenlong Wang"
+    ],
+    "summary": "World action models (WAMs) are a category of policy models that ex- plicitly predict both actions and future world states. They have been shown to outperform action-only models across various robotic manipulation tasks. How- ever, representing the future with full-frame video prediction can be computation- ally expensive during both training and inference. This raises a central question: what compact state representation preserves the planning and supervision bene- fits of future prediction? In ",
+    "published": "2026-10-13",
+    "published_iso": "2026-10-13T00:42:36+00:00",
+    "url": "https://arxiv.org/abs/2610.17526v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.17526v1",
+    "categories": [
+      "cs.RO",
+      "cs.AI"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "World Model"
+  },
+  {
+    "id": "2610.17141v1",
+    "title": "MARS: Systematic Multi-Level Acceleration for World Action Models",
+    "authors": [
+      "Zengyuan Zuo",
+      "Yongchang Zhang",
+      "Guangyu Zhao",
+      "Tianze Zhang",
+      "Biao Wu",
+      "Meng Fang",
+      "Yiwu Zhong"
+    ],
+    "summary": "World Action Models (WAMs) have emerged as a promising alternative for embodied intelligence by jointly predicting future world states and robot actions. However, their heavy visual encoding and iterative generative inference incur substantial latency, limiting their applicability to high-frequency closed-loop control. Existing training-free acceleration methods typically optimize a single stage, yielding limited speedups or degraded control under aggressive reuse. In this work, we systematicall",
+    "published": "2026-10-12",
+    "published_iso": "2026-10-12T17:26:21+00:00",
+    "url": "https://arxiv.org/abs/2610.17141v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.17141v1",
+    "categories": [
+      "cs.CV"
+    ],
+    "primary_category": "cs.CV",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "World Model"
+  },
+  {
+    "id": "2610.16641v1",
+    "title": "What Limits Cross-Task Generalization in World Action Models?",
+    "authors": [
+      "Chen Zhao",
+      "Zipeng Ye",
+      "Yihan Lin",
+      "Yuchen Xie",
+      "Jing Zhang"
+    ],
+    "summary": "Cross-task generalization remains difficult for world action models (WAMs), even when their predicted futures depict plausible manipulation. This gap can be attributed directly: we make this gap directly testable by decoupling a WAM into a world model and an inverse-dynamics model (IDM), then holding the IDM fixed while replacing the source of future images. We introduce Align Once, Evaluate Everywhere (AoE), a camera-space inverse-dynamics model pretrained on large-scale robot data, which provi",
+    "published": "2026-10-12",
+    "published_iso": "2026-10-12T12:02:51+00:00",
+    "url": "https://arxiv.org/abs/2610.16641v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.16641v1",
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "World Model"
+  },
+  {
+    "id": "2610.16558v1",
+    "title": "G$^2$WAM: World Action Models for Efficient and Geometry Grounded Image-Goal Navigation",
+    "authors": [
+      "Ke Gui",
+      "Chenghao Shi",
+      "Ziyue Wang",
+      "Longwen Chen",
+      "Xieyuanli Chen",
+      "Huimin Lu"
+    ],
+    "summary": "World models capture environment dynamics and support counterfactual reasoning for planning. In image-goal navigation, where the target often lies beyond the current field of view, the agent must not only model environmental dynamics but also maintain a persistent spatial memory of the scene. Existing approaches either introduce spatial context by fine-tuning pretrained models on the target task, which underexploits their spatial priors, or rely on external 3D reconstruction, which is computatio",
+    "published": "2026-10-12",
+    "published_iso": "2026-10-12T10:36:40+00:00",
+    "url": "https://arxiv.org/abs/2610.16558v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.16558v1",
+    "categories": [
+      "cs.AI",
+      "cs.RO"
+    ],
+    "primary_category": "cs.AI",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "World Model"
+  },
+  {
+    "id": "2610.16443v2",
+    "title": "RAP-WAM: Learning World-Action Models through Predictive Rehearsal and Action Perturbations",
+    "authors": [
+      "Yuanpeng He",
+      "Ceyao Zhang",
+      "Fangjing Li",
+      "Kefei Zhu",
+      "Lijian Li",
+      "Yueheng Li",
+      "Tianjia He",
+      "Wenpin Jiao",
+      "Zhi Jin",
+      "Yaodong Yang",
+      "Yuanpei Chen"
+    ],
+    "summary": "Recent world action models draw on video generation priors to jointly predict future observations and robot actions. Adapting these priors to control requires determining how future predictions should guide policy learning. RAP-WAM combines predictive Rehearsal and Action Perturbations (RAP) with future-supervised queries and Coupled Action Projection for policy learning. Predictive rehearsal trains on model-generated inputs while retaining recorded targets, and accumulates recurring errors into",
+    "published": "2026-10-12",
+    "published_iso": "2026-10-12T09:09:21+00:00",
+    "url": "https://arxiv.org/abs/2610.16443v2",
+    "pdf_url": "https://arxiv.org/pdf/2610.16443v2",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "Policy"
+  },
+  {
+    "id": "2610.16242v3",
+    "title": "Same Goal, Different Words: Spatial Instruction Sensitivity in World-Action Models",
+    "authors": [
+      "Ali-Adeeb Abbas",
+      "Esmaeil Seraj",
+      "Behrad Toghi",
+      "Taşkın Padır"
+    ],
+    "summary": "World-action models should preserve the intended manipulation across equivalent descriptions of a spatial goal. We evaluate this consistency in 864 rollouts from three models across four RoboLab scenes, holding initial states and task goals fixed. Describing relations through the reference object rather than the object-to-move lowers the rate of reaching a stable placement by 12.2 percentage points on average. The effect of instruction rephrasing varies across spatial relations, so aggregate sco",
+    "published": "2026-10-12",
+    "published_iso": "2026-10-12T06:15:07+00:00",
+    "url": "https://arxiv.org/abs/2610.16242v3",
+    "pdf_url": "https://arxiv.org/pdf/2610.16242v3",
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "Policy"
+  },
+  {
+    "id": "2610.15625v1",
+    "title": "1Step-WAM: Your World Action Model but Faster using 1-Step Action Generation",
+    "authors": [
+      "Rundong Su",
+      "Pengtao Chen",
+      "Haohan Geng",
+      "Sha Zhang",
+      "Zhihang Yuan",
+      "Yicheng Rong",
+      "Chong Yu",
+      "Hao Huang",
+      "Tao Chen"
+    ],
+    "summary": "World Action Models (WAMs) unify visual world modeling and action generation, yet their real-world deployment is heavily bottlenecked by iterative action denoising and the sequential execution of visual prefilling and action prediction. We demonstrate that the action-denoising trajectories in WAMs are approximately straight, rendering the first-step velocity a strong estimate of the final action direction. Building on this observation, we introduce 1Step-WAM, a framework that transforms multi-st",
+    "published": "2026-10-11",
+    "published_iso": "2026-10-11T13:50:07+00:00",
+    "url": "https://arxiv.org/abs/2610.15625v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.15625v1",
+    "categories": [
+      "cs.CV"
+    ],
+    "primary_category": "cs.CV",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "World Model"
+  },
+  {
+    "id": "2610.15585v1",
+    "title": "StreamingWAM: Streaming World Action Modeling via Chunk-Wise Staircase Flow Matching",
+    "authors": [
+      "Shaojie Ren",
+      "Jingwen Sun",
+      "Zezhi Liu",
+      "Hongjin Chen",
+      "Xin Jin",
+      "Wei Zou",
+      "Zhibo Chen"
+    ],
+    "summary": "World Action Models (WAMs), often built upon pretrained video-generation world models, have emerged as a promising framework for general-purpose and open-ended robot control. However, their real-world deployment often suffers from discontinuous and jerky execution. Existing methods typically address this issue by either improving inference efficiency or enhancing action continuity across prediction chunks, without jointly addressing both challenges. To bridge this gap, we propose StreamingWAM, a",
+    "published": "2026-10-11",
+    "published_iso": "2026-10-11T12:56:42+00:00",
+    "url": "https://arxiv.org/abs/2610.15585v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.15585v1",
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "World Model"
+  },
+  {
+    "id": "2610.15305v2",
+    "title": "RM-WAM: Reliable Memory-Augmented World Action Models for Long-Horizon Robot Manipulation",
+    "authors": [
+      "Cui Miao",
+      "Junhao Yu",
+      "Ping Liu",
+      "Ning Yang",
+      "Xuhua Chen",
+      "He Zheng",
+      "Xiaodong Wang",
+      "Tao Zhang"
+    ],
+    "summary": "World Action Models (WAMs) improve robotic manipulation by jointly predicting future visual states and actions, yet most existing methods make decisions primarily from the current observation. This limits their reliability in long-horizon tasks, where visually similar states may correspond to different interaction histories and task stages. Moreover, directly incorporating historical observations can introduce stale, stage-mismatched, or error-contaminated information, leading to inaccurate worl",
+    "published": "2026-10-11",
+    "published_iso": "2026-10-11T03:28:38+00:00",
+    "url": "https://arxiv.org/abs/2610.15305v2",
+    "pdf_url": "https://arxiv.org/pdf/2610.15305v2",
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "World Model"
+  },
+  {
+    "id": "2610.14727v1",
+    "title": "MHWA: Multi-timescale Hierarchical World-Action Model",
+    "authors": [
+      "Pengcheng Pan",
+      "Guoqing Ma",
+      "Yuhan Zhang",
+      "Yang Chen",
+      "Yichen Liu",
+      "Ziheng Li",
+      "Shan Yu"
+    ],
+    "summary": "Autoregressive world models have emerged as a powerful paradigm for sample efficient decision making, yet their open loop rollouts often exhibit increasing drift that leads to error accumulation even within a relatively small planning horizon. Hierarchical temporal abstraction is a natural candidate to mitigate such drift by reducing the effective prediction horizon; however, existing hierarchical designs can introduce added structural and conceptual complexity, sometimes making them difficult t",
+    "published": "2026-10-10",
+    "published_iso": "2026-10-10T08:47:09+00:00",
+    "url": "https://arxiv.org/abs/2610.14727v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.14727v1",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "Policy"
+  },
+  {
+    "id": "2610.14720v1",
+    "title": "CAG-WAM: Causal Action-Gain World Action Models for Robot Manipulation",
+    "authors": [
+      "Peizheng Guo",
+      "Cheng Zhang",
+      "Xingyu Zhang",
+      "Changwen Zheng",
+      "Wenwen Qiang"
+    ],
+    "summary": "World Action Models (WAMs) combine action generation with future prediction, allowing predicted futures to support action evaluation and robot decision making. However, the future associated with a candidate action may contain action-induced and environment-driven changes. Directly evaluating the predicted future may not fully characterize the future change associated with the candidate action. For example, a candidate action that worsens a favorable environmental future may still yield a favora",
+    "published": "2026-10-10",
+    "published_iso": "2026-10-10T08:40:37+00:00",
+    "url": "https://arxiv.org/abs/2610.14720v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.14720v1",
+    "categories": [
+      "cs.RO"
+    ],
+    "primary_category": "cs.RO",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "World Model"
+  },
+  {
+    "id": "2610.14351v1",
+    "title": "Learning Transferable World-Action Models from Task-Paired Human Videos",
+    "authors": [
+      "Jeongeun Park",
+      "Taekyung Kim",
+      "Dongyoon Han",
+      "Sangdoo Yun"
+    ],
+    "summary": "World-action models inherit broad visual and physical priors from video pre-training. However, standard within-video next-frame prediction allows them to rely on appearance shared between the context and future, rather than learning interactions that transfer across scenes and embodiments. We introduce WATCH, a cross-video pre-training that learns from task-paired human demonstrations collected across diverse environments. Conditioned on the video and actions of one demonstration, the model join",
+    "published": "2026-10-09",
+    "published_iso": "2026-10-09T21:56:03+00:00",
+    "url": "https://arxiv.org/abs/2610.14351v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.14351v1",
+    "categories": [
+      "cs.CV",
+      "cs.RO"
+    ],
+    "primary_category": "cs.CV",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "Policy"
+  },
+  {
+    "id": "2610.14228v1",
+    "title": "Latent World Action Model for GUI Agents",
+    "authors": [
+      "Seungjun Yu",
+      "Hojun Choi",
+      "Seojeong Park",
+      "Jaeyo Shin",
+      "Hyunjung Shim"
+    ],
+    "summary": "Pixel-space world models have recently emerged as a promising approach for GUI agents, predicting future screens prior to execution and subsequently re-perceiving them for action selection. However, this two-stage paradigm faces two key challenges in GUI environments: (L1) the high computational cost of pixel reconstruction and (L2) the need to reconstruct large and diverse appearance-level details beyond what is required for action selection. In practice, this screen-generation objective can in",
+    "published": "2026-10-09",
+    "published_iso": "2026-10-09T18:45:11+00:00",
+    "url": "https://arxiv.org/abs/2610.14228v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.14228v1",
+    "categories": [
+      "cs.CV",
+      "cs.AI",
+      "cs.HC"
+    ],
+    "primary_category": "cs.CV",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "World Model"
+  },
+  {
+    "id": "2610.13781v1",
+    "title": "SimVTA: Simulation-Grounded Video-Trajectory Alignment for Driving World Action Models",
+    "authors": [
+      "Changhui Jing",
+      "Haochen Tian",
+      "Hongchen Li",
+      "Tianyu Li",
+      "Caojun Wang",
+      "Zihao Zhang",
+      "Yanhao Liu",
+      "Chengen Xie",
+      "Bailin Li",
+      "Hao Zhao",
+      "Zhenjie Yang"
+    ],
+    "summary": "Driving world action models (WAMs) learn from paired trajectories and future observations. Post-training with reinforcement learning allows the policy to explore alternative trajectories and improve planning using driving rewards. However, driving logs contain future videos only for the recorded trajectories, leaving these alternatives without corresponding visual supervision. Thus, we introduce SimVTA, a simulation-grounded post-training framework that combines trajectory optimization with vide",
+    "published": "2026-10-09",
+    "published_iso": "2026-10-09T16:01:09+00:00",
+    "url": "https://arxiv.org/abs/2610.13781v1",
+    "pdf_url": "https://arxiv.org/pdf/2610.13781v1",
+    "categories": [
+      "cs.CV"
+    ],
+    "primary_category": "cs.CV",
+    "code_url": null,
+    "project_url": null,
+    "auto_category": "World Model"
+  }
+]
