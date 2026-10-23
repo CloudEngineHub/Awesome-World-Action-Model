@@ -101,33 +101,41 @@ flowchart TD
 
 ## 🆕 Latest Papers (Auto-updated)
 
-> Papers are automatically fetched daily from arXiv. Last updated: 2026-10-21
+> Papers are automatically fetched daily from arXiv. Last updated: 2026-10-20
+
+### VLA
+
+| Paper | Date | Code |
+|-------|------|------|
+| [PACT-VLA: Speculative Action-Chunk Verification with Pre-Commit Observations](https://arxiv.org/abs/2610.28019v1)<br><small>Yixiang Zhu, Ruilong Wu et al.</small> | 2026-10-20 |  |
+| [Policy-Aligned Predictive Verification for Adaptive VLA Action-Chunk Execution](https://arxiv.org/abs/2610.21434v1)<br><small>Minkyu Kim, Junhoo Lee et al.</small> | 2026-10-15 |  |
+| [When to Switch: Reliable Action-Chunk Extension for Vision-Language-Action Models](https://arxiv.org/abs/2610.05719v1)<br><small>Seonghoon Yu, Dongwon Kim et al.</small> | 2026-10-05 |  |
+| [ChunkVLA-AM: Parallel Action Chunking for Vision-Language-Action Robot Control in Additive Manufacturing](https://arxiv.org/abs/2610.01856v1)<br><small>Zhugang Liu, Kaichuang Zhang et al.</small> | 2026-10-01 |  |
+| [SparkVLA: Stop-Aware Hierarchical VLA with Adaptive Action Chunking for Long-Horizon Manipulation](https://arxiv.org/abs/2608.16172v1)<br><small>Xunyao Lei, Renjun Wu et al.</small> | 2026-08-17 |  |
+| [FabriVLA: A Lightweight Vision-Language-Action Model with Conformal Action Chunk Uncertainty](https://arxiv.org/abs/2607.08575v3)<br><small>Shiyuan Yang, Borong Zhang et al.</small> | 2026-07-09 |  |
+| [SEAM: Smooth Execution of Action-Chunked Motion for Vision-Language-Action Policies](https://arxiv.org/abs/2607.04609v1)<br><small>Dijia Zhan, Xuemiao Xu et al.</small> | 2026-07-06 |  |
 
 ### World Model
 
 | Paper | Date | Code |
 |-------|------|------|
-| [Agentic World Action Models](https://arxiv.org/abs/2610.30136v1)<br><small>Zhuoyang Liu, Dantong Niu et al.</small> | 2026-10-21 |  |
-| [CW-WAM: A Structured Contact-Wrench World Action Model for Force-Sensitive Manipulation](https://arxiv.org/abs/2610.30117v1)<br><small>Houzhu Ding, Xinda Qi et al.</small> | 2026-10-21 |  |
-| [Relational Geometry Forcing for World Action Models](https://arxiv.org/abs/2610.29282v1)<br><small>Yuan Xu, Yixiang Chen et al.</small> | 2026-10-21 |  |
-| [How Representational Priors Shape Generalization in World Action Models](https://arxiv.org/abs/2610.29168v1)<br><small>Junha Chun, Youngjoon Jeong et al.</small> | 2026-10-21 |  |
-| [Physical Canvas: A Vision Tactile World Model For Robot Policy Evaluation And Learning](https://arxiv.org/abs/2610.28613v1)<br><small>Zebin Xing, Yuhang Zheng et al.</small> | 2026-10-20 |  |
-| [PICA-WAM: Visual Perturbation Invariance via Cross-Appearance Self-Alignment in World Action Models](https://arxiv.org/abs/2610.26813v1)<br><small>Yude Zou, Yifei Yao et al.</small> | 2026-10-19 |  |
-| [PrismWAM: Decoupling State Representations in World Action Models](https://arxiv.org/abs/2610.26564v1)<br><small>Tianyu Xin, Wanqi Zhong et al.</small> | 2026-10-19 |  |
-| [TrajWAM: An Efficient Trajectory-Guided World Action Model for Dynamic Robotic Manipulation](https://arxiv.org/abs/2610.25763v1)<br><small>Haohan Geng, Sha Zhang et al.</small> | 2026-10-19 |  |
-| [ORD-WM: Learning Object-Centric Rigid Dynamics for 3D World Modeling in Robotic Manipulation](https://arxiv.org/abs/2610.23156v1)<br><small>Yueyang Weng, Xiaopeng Zhang et al.</small> | 2026-10-16 |  |
-| [Perceive, Predict, and Plan: a Unified World Action Model for Egocentric Dexterous Manipulation](https://arxiv.org/abs/2610.22363v1)<br><small>Zirui Wu, Chen Guo et al.</small> | 2026-10-15 |  |
+| [Temporal Logic Guidance for Action-Only Diffusion Policies with World Models](https://arxiv.org/abs/2606.22729v1)<br><small>Moritz Zoellner, Anastasios Manganaris et al.</small> | 2026-06-22 |  |
+| [DREAM-Chunk: Reactive Action Chunking with Latent World Model](https://arxiv.org/abs/2606.18589v1)<br><small>Wenxi Chen, Kaidi Zhang et al.</small> | 2026-06-17 |  |
 
 ### Policy
 
 | Paper | Date | Code |
 |-------|------|------|
-| [Plausible Future, Wrong Choice: Steering World-Action Models toward Intended Future](https://arxiv.org/abs/2610.28431v1)<br><small>Zhuohao Li, Jiawei He et al.</small> | 2026-10-20 |  |
-| [UniW(A)M: A Unified Mixture-of-Experts Framework for World and World-Action Models](https://arxiv.org/abs/2610.18697v2)<br><small>Jingbo Xu, Jianjie Fang et al.</small> | 2026-10-13 |  |
-| [RAP-WAM: Learning World-Action Models through Predictive Rehearsal and Action Perturbations](https://arxiv.org/abs/2610.16443v2)<br><small>Yuanpeng He, Ceyao Zhang et al.</small> | 2026-10-12 |  |
-| [Same Goal, Different Words: Spatial Instruction Sensitivity in World-Action Models](https://arxiv.org/abs/2610.16242v3)<br><small>Ali-Adeeb Abbas, Esmaeil Seraj et al.</small> | 2026-10-12 |  |
-| [MHWA: Multi-timescale Hierarchical World-Action Model](https://arxiv.org/abs/2610.14727v1)<br><small>Pengcheng Pan, Guoqing Ma et al.</small> | 2026-10-10 |  |
-| [Learning Transferable World-Action Models from Task-Paired Human Videos](https://arxiv.org/abs/2610.14351v1)<br><small>Jeongeun Park, Taekyung Kim et al.</small> | 2026-10-09 |  |
+| [Refine Actions If Needed: Adaptive Action Chunk Refinement for Robot Manipulation](https://arxiv.org/abs/2610.19765v1)<br><small>Hanlin Liu, Zichen Zhou et al.</small> | 2026-10-14 |  |
+| [ChunkAct: Action Chunking for Agentic Robotics](https://arxiv.org/abs/2610.18874v1)<br><small>Bingxin Xu, Wenrui Bao et al.</small> | 2026-10-13 |  |
+| [CFG-Policy: Unified Diffusion Policy Learning Framework via Classifier-free Guidance](https://arxiv.org/abs/2610.14936v1)<br><small>Shutong Ding, Zhaoyang Liu et al.</small> | 2026-10-10 |  |
+| [RoboPace: Contact-Aware Time-Optimal Retiming for Action-Chunk Policies](https://arxiv.org/abs/2610.09696v1)<br><small>Mimo Shirasaka, Takehiko Ohkawa et al.</small> | 2026-10-07 |  |
+| [Immiscible Diffusion Policy: Preserving Multimodal Robot Actions through Label-Free Noise Assignment](https://arxiv.org/abs/2610.09369v2)<br><small>Xiao Zhang, Yuxin Chen et al.</small> | 2026-10-07 |  |
+| [Commit While Futures Agree: Consequence-Aware Adaptive Action Chunking for Robot Manipulation](https://arxiv.org/abs/2610.07949v1)<br><small>Yuyan Li, Yujia Wang et al.</small> | 2026-10-06 |  |
+| [Equivariant Visual-Tactile Diffusion Policy for Contact-Rich Manipulation](https://arxiv.org/abs/2610.03333v1)<br><small>Lik Hang Kenny Wong, Yiyao Ma et al.</small> | 2026-10-02 |  |
+| [ColoACT: Multi-Cue Action Chunking for Smooth Autonomous Colon Navigation on a Self-Propelled Endoscopic Robot](https://arxiv.org/abs/2610.01258v1)<br><small>Jian Hu, Shujing He et al.</small> | 2026-10-01 |  |
+| [PRICE the Action Chunks: Physical Relational Credit Assignment for Embodied Reinforcement Learning](https://arxiv.org/abs/2609.38890v1)<br><small>Yangang Zou, Jiajun Lu et al.</small> | 2026-09-30 |  |
+| [Staircase Policy: Streaming Inference for World-Action Models with Large Action Chunks](https://arxiv.org/abs/2609.36471v1)<br><small>Guoheng Sun, Chen Chen et al.</small> | 2026-09-29 |  |
 
 ---
 
@@ -451,13 +459,15 @@ Non-VLA policies and planners that remain standard baselines in the experimental
 <!-- EXT-PAPERS:start -->
 ## 🗂️ Extended Paper Index (Auto-Curated, Newest First)
 
-> A broader, continuously-mined index of recent arXiv work that complements the curated highlights above — **171 additional papers**, newest first. Last updated: 2026-10-14. Auto-generated from `data/*.json` by [`scripts/expand_papers.py`](scripts/expand_papers.py); papers already highlighted above are omitted here to avoid duplication.
+> A broader, continuously-mined index of recent arXiv work that complements the curated highlights above — **189 additional papers**, newest first. Last updated: 2026-09-28. Auto-generated from `data/*.json` by [`scripts/expand_papers.py`](scripts/expand_papers.py); papers already highlighted above are omitted here to avoid duplication.
 
 <details>
-<summary><b>VLA — General & Manipulation</b> · 37 papers</summary>
+<summary><b>VLA — General & Manipulation</b> · 39 papers</summary>
 
 | Paper | Authors | Date | Links |
 |-------|---------|------|-------|
+| [Action Chunk Scheduling for Batched Robot Policy Serving](https://arxiv.org/abs/2608.00337v1) | Rohan Bansal, David He et al. | 2026-07-31 |  |
+| [PACE: Phase-Aware Chunk Execution for Robot Policies with Action Chunking](https://arxiv.org/abs/2606.00537v3) | Junnan Nie, Jiayi Li et al. | 2026-05-30 |  |
 | [FocusVLA: Focused Visual Utilization for Vision-Language-Action Models](http://arxiv.org/abs/2603.28740v1) | Yichi Zhang, Weihao Yuan et al. | 2026-03-30 |  |
 | [ProgressVLA: Progress-Guided Diffusion Policy for Vision-Language Robotic Manipulation](http://arxiv.org/abs/2603.27670v1) | Hongyu Yan, Qiwei Li et al. | 2026-03-29 |  |
 | [MMaDA-VLA: Large Diffusion Vision-Language-Action Model with Unified Multi-Modal Instruction and Generation](http://arxiv.org/abs/2603.25406v2) | Yang Liu, Pengxiang Ding et al. | 2026-03-26 |  |
@@ -549,10 +559,11 @@ Non-VLA policies and planners that remain standard baselines in the experimental
 </details>
 
 <details>
-<summary><b>VLA — RL & Post-Training</b> · 5 papers</summary>
+<summary><b>VLA — RL & Post-Training</b> · 6 papers</summary>
 
 | Paper | Authors | Date | Links |
 |-------|---------|------|-------|
+| [PAC-ACT: Post-training Actor-Critic for Action Chunking Transformers](https://arxiv.org/abs/2607.09590v1) | Yujie Pang, Zudong Li | 2026-07-10 |  |
 | [VLA-OPD: Bridging Offline SFT and Online RL for Vision-Language-Action Models via On-Policy Distillation](http://arxiv.org/abs/2603.26666v1) | Zhide Zhong, Haodong Yan et al. | 2026-03-27 |  |
 | [On-the-Fly VLA Adaptation via Test-Time Reinforcement Learning](http://arxiv.org/abs/2601.06748v2) | Changyu Liu, Yiyang Liu et al. | 2026-01-11 |  |
 | [VLA Model Post-Training via Action-Chunked PPO and Self Behavior Cloning](http://arxiv.org/abs/2509.25718v1) | Si-Cheng Wang, Tian-Yu Xiang et al. | 2025-09-30 |  |
@@ -562,10 +573,11 @@ Non-VLA policies and planners that remain standard baselines in the experimental
 </details>
 
 <details>
-<summary><b>VLA — Efficient & Real-Time</b> · 17 papers</summary>
+<summary><b>VLA — Efficient & Real-Time</b> · 18 papers</summary>
 
 | Paper | Authors | Date | Links |
 |-------|---------|------|-------|
+| [FutureRTC: Real-Time Robot Execution with Anticipatory-Conditioned Action Chunking](https://arxiv.org/abs/2607.24008v1) | Hai Jiang, Yixian Zou et al. | 2026-07-27 |  |
 | [DIAL: Decoupling Intent and Action via Latent World Modeling for End-to-End VLA](http://arxiv.org/abs/2603.29844v1) | Yi Chen, Yuying Ge et al. | 2026-03-31 |  |
 | [Realtime-VLA V2: Learning to Run VLAs Fast, Smooth, and Accurate](http://arxiv.org/abs/2603.26360v1) | Chen Yang, Yucheng Hu et al. | 2026-03-27 |  |
 | [DFM-VLA: Iterative Action Refinement for Robot Manipulation via Discrete Flow Matching](http://arxiv.org/abs/2603.26320v2) | Jiayi Chen, Wenxuan Song et al. | 2026-03-27 |  |
@@ -606,16 +618,10 @@ Non-VLA policies and planners that remain standard baselines in the experimental
 </details>
 
 <details>
-<summary><b>World Models — General & Foundation</b> · 15 papers</summary>
+<summary><b>World Models — General & Foundation</b> · 9 papers</summary>
 
 | Paper | Authors | Date | Links |
 |-------|---------|------|-------|
-| [Complementary Future Token Pruning for World Action Models](https://arxiv.org/abs/2610.19957v1) | Baekseung Kim, Junhoo Lee et al. | 2026-10-14 |  |
-| [Box-WAM: Box Trajectories as Compact State Representations for World Action Models](https://arxiv.org/abs/2610.17526v1) | Qinxi Yu, Wenzhou Ding et al. | 2026-10-13 |  |
-| [MARS: Systematic Multi-Level Acceleration for World Action Models](https://arxiv.org/abs/2610.17141v1) | Zengyuan Zuo, Yongchang Zhang et al. | 2026-10-12 |  |
-| [What Limits Cross-Task Generalization in World Action Models?](https://arxiv.org/abs/2610.16641v1) | Chen Zhao, Zipeng Ye et al. | 2026-10-12 |  |
-| [RM-WAM: Reliable Memory-Augmented World Action Models for Long-Horizon Robot Manipulation](https://arxiv.org/abs/2610.15305v2) | Cui Miao, Junhao Yu et al. | 2026-10-11 |  |
-| [Latent World Action Model for GUI Agents](https://arxiv.org/abs/2610.14228v1) | Seungjun Yu, Hojun Choi et al. | 2026-10-09 |  |
 | [LOME: Learning Human-Object Manipulation with Action-Conditioned Egocentric World Model](http://arxiv.org/abs/2603.27449v1) | Quankai Gao, Jiawei Yang et al. | 2026-03-28 |  |
 | [OmniVTA: Visuo-Tactile World Modeling for Contact-Rich Robotic Manipulation](http://arxiv.org/abs/2603.19201v2) | Yuhang Zheng, Songen Gu et al. | 2026-03-19 |  |
 | [Simulation Distillation: Pretraining World Models in Simulation for Rapid Real-World Adaptation](http://arxiv.org/abs/2603.15759v1) | Jacob Levy, Tyler Westenbroek et al. | 2026-03-16 |  |
@@ -629,15 +635,10 @@ Non-VLA policies and planners that remain standard baselines in the experimental
 </details>
 
 <details>
-<summary><b>World Models — Video Generation & WAM</b> · 11 papers</summary>
+<summary><b>World Models — Video Generation & WAM</b> · 6 papers</summary>
 
 | Paper | Authors | Date | Links |
 |-------|---------|------|-------|
-| [Atomic-WAM: Execution-Grounded Atomic-Motion Reasoning for World Action Models](https://arxiv.org/abs/2610.20157v1) | Shijun Shi, Zhe Liu et al. | 2026-10-14 |  |
-| [Data-Free Continual Learning for World Action Model with Rectified Generative Replay](https://arxiv.org/abs/2610.18038v2) | Kaipeng Fang, Hangxu Liu et al. | 2026-10-13 |  |
-| [1Step-WAM: Your World Action Model but Faster using 1-Step Action Generation](https://arxiv.org/abs/2610.15625v1) | Rundong Su, Pengtao Chen et al. | 2026-10-11 |  |
-| [StreamingWAM: Streaming World Action Modeling via Chunk-Wise Staircase Flow Matching](https://arxiv.org/abs/2610.15585v1) | Shaojie Ren, Jingwen Sun et al. | 2026-10-11 |  |
-| [CAG-WAM: Causal Action-Gain World Action Models for Robot Manipulation](https://arxiv.org/abs/2610.14720v1) | Peizheng Guo, Cheng Zhang et al. | 2026-10-10 |  |
 | [HCLSM: Hierarchical Causal Latent State Machines for Object-Centric World Modeling](http://arxiv.org/abs/2603.29090v1) | Jaber Jaber, Osama Jaber | 2026-03-31 |  |
 | [Persistent Robot World Models: Stabilizing Multi-Step Rollouts via Reinforcement Learning](http://arxiv.org/abs/2603.25685v1) | Jai Bardhan, Patrik Drozdik et al. | 2026-03-26 |  |
 | [EVA: Aligning Video World Models with Executable Robot Actions via Inverse Dynamics Rewards](http://arxiv.org/abs/2603.17808v2) | Ruixiang Wang, Qingming Liu et al. | 2026-03-18 |  |
@@ -648,12 +649,10 @@ Non-VLA policies and planners that remain standard baselines in the experimental
 </details>
 
 <details>
-<summary><b>World Models — Driving & Navigation</b> · 6 papers</summary>
+<summary><b>World Models — Driving & Navigation</b> · 4 papers</summary>
 
 | Paper | Authors | Date | Links |
 |-------|---------|------|-------|
-| [G$^2$WAM: World Action Models for Efficient and Geometry Grounded Image-Goal Navigation](https://arxiv.org/abs/2610.16558v1) | Ke Gui, Chenghao Shi et al. | 2026-10-12 |  |
-| [SimVTA: Simulation-Grounded Video-Trajectory Alignment for Driving World Action Models](https://arxiv.org/abs/2610.13781v1) | Changhui Jing, Haochen Tian et al. | 2026-10-09 |  |
 | [Enhancing Policy Learning with World-Action Model](http://arxiv.org/abs/2603.28955v1) | Yuci Han, Alper Yilmaz | 2026-03-30 |  |
 | [Latent-WAM: Latent World Action Modeling for End-to-End Autonomous Driving](http://arxiv.org/abs/2603.24581v1) | Linbo Wang, Yupeng Zheng et al. | 2026-03-25 |  |
 | [NavThinker: Action-Conditioned World Models for Coupled Prediction and Planning in Social Navigation](http://arxiv.org/abs/2603.15359v2) | Tianshuai Hu, Zeying Gong et al. | 2026-03-16 |  |
@@ -662,10 +661,28 @@ Non-VLA policies and planners that remain standard baselines in the experimental
 </details>
 
 <details>
-<summary><b>Policies — Diffusion & Flow</b> · 27 papers</summary>
+<summary><b>Policies — Diffusion & Flow</b> · 45 papers</summary>
 
 | Paper | Authors | Date | Links |
 |-------|---------|------|-------|
+| [ContactDP: Contact-Guided Diffusion Policy for Tight Insertion Tasks](https://arxiv.org/abs/2609.23800v1) | Chengyi Xing, Shaoxiong Yao et al. | 2026-09-20 |  |
+| [AcousticDiffusion: Semantically Conditioned Audio-Guided Diffusion Policy for Search-and-Rescue Assistance](https://arxiv.org/abs/2609.21792v1) | Iana Zhura, Didar Seyidov et al. | 2026-09-18 |  |
+| [LieSpline-DP: Lie-Group B-Spline Diffusion Policy for Smooth Robot Manipulation](https://arxiv.org/abs/2609.15162v2) | Erxuan Xie, Bang Liu et al. | 2026-09-14 |  |
+| [Online Material Estimation for Conditioned Diffusion Policy in Shaping Deformable Linear Objects](https://arxiv.org/abs/2609.12634v1) | Ryunosuke Yamada, Tomohiro Motoda et al. | 2026-09-11 |  |
+| [DIA: Denoising Intermediate Advantage for Diffusion Policy Optimization](https://arxiv.org/abs/2609.12245v2) | Arjun Sohal, Yuchi Zhao et al. | 2026-09-10 |  |
+| [ObstaDiff: Generalizable Diffusion Policy Learning via Obstacle-aware Representations](https://arxiv.org/abs/2609.10918v1) | Jiawen Wang, Kevin Yao et al. | 2026-09-10 |  |
+| [Dressing in Motion: A Human Motion-Aware Diffusion Policy for Robot-Assisted Dressing](https://arxiv.org/abs/2609.04759v1) | Haoxiang Sun, Fangyuan Wang et al. | 2026-09-04 |  |
+| [MulDP: Multimodal Diffusion Policy for Autonomous Quadruped Parkour Navigation across Complex Terrains](https://arxiv.org/abs/2609.03984v1) | Kangmai Hu, Yueqi Zhang et al. | 2026-09-03 |  |
+| [Contact-Rich Robotic Manipulation in Construction via Zero-Shot Learning: A Diffusion Policy-Guided Adaptive Control](https://arxiv.org/abs/2608.22100v1) | Roman Ibrahimov, Salma Mozaffari et al. | 2026-08-22 |  |
+| [VIDP: Variable Impedance Diffusion Policy for Compliant Robot Manipulation from Diverse Demonstrations](https://arxiv.org/abs/2608.06210v1) | Hisham Khalil, Neil Fernandes et al. | 2026-08-06 |  |
+| [FA-RDP: A Frequency-Adaptive Reactive Diffusion Policy for Contact-Rich Manipulation](https://arxiv.org/abs/2607.28596v1) | Lifeng Zhuo, Wendi Chen et al. | 2026-07-30 |  |
+| [X-NavDP: Generalizing Navigation Diffusion Policy to Novel Behavior and Embodiments with Group Q-score Reweighted Matching](https://arxiv.org/abs/2607.28560v2) | Tianyu Yang, Yiming Zeng et al. | 2026-07-30 |  |
+| [PAC-DP: PAC-Bayesian Diffusion Policy Learning](https://arxiv.org/abs/2607.24296v1) | Mohammad Hasan Yeganegi, Dian Yu et al. | 2026-07-27 |  |
+| [Asynchronous Multimodal Diffusion Policy Composition via Latency-Aware Guidance Fusion](https://arxiv.org/abs/2607.17257v1) | Zihao He, Hongjie Fang et al. | 2026-07-19 |  |
+| [Stage-Aware and Roughness-Constrained Diffusion Policy for Multi-Stage Robotic Polishing](https://arxiv.org/abs/2606.25754v1) | Shuai Ke, Jiexin Zhang et al. | 2026-06-24 |  |
+| [DiffusionVS: A Generative Framework for Robust Visual Servoing Based on Diffusion Policy](https://arxiv.org/abs/2606.19397v1) | Hongkang Cui, Rui He et al. | 2026-06-17 |  |
+| [Ambient Diffusion Policy: Imitation Learning from Suboptimal Data in Robotics](https://arxiv.org/abs/2606.12365v1) | Adam Wei, Nicholas Pfaff et al. | 2026-06-10 |  |
+| [Set-Supervised Diffusion Policy: Learning Action-Chunking Diffusion through Corrections](https://arxiv.org/abs/2606.01865v1) | Zhaoting Li, Gang Chen et al. | 2026-06-01 |  |
 | [Encoding Predictability and Legibility for Style-Conditioned Diffusion Policy](http://arxiv.org/abs/2603.16368v1) | Adrien Jacquet Crétides, Mouad Abrini et al. | 2026-03-17 |  |
 | [ReMAP-DP: Reprojected Multi-view Aligned PointMaps for Diffusion Policy](http://arxiv.org/abs/2603.14977v2) | Xinzhang Yang, Renjun Wu et al. | 2026-03-16 |  |
 | [REFINE-DP: Diffusion Policy Fine-tuning for Humanoid Loco-manipulation via Reinforcement Learning](http://arxiv.org/abs/2603.13707v2) | Zhaoyuan Gu, Yipu Chen et al. | 2026-03-14 |  |
@@ -697,10 +714,15 @@ Non-VLA policies and planners that remain standard baselines in the experimental
 </details>
 
 <details>
-<summary><b>Policies — Imitation & Behavior Learning</b> · 10 papers</summary>
+<summary><b>Policies — Imitation & Behavior Learning</b> · 15 papers</summary>
 
 | Paper | Authors | Date | Links |
 |-------|---------|------|-------|
+| [Action Chunking Proximal Policy Optimization with Feedback Correction](https://arxiv.org/abs/2609.36250v1) | Sanghyun Hahn, Jonghyun Choi | 2026-09-28 |  |
+| [Imp-ACT: Adaptive Impedance Control and Action Chunking with Transformers to Learn Contact-Rich Manipulation from Demonstrations](https://arxiv.org/abs/2609.31225v1) | Luca Zanetti, Doganay Sirintuna et al. | 2026-09-25 |  |
+| [The Latent That Never Was: A Forensic Re-run of the CVAE Ablation in Action Chunking Transformers](https://arxiv.org/abs/2609.16745v2) | Bo Kang | 2026-09-15 |  |
+| [AutoIntervene: Calibrated Intervention for Action-Chunking Imitation Learning Policies](https://arxiv.org/abs/2608.07065v1) | Jinhe Tang, Weiming Zhi | 2026-08-07 |  |
+| [TRACT: Temporally Routed Action Chunks with Chronological Phase Authority for Contact-Rich Manipulation](https://arxiv.org/abs/2607.29285v3) | Jiahao Liu, Kento Kawaharazuka et al. | 2026-07-31 |  |
 | [Bi-AQUA: Bilateral Control-Based Imitation Learning for Underwater Robot Arms via Lighting-Aware Action Chunking with Transformers](http://arxiv.org/abs/2511.16050v2) | Takeru Tsunoori, Masato Kobayashi et al. | 2025-11-20 |  |
 | [Temporal Action Selection for Action Chunking](http://arxiv.org/abs/2511.04421v1) | Yueyang Weng, Xiaopeng Zhang et al. | 2025-11-06 |  |
 | [FTACT: Force Torque aware Action Chunking Transformer for Pick-and-Reorient Bottle Task](http://arxiv.org/abs/2509.23112v1) | Ryo Watanabe, Maxime Alvarez et al. | 2025-09-27 |  |
@@ -715,10 +737,14 @@ Non-VLA policies and planners that remain standard baselines in the experimental
 </details>
 
 <details>
-<summary><b>Policies — Robot Learning & Manipulation</b> · 14 papers</summary>
+<summary><b>Policies — Robot Learning & Manipulation</b> · 18 papers</summary>
 
 | Paper | Authors | Date | Links |
 |-------|---------|------|-------|
+| [Uncertainty-Guided Sparse Refinement for Action Chunking Transformer Policies](https://arxiv.org/abs/2609.15840v1) | Chenyang Wang, Yuntian Wang et al. | 2026-09-14 |  |
+| [Generative Action-Chunk Sampling for Adaptive Stiffness Control in Physical Human-Robot Collaboration](https://arxiv.org/abs/2608.25284v2) | Aoi Otake, Ferdinand Hartmann et al. | 2026-08-26 |  |
+| [Why Does Action Chunking Improve Behavioral Cloning Performance in Robotic Control?](https://arxiv.org/abs/2608.02547v1) | Filippo Lazzati, Kyle Stachowicz et al. | 2026-08-03 |  |
+| [PATCH: Action-Chunk-Conditioned Latent Patch Innovation Monitoring for Robot Manipulation](https://arxiv.org/abs/2606.16690v1) | Yanan Zhou, Ranpeng Qiu et al. | 2026-06-15 |  |
 | [Learning Multi-View Spatial Reasoning from Cross-View Relations](http://arxiv.org/abs/2603.27967v1) | Suchae Jeong, Jaehwi Song et al. | 2026-03-30 |  |
 | [LILAC: Language-Conditioned Object-Centric Optical Flow for Open-Loop Trajectory Generation](http://arxiv.org/abs/2603.25481v1) | Motonari Kambara, Koki Seno et al. | 2026-03-26 |  |
 | [Chunk-Boundary Artifact in Action-Chunked Generative Policies: A Noise-Sensitive Failure Mechanism](http://arxiv.org/abs/2603.11642v1) | Rui Wang | 2026-03-12 |  |
