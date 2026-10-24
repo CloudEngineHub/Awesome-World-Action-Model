@@ -1,46 +1,32 @@
 # 📚 Latest ArXiv Papers - World Action Models
 
-Generated on: 2026-10-23 03:51:56
+Generated on: 2026-10-24 03:46:17
 
-Total papers: 50
+Total papers: 10
 
 ## VLA
 
 | Paper | Date | Code |
 |-------|------|------|
-| [PACT-VLA: Speculative Action-Chunk Verification with Pre-Commit Observations](https://arxiv.org/abs/2610.28019v1)<br><small>Yixiang Zhu et al.</small> | 2026-10-20 |  |
-| [Policy-Aligned Predictive Verification for Adaptive VLA Action-Chunk Execution](https://arxiv.org/abs/2610.21434v1)<br><small>Minkyu Kim et al.</small> | 2026-10-15 |  |
-| [When to Switch: Reliable Action-Chunk Extension for Vision-Language-Action Models](https://arxiv.org/abs/2610.05719v1)<br><small>Seonghoon Yu et al.</small> | 2026-10-05 |  |
-| [ChunkVLA-AM: Parallel Action Chunking for Vision-Language-Action Robot Control in Additive Manufacturing](https://arxiv.org/abs/2610.01856v1)<br><small>Zhugang Liu et al.</small> | 2026-10-01 |  |
-| [SparkVLA: Stop-Aware Hierarchical VLA with Adaptive Action Chunking for Long-Horizon Manipulation](https://arxiv.org/abs/2608.16172v1)<br><small>Xunyao Lei et al.</small> | 2026-08-17 |  |
-| [FabriVLA: A Lightweight Vision-Language-Action Model with Conformal Action Chunk Uncertainty](https://arxiv.org/abs/2607.08575v3)<br><small>Shiyuan Yang et al.</small> | 2026-07-09 |  |
-| [SEAM: Smooth Execution of Action-Chunked Motion for Vision-Language-Action Policies](https://arxiv.org/abs/2607.04609v1)<br><small>Dijia Zhan et al.</small> | 2026-07-06 |  |
+| [Robot Learning with Vision-Language-Action Models for Agricultural Manipulation](https://arxiv.org/abs/2610.26717v1)<br><small>Hamid Hafezi et al.</small> | 2026-10-19 |  |
+| [Hy-Embodied-0.5-VLA: From Vision-Language-Action Models to a Real-World Robot Learning Stack](https://arxiv.org/abs/2606.14409v2)<br><small>He Zhang et al.</small> | 2026-06-12 |  |
 
 ## World Model
 
 | Paper | Date | Code |
 |-------|------|------|
-| [Temporal Logic Guidance for Action-Only Diffusion Policies with World Models](https://arxiv.org/abs/2606.22729v1)<br><small>Moritz Zoellner et al.</small> | 2026-06-22 |  |
-| [DREAM-Chunk: Reactive Action Chunking with Latent World Model](https://arxiv.org/abs/2606.18589v1)<br><small>Wenxi Chen et al.</small> | 2026-06-17 |  |
+| [Learning Primitive Embodied World Models: Towards Scalable Robotic Learning](https://arxiv.org/abs/2508.20840v3)<br><small>Qiao Sun et al.</small> | 2025-08-28 |  |
 
 ## Policy
 
 | Paper | Date | Code |
 |-------|------|------|
-| [Refine Actions If Needed: Adaptive Action Chunk Refinement for Robot Manipulation](https://arxiv.org/abs/2610.19765v1)<br><small>Hanlin Liu et al.</small> | 2026-10-14 |  |
-| [ChunkAct: Action Chunking for Agentic Robotics](https://arxiv.org/abs/2610.18874v1)<br><small>Bingxin Xu et al.</small> | 2026-10-13 |  |
-| [CFG-Policy: Unified Diffusion Policy Learning Framework via Classifier-free Guidance](https://arxiv.org/abs/2610.14936v1)<br><small>Shutong Ding et al.</small> | 2026-10-10 |  |
-| [RoboPace: Contact-Aware Time-Optimal Retiming for Action-Chunk Policies](https://arxiv.org/abs/2610.09696v1)<br><small>Mimo Shirasaka et al.</small> | 2026-10-07 |  |
-| [Immiscible Diffusion Policy: Preserving Multimodal Robot Actions through Label-Free Noise Assignment](https://arxiv.org/abs/2610.09369v2)<br><small>Xiao Zhang et al.</small> | 2026-10-07 |  |
-| [Commit While Futures Agree: Consequence-Aware Adaptive Action Chunking for Robot Manipulation](https://arxiv.org/abs/2610.07949v1)<br><small>Yuyan Li et al.</small> | 2026-10-06 |  |
-| [Equivariant Visual-Tactile Diffusion Policy for Contact-Rich Manipulation](https://arxiv.org/abs/2610.03333v1)<br><small>Lik Hang Kenny Wong et al.</small> | 2026-10-02 |  |
-| [ColoACT: Multi-Cue Action Chunking for Smooth Autonomous Colon Navigation on a Self-Propelled Endoscopic Robot](https://arxiv.org/abs/2610.01258v1)<br><small>Jian Hu et al.</small> | 2026-10-01 |  |
-| [PRICE the Action Chunks: Physical Relational Credit Assignment for Embodied Reinforcement Learning](https://arxiv.org/abs/2609.38890v1)<br><small>Yangang Zou et al.</small> | 2026-09-30 |  |
-| [Staircase Policy: Streaming Inference for World-Action Models with Large Action Chunks](https://arxiv.org/abs/2609.36471v1)<br><small>Guoheng Sun et al.</small> | 2026-09-29 |  |
-| [Action Chunking Proximal Policy Optimization with Feedback Correction](https://arxiv.org/abs/2609.36250v1)<br><small>Sanghyun Hahn et al.</small> | 2026-09-28 |  |
-| [Imp-ACT: Adaptive Impedance Control and Action Chunking with Transformers to Learn Contact-Rich Manipulation from Demonstrations](https://arxiv.org/abs/2609.31225v1)<br><small>Luca Zanetti et al.</small> | 2026-09-25 |  |
-| [ContactDP: Contact-Guided Diffusion Policy for Tight Insertion Tasks](https://arxiv.org/abs/2609.23800v1)<br><small>Chengyi Xing et al.</small> | 2026-09-20 |  |
-| [AcousticDiffusion: Semantically Conditioned Audio-Guided Diffusion Policy for Search-and-Rescue Assistance](https://arxiv.org/abs/2609.21792v1)<br><small>Iana Zhura et al.</small> | 2026-09-18 |  |
-| [The Latent That Never Was: A Forensic Re-run of the CVAE Ablation in Action Chunking Transformers](https://arxiv.org/abs/2609.16745v2)<br><small>Bo Kang</small> | 2026-09-15 |  |
+| [Multi-View Latent Action Pretraining for Cross-Embodiment Robot Learning from Videos](https://arxiv.org/abs/2610.27794v1)<br><small>Oliver Hausdörfer et al.</small> | 2026-10-20 |  |
+| [Do Rigid-Body Simulators Dream of Soft Robots? Learning Contact-Rich Manipulation for Tendon-Driven Continuum Robots](https://arxiv.org/abs/2606.22397v1)<br><small>Chengnan Shentu et al.</small> | 2026-06-21 |  |
+| [Zero-Shot Sim-to-Real Robot Learning: A Dexterous Manipulation Study on Reactive Catching](https://arxiv.org/abs/2605.09789v1)<br><small>Kejia Ren et al.</small> | 2026-05-10 |  |
+| [A Soft Wrist with Anisotropic and Selectable Stiffness for Robust Robot Learning in Contact-rich Manipulation](https://arxiv.org/abs/2602.14434v1)<br><small>Steven Oh et al.</small> | 2026-02-16 |  |
+| [Kaiwu: A Multimodal Manipulation Dataset and Framework for Robot Learning and Human-Robot Interaction](https://arxiv.org/abs/2503.05231v2)<br><small>Shuo Jiang et al.</small> | 2025-03-07 |  |
+| [Human-in-the-loop Embodied Intelligence with Interactive Simulation Environment for Surgical Robot Learning](https://arxiv.org/abs/2301.00452v2)<br><small>Yonghao Long et al.</small> | 2023-01-01 |  |
+| [Accelerating Robot Learning of Contact-Rich Manipulations: A Curriculum Learning Study](https://arxiv.org/abs/2204.12844v2)<br><small>Cristian C. Beltran-Hernandez et al.</small> | 2022-04-27 |  |
 
 ---
